@@ -29,16 +29,12 @@
     <string name="allow">Allow</string>
     <string name="existing">SIGN IN WITH YOUR EXISTING ACCOUNT</string>
     <string name="new_account">OR CREATE A NEW ACCOUNT</string>
-    <string name="go_back">Go Back</string>
-    <string name="skip_anyway">Skip Anyway</string>
+    <string name="go_back">Go back</string>
+    <string name="skip_anyway">Skip anyway</string>
     <string name="dont_skip">Don\'t skip</string>
     <string name="setup_warning_skip_wifi">WARNING: You may incur extra carrier data charges.\n\nDevice setup can require significant network activity.</string>
-    <string name="setup_warning_accept_tos">You must agree to the Terms of Use, Privacy Policy, and the End User License Agreement by selecting the checkbox prior to continuing.</string>
-    <string name="setup_warning_skip_anyway">"Without a Cyanogen OS Account, you won't be able to:
-
-Customize your phone with new icons, wallpapers and more in the Themes app
-
-Locate or remotely erase your phone if it is lost"</string>
+    <string name="setup_warning_accept_tos">You must agree to the Terms of Use, Privacy Policy, and End User License Agreement by selecting the checkbox prior to continuing.</string>
+    <string name="setup_warning_skip_anyway">Without a Cyanogen OS Account, you won't be able to:\n\nCustomize your phone with new icons, wallpapers and more in the Themes app\n\nLocate or remotely erase your phone if it's lost</string>
     <string name="cmaccount_setup_create_title">Create your account</string>
     <string name="cmaccount_setup_email_label">username@email.com</string>
     <string name="cmaccount_setup_email_unavailable_label">This username is unavailable</string>
@@ -58,10 +54,10 @@ Locate or remotely erase your phone if it is lost"</string>
 
     <string name="cmaccount_login_error_title">Login failed</string>
     <string name="cmaccount_login_error_message">Invalid email or password.</string>
-    <string name="cmaccount_server_error_title">Communication Error</string>
+    <string name="cmaccount_server_error_title">Communication error</string>
     <string name="cmaccount_create_account_error_title">Error creating account</string>
     <string name="cmaccount_create_account_error_message">An error has occurred while creating your account. %1$s</string>
-    <string name="cmaccount_server_error_message">An error has occurred while communicating with the server. This may be due to loss of connectivity. You may try connecting to another Wi-Fi network and/or ensuring your SIM card is inserted properly.</string>
+    <string name="cmaccount_server_error_message">An error has occurred while communicating with the server. This may be due to loss of connectivity. You may try connecting to another Wi-Fi network and/or ensuring your SIM card was inserted properly.</string>
     <string name="cmaccount_cert_pin_warning_title">Please upgrade</string>
     <string name="cmaccount_cert_pin_warning_text">For security reasons, Cyanogen Account may stop working soon. Please upgrade immediately.</string>
 
@@ -70,7 +66,7 @@ Locate or remotely erase your phone if it is lost"</string>
     <string name="cmaccount_allow_access">%1$s would like access to</string>
     <string name="cmaccount_granting_access">Granting access to %1$s</string>
 
-    <string name="userinfo.summary" tools:ignore="UnusedResources">View basic information about your account, including your e-mail</string>
+    <string name="userinfo.summary" tools:ignore="UnusedResources">View basic information about your account, including your email address</string>
 
     <string name="cmaccount_password_changed_title">Password changed</string>
     <string name="cmaccount_password_changed_message">Please login to your Cyanogen Account</string>
