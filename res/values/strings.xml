@@ -77,7 +77,7 @@
     <string name="cmaccount_setup_must_agree_label">Must agree to TOS</string>
     <string name="cmaccount_setup_displayname_invalid_label">Invalid display name</string>
 
-    <string name="account_registered_perm_string">Allows the app to receive Cyanogen Account registration notifications. Any app granted this permission will be able to listen for when a Cyanogen Account is registered.”</string>
+    <string name="account_registered_perm_string">Allows the app to receive Cyanogen Account registration notifications. Any app granted this permission will be able to listen for when a Cyanogen Account is registered.</string>
     <string name="account_registered_permission_label_string">Receive Cyanogen Account registration notifications</string>
     <string name="cmaccount_displayname_label">How you would like your name to appear?</string>
     <string name="cmaccount_displayname_hint">Display Name</string>
