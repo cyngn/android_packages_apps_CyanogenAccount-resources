@@ -27,20 +27,11 @@
   <string name="allow">Consenti</string>
   <string name="existing">ACCEDI CON IL TUO ACCOUNT ESISTENTE</string>
   <string name="new_account">O CREA UN NUOVO ACCOUNT</string>
-  <string name="go_back">Torna indietro</string>
-  <string name="skip_anyway">Salta comunque</string>
   <string name="dont_skip">Non saltare</string>
   <string name="setup_warning_skip_wifi">ATTENZIONE: Potresti incorrere in costi aggiuntivi di connessione.\n\nLa configurazione del dispositivo potrebbe richiedere un significativo utilizzo di dati.</string>
-  <string name="setup_warning_accept_tos">È necessario accettare le condizioni d\'uso, la politica sulla privacy e l\'accordo di licenza con l\'utente finale selezionando la casella prima di continuare.</string>
-  <string name="setup_warning_skip_anyway">\"Senza un account Cyanogen OS, non sarai in grado di:
-
-Personalizzare il telefono con nuove icone, sfondi ed altro ancora dall\'app Temi
-
-Localizzare o formattare da remoto il telefono se viene smarrito\"</string>
   <string name="cmaccount_setup_create_title">Crea account</string>
-  <string name="cmaccount_setup_email_label">username@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Questo nome utente non è disponibile</string>
-  <string name="cmaccount_setup_email_invalid_label">"Siamo spiacenti, sono consentiti soltanto lettere (a-z), numeri (0-9) e i caratteri (.+&amp;-_)."</string>
+  <string name="cmaccount_setup_email_invalid_label">Siamo spiacenti, sono consentiti soltanto lettere (a-z), numeri (0-9) e i caratteri (.+&amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Inserisci il tuo nome utente</string>
   <string name="cmaccount_setup_password_label">Password</string>
   <string name="cmaccount_setup_password_strength_label">Minimo 8 caratteri</string>
@@ -63,7 +54,6 @@ Localizzare o formattare da remoto il telefono se viene smarrito\"</string>
   <string name="cmaccount_error_multiple_accounts">È consentito un solo account Cyanogen per dispositivo</string>
   <string name="cmaccount_allow_access">%1$s vorrebbe accedere a</string>
   <string name="cmaccount_granting_access">Assegnazione dell\'accesso a %1$s in corso</string>
-  <string name="userinfo.summary" tools:ignore="UnusedResources">Visualizza informazioni di base sul tuo account, compreso il tuo indirizzo e-mail</string>
   <string name="cmaccount_password_changed_title">Password modificata</string>
   <string name="cmaccount_password_changed_message">Per favore, accedi al tuo account Cyanogen</string>
   <string name="cmaccount_setup_email_blank_label">Devi inserire una email</string>
@@ -72,7 +62,6 @@ Localizzare o formattare da remoto il telefono se viene smarrito\"</string>
   <string name="cmaccount_setup_displayname_blank_label">Devi inserire un nome utente</string>
   <string name="cmaccount_setup_must_agree_label">Devi accettare le condizioni d\'uso</string>
   <string name="cmaccount_setup_displayname_invalid_label">Nome non valido</string>
-  <string name="account_registered_perm_string">Consente all\'app di ricevere notifiche di registrazione all\'account Cyanogen. Qualsiasi app a cui sia concessa questo permesso, sarà in grado di conoscere quando viene registrato un account Cyanogen.</string>
   <string name="account_registered_permission_label_string">Ricevi notifiche di registrazione dell\'account Cyanogen</string>
   <string name="cmaccount_displayname_label">Come vuoi che appaia il tuo nome?</string>
   <string name="cmaccount_displayname_hint">Nome visualizzato</string>

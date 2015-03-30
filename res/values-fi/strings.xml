@@ -31,23 +31,18 @@
   <string name="skip_anyway">Ohita silti</string>
   <string name="dont_skip">Älä ohita</string>
   <string name="setup_warning_skip_wifi">VAROITUS: Ylimääräisiä tiedonsiirtokuluja voi syntyä,\n\nLaitteen asennus voi tarvita huomattavasti verkkoyhteyttä.</string>
-  <string name="setup_warning_accept_tos">Sinun on hyväksyttävä käyttöehdot, tietosuojakäytäntö ja loppukäyttäjän käyttöoikeussopimus jatkaaksesi.</string>
-  <string name="setup_warning_skip_anyway">\"Ilman Cyanogen OS-tiliä, et voi:
-
-Mukauttaa puhelintasi uusilla kuvakkeilla, taustakuvilla tai muilla käyttämällä Teemat-sovellusta
-
-Paikantaa tai etätyhjentää kadonnutta puhelintasi\"</string>
+  <string name="setup_warning_accept_tos">Sinun on hyväksyttävä käyttöehdot, tietosuojakäytäntö ja käyttöoikeussopimus jatkaaksesi.</string>
+  <string name="setup_warning_skip_anyway">Ilman Cyanogen OS-tiliä, et voi:\n\nMukauttaa puhelintasi uusilla kuvakkeilla, taustakuvilla tai muilla käyttämällä Teemat-sovellusta\n\nPaikantaa tai etätyhjentää kadonnutta puhelintasi</string>
   <string name="cmaccount_setup_create_title">Luo tili</string>
-  <string name="cmaccount_setup_email_label">käyttäjänimi@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Tämä käyttäjätunnus ei ole käytettävissä</string>
-  <string name="cmaccount_setup_email_invalid_label">"Vain kirjaimet (a-z), numerot (0-9), ja merkit (.+&amp;-_) ovat sallittuja."</string>
+  <string name="cmaccount_setup_email_invalid_label">Vain kirjaimet (a-z), numerot (0-9), ja merkit (.+&amp;-_) ovat sallittuja.</string>
   <string name="cmaccount_setup_displayname_label">Kirjoita näyttönimi</string>
   <string name="cmaccount_setup_password_label">Salasana</string>
   <string name="cmaccount_setup_password_strength_label">Vähintään 8 merkkiä</string>
   <string name="cmaccount_setup_password_mismatch_label">Salasanat eivät täsmää!</string>
   <string name="cmaccount_setup_password_invalid_label">Salasanan pitää olla vähintään 8 merkkiä pitkä!</string>
   <string name="cmaccount_setup_confirm_password_label">Kirjoita salasana uudelleen</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Merkkaamalla tämän ruudun hyväksyt <u>Cyanogenin käyttöehdot</u>, <u>Tietosuojakäytännön</u> ja <u>Loppukäyttäjän käyttöoikeussopimuksen</u>.]]></string>
+  <string name="cmaccount_setup_tos_label"><![CDATA[Merkkaamalla tämän ruudun hyväksyt <u>Cyanogenin käyttöehdot</u>, <u>Tietosuojakäytännön</u> ja <u>Käyttöoikeussopimuksen</u>.]]></string>
   <string name="cmaccount_add_title">Lisää tili</string>
   <string name="cmaccount_learn_more">Lue lisää\u2026</string>
   <string name="cmaccount_login_message">Kirjaudutaan Cyanogeniin</string>
@@ -110,5 +105,5 @@ Paikantaa tai etätyhjentää kadonnutta puhelintasi\"</string>
   <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Siirrä sovelluksesi pilveen</b> - Siirry Cyanogen-laitteidesi välillä Nextbit Batonin avulla]]></string>
   <string name="tos_linktext_cyanogen"><![CDATA[Cyanogenin Käyttöehdot]]></string>
   <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogenin Tietosuojakäytäntö]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogenin Loppukäyttäjän käyttöoikeussopimus]]></string>
+  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogenin Käyttöoikeussopimus]]></string>
 </resources>

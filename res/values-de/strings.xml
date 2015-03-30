@@ -21,8 +21,14 @@
   <string name="create">ERSTELLEN\u00A0\u00A0&gt;</string>
   <string name="login">EINLOGGEN\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
-  <string name="skip_anyway">Trotzdem überspringen</string>
   <string name="dont_skip">Nicht überspringen</string>
   <string name="cmaccount_setup_create_title">Erstellen Sie Ihr Konto</string>
+  <string name="cmaccount_setup_email_unavailable_label">Dieser Benutzername ist nicht verfügbar</string>
+  <string name="cmaccount_setup_email_invalid_label">Nur Buchstaben (a-z), Ziffern (0-9) und die Zeichen (.+&amp;-_) sind zulässig.</string>
+  <string name="cmaccount_setup_displayname_label">Bitte geben Sie Ihren Anzeigenamen ein</string>
   <string name="cmaccount_setup_password_label">Passwort</string>
+  <string name="cyngn_setup_password_strength_meter_label_strong">Stark</string>
+  <string name="cyngn_setup_password_strength_meter_label_fair">Normal</string>
+  <string name="cyngn_setup_password_strength_meter_label_weak">Schwach</string>
+  <string name="cyngn_setup_password_strength_meter_label_tooshort">Zu kurz</string>
 </resources>

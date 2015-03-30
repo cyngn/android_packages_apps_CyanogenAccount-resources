@@ -27,20 +27,15 @@
   <string name="allow">Povoliť</string>
   <string name="existing">PRIHLÁSIŤ SO SVOJÍM EXISTUJÚCIM ÚČTOM</string>
   <string name="new_account">ALEBO VYTVORIŤ NOVÝ ÚČET</string>
-  <string name="go_back">Vrátiť</string>
+  <string name="go_back">Naspäť</string>
   <string name="skip_anyway">Preskočiť</string>
   <string name="dont_skip">Nepreskakovať</string>
   <string name="setup_warning_skip_wifi">VAROVANIE: Môžu sa vyskytnúť ďalšie dátové poplatky u operátora.\n\nNastavenie zariadenia môže vyžadovať značnú aktivitu v sieti.</string>
-  <string name="setup_warning_accept_tos">Pred pokračovaním musíte súhlasiť s podmienkami používania, ochranou osobných údajov a licenčnou zmluva koncového používateľa zaškrtnutím políčka.</string>
-  <string name="setup_warning_skip_anyway">\"Bez účtu Cyanogen OS nebudete môcť:
-
-Prispôsobiť si telefón s novými ikonami, tapetami a ďalším obsahom z aplikácie Témy
-
-Nájsť alebo vzdialene vymazať váš telefón po jeho strate\"</string>
+  <string name="setup_warning_accept_tos">Pred pokračovaním musíte súhlasiť s „Podmienkami používania“, „Ochranou osobných údajov“ a „Licenčnou zmluvou koncového používateľa“ zaškrtnutím políčka.</string>
+  <string name="setup_warning_skip_anyway">Bez účtu Cyanogen OS nebudete môcť:\n\nPrispôsobiť si telefón s novými ikonami, tapetami a ďalším obsahom z aplikácie Témy\n\nNájsť alebo vzdialene vymazať váš telefón po jeho strate</string>
   <string name="cmaccount_setup_create_title">Vytvorte si účet</string>
-  <string name="cmaccount_setup_email_label">pouzivatelskemeno@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Toto používateľské meno nie je k dispozícii</string>
-  <string name="cmaccount_setup_email_invalid_label">"Ospravedlňujeme sa, ale iba písmená (a-z), číslice (0 – 9) a znaky (.+&amp;-_) sú povolené."</string>
+  <string name="cmaccount_setup_email_invalid_label">Ospravedlňujeme sa, ale iba písmená (a-z), číslice (0 – 9) a znaky (.+&amp;-_) sú povolené.</string>
   <string name="cmaccount_setup_displayname_label">Prosím, zadajte vaše meno na zobrazenie</string>
   <string name="cmaccount_setup_password_label">Heslo</string>
   <string name="cmaccount_setup_password_strength_label">Minimálne 8 znakov</string>
@@ -72,7 +67,7 @@ Nájsť alebo vzdialene vymazať váš telefón po jeho strate\"</string>
   <string name="cmaccount_setup_displayname_blank_label">Musíte zadať meno na zobrazenie</string>
   <string name="cmaccount_setup_must_agree_label">Musíte súhlasiť s podmienkami služby</string>
   <string name="cmaccount_setup_displayname_invalid_label">Neplatné meno na zobrazenie</string>
-  <string name="account_registered_perm_string">Umožňuje aplikácii prijímať registračné oznámenia účtu Cyanogen. Akákoľvek aplikácia s týmto povolením budeme schopná zistiť, kedy sa účet Cyanogen registruje.</string>
+  <string name="account_registered_perm_string">Umožňuje aplikácii prijímať registračné oznámenia účtu Cyanogen. Akákoľvek aplikácia s týmto povolením bude schopná zistiť, kedy sa účet Cyanogen registruje.</string>
   <string name="account_registered_permission_label_string">Prijímať registračné oznámenia účtu Cyanogen</string>
   <string name="cmaccount_displayname_label">Ako chcete zobraziť vaše meno?</string>
   <string name="cmaccount_displayname_hint">Meno na zobrazenie</string>

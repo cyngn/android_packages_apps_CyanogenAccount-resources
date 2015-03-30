@@ -17,9 +17,6 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="app_name">Cyanogen konto</string>
-  <string name="ok">OK</string>
-  <string name="allow">Tillåt</string>
-  <string name="cmaccount_setup_password_label">Lösenord</string>
-  <string name="cmaccount_password_hint">Ange ditt lösenord</string>
+  <string name="cmaccount_allow_access">%1$s müraciət istəyir ></string>
+  <string name="cmaccount_granting_access">%1$s üçün müraciət icazəsi verilir</string>
 </resources>

@@ -27,20 +27,15 @@
   <string name="allow">Leisti</string>
   <string name="existing">PRISIJUNGTI SU ESAMA PASKYRA</string>
   <string name="new_account">ARBA SUKURTI NAUJĄ PASKYRĄ</string>
-  <string name="go_back">Gryžti atgal</string>
+  <string name="go_back">Grįžti atgal</string>
   <string name="skip_anyway">Praleisti vistiek</string>
   <string name="dont_skip">Nepraleisti</string>
   <string name="setup_warning_skip_wifi">ĮSPĖJIMAS: Gali reikėti papildomų duomenų mokesčių.\n\nTelefono nustatymas gali reikalauti svarbios tinklo veiklos.</string>
   <string name="setup_warning_accept_tos">Turite sutikti su naudojimosi sąlygomis, privatumo politika ir galutinio vartotojo licencinė sutartimi pasirenkant langelį prieš tęsiant.</string>
-  <string name="setup_warning_skip_anyway">„Be „Cyanogen“ OS paskyros, jums nebus suteikta galimybė:
-
-Tinkinti savo telefoną su naujomis piktogramomis, ekrano fonais, daugiau temų programoje
-
-Rasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas“</string>
+  <string name="setup_warning_skip_anyway">Be „Cyanogen“ OS paskyros, jums nebus suteikta galimybė:\n\nTemų programoje tinkinti savo telefoną su naujomis piktogramomis, ekrano fonais ir daugiau\n\nRasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas</string>
   <string name="cmaccount_setup_create_title">Sukurti paskyrą</string>
-  <string name="cmaccount_setup_email_label">username@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Toks vartotojo vardas yra nepasiekiamas</string>
-  <string name="cmaccount_setup_email_invalid_label">"Atsiprašome, tik raidės (a–z), skaičiai (0–9) ir simboliai (.+&amp;-_) yra leidžiami."</string>
+  <string name="cmaccount_setup_email_invalid_label">Atsiprašome, tik raidės (a–z), skaičiai (0–9) ir simboliai (.+&amp;-_) yra leidžiami.</string>
   <string name="cmaccount_setup_displayname_label">Prašome įvesti savo rodomąjį vardą</string>
   <string name="cmaccount_setup_password_label">Slaptažodis</string>
   <string name="cmaccount_setup_password_strength_label">Min. 8 simboliai</string>
@@ -59,7 +54,7 @@ Rasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas“</
   <string name="cmaccount_create_account_error_message">Įvyko klaida kuriant paskyrą. %1$s</string>
   <string name="cmaccount_server_error_message">Įvyko klaida, susijungiant su serveriu. Tai gali būti dėl prarasto ryšio. Galite pabandyti prisijungti prie kito „Wi-Fi“  tinklo ir / arba užtikrinti, kad jūsų SIM kortelė tinkamai įdėta.</string>
   <string name="cmaccount_cert_pin_warning_title">Prašome atnaujinti</string>
-  <string name="cmaccount_cert_pin_warning_text">Dėl saugumo priežasčių, „Cianogen“ paskyra gali nustoti veikti artimiausiu metu. Prašome nedelsiant atnaujinti.</string>
+  <string name="cmaccount_cert_pin_warning_text">Dėl saugumo priežasčių, „Cyanogen“ paskyra gali nustoti veikti artimiausiu metu. Prašome nedelsiant atnaujinti.</string>
   <string name="cmaccount_error_multiple_accounts">Prietaise leidžiama tik viena „Cyanogen“ paskyra</string>
   <string name="cmaccount_allow_access">%1$s norėtų pasiekti</string>
   <string name="cmaccount_granting_access">Suteikiama prieiga prie %1$s</string>
@@ -72,8 +67,8 @@ Rasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas“</
   <string name="cmaccount_setup_displayname_blank_label">Turite įvesti rodomąjį vardą</string>
   <string name="cmaccount_setup_must_agree_label">Turite sutikti su TOS</string>
   <string name="cmaccount_setup_displayname_invalid_label">Neteisingas rodomasis vardas</string>
-  <string name="account_registered_perm_string">Leidžia programai gauti „Cianogen“ paskyros registracijos pranešimus. Bet kuri programa gavusi šį leidimą galės klausytis kada „Cyanogen“ paskyra yra užregistruota.</string>
-  <string name="account_registered_permission_label_string">Gauti „Cianogen“ paskyros registracijos pranešimus</string>
+  <string name="account_registered_perm_string">Leidžia programai gauti „Cyanogen“ paskyros registracijos pranešimus. Bet kuri programa gavusi šį leidimą galės klausytis kada „Cyanogen“ paskyra yra užregistruota.</string>
+  <string name="account_registered_permission_label_string">Gauti „Cyanogen“ paskyros registracijos pranešimus</string>
   <string name="cmaccount_displayname_label">Kaip norėtumėte, kad atrodytų jūsų vardas?</string>
   <string name="cmaccount_displayname_hint">Rodyti vardą</string>
   <string name="cmaccount_email_label">El. paštas</string>
@@ -84,7 +79,7 @@ Rasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas“</
   <string name="cmaccount_tos_iagree">Aš sutinku su </string>
   <string name="cmaccount_tos_link">paslaugų teikimo sąlygos</string>
   <string name="cmaccount_cancel">ATŠAUKTI</string>
-  <string name="cmaccount_create">Sukurti savo „Cianogen“ paskyrą</string>
+  <string name="cmaccount_create">Sukurti savo „Cyanogen“ paskyrą</string>
   <string name="cyngn_setup_logo_alttext">Logotipas</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Sukurta „Cyanogen“</string>
   <string name="cyngn_setup_skip">PRALEISTI</string>
