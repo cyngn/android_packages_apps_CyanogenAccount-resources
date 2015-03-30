@@ -22,12 +22,10 @@
   <string name="back">ÎNAPOI</string>
   <string name="cancel">Anulare\u00A0</string>
   <string name="ok">OK</string>
-  <string name="cmaccount_setup_email_label">numeutilizator@email.ro</string>
   <string name="cmaccount_setup_password_strength_label">minim 8 caractere</string>
   <string name="cmaccount_setup_password_mismatch_label">Parolele nu se potrivesc!</string>
   <string name="cmaccount_setup_password_invalid_label">Parola trebuie să aibă cel puțin 8 caractere!</string>
   <string name="cmaccount_login_error_title">Autentificare eșuată</string>
-  <string name="cmaccount_server_error_title">Eroare de comunicare</string>
   <string name="cmaccount_create_account_error_title">Eroare la crearea contului</string>
   <string name="cmaccount_allow_access">%1$s ar dori acces la</string>
   <string name="cmaccount_setup_email_blank_label">Trebuie să introduceți un e-mail</string>

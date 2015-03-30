@@ -27,20 +27,11 @@
   <string name="allow">Laat toe</string>
   <string name="existing">TEKEN IN MET JOU HUIDIGE REKENING</string>
   <string name="new_account">OF SKEP \'N NUWE REKENING</string>
-  <string name="go_back">Gaan Terug</string>
-  <string name="skip_anyway">Slaan in elk geval oor</string>
   <string name="dont_skip">Moenie oorslaan nie</string>
   <string name="setup_warning_skip_wifi">WAARSKUWING: Jy kan ekstra netwerk data koste aangaan\n\nToestel opstelling kan aansienlike netwerk data gebruik.</string>
-  <string name="setup_warning_accept_tos">Jy moet saamstem met die Voorwaardes, Privaatheidsbeleid, en die Eind Gebruiker Lisensie Ooreenkoms met die kies van die regmerk item voordat jy kan aangaan.</string>
-  <string name="setup_warning_skip_anyway">\"Sonder \'n Cyanogen bedryfstelsel rekening, sal jy nie in staat wees om:
-
-Om jou selfoon met nuwe ikone, agtergronde en meer in die Temas program te verpersoonlik nie
-
-Jou selfoon te vind of op te sppor indien dit verlore gaan nie\"</string>
   <string name="cmaccount_setup_create_title">Skep jou rekening</string>
-  <string name="cmaccount_setup_email_label">gebruikersnaam@epos.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Hierdie gebruikernaam is nie beskikbaar nie</string>
-  <string name="cmaccount_setup_email_invalid_label">"Jammer, slegs letters (a-z), getalle (0-9), en die karakters (.+&amp;-_) word toegelaat."</string>
+  <string name="cmaccount_setup_email_invalid_label">Jammer, slegs letters (a-z), getalle (0-9), en die karakters (.+&amp;-_) word toegelaat.</string>
   <string name="cmaccount_setup_displayname_label">Tik asseblief jou vertoon naam</string>
   <string name="cmaccount_setup_password_label">Wagwoord</string>
   <string name="cmaccount_setup_password_strength_label">minimum 8 karakters</string>
@@ -54,7 +45,6 @@ Jou selfoon te vind of op te sppor indien dit verlore gaan nie\"</string>
   <string name="cmaccount_creating_profile_message">Besig om jou Cyanogen profiel te skep</string>
   <string name="cmaccount_login_error_title">Aanmelding het misluk</string>
   <string name="cmaccount_login_error_message">Ongeldig e-pos of wagwoord.</string>
-  <string name="cmaccount_server_error_title">Kommunikasie Fout</string>
   <string name="cmaccount_create_account_error_title">Fout met skepping van rekening</string>
   <string name="cmaccount_create_account_error_message">\'n Fout het plaasgevind terwyl jou rekening geskep was. %1$s</string>
   <string name="cmaccount_server_error_message">\'n Fout het voorgekom met kommunikasie aan die bediener. Dit kan as gevolg wees van die verlies van konnektiwiteit. Jy kan probeer om met \'n ander Wi-Fi netwerk te verbind en/of te verseker jou SIM-kaart behoorlik ingesit is.</string>
@@ -63,7 +53,6 @@ Jou selfoon te vind of op te sppor indien dit verlore gaan nie\"</string>
   <string name="cmaccount_error_multiple_accounts">Slegs een Cyanogen rekening word toegelaat per toestel</string>
   <string name="cmaccount_allow_access">%1$s wil toegang hê tot</string>
   <string name="cmaccount_granting_access">Die verlening van toegang tot %1$s</string>
-  <string name="userinfo.summary" tools:ignore="UnusedResources">Bekyk basiese inligting oor jou rekening, insluitend jou e-pos</string>
   <string name="cmaccount_password_changed_title">Wagwoord het verander</string>
   <string name="cmaccount_password_changed_message">Teken in op jou CyanogenMod rekening</string>
   <string name="cmaccount_setup_email_blank_label">Moet \'n e-pos verskaf</string>
@@ -72,7 +61,6 @@ Jou selfoon te vind of op te sppor indien dit verlore gaan nie\"</string>
   <string name="cmaccount_setup_displayname_blank_label">Moet \'n vertoon naam verskaf</string>
   <string name="cmaccount_setup_must_agree_label">Moet saamstem met beleidsbepalings</string>
   <string name="cmaccount_setup_displayname_invalid_label">Ongeldige vertoon naam</string>
-  <string name="account_registered_perm_string">Laat die program toe om Cyanogen rekening registrasie kennisgewings te ontvang. Enige program wat hierdie toestemming toegestaan het sal in staat wees om te luister vir wanneer \'n Cyanogen rekening geregistreer word.</string>
   <string name="account_registered_permission_label_string">Ontvang Cyanogen Rekening registrasie kennisgewings</string>
   <string name="cmaccount_displayname_label">Hoe wil jy jou naam vertoon?</string>
   <string name="cmaccount_displayname_hint">Vertoon Naam</string>

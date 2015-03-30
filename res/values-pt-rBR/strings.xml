@@ -31,16 +31,11 @@
   <string name="skip_anyway">Pular de qualquer maneira</string>
   <string name="dont_skip">Não pular</string>
   <string name="setup_warning_skip_wifi">AVISO: Você pode ser cobrado pela sua operadora.\n\nA configuração do dispositivo pode precisar de uma quantidade significativa de dados.</string>
-  <string name="setup_warning_accept_tos">Você precisa concordar com os termos de uso, política de privacidade e o contrato de licença de usuário final, marcando a caixa de seleção antes de continuar.</string>
-  <string name="setup_warning_skip_anyway">\"Sem uma conta cyanogen, você não será capaz de: 
-
-Personalizar seu celular com novos ícones, papéis de parede e muito mais no app de temas
-
-Localizar ou apagar remotamente o seu telefone se for perdido\"</string>
+  <string name="setup_warning_accept_tos">Você precisa concordar com os Termos de Uso, Política de Privacidade e o Contrato de Licença de Usuário Final, marcando a caixa de seleção antes de continuar.</string>
+  <string name="setup_warning_skip_anyway">Sem uma conta Cyanogen, você não será capaz de:\n\nPersonalizar seu celular com novos ícones, papéis de parede e muito mais no app Temas\n\nLocalizar ou apagar remotamente o seu telefone se for perdido</string>
   <string name="cmaccount_setup_create_title">Crie sua conta</string>
-  <string name="cmaccount_setup_email_label">usuario@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Este nome de usuário não está disponível</string>
-  <string name="cmaccount_setup_email_invalid_label">"Desculpe, somente letras (a-z), números (0-9) e os caracteres (.+&amp;-_) são permitidos."</string>
+  <string name="cmaccount_setup_email_invalid_label">Desculpe, somente letras (a-z), números (0-9) e os caracteres (.+&amp;-_) são permitidos.</string>
   <string name="cmaccount_setup_displayname_label">Por favor, digite seu nome de exibição</string>
   <string name="cmaccount_setup_password_label">Senha</string>
   <string name="cmaccount_setup_password_strength_label">Mínimo de 8 caracteres</string>
@@ -72,7 +67,7 @@ Localizar ou apagar remotamente o seu telefone se for perdido\"</string>
   <string name="cmaccount_setup_displayname_blank_label">Deve digitar um nome de exibição</string>
   <string name="cmaccount_setup_must_agree_label">Deve concordar com os TdS</string>
   <string name="cmaccount_setup_displayname_invalid_label">Nome de exibição inválido</string>
-  <string name="account_registered_perm_string">Permite que o aplicativo receba notificações de registro da conta Cyanogen. Qualquer aplicativo com permissão concedida será capaz de identificar quando uma conta Cyanogen é registrada.\"</string>
+  <string name="account_registered_perm_string">Permite que o app receba notificações de registro da conta Cyanogen. Qualquer app com esta permissão concedida será capaz de identificar quando uma conta Cyanogen está registrada.</string>
   <string name="account_registered_permission_label_string">Receber notificações de registro da conta Cyanogen</string>
   <string name="cmaccount_displayname_label">Como você quer que seu nome apareça?</string>
   <string name="cmaccount_displayname_hint">Nome para exibição</string>

@@ -31,16 +31,11 @@
   <string name="skip_anyway">Salta de totes maneres</string>
   <string name="dont_skip">No saltis</string>
   <string name="setup_warning_skip_wifi">ALERTA: Podrien haver-hi càrrecs de dades addicionals per part de l\'operadora.\n\nLa configuració del dispositiu necessita una activitat de xarxa considerable.</string>
-  <string name="setup_warning_accept_tos">Has d\'acceptar les condicions d\'ús, la Política de privacitat i l\'Acord de llicència d\'usuari final seleccionant la casella de verificació abans de continuar.</string>
-  <string name="setup_warning_skip_anyway">\"Sense un compte Cyanogen OS, no podràs:
-
-Personalitzar el teu telèfon amb noves icones, fons de pantalla i més en l\'aplicació de Temes
-
-Localitzar o esborrar remotament el teu telèfon si el perds\"</string>
+  <string name="setup_warning_accept_tos">Has d\'acceptar les Condicions d\'ús, la Política de privacitat i l\'Acord de llicència d\'usuari final seleccionant la casella de verificació abans de continuar.</string>
+  <string name="setup_warning_skip_anyway">Sense un compte Cyanogen OS, no podràs:\n\nPersonalitzar el teu telèfon amb noves icones, fons de pantalla i més en l\'aplicació de Temes\n\nLocalitzar o esborrar remotament el teu telèfon si el perds</string>
   <string name="cmaccount_setup_create_title">Crea el teu compte</string>
-  <string name="cmaccount_setup_email_label">usuari@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">Aquest usuari no està disponible</string>
-  <string name="cmaccount_setup_email_invalid_label">"Ho sento, només estan permeses les lletres (a-z), els números (0-9) i els caràcters (.+ &amp;-_)."</string>
+  <string name="cmaccount_setup_email_invalid_label">Ho sento, només estan permeses les lletres (a-z), els números (0-9) i els caràcters (.+ &amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Si us plau, introdueix el teu nom per mostrar</string>
   <string name="cmaccount_setup_password_label">Contrasenya</string>
   <string name="cmaccount_setup_password_strength_label">mínim 8 caràcters</string>
@@ -72,7 +67,7 @@ Localitzar o esborrar remotament el teu telèfon si el perds\"</string>
   <string name="cmaccount_setup_displayname_blank_label">Has d\'introduir un nom per mostrar</string>
   <string name="cmaccount_setup_must_agree_label">Has d\'acceptar les CDS</string>
   <string name="cmaccount_setup_displayname_invalid_label">Nom per mostrar invàlid</string>
-  <string name="account_registered_perm_string">Permet a l\'aplicació rebre notificacions de registre del compte de Cyanogen. Qualsevol aplicació amb aquest permís concedit podrà assabentar-se quan es registra un compte de Cyanogen.\"</string>
+  <string name="account_registered_perm_string">Permet a l\'aplicació rebre notificacions de registre del compte de Cyanogen. Qualsevol aplicació amb aquest permís concedit podrà assabentar-se quan es registra un compte de Cyanogen.</string>
   <string name="account_registered_permission_label_string">Rebre notificacions de registre del compte Cyanogen</string>
   <string name="cmaccount_displayname_label">Com t\'agradaria que es mostri el teu nom?</string>
   <string name="cmaccount_displayname_hint">Nom per mostrar</string>

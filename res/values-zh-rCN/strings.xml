@@ -32,15 +32,10 @@
   <string name="dont_skip">不要跳过</string>
   <string name="setup_warning_skip_wifi">警告：您可能需要额外支付运营商数据费。\n\n手机设置过程可能会消耗大量网络流量。</string>
   <string name="setup_warning_accept_tos">在您继续前，您必须选中该复选框以同意本使用条款、隐私政策和最终用户许可协议。</string>
-  <string name="setup_warning_skip_anyway">“如果不创建 Cyanogen OS 帐户，您将：
-
-无法使用主题应用来使用新的图标、壁纸和其他内容来自定义您的手机
-
-无法定位或擦除遗失的手机”</string>
+  <string name="setup_warning_skip_anyway">“如果不创建 Cyanogen OS 帐户，您将：\n\n无法使用主题应用来使用新的图标、壁纸和其他内容来自定义您的手机\n\n无法定位或擦除遗失的手机”</string>
   <string name="cmaccount_setup_create_title">创建您的帐户</string>
-  <string name="cmaccount_setup_email_label">username@email.com</string>
   <string name="cmaccount_setup_email_unavailable_label">此用户名不可用</string>
-  <string name="cmaccount_setup_email_invalid_label">"抱歉，只能使用小写英文字母 (a-z)，阿拉伯数字 (0-9)，和这些符号 (.+&amp;-_)  。"</string>
+  <string name="cmaccount_setup_email_invalid_label">抱歉，只能使用小写英文字母 (a-z)，阿拉伯数字 (0-9)，和这些符号 (.+&amp;-_)  。</string>
   <string name="cmaccount_setup_displayname_label">请输入您的显示名称</string>
   <string name="cmaccount_setup_password_label">密码</string>
   <string name="cmaccount_setup_password_strength_label">最少 8 个字符</string>
@@ -72,7 +67,7 @@
   <string name="cmaccount_setup_displayname_blank_label">必须输入一个显示名称</string>
   <string name="cmaccount_setup_must_agree_label">必须同意服务条款</string>
   <string name="cmaccount_setup_displayname_invalid_label">无效的显示名称</string>
-  <string name="account_registered_perm_string">允许应用接收 Cyanogen 帐户注册通知。一旦注册了 Cyanogen 帐户，任何具有此权限的应用将收到通知。”</string>
+  <string name="account_registered_perm_string">允许应用接收 Cyanogen 帐户注册通知。一旦注册了 Cyanogen 帐户，任何具有此权限的应用将收到通知。</string>
   <string name="account_registered_permission_label_string">接收 Cyanogen 帐户注册通知</string>
   <string name="cmaccount_displayname_label">您想如何显示您的名字？</string>
   <string name="cmaccount_displayname_hint">显示名称</string>
