@@ -56,6 +56,7 @@
   <string name="cmaccount_cert_pin_warning_title">アップグレードしてください</string>
   <string name="cmaccount_cert_pin_warning_text">セキュリティ上の理由で、将来的にCyanogenアカウントが使えなくなる可能性があります。すぐにアップグレードしてください。</string>
   <string name="cmaccount_error_multiple_accounts">端末1台に登録できるCyanogenアカウントは1つのみです</string>
+  <string name="cmaccount_allow_access">%1$sがアクセスしようとしています: </string>
   <string name="cmaccount_granting_access">%1$sへのアクセスを許可中</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">メールアドレスを含むアカウントについての基本的な情報を表示する</string>
   <string name="cmaccount_password_changed_title">パスワードが変更されました</string>
@@ -75,6 +76,8 @@
   <string name="cmaccount_password_hint">パスワードを入力してください</string>
   <string name="cmaccount_confirmpass_label">パスワードを再入力してください</string>
   <string name="cmaccount_confirmpass_hint">パスワードを再入力してください</string>
+  <string name="cmaccount_tos_iagree">利用規約に</string>
+  <string name="cmaccount_tos_link">同意します</string>
   <string name="cmaccount_cancel">キャンセル</string>
   <string name="cmaccount_create">Cyanogenアカウントを作成</string>
   <string name="cyngn_setup_logo_alttext">ロゴ</string>
