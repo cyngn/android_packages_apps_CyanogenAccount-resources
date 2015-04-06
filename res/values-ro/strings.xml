@@ -21,4 +21,6 @@
   <string name="done">Gata</string>
   <string name="back">ÎNAPOI</string>
   <string name="ok">OK</string>
+  <string name="cmaccount_setup_password_strength_label">minim 8 caractere</string>
+  <string name="cyngn_setup_password_strength_meter_label_tooshort">Prea scurtă</string>
 </resources>

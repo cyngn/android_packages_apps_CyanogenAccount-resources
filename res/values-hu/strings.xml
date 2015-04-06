@@ -27,8 +27,12 @@
   <string name="allow">Engedélyez</string>
   <string name="existing">JELENTKEZZEN BE A MÁR MEGLÉVŐ FIÓKJÁVAL</string>
   <string name="new_account">VAGY HOZZON LÉTRE EGY ÚJ FIÓKOT</string>
+  <string name="go_back">Vissza</string>
+  <string name="skip_anyway">Most kihagyom</string>
   <string name="dont_skip">Nem hagyom ki</string>
   <string name="setup_warning_skip_wifi">FIGYELEM: Lehet, hogy jelentős összeget számítanak fel érte!\n\nAz eszköz beállítása nagyobb hálózati forgalmat igényel.</string>
+  <string name="setup_warning_accept_tos">El kell fogadnia a Felhasználási feltételeket, Adatvédelmi irányelvet és a Végfelhasználói licencszerződést a folytatáshoz.</string>
+  <string name="setup_warning_skip_anyway">Cyanogen OS fiók nélkül nem fog hozzáférni a következőkhöz:\n\nTelefon testreszabása új ikonokkal, háttérképekkel és egyebekkel a Téma kezelő alkalmazáson keresztül\n\nTelefon helyének maghatározása, vagy távolról való törlése, ha elveszett</string>
   <string name="cmaccount_setup_create_title">Fiók létrehozása</string>
   <string name="cmaccount_setup_email_unavailable_label">Ez a felhasználónév nem érhető el</string>
   <string name="cmaccount_setup_email_invalid_label">Sajnáljuk, csak betűk (a-z), számok (0-9), és karakterek (.+&amp;-_) megengedettek.</string>
@@ -45,6 +49,7 @@
   <string name="cmaccount_creating_profile_message">Cyanogen profil létrehozása</string>
   <string name="cmaccount_login_error_title">Sikertelen bejelentkezés</string>
   <string name="cmaccount_login_error_message">Érvénytelen e-mail cím, vagy jelszó.</string>
+  <string name="cmaccount_server_error_title">Kommunikációs hiba</string>
   <string name="cmaccount_create_account_error_title">Hiba a fiók létrehozásakor</string>
   <string name="cmaccount_create_account_error_message">Hiba történt a fiók létrehozása közben. %1$s</string>
   <string name="cmaccount_server_error_message">Hiba történt a kiszolgálóval való kommunikáció közben. Lehet, hogy megszakadt a kapcsolat. Megpróbálhatja egy másik Wi-Fi hálózathoz csatlakozva, és/vagy bizonyosodjon meg róla, hogy a SIM-kártya megfelelően van behelyezve.</string>
@@ -53,6 +58,7 @@
   <string name="cmaccount_error_multiple_accounts">Egy eszközhöz csak egy Cyanogen fiók rendelhető</string>
   <string name="cmaccount_allow_access">%1$s szeretne hozzáférni ehhez:</string>
   <string name="cmaccount_granting_access">Hozzáférés engedélyezése: %1$s</string>
+  <string name="userinfo.summary" tools:ignore="UnusedResources">Fiókja alapvető információinak megtekintése, beleértve az e-mail címét</string>
   <string name="cmaccount_password_changed_title">A jelszava megváltozott</string>
   <string name="cmaccount_password_changed_message">Kérjük, jelentkezzen be a Cyanogen fiókjába</string>
   <string name="cmaccount_setup_email_blank_label">Meg kell adnia egy e-mailt</string>
@@ -61,6 +67,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Meg kell adnia egy megjelenítendő nevet</string>
   <string name="cmaccount_setup_must_agree_label">SZF elfogadása szükséges</string>
   <string name="cmaccount_setup_displayname_invalid_label">Érvénytelen megjelenítési név</string>
+  <string name="account_registered_perm_string">Lehetővé teszi az alkalmazás számára, hogy Cyanogen fiók regisztrációjával kapcsolatos értesítéseket fogadjon. Bármely alkalmazás, ami rendelkezik ezzel a jogosultsággal értsítést fog kapni, amennyiben regisztrált Cyanogen fiókot.</string>
   <string name="account_registered_permission_label_string">Cyanogen fiók regisztrációjával kapcsolatos értesítések fogadása</string>
   <string name="cmaccount_displayname_label">Hogyan szeretné, hogy a neve megjelenjen?</string>
   <string name="cmaccount_displayname_hint">Megjelenítendő név</string>
