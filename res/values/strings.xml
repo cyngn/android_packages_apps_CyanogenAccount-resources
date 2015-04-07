@@ -26,6 +26,9 @@
     <string name="create">CREATE\u00A0\u00A0&gt;</string>
     <string name="login">LOGIN\u00A0\u00A0&gt;</string>
     <string name="ok">OK</string>
+    <string name="no">No</string>
+    <string name="try_again">Try again</string>
+    <string name="yes">Yes</string>
     <string name="allow">Allow</string>
     <string name="existing">SIGN IN WITH YOUR EXISTING ACCOUNT</string>
     <string name="new_account">OR CREATE A NEW ACCOUNT</string>
@@ -36,6 +39,8 @@
     <string name="setup_warning_accept_tos">You must agree to the Terms of Use, Privacy Policy, and End User License Agreement by selecting the checkbox prior to continuing.</string>
     <string name="setup_warning_skip_anyway">Without a Cyanogen OS Account, you won't be able to:\n\nCustomize your phone with new icons, wallpapers and more in the Themes app\n\nLocate or remotely erase your phone if it\'s lost</string>
     <string name="cmaccount_setup_create_title">Create your account</string>
+    <string name="cmaccount_setup_killswitchlogin_title">Unlock device</string>
+    <string name="cmaccount_setup_killswitch_opt_in_title">Lock device</string>
     <string name="cmaccount_setup_email_label" translatable="false">username@email.com</string>
     <string name="cmaccount_setup_email_unavailable_label">This username is unavailable</string>
     <string name="cmaccount_setup_email_invalid_label">Sorry, only letters (a–z), numbers (0–9), and the characters (.+&amp;-_) are allowed.</string>
@@ -54,7 +59,8 @@
 
     <string name="cmaccount_login_error_title">Login failed</string>
     <string name="cmaccount_login_error_message">Invalid email or password.</string>
-    <string name="cmaccount_server_error_title">Communication error</string>
+    <string name="cmaccount_killswitch_login_error_message">Incorrect email or password, please try again or visit https://account.cyngn.com to reset your password.</string>
+    <string name="cmaccount_server_error_title">Communication Error</string>
     <string name="cmaccount_create_account_error_title">Error creating account</string>
     <string name="cmaccount_create_account_error_message">An error has occurred while creating your account. %1$s</string>
     <string name="cmaccount_server_error_message">An error has occurred while communicating with the server. This may be due to loss of connectivity. You may try connecting to another Wi-Fi network and/or ensuring your SIM card is inserted properly.</string>
@@ -63,7 +69,7 @@
 
     <string name="cmaccount_error_multiple_accounts">Only one Cyanogen Account is allowed per device</string>
 
-    <string name="cmaccount_allow_access">%1$s would like access to</string>
+    <string name="cmaccount_allow_access">%1$s would like access to %2$s</string>
     <string name="cmaccount_granting_access">Granting access to %1$s</string>
 
     <string name="userinfo.summary" tools:ignore="UnusedResources">View basic information about your account, including your email</string>
@@ -86,8 +92,6 @@
     <string name="cmaccount_password_hint">enter your password</string>
     <string name="cmaccount_confirmpass_label">Re-Enter Password</string>
     <string name="cmaccount_confirmpass_hint">re-enter your password</string>
-    <string name="cmaccount_tos_iagree">I agree to the </string>
-    <string name="cmaccount_tos_link">terms of service</string>
     <string name="cmaccount_cancel">CANCEL</string>
     <string name="cmaccount_create">Create your Cyanogen Account</string>
 
@@ -101,6 +105,8 @@
     <string name="cyngn_setup_sign_in">SIGN\u00A0IN</string>
     <string name="cyngn_setup_email_edittext_hint">Please enter your email address</string>
     <string name="cyngn_setup_show_password">Show password</string>
+    <string name="cyngn_setup_reset_password_dialog">To reset your password please visit https://account.cyngn.com from your computer.</string>
+    <string name="cyngn_setup_forgot_password">Forgot password?</string>
     <string name="cyngn_setup_toslist_header">Select to review</string>
     <string name="cyngn_setup_displayname_description">Your display name is displayed to other users when you leave reviews for a theme within the Themes app.</string>
     <string name="cyngn_setup_create_profile_email_unavailable">The email address you selected is unavailable.</string>
