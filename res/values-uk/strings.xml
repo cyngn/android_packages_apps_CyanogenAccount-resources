@@ -56,7 +56,6 @@
   <string name="cmaccount_cert_pin_warning_title">Будь ласка, оновіть</string>
   <string name="cmaccount_cert_pin_warning_text">З міркувань безпеки обліковий запис Cyanogen може припинити роботу. Будь ласка, негайно оновіться.</string>
   <string name="cmaccount_error_multiple_accounts">На пристрої дозволений лише один обліковий запис Cyanogen</string>
-  <string name="cmaccount_allow_access">%1$s бажає отримати доступ до</string>
   <string name="cmaccount_granting_access">Надання доступу до %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Перегляньте основну інформацію про свій обліковий запис, включаючи вашу адресу електронної пошти</string>
   <string name="cmaccount_password_changed_title">Пароль змінено</string>
@@ -75,8 +74,6 @@
   <string name="cmaccount_password_hint">введіть свій пароль</string>
   <string name="cmaccount_confirmpass_label">Введіть пароль ще раз</string>
   <string name="cmaccount_confirmpass_hint">введіть пароль ще раз</string>
-  <string name="cmaccount_tos_iagree">Я погоджуюсь з </string>
-  <string name="cmaccount_tos_link">умови користування</string>
   <string name="cmaccount_cancel">СКАСУВАТИ</string>
   <string name="cmaccount_create">Створіть свій обліковий запис Cyanogen</string>
   <string name="cyngn_setup_logo_alttext">Лого</string>

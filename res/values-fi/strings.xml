@@ -24,16 +24,21 @@
   <string name="create">LUO\u00A0\u00A0&gt;</string>
   <string name="login">KIRJAUDU SISÄÄN\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Ei</string>
+  <string name="try_again">Yritä uudelleen</string>
+  <string name="yes">Kyllä</string>
   <string name="allow">Salli</string>
   <string name="existing">KIRJAUDU SISÄÄN OLEMASSA OLEVALLE TILILLE</string>
   <string name="new_account">TAI LUO UUSI TILI</string>
   <string name="go_back">Mene takaisin</string>
   <string name="skip_anyway">Ohita silti</string>
   <string name="dont_skip">Älä ohita</string>
-  <string name="setup_warning_skip_wifi">VAROITUS: Ylimääräisiä tiedonsiirtokuluja voi syntyä,\n\nLaitteen asennus voi tarvita huomattavasti verkkoyhteyttä.</string>
+  <string name="setup_warning_skip_wifi">VAROITUS: Ylimääräisiä tiedonsiirtokuluja voi syntyä.\n\nLaitteen asennus voi tarvita huomattavasti verkkoyhteyttä.</string>
   <string name="setup_warning_accept_tos">Sinun on hyväksyttävä käyttöehdot, tietosuojakäytäntö ja käyttöoikeussopimus jatkaaksesi.</string>
   <string name="setup_warning_skip_anyway">Ilman Cyanogen OS-tiliä, et voi:\n\nMukauttaa puhelintasi uusilla kuvakkeilla, taustakuvilla tai muilla käyttämällä Teemat-sovellusta\n\nPaikantaa tai etätyhjentää kadonnutta puhelintasi</string>
   <string name="cmaccount_setup_create_title">Luo tili</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Poista laitteen lukitus</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Lukitse laite</string>
   <string name="cmaccount_setup_email_unavailable_label">Tämä käyttäjätunnus ei ole käytettävissä</string>
   <string name="cmaccount_setup_email_invalid_label">Vain kirjaimet (a-z), numerot (0-9), ja merkit (.+&amp;-_) ovat sallittuja.</string>
   <string name="cmaccount_setup_displayname_label">Kirjoita näyttönimi</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">Luodaan Cyanogen-profiiliasi</string>
   <string name="cmaccount_login_error_title">Kirjautuminen epäonnistui</string>
   <string name="cmaccount_login_error_message">Virheellinen sähköposti tai salasana.</string>
+  <string name="cmaccount_killswitch_login_error_message">Virheellinen sähköpostiosoite tai salasana, yritä uudelleen tai käy osoitteessa https://account.cyngn.com palauttaaksesi salasanan.</string>
   <string name="cmaccount_server_error_title">Yhteysvirhe</string>
   <string name="cmaccount_create_account_error_title">Virhe luodessa tiliä</string>
   <string name="cmaccount_create_account_error_message">Virhe luotaessa tiliäsi. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Päivitä</string>
   <string name="cmaccount_cert_pin_warning_text">Turvallisuussyistä, Cyanogen-tili saattaa lakata toimimasta pian. Päivitä mahdollisimman pian.</string>
   <string name="cmaccount_error_multiple_accounts">Vain yksi Cyanogen-tili per laite</string>
-  <string name="cmaccount_allow_access">Sovellus \"%1$s\" haluaa käyttää</string>
+  <string name="cmaccount_allow_access">%1$s haluaisi pääsyn %2$s</string>
   <string name="cmaccount_granting_access">Myönnetään käyttöoikeudet sovellukselle \"%1$s\"</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Näytä tilisi perustiedot, mukaanlukien sähköpostiosoitteesi</string>
   <string name="cmaccount_password_changed_title">Salasana vaihdettu</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">kirjoita salasanasi</string>
   <string name="cmaccount_confirmpass_label">Kirjoita salasana uudelleen</string>
   <string name="cmaccount_confirmpass_hint">kirjoita salasana uudelleen</string>
-  <string name="cmaccount_tos_iagree">Hyväksyn </string>
-  <string name="cmaccount_tos_link">käyttöehdot</string>
   <string name="cmaccount_cancel">PERUUTA</string>
   <string name="cmaccount_create">Luo Cyanogen-tili</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">KIRJAUDU\u00A0SISÄÄN</string>
   <string name="cyngn_setup_email_edittext_hint">Kirjoita sähköpostiosoitteesi</string>
   <string name="cyngn_setup_show_password">Näytä salasana</string>
+  <string name="cyngn_setup_reset_password_dialog">Palauttaaksesi salasanan, käy osoitteessa https://account.cyngn.com tietokoneella.</string>
+  <string name="cyngn_setup_forgot_password">Unohditko salasanan?</string>
   <string name="cyngn_setup_toslist_header">Valitse lukeaksesi</string>
   <string name="cyngn_setup_displayname_description">Näyttönimi näytetään muille käyttäjille kun arvioit teemoja Teemat-sovelluksessa.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Sähköpostiosoite ei ole käytettävissä.</string>

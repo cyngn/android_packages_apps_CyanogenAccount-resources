@@ -24,6 +24,9 @@
   <string name="create">VYTVOŘIT\u00A0\u00A0&gt;</string>
   <string name="login">PŘIHLÁSIT\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Ne</string>
+  <string name="try_again">Zkuste to znovu</string>
+  <string name="yes">Ano</string>
   <string name="allow">Povolit</string>
   <string name="existing">PŘIHLASTE SE KE SVÉMU ÚČTU</string>
   <string name="new_account">NEBO VYTVOŘTE NOVÝ</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">Před pokračováním musíte zaškrtnutím políčka souhlasit s „Podmínkami použití“, „Zásadami ochrany osobních údajů“ a „Licenční smlouvou s koncovým uživatelem“.</string>
   <string name="setup_warning_skip_anyway">Bez účtu Cyanogen nebudete schopni:\n\nPřizpůsobit svůj telefon novými ikonami, tapetami a dalším z aplikace Motivy\n\nVzdáleně vyhledat nebo vymazat telefon v případě ztráty</string>
   <string name="cmaccount_setup_create_title">Vytvořit účet</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Odemknout zařízení</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Zamknout zařízení</string>
   <string name="cmaccount_setup_email_unavailable_label">Toto uživatelské jméno není k dispozici</string>
   <string name="cmaccount_setup_email_invalid_label">Omlouváme se, jsou povoleny pouze písmena (a–z), čísla (0–9), a znaky (.+&amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Zadejte jméno, které se bude zobrazovat</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">Vytváření Cyanogen profilu\u2026</string>
   <string name="cmaccount_login_error_title">Přihlášení se nezdařilo</string>
   <string name="cmaccount_login_error_message">Neplatný email nebo heslo.</string>
+  <string name="cmaccount_killswitch_login_error_message">Nesprávný e-mail a heslo, opakujte akci nebo navštivte https://account.cyngn.com pro obnovení hesla.</string>
   <string name="cmaccount_server_error_title">Chyba komunikace</string>
   <string name="cmaccount_create_account_error_title">Chyba vytváření účtu</string>
   <string name="cmaccount_create_account_error_message">Došlo k chybě při vytváření účtu. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Prosím proveďte aktualizaci</string>
   <string name="cmaccount_cert_pin_warning_text">Z bezpečnostních důvodů může být účet Cyanogen brzy zablokován. Proveďte aktualizaci co nejdříve.</string>
   <string name="cmaccount_error_multiple_accounts">Je povolen pouze jeden účet Cyanogen na jednom zařízení</string>
-  <string name="cmaccount_allow_access">%1$s chce přístup k</string>
+  <string name="cmaccount_allow_access">%1$s vyžaduje přístup k %2$s</string>
   <string name="cmaccount_granting_access">Udělování přístupu k %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Zobrazit základní informace o vašem účtu, včetně e-mailu</string>
   <string name="cmaccount_password_changed_title">Heslo změněno</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">zadejte své heslo</string>
   <string name="cmaccount_confirmpass_label">Zadejte heslo znovu</string>
   <string name="cmaccount_confirmpass_hint">zadejte heslo znovu</string>
-  <string name="cmaccount_tos_iagree">Souhlasím s </string>
-  <string name="cmaccount_tos_link">podmínkami služby</string>
   <string name="cmaccount_cancel">ZRUŠIT</string>
   <string name="cmaccount_create">Vytvořte si svůj Cyanogen účet</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">PŘIHLÁSIT</string>
   <string name="cyngn_setup_email_edittext_hint">Zadejte prosím vaši e-mailovou adresu</string>
   <string name="cyngn_setup_show_password">Zobrazit heslo</string>
+  <string name="cyngn_setup_reset_password_dialog">Pro obnovení hesla prosím navštivte stránky https://account.cyngn.com</string>
+  <string name="cyngn_setup_forgot_password">Zapomněli jste heslo?</string>
   <string name="cyngn_setup_toslist_header">Vybrat pro ohodnocení</string>
   <string name="cyngn_setup_displayname_description">Vaše zobrazované jméno uvidí ostatní uživatelé, když ohodnotíte téma v rámci aplikace Motivy.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">E-mailová adresa, kterou jste vybrali, není k dispozici.</string>

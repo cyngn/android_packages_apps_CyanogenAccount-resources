@@ -24,6 +24,9 @@
   <string name="create">UTWÓRZ\u00A0\u00A0&gt;</string>
   <string name="login">LOGIN\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Nie</string>
+  <string name="try_again">Spróbuj ponownie</string>
+  <string name="yes">Tak</string>
   <string name="allow">Zezwól</string>
   <string name="existing">ZALOGUJ SIĘ ZA POMOCĄ ISTNIEJĄCEGO KONTA</string>
   <string name="new_account">LUB UTWÓRZ NOWE KONTO</string>
@@ -35,6 +38,8 @@
 Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynuować.</string>
   <string name="setup_warning_skip_anyway">Bez Konta Cyanogen OS nie będziesz w stanie:\n\nDostosować swojego telefonu wybierając nowe ikony, tapety oraz więcej innych opcji w aplikacji Motywy\n\nZlokalizować lub zdalnie wymazać pamięć telefonu w przypadku zgubienia</string>
   <string name="cmaccount_setup_create_title">Utwórz konto</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Odblokowanie urządzenia</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Blokada urządzenia</string>
   <string name="cmaccount_setup_email_unavailable_label">Ta nazwa użytkownika jest niedostępna</string>
   <string name="cmaccount_setup_email_invalid_label">Przepraszamy, dozwolone są tylko litery (a-z), cyfry (0-9) oraz znaki (.+&amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Wprowadź nazwę jaka ma być wyświetlana</string>
@@ -50,6 +55,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_creating_profile_message">Tworzenie profilu Cyanogen</string>
   <string name="cmaccount_login_error_title">Logowanie nie powiodło się</string>
   <string name="cmaccount_login_error_message">Niepoprawny e-mail lub hasło.</string>
+  <string name="cmaccount_killswitch_login_error_message">Nieprawidłowy e-mail lub hasło, proszę spróbować ponownie lub odwiedzić https://account.cyngn.com w celu zresetowania hasła.</string>
   <string name="cmaccount_server_error_title">Błąd komunikacji</string>
   <string name="cmaccount_create_account_error_title">Błąd podczas tworzenia konta</string>
   <string name="cmaccount_create_account_error_message">Wystąpił błąd podczas tworzenia konta. %1$s</string>
@@ -57,7 +63,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_cert_pin_warning_title">Uaktualnij</string>
   <string name="cmaccount_cert_pin_warning_text">Ze względów bezpieczeństwa Konto Cyanogen wkrótce może przestać działać. Proszę natychmiast uaktualnić konto.</string>
   <string name="cmaccount_error_multiple_accounts">Tylko jedno konto Cyanogen jest dozwolone dla każdego urządzenia</string>
-  <string name="cmaccount_allow_access">%1$s czy chcesz uzyskać dostęp do</string>
+  <string name="cmaccount_allow_access">%1$s chce uzyskać dostęp do %2$s</string>
   <string name="cmaccount_granting_access">Udzielanie dostępu do %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Wyświetl podstawowe informacje o Twoim koncie, w tym Twój e-mail</string>
   <string name="cmaccount_password_changed_title">Hasło zostało zmienione</string>
@@ -77,8 +83,6 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_password_hint">wprowadź hasło</string>
   <string name="cmaccount_confirmpass_label">Wprowadź ponownie hasło</string>
   <string name="cmaccount_confirmpass_hint">wprowadź ponownie hasło</string>
-  <string name="cmaccount_tos_iagree">Wyrażam zgodę na </string>
-  <string name="cmaccount_tos_link">warunki korzystania z usługi</string>
   <string name="cmaccount_cancel">ANULUJ</string>
   <string name="cmaccount_create">Stwórz Konto Cyanogen</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
@@ -88,6 +92,8 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cyngn_setup_sign_in">ZAREJESTRUJ\u00A0IN</string>
   <string name="cyngn_setup_email_edittext_hint">Podaj swój adres e-mail</string>
   <string name="cyngn_setup_show_password">Pokaż hasło</string>
+  <string name="cyngn_setup_reset_password_dialog">Aby zresetować hasło odwiedź https://account.cyngn.com korzystając z komputera.</string>
+  <string name="cyngn_setup_forgot_password">Nie pamiętasz hasła?</string>
   <string name="cyngn_setup_displayname_description">Twoja nazwa jest wyświetlana innym użytkownikom kiedy zostawiasz komentarz pod motywem w aplikacji Motywy.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Wybrany adres e-mail jest niedostępny.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Wybrany adres e-mail jest nieprawidłowy.</string>

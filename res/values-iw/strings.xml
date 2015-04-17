@@ -24,6 +24,9 @@
   <string name="create">צור\u00A0\u00A0&gt;</string>
   <string name="login">התחבר\u00A0\u00A0&gt;</string>
   <string name="ok">אישור</string>
+  <string name="no">לא</string>
+  <string name="try_again">נסה שנית</string>
+  <string name="yes">כן</string>
   <string name="allow">אפשר</string>
   <string name="existing">התחבר עם חשבון קיים</string>
   <string name="new_account">או צור חשבון חדש</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">עליך להסכים לתנאי השימוש, מדיניות הפרטיות והסכם רישיון משתמש קצה על-ידי סימון התיבה לפני המשך התהליך.</string>
   <string name="setup_warning_skip_anyway">בלי חשבון מערכת Cyanogen, לא ניתן יהיה:\n\nלהתאים את מכשירך עם סמלים, רקעים ועוד ביישום ערכות העיצוב\n\nלאתר או למחוק מרחוק את מכשירך במקרה של אובדן</string>
   <string name="cmaccount_setup_create_title">צור את החשבון שלך</string>
+  <string name="cmaccount_setup_killswitchlogin_title">פתח מכשיר</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">נעל מכשיר</string>
   <string name="cmaccount_setup_email_unavailable_label">שם משתמש זה אינו זמין</string>
   <string name="cmaccount_setup_email_invalid_label">מצטערים, אבל רק אותיות (a-z), מספרים (0-9) והתווים (.+&amp;-_) מותרים לשימוש.</string>
   <string name="cmaccount_setup_displayname_label">אנא הכנס את שם התצוגה שלך</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">יוצר את פרופיל ה-Cyanogen שלך</string>
   <string name="cmaccount_login_error_title">התחברות נכשלה</string>
   <string name="cmaccount_login_error_message">דוא\"ל או סיסמה לא נכונים.</string>
+  <string name="cmaccount_killswitch_login_error_message">דוא\"ל או סיסמה שגויים, אנא נסה שנית או בקר באתר https://account.cyngn.com כדי לאפס את סיסמתך.</string>
   <string name="cmaccount_server_error_title">שגיאת תקשורת</string>
   <string name="cmaccount_create_account_error_title">שגיאה בעת יצירת חשבון</string>
   <string name="cmaccount_create_account_error_message">אירעה שגיאה בעת יצירת חשבונך. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">אנא שדרג</string>
   <string name="cmaccount_cert_pin_warning_text">מסיבות בטיחותיות, חשבון Cyanogen עלול להפסיק לעבוד בקרוב. אנא שדרג באופן מיידי.</string>
   <string name="cmaccount_error_multiple_accounts">רק חשבון Cyanogen אחד אפשרי לכל מכשיר</string>
-  <string name="cmaccount_allow_access">%1$s מעוניין לקבל גישה ל:</string>
+  <string name="cmaccount_allow_access">%1$s מעוניין לקבל גישה ל-%2$s</string>
   <string name="cmaccount_granting_access">מעניק גישה ל-%1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">הצג מידע בסיסי על חשבונך, כולל כתובת הדוא\"ל שלך</string>
   <string name="cmaccount_password_changed_title">הסיסמה שונתה</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">הכנס את הסיסמה שלך</string>
   <string name="cmaccount_confirmpass_label">הכנס סיסמה שנית</string>
   <string name="cmaccount_confirmpass_hint">הכנס שנית את סיסמתך</string>
-  <string name="cmaccount_tos_iagree">אני מסכים ל</string>
-  <string name="cmaccount_tos_link">תנאי השירות</string>
   <string name="cmaccount_cancel">ביטול</string>
   <string name="cmaccount_create">צור את חשבון ה-Cyanogen שלך</string>
   <string name="cyngn_setup_logo_alttext">לוגו</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">היכנס</string>
   <string name="cyngn_setup_email_edittext_hint">הכנס בבקשה את כתובת הדוא\"ל שלך</string>
   <string name="cyngn_setup_show_password">הצג סיסמה</string>
+  <string name="cyngn_setup_reset_password_dialog">כדי לאפס את סיסמתך אנא בקר באתר https://account.cyngn.com מהמחשב שלך.</string>
+  <string name="cyngn_setup_forgot_password">שכחת סיסמה?</string>
   <string name="cyngn_setup_toslist_header">לחץ כדי להציג</string>
   <string name="cyngn_setup_displayname_description">שם התצוגה שלך מוצג למשתמשים אחרים בעת השארת ביקורות על ערכות עיצוב ביישום ערכות העיצוב.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">כתובת הדוא\"ל שבחרת אינה זמינה.</string>

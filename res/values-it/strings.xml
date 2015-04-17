@@ -24,6 +24,9 @@
   <string name="create">CREA\u00A0\u00A0&gt;</string>
   <string name="login">ACCEDI\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">No</string>
+  <string name="try_again">Riprova</string>
+  <string name="yes">Si</string>
   <string name="allow">Consenti</string>
   <string name="existing">ACCEDI CON IL TUO ACCOUNT ESISTENTE</string>
   <string name="new_account">O CREA UN NUOVO ACCOUNT</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">È necessario accettare le condizioni d\'uso, la politica sulla privacy e l\'accordo di licenza con l\'utente finale selezionando la casella prima di continuare.</string>
   <string name="setup_warning_skip_anyway">\"Senza un account Cyanogen OS, non sarai in grado di:\n\nPersonalizzare il telefono con nuove icone, sfondi ed altro ancora dall\'app Temi\n\nLocalizzare o formattare da remoto il telefono se viene smarrito\"</string>
   <string name="cmaccount_setup_create_title">Crea account</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Sblocca il dispositivo</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Blocca dispositivo</string>
   <string name="cmaccount_setup_email_unavailable_label">Questo nome utente non è disponibile</string>
   <string name="cmaccount_setup_email_invalid_label">Siamo spiacenti, sono consentiti soltanto lettere (a-z), numeri (0-9) e i caratteri (.+&amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Inserisci il tuo nome utente</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">Creazione del profilo Cyanogen in corso</string>
   <string name="cmaccount_login_error_title">Login non riuscito</string>
   <string name="cmaccount_login_error_message">Email o password non valide.</string>
+  <string name="cmaccount_killswitch_login_error_message">E-mail o password non corretta, riprova o visita https://account.cyngn.com per reimpostare la password.</string>
   <string name="cmaccount_server_error_title">Errore di comunicazione</string>
   <string name="cmaccount_create_account_error_title">Errore nella creazione dell\'account</string>
   <string name="cmaccount_create_account_error_message">Errore durante la creazione del tuo account. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Si prega di aggiornare</string>
   <string name="cmaccount_cert_pin_warning_text">Per motivi di sicurezza, l\'account Cyanogen potrebbe smettere di funzionare a breve. Si prega di aggiornare immediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">È consentito un solo account Cyanogen per dispositivo</string>
-  <string name="cmaccount_allow_access">%1$s vorrebbe accedere a</string>
+  <string name="cmaccount_allow_access">%1$s vorrebbe accedere a %2$s</string>
   <string name="cmaccount_granting_access">Assegnazione dell\'accesso a %1$s in corso</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Visualizza informazioni di base sul tuo account, compreso il tuo indirizzo e-mail</string>
   <string name="cmaccount_password_changed_title">Password modificata</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">Inserisci la tua password</string>
   <string name="cmaccount_confirmpass_label">Inserisci nuovamente la Password</string>
   <string name="cmaccount_confirmpass_hint">Inserisci nuovamente la Password</string>
-  <string name="cmaccount_tos_iagree">Sono d\'accordo con i </string>
-  <string name="cmaccount_tos_link">Termini del servizio</string>
   <string name="cmaccount_cancel">ANNULLA</string>
   <string name="cmaccount_create">Crea il tuo account Cyanogenmod</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">LOG\u00A0IN</string>
   <string name="cyngn_setup_email_edittext_hint">Inserisci il tuo indirizzo email</string>
   <string name="cyngn_setup_show_password">Visualizza la password</string>
+  <string name="cyngn_setup_reset_password_dialog">Per reimpostare la password si prega di visitare https://account.cyngn.com dal computer.</string>
+  <string name="cyngn_setup_forgot_password">Password dimenticata?</string>
   <string name="cyngn_setup_toslist_header">Seleziona per rivedere</string>
   <string name="cyngn_setup_displayname_description">Il nome viene visualizzato dagli altri utenti quando lasci recensioni per un tema all\'interno dell\'app Temi.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">L\'indirizzo e-mail selezionato non è disponibile.</string>

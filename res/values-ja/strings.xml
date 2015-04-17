@@ -24,6 +24,9 @@
   <string name="create">作成\u00A0\u00A0&gt;</string>
   <string name="login">ログイン\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">いいえ</string>
+  <string name="try_again">再試行</string>
+  <string name="yes">はい</string>
   <string name="allow">許可</string>
   <string name="existing">既存のアカウントでサインイン</string>
   <string name="new_account">または新しいアカウントを作成</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">続ける前にチェックボックスを選択して利用規約、プライバシーポリシー、使用許諾契約に同意する必要があります。</string>
   <string name="setup_warning_skip_anyway">Cyanogen OSアカウントがないと、以下のことができません:\n\nテーマアプリで新しいアイコンや壁紙などで携帯電話をカスタマイズする\n\n紛失時に携帯電話を探したり遠隔操作でデータを消去する</string>
   <string name="cmaccount_setup_create_title">アカウントを作成</string>
+  <string name="cmaccount_setup_killswitchlogin_title">端末をロック解除</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">端末をロック</string>
   <string name="cmaccount_setup_email_unavailable_label">このユーザー名は利用できません</string>
   <string name="cmaccount_setup_email_invalid_label">申し訳ありませんが、英字（a–z）、数字（0–9）、記号（.+&amp;-_）のみが使用できます。</string>
   <string name="cmaccount_setup_displayname_label">表示名を入力してください</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">Cyanogenプロフィールを作成中</string>
   <string name="cmaccount_login_error_title">ログインできませんでした</string>
   <string name="cmaccount_login_error_message">メールまたはパスワードが無効です。</string>
+  <string name="cmaccount_killswitch_login_error_message">メールアドレスまたはパスワードが正しくありません、再試行するかhttps://account.cyngn.comにアクセスしてパスワードをリセットしてください。</string>
   <string name="cmaccount_server_error_title">通信エラー</string>
   <string name="cmaccount_create_account_error_title">アカウントを作成中にエラーが発生しました</string>
   <string name="cmaccount_create_account_error_message">アカウントの作成中にエラーが発生しました。%1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">アップグレードしてください</string>
   <string name="cmaccount_cert_pin_warning_text">セキュリティ上の理由で、将来的にCyanogenアカウントが使えなくなる可能性があります。すぐにアップグレードしてください。</string>
   <string name="cmaccount_error_multiple_accounts">端末1台に登録できるCyanogenアカウントは1つのみです</string>
-  <string name="cmaccount_allow_access">%1$sがアクセスしようとしています: </string>
+  <string name="cmaccount_allow_access">%1$sが%2$sにアクセスしようとしています</string>
   <string name="cmaccount_granting_access">%1$sへのアクセスを許可中</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">メールアドレスを含むアカウントについての基本的な情報を表示する</string>
   <string name="cmaccount_password_changed_title">パスワードを変更しました</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">パスワードを入力してください</string>
   <string name="cmaccount_confirmpass_label">パスワードを再入力してください</string>
   <string name="cmaccount_confirmpass_hint">パスワードを再入力してください</string>
-  <string name="cmaccount_tos_iagree">利用規約に</string>
-  <string name="cmaccount_tos_link">同意します</string>
   <string name="cmaccount_cancel">キャンセル</string>
   <string name="cmaccount_create">Cyanogenアカウントを作成</string>
   <string name="cyngn_setup_logo_alttext">ロゴ</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">サインイン</string>
   <string name="cyngn_setup_email_edittext_hint">メールアドレスを入力してください</string>
   <string name="cyngn_setup_show_password">パスワードを表示</string>
+  <string name="cyngn_setup_reset_password_dialog">パスワードをリセットするにはパソコンからhttps://account.cyngn.comにアクセスしてください。</string>
+  <string name="cyngn_setup_forgot_password">パスワードを忘れてしまいましたか？</string>
   <string name="cyngn_setup_toslist_header">選択して確認できます</string>
   <string name="cyngn_setup_displayname_description">表示名はテーマストアでテーマの評価を残す時に他のユーザーに表示されます。</string>
   <string name="cyngn_setup_create_profile_email_unavailable">選択したメールアドレスは利用できません。</string>

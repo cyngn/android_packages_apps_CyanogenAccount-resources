@@ -28,13 +28,14 @@
   <string name="dont_skip">Ne pas ignorer</string>
   <string name="cmaccount_setup_create_title">Créer votre compte</string>
   <string name="cmaccount_setup_password_label">Mot de passe</string>
+  <string name="cmaccount_setup_password_strength_label">8 caractères minimum</string>
+  <string name="cmaccount_setup_password_invalid_label">Le mot de passe doit comporter au moins 8 caractères !</string>
   <string name="cmaccount_add_title">Ajouter votre compte</string>
   <string name="cmaccount_login_message">Connexion à Cyanogen</string>
   <string name="cmaccount_server_error_title">Erreur de réseau</string>
   <string name="cmaccount_error_multiple_accounts">Un seul compte Cyanogen est autorisé par appareil</string>
   <string name="cmaccount_granting_access">Accorder l\'accès à %1$s</string>
   <string name="cmaccount_password_changed_title">Mot de passe modifié</string>
-  <string name="cmaccount_tos_link">conditions d\'utilisation</string>
   <string name="cmaccount_cancel">ANNULER</string>
   <string name="cyngn_setup_next">SUIVANT</string>
   <string name="cyngn_setup_email_edittext_hint">Veuillez entrer votre adresse e-mail</string>

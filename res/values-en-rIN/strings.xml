@@ -56,7 +56,6 @@
   <string name="cmaccount_cert_pin_warning_title">Please upgrade</string>
   <string name="cmaccount_cert_pin_warning_text">For security reasons, Cyanogen Account may stop working soon. Please upgrade immediately.</string>
   <string name="cmaccount_error_multiple_accounts">Only one Cyanogen Account is allowed per device</string>
-  <string name="cmaccount_allow_access">%1$s would like access to</string>
   <string name="cmaccount_granting_access">Granting access to %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">View basic information about your account, including your email</string>
   <string name="cmaccount_password_changed_title">Password changed</string>
@@ -76,8 +75,6 @@
   <string name="cmaccount_password_hint">enter your password</string>
   <string name="cmaccount_confirmpass_label">Re-Enter Password</string>
   <string name="cmaccount_confirmpass_hint">re-enter your password</string>
-  <string name="cmaccount_tos_iagree">I agree to the </string>
-  <string name="cmaccount_tos_link">terms of service</string>
   <string name="cmaccount_cancel">CANCEL</string>
   <string name="cmaccount_create">Create your Cyanogen Account</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>

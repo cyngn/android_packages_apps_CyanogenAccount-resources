@@ -17,5 +17,6 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmaccount_granting_access">%1$s üçün müraciət icazəsi verilir</string>
+  <string name="app_name">Tài khoản Cyanogen</string>
+  <string name="back">TRỞ LẠI</string>
 </resources>

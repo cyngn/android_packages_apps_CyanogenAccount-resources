@@ -56,7 +56,6 @@
   <string name="cmaccount_cert_pin_warning_title">Opgradér venligst</string>
   <string name="cmaccount_cert_pin_warning_text">Af sikkerhedsmæssige årsager vil din Cyanogen konto stoppe med at virke. Venligst opgradér straks.</string>
   <string name="cmaccount_error_multiple_accounts">Kun én Cyanogen-konto er tilladt per enhed</string>
-  <string name="cmaccount_allow_access">%1$s ønsker adgang til</string>
   <string name="cmaccount_granting_access">Giver adgang til %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Få vist grundlæggende oplysninger om din konto inklusiv din e-mail</string>
   <string name="cmaccount_password_changed_title">Adgangskoden ændret</string>
@@ -75,8 +74,6 @@
   <string name="cmaccount_password_hint">indtast din adgangskode</string>
   <string name="cmaccount_confirmpass_label">Indtast adgangskode igen</string>
   <string name="cmaccount_confirmpass_hint">indtast adgangskode igen</string>
-  <string name="cmaccount_tos_iagree">Jeg accepterer </string>
-  <string name="cmaccount_tos_link">vilkår for anvendelse</string>
   <string name="cmaccount_cancel">ANNULLER</string>
   <string name="cmaccount_create">Opret din Cyanogen-konto</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>

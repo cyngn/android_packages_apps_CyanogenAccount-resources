@@ -24,6 +24,9 @@
   <string name="create">LÉTREHOZÁS\u00A0\u00A0&gt;</string>
   <string name="login">BEJELENTKEZÉS\u00A0\u00A0&gt;</string>
   <string name="ok">Rendben</string>
+  <string name="no">Nem</string>
+  <string name="try_again">Próbálja újra</string>
+  <string name="yes">Igen</string>
   <string name="allow">Engedélyez</string>
   <string name="existing">JELENTKEZZEN BE A MÁR MEGLÉVŐ FIÓKJÁVAL</string>
   <string name="new_account">VAGY HOZZON LÉTRE EGY ÚJ FIÓKOT</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">El kell fogadnia a Felhasználási feltételeket, Adatvédelmi irányelvet és a Végfelhasználói licencszerződést a folytatáshoz.</string>
   <string name="setup_warning_skip_anyway">Cyanogen OS fiók nélkül nem fog hozzáférni a következőkhöz:\n\nTelefon testreszabása új ikonokkal, háttérképekkel és egyebekkel a Téma kezelő alkalmazáson keresztül\n\nTelefon helyének maghatározása, vagy távolról való törlése, ha elveszett</string>
   <string name="cmaccount_setup_create_title">Fiók létrehozása</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Eszköz feloldása</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Eszköz zárolása</string>
   <string name="cmaccount_setup_email_unavailable_label">Ez a felhasználónév nem érhető el</string>
   <string name="cmaccount_setup_email_invalid_label">Sajnáljuk, csak betűk (a-z), számok (0-9), és karakterek (.+&amp;-_) megengedettek.</string>
   <string name="cmaccount_setup_displayname_label">Kérjük, adja meg a megjelenítendő nevet</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">Cyanogen profil létrehozása</string>
   <string name="cmaccount_login_error_title">Sikertelen bejelentkezés</string>
   <string name="cmaccount_login_error_message">Érvénytelen e-mail cím, vagy jelszó.</string>
+  <string name="cmaccount_killswitch_login_error_message">Hibás e-mail vagy jelszó, próbálja újra, vagy látogasson el a https://account.cyngn.com oldalra a jelszava visszaállításához.</string>
   <string name="cmaccount_server_error_title">Kommunikációs hiba</string>
   <string name="cmaccount_create_account_error_title">Hiba a fiók létrehozásakor</string>
   <string name="cmaccount_create_account_error_message">Hiba történt a fiók létrehozása közben. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Kérjük, frissítse</string>
   <string name="cmaccount_cert_pin_warning_text">Biztonsági okokból a Cyanogen fiók hamarosan működésképtelenné válhat. Kérjük, azonnal frissítse.</string>
   <string name="cmaccount_error_multiple_accounts">Egy eszközhöz csak egy Cyanogen fiók rendelhető</string>
-  <string name="cmaccount_allow_access">%1$s szeretne hozzáférni ehhez:</string>
+  <string name="cmaccount_allow_access">%1$s szeretne hozzáférni ehhez: %2$s</string>
   <string name="cmaccount_granting_access">Hozzáférés engedélyezése: %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Fiókja alapvető információinak megtekintése, beleértve az e-mail címét</string>
   <string name="cmaccount_password_changed_title">A jelszava megváltozott</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">adja meg jelszavát</string>
   <string name="cmaccount_confirmpass_label">Jelszó újbóli megadása</string>
   <string name="cmaccount_confirmpass_hint">a jelszó újbóli megadása</string>
-  <string name="cmaccount_tos_iagree">Elfogadom </string>
-  <string name="cmaccount_tos_link">szolgáltatási feltételek</string>
   <string name="cmaccount_cancel">MÉGSE</string>
   <string name="cmaccount_create">Cyanogen fiók létrehozása</string>
   <string name="cyngn_setup_logo_alttext">Logó</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">BEJELENTKEZÉS</string>
   <string name="cyngn_setup_email_edittext_hint">Kérjük, adja meg e-mail címét</string>
   <string name="cyngn_setup_show_password">Jelszó megjelenítése</string>
+  <string name="cyngn_setup_reset_password_dialog">Jelszavának visszaállításához kérjük, látogasson el a https://account.cyngn.com oldalra a számítógépén.</string>
+  <string name="cyngn_setup_forgot_password">Elfelejtette jelszavát?</string>
   <string name="cyngn_setup_toslist_header">Válassza ki az áttekintéshez</string>
   <string name="cyngn_setup_displayname_description">A megjelenítendő neve az a név, ami a többi felhasználó számára megjelenik, ha értékelést ad egy témára a Témák alkalmazáson belül.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">A kiválasztott e-mail cím nem érhető el.</string>

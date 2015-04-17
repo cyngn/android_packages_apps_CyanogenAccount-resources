@@ -24,6 +24,9 @@
   <string name="create">CRIAR\u00A0\u00A0&gt;</string>
   <string name="login">INICIAR SESSÃO\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Não</string>
+  <string name="try_again">Tentar novamente</string>
+  <string name="yes">Sim</string>
   <string name="allow">Permitir</string>
   <string name="existing">INICIAR A SESSÃO COM A SUA CONTA EXISTENTE</string>
   <string name="new_account">OU CRIAR UMA NOVA CONTA</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">Deve concordar com os termos de uso, política de privacidade e o contrato de licença de utilizador final, selecionando a caixa de verificação antes de continuar.</string>
   <string name="setup_warning_skip_anyway">\"Sem uma conta Cyanogen OS, não será capaz de:\n\nPersonalizar o telefone com novos ícones, imagens de fundo e muito mais na aplicação de Temas\n\nLocalizar ou apagar remotamente o seu telefone se estiver perdido</string>
   <string name="cmaccount_setup_create_title">Criar a sua conta</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Desbloquear o dispositivo</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Bloquear o dispositivo</string>
   <string name="cmaccount_setup_email_unavailable_label">Este nome de utilizador não está disponível</string>
   <string name="cmaccount_setup_email_invalid_label">Desculpe, somente letras (a-z), números (0-9) e os caracteres (. + &amp;-_) são permitidos.</string>
   <string name="cmaccount_setup_displayname_label">Por favor, digite o nome a exibir</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">A criar o seu perfil CyanogenMod</string>
   <string name="cmaccount_login_error_title">Falha ao entrar</string>
   <string name="cmaccount_login_error_message">E-mail ou palavra-passe inválidos.</string>
+  <string name="cmaccount_killswitch_login_error_message">E-mail ou palavra-passe incorretos, por favor tente novamente ou visite https://account.cyngn.com para redefinir a sua palavra-passe.</string>
   <string name="cmaccount_server_error_title">Erro de comunicação</string>
   <string name="cmaccount_create_account_error_title">Erro ao criar a conta</string>
   <string name="cmaccount_create_account_error_message">Ocorreu um erro ao criar a sua conta. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Por favor, atualize</string>
   <string name="cmaccount_cert_pin_warning_text">Por razões de segurança, a conta Cyanogen poderá deixar de funcionar em breve. Por favor atualize imediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">É permitida apenas uma conta CyanogenMod por dispositivo</string>
-  <string name="cmaccount_allow_access">%1$s gostaria de aceder a</string>
+  <string name="cmaccount_allow_access">%1$s gostaria de aceder a %2$s</string>
   <string name="cmaccount_granting_access">A conceder acesso a %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Exibir informações básicas sobre a sua conta, incluindo o seu e-mail</string>
   <string name="cmaccount_password_changed_title">Palavra-passe alterada</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">Digite a sua palavra-passe</string>
   <string name="cmaccount_confirmpass_label">Volte a digitar a palavra-passe</string>
   <string name="cmaccount_confirmpass_hint">Volte a digitar a palavra-passe</string>
-  <string name="cmaccount_tos_iagree">Concordo com os </string>
-  <string name="cmaccount_tos_link">termos de serviço</string>
   <string name="cmaccount_cancel">CANCELAR</string>
   <string name="cmaccount_create">Crie a sua conta Cyanogen</string>
   <string name="cyngn_setup_logo_alttext">Logotipo</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">ENTRAR</string>
   <string name="cyngn_setup_email_edittext_hint">Por favor, digite o seu endereço e-mail</string>
   <string name="cyngn_setup_show_password">Mostrar a palavra-passe</string>
+  <string name="cyngn_setup_reset_password_dialog">Para redefinir a sua palavra-passe, por favor visite, https://account.cyngn.com  a partir do seu computador.</string>
+  <string name="cyngn_setup_forgot_password">Esqueceu a palavra-passe?</string>
   <string name="cyngn_setup_toslist_header">Selecione para rever</string>
   <string name="cyngn_setup_displayname_description">O seu nome a exibir, será exibido a outros utilizadores quando deixar comentários num tema, dentro da aplicação de temas.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">O endereço de e-mail que selecionou não está disponível.</string>

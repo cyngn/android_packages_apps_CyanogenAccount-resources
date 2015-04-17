@@ -24,6 +24,9 @@
   <string name="create">创建\u00A0\u00A0&gt;</string>
   <string name="login">登录\u00A0\u00A0&gt;</string>
   <string name="ok">确定</string>
+  <string name="no">否</string>
+  <string name="try_again">再试一次</string>
+  <string name="yes">是</string>
   <string name="allow">允许</string>
   <string name="existing">使用您的现有帐户登录</string>
   <string name="new_account">或创建一个新帐户</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">在您继续前，您必须选中该复选框以同意本使用条款、隐私政策和最终用户许可协议。</string>
   <string name="setup_warning_skip_anyway">“如果不创建 Cyanogen OS 帐户，您将：\n\n无法使用主题应用来使用新的图标、壁纸和其他内容来自定义您的手机\n\n无法定位或擦除遗失的手机”</string>
   <string name="cmaccount_setup_create_title">创建您的帐户</string>
+  <string name="cmaccount_setup_killswitchlogin_title">解锁设备</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">锁定设备</string>
   <string name="cmaccount_setup_email_unavailable_label">此用户名不可用</string>
   <string name="cmaccount_setup_email_invalid_label">抱歉，只能使用小写英文字母 (a-z)，阿拉伯数字 (0-9)，和这些符号 (.+&amp;-_)  。</string>
   <string name="cmaccount_setup_displayname_label">请输入您的显示名称</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">正在创建您的 Cyanogen 资料</string>
   <string name="cmaccount_login_error_title">登录失败</string>
   <string name="cmaccount_login_error_message">无效的电子邮件或密码。</string>
+  <string name="cmaccount_killswitch_login_error_message">错误的电子邮件地址或密码，请重试。或访问 https://account.cyngn.com 来重设您的密码。</string>
   <string name="cmaccount_server_error_title">通信错误</string>
   <string name="cmaccount_create_account_error_title">创建帐户出错</string>
   <string name="cmaccount_create_account_error_message">创建您的帐户时出错。 %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">请升级</string>
   <string name="cmaccount_cert_pin_warning_text">出于安全原因， Cyanogen 帐户很快将停止工作，请立即升级。</string>
   <string name="cmaccount_error_multiple_accounts">一台设备上仅允许有一个 Cyanogen 帐户</string>
-  <string name="cmaccount_allow_access">%1$s 想要访问</string>
+  <string name="cmaccount_allow_access">%1$s 想要访问 %2$s</string>
   <string name="cmaccount_granting_access">授予对 %1$s 的访问权限</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">查看您帐户的基本信息，包括您的电子邮件地址</string>
   <string name="cmaccount_password_changed_title">密码已修改</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">输入您的密码</string>
   <string name="cmaccount_confirmpass_label">重新输入密码</string>
   <string name="cmaccount_confirmpass_hint">重新输入您的密码</string>
-  <string name="cmaccount_tos_iagree">我同意 </string>
-  <string name="cmaccount_tos_link">服务条款</string>
   <string name="cmaccount_cancel">取消</string>
   <string name="cmaccount_create">创建您的 Cyanogen 帐户</string>
   <string name="cyngn_setup_logo_alttext">徽标</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">登\u00A0录</string>
   <string name="cyngn_setup_email_edittext_hint">请输入您的电子邮件地址</string>
   <string name="cyngn_setup_show_password">显示密码</string>
+  <string name="cyngn_setup_reset_password_dialog">要重设您的密码，请在计算机上访问 https://account.cyngn.com 。</string>
+  <string name="cyngn_setup_forgot_password">忘记密码？</string>
   <string name="cyngn_setup_toslist_header">选择以复查</string>
   <string name="cyngn_setup_displayname_description">您在主题应用里评价一个主题时，您的显示名称将展示给其他用户。</string>
   <string name="cyngn_setup_create_profile_email_unavailable">您选择的电子邮件地址不可用。</string>

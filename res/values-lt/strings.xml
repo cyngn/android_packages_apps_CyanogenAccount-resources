@@ -24,6 +24,9 @@
   <string name="create">SUKURTI\u00A0\u00A0&gt;</string>
   <string name="login">PRISIJUNGTI\u00A0\u00A0&gt;</string>
   <string name="ok">Gerai</string>
+  <string name="no">Ne</string>
+  <string name="try_again">Bandyti dar kartą</string>
+  <string name="yes">Taip</string>
   <string name="allow">Leisti</string>
   <string name="existing">PRISIJUNGTI SU ESAMA PASKYRA</string>
   <string name="new_account">ARBA SUKURTI NAUJĄ PASKYRĄ</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">Turite sutikti su naudojimosi sąlygomis, privatumo politika ir galutinio vartotojo licencinė sutartimi pasirenkant langelį prieš tęsiant.</string>
   <string name="setup_warning_skip_anyway">Be „Cyanogen“ OS paskyros, jums nebus suteikta galimybė:\n\nTemų programoje tinkinti savo telefoną su naujomis piktogramomis, ekrano fonais ir daugiau\n\nRasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas</string>
   <string name="cmaccount_setup_create_title">Sukurti paskyrą</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Atrakinti įrenginį</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Užrakinti įrenginį</string>
   <string name="cmaccount_setup_email_unavailable_label">Toks vartotojo vardas yra nepasiekiamas</string>
   <string name="cmaccount_setup_email_invalid_label">Atsiprašome, tik raidės (a–z), skaičiai (0–9) ir simboliai (.+&amp;-_) yra leidžiami.</string>
   <string name="cmaccount_setup_displayname_label">Prašome įvesti savo rodomąjį vardą</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">Kuriamas jūsų „Cyanogen“ profilis</string>
   <string name="cmaccount_login_error_title">Prisijungti nepavyko</string>
   <string name="cmaccount_login_error_message">Neteisingas el. paštas arba slaptažodis.</string>
+  <string name="cmaccount_killswitch_login_error_message">Neteisingas el. paštas arba slaptažodis, prašome bandyti dar kartą arba apsilankyti https://account.cyngn.com, kad atstatyti slaptažodį.</string>
   <string name="cmaccount_server_error_title">Ryšio klaida</string>
   <string name="cmaccount_create_account_error_title">Klaida kuriant paskyrą</string>
   <string name="cmaccount_create_account_error_message">Įvyko klaida kuriant paskyrą. %1$s</string>
@@ -56,12 +62,12 @@
   <string name="cmaccount_cert_pin_warning_title">Prašome atnaujinti</string>
   <string name="cmaccount_cert_pin_warning_text">Dėl saugumo priežasčių, „Cyanogen“ paskyra gali nustoti veikti artimiausiu metu. Prašome nedelsiant atnaujinti.</string>
   <string name="cmaccount_error_multiple_accounts">Prietaise leidžiama tik viena „Cyanogen“ paskyra</string>
-  <string name="cmaccount_allow_access">%1$s norėtų pasiekti</string>
+  <string name="cmaccount_allow_access">%1$s norėtų prieiti prie %2$s</string>
   <string name="cmaccount_granting_access">Suteikiama prieiga prie %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Peržiūrėti pagrindinę informaciją apie savo paskyrą, įskaitant jūsų el. paštą</string>
   <string name="cmaccount_password_changed_title">Slaptažodis pakeistas</string>
   <string name="cmaccount_password_changed_message">Prašome prisijungti prie savo „Cyanogen“ paskyros</string>
-  <string name="cmaccount_setup_email_blank_label">Turi įvesti el. pašto adresą</string>
+  <string name="cmaccount_setup_email_blank_label">Turite įvesti el. pašto adresą</string>
   <string name="cmaccount_setup_password_blank_label">Turite įvesti slaptažodį</string>
   <string name="cmaccount_setup_confirm_password_blank_label">Įveskite slaptažodį dar kartą</string>
   <string name="cmaccount_setup_displayname_blank_label">Turite įvesti rodomąjį vardą</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">įveskite savo slaptažodį</string>
   <string name="cmaccount_confirmpass_label">Iš naujo įveskite slaptažodį</string>
   <string name="cmaccount_confirmpass_hint">iš naujo įveskite savo slaptažodį</string>
-  <string name="cmaccount_tos_iagree">Aš sutinku su </string>
-  <string name="cmaccount_tos_link">paslaugų teikimo sąlygos</string>
   <string name="cmaccount_cancel">ATŠAUKTI</string>
   <string name="cmaccount_create">Sukurti savo „Cyanogen“ paskyrą</string>
   <string name="cyngn_setup_logo_alttext">Logotipas</string>
@@ -88,10 +92,12 @@
   <string name="cyngn_setup_sign_in">PRISIJUNGTI\u00A0IN</string>
   <string name="cyngn_setup_email_edittext_hint">Įveskite savo el. pašto adresą</string>
   <string name="cyngn_setup_show_password">Rodyti slaptažodį</string>
+  <string name="cyngn_setup_reset_password_dialog">Kad iš naujo nustatytumėte slaptažodį apsilankykite https://account.cyngn.com iš savo kompiuterio.</string>
+  <string name="cyngn_setup_forgot_password">Pamiršote slaptažodį?</string>
   <string name="cyngn_setup_toslist_header">Pasirinkite, kad peržiūrėti</string>
   <string name="cyngn_setup_displayname_description">Jūsų rodomasis vardas rodomas kitiems vartotojams, kai jūs paliekate temos atsiliepimus per temų programą.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Jūsų pasirinktas el. pašto adresas yra nepasiekiamas.</string>
-  <string name="cyngn_setup_create_profile_email_invalid">Jūsų pasirinktas el. pašto adresas neteisingas.</string>
+  <string name="cyngn_setup_create_profile_email_invalid">Jūsų pasirinktas el. pašto adresas yra neteisingas.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Pasirinktas rodomasis vardas yra neteisingas, per ilgas arba neleidžiamas.</string>
   <string name="cyngn_setup_password_strength_meter_label">Slaptažodžio stiprumas:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Stiprus</string>

@@ -24,6 +24,9 @@
   <string name="create">CREA\u00A0\u00A0&gt;</string>
   <string name="login">INICIA LA SESSIÓ\u00A0\u00A0&gt;</string>
   <string name="ok">D\'ACORD</string>
+  <string name="no">No</string>
+  <string name="try_again">Torna-ho a intentar</string>
+  <string name="yes">Sí</string>
   <string name="allow">Permet</string>
   <string name="existing">ENTRA AMB EL TEU COMPTE EXISTENT</string>
   <string name="new_account">O CREA UN COMPTE NOU</string>
@@ -34,6 +37,8 @@
   <string name="setup_warning_accept_tos">Has d\'acceptar les Condicions d\'ús, la Política de privacitat i l\'Acord de llicència d\'usuari final seleccionant la casella de verificació abans de continuar.</string>
   <string name="setup_warning_skip_anyway">Sense un compte Cyanogen OS, no podràs:\n\nPersonalitzar el teu telèfon amb noves icones, fons de pantalla i més en l\'aplicació de Temes\n\nLocalitzar o esborrar remotament el teu telèfon si el perds</string>
   <string name="cmaccount_setup_create_title">Crea el teu compte</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Desbloqueja el dispositiu</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Bloqueja el dispositiu</string>
   <string name="cmaccount_setup_email_unavailable_label">Aquest usuari no està disponible</string>
   <string name="cmaccount_setup_email_invalid_label">Ho sento, només estan permeses les lletres (a-z), els números (0-9) i els caràcters (.+ &amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Si us plau, introdueix el teu nom per mostrar</string>
@@ -49,6 +54,7 @@
   <string name="cmaccount_creating_profile_message">S\'està creant el teu perfil de Cyanogen</string>
   <string name="cmaccount_login_error_title">L\'inici de sessió ha fallat</string>
   <string name="cmaccount_login_error_message">Correu electrònic o contrasenya invàlids.</string>
+  <string name="cmaccount_killswitch_login_error_message">Correu electrònic o contrasenya incorrecta, si us plau intenta-ho una altra vegada o visita https://account.cyngn.com per restablir la contrasenya.</string>
   <string name="cmaccount_server_error_title">Error de comunicació</string>
   <string name="cmaccount_create_account_error_title">Error creant el compte</string>
   <string name="cmaccount_create_account_error_message">S\'ha produït un error en crear el teu compte. %1$s</string>
@@ -56,7 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Si us plau actualitza</string>
   <string name="cmaccount_cert_pin_warning_text">Per motius de seguretat, el compte Cyanogen podria deixar de funcionar aviat. Si us plau actualitza immediatament.</string>
   <string name="cmaccount_error_multiple_accounts">Només està permés un compte Cyanogen per dispositiu</string>
-  <string name="cmaccount_allow_access">%1$s voldria accedir a</string>
+  <string name="cmaccount_allow_access">%1$s voldria accedir a %2$s</string>
   <string name="cmaccount_granting_access">S\'està concedint accés a %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Mostra la informació bàsica sobre el teu compte, incloent el teu correu electrònic</string>
   <string name="cmaccount_password_changed_title">Contrasenya canviada</string>
@@ -76,8 +82,6 @@
   <string name="cmaccount_password_hint">introdueix la teva contrasenya</string>
   <string name="cmaccount_confirmpass_label">Torna a introduir la contrasenya</string>
   <string name="cmaccount_confirmpass_hint">torna a introduir la teva contrasenya</string>
-  <string name="cmaccount_tos_iagree">Estic d\'acord amb la </string>
-  <string name="cmaccount_tos_link">condicions del servei</string>
   <string name="cmaccount_cancel">CANCEL·LA</string>
   <string name="cmaccount_create">Crea el teu compte de Cyanogen</string>
   <string name="cyngn_setup_logo_alttext">Logotip</string>
@@ -88,6 +92,8 @@
   <string name="cyngn_setup_sign_in">INICIA\u00A0SESSIÓ</string>
   <string name="cyngn_setup_email_edittext_hint">Si us plau, introdueix la teva adreça de correu electrònic</string>
   <string name="cyngn_setup_show_password">Mostra la contrasenya</string>
+  <string name="cyngn_setup_reset_password_dialog">Per restablir la contrasenya si us plau visita https://account.cyngn.com des del teu ordinador.</string>
+  <string name="cyngn_setup_forgot_password">Has oblidat la contrasenya?</string>
   <string name="cyngn_setup_toslist_header">Selecciona per donar una opinió</string>
   <string name="cyngn_setup_displayname_description">El teu nom per mostrar es mostra als altres usuaris quan deixes opinions d\'un tema dins de l\'aplicació Temes.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">El correu electrònic que has seleccionat no està disponible.</string>

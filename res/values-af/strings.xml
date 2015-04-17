@@ -24,12 +24,21 @@
   <string name="create">SKEP\u00A0\u00A0&gt;</string>
   <string name="login">INTEKEN\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Nee</string>
+  <string name="try_again">Probeer weer</string>
+  <string name="yes">Ja</string>
   <string name="allow">Laat toe</string>
   <string name="existing">TEKEN IN MET JOU HUIDIGE REKENING</string>
   <string name="new_account">OF SKEP \'N NUWE REKENING</string>
+  <string name="go_back">Gaan terug</string>
+  <string name="skip_anyway">Slaan in elk geval oor</string>
   <string name="dont_skip">Moenie oorslaan nie</string>
   <string name="setup_warning_skip_wifi">WAARSKUWING: Jy kan ekstra netwerk data koste aangaan\n\nToestel opstelling kan aansienlike netwerk data gebruik.</string>
+  <string name="setup_warning_accept_tos">Jy moet saamstem met die Voorwaardes, Privaatheidsbeleid, en die Eind Gebruiker Lisensie Ooreenkoms met die kies van die regmerkie voordat jy kan aangaan.</string>
+  <string name="setup_warning_skip_anyway">Sonder \'n Cyanogen bedryfstelsel rekening, sal jy nie in staat wees om:\n\nOm jou selfoon met nuwe ikone, agtergronde en meer in die Temas program te verpersoonlik nie\n\nJou selfoon te vind of op te spoor indien dit verlore gaan nie</string>
   <string name="cmaccount_setup_create_title">Skep jou rekening</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Ontsluit toestel</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Sluit toestel</string>
   <string name="cmaccount_setup_email_unavailable_label">Hierdie gebruikernaam is nie beskikbaar nie</string>
   <string name="cmaccount_setup_email_invalid_label">Jammer, slegs letters (a-z), getalle (0-9), en die karakters (.+&amp;-_) word toegelaat.</string>
   <string name="cmaccount_setup_displayname_label">Tik asseblief jou vertoon naam</string>
@@ -45,14 +54,17 @@
   <string name="cmaccount_creating_profile_message">Besig om jou Cyanogen profiel te skep</string>
   <string name="cmaccount_login_error_title">Aanmelding het misluk</string>
   <string name="cmaccount_login_error_message">Ongeldig e-pos of wagwoord.</string>
+  <string name="cmaccount_killswitch_login_error_message">Verkeerde e-pos of wagwoord, probeer weer of besoek https://account.cyngn.com om jou wagwoord te herstel.</string>
+  <string name="cmaccount_server_error_title">Kommunikasie fout</string>
   <string name="cmaccount_create_account_error_title">Fout met skepping van rekening</string>
   <string name="cmaccount_create_account_error_message">\'n Fout het plaasgevind terwyl jou rekening geskep was. %1$s</string>
   <string name="cmaccount_server_error_message">\'n Fout het voorgekom met kommunikasie aan die bediener. Dit kan as gevolg wees van die verlies van konnektiwiteit. Jy kan probeer om met \'n ander Wi-Fi netwerk te verbind en/of te verseker jou SIM-kaart behoorlik ingesit is.</string>
   <string name="cmaccount_cert_pin_warning_title">Opgradeer asseblief</string>
   <string name="cmaccount_cert_pin_warning_text">Vir sekuriteit redes, kan Cyanogen rekening gou ophou werk. Opgradeer asseblief onmiddellik.</string>
   <string name="cmaccount_error_multiple_accounts">Slegs een Cyanogen rekening word toegelaat per toestel</string>
-  <string name="cmaccount_allow_access">%1$s wil toegang hê tot</string>
+  <string name="cmaccount_allow_access">%1$s wil toegang hê na %2$s</string>
   <string name="cmaccount_granting_access">Die verlening van toegang tot %1$s</string>
+  <string name="userinfo.summary" tools:ignore="UnusedResources">Bekyk basiese inligting oor jou rekening, insluitend jou e-pos</string>
   <string name="cmaccount_password_changed_title">Wagwoord het verander</string>
   <string name="cmaccount_password_changed_message">Teken in op jou Cyanogen rekening</string>
   <string name="cmaccount_setup_email_blank_label">Moet \'n e-pos verskaf</string>
@@ -61,6 +73,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Moet \'n vertoon naam verskaf</string>
   <string name="cmaccount_setup_must_agree_label">Moet saamstem met beleidsbepalings</string>
   <string name="cmaccount_setup_displayname_invalid_label">Ongeldige vertoon naam</string>
+  <string name="account_registered_perm_string">Laat die program toe om Cyanogen rekening registrasie kennisgewings te ontvang. Enige program wat hierdie toestemming toegestaan is sal in staat wees om te luister vir wanneer \'n Cyanogen rekening geregistreer word.</string>
   <string name="account_registered_permission_label_string">Ontvang Cyanogen Rekening registrasie kennisgewings</string>
   <string name="cmaccount_displayname_label">Hoe wil jy jou naam vertoon?</string>
   <string name="cmaccount_displayname_hint">Vertoon Naam</string>
@@ -69,8 +82,6 @@
   <string name="cmaccount_password_hint">Tik jou wagwoord</string>
   <string name="cmaccount_confirmpass_label">Tik wagwoord weer in</string>
   <string name="cmaccount_confirmpass_hint">Tik jou wagwoord weer in</string>
-  <string name="cmaccount_tos_iagree">Ek stem saam met die </string>
-  <string name="cmaccount_tos_link">terme van die diens</string>
   <string name="cmaccount_cancel">KANSELLEER</string>
   <string name="cmaccount_create">Skep jou Cyanogen Rekening</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
@@ -81,6 +92,8 @@
   <string name="cyngn_setup_sign_in">TEKEN\u00A0IN</string>
   <string name="cyngn_setup_email_edittext_hint">Sleutel jou e-posadres in</string>
   <string name="cyngn_setup_show_password">Wys wagwoord</string>
+  <string name="cyngn_setup_reset_password_dialog">Om jou wagwoord te herstel besoek https://account.cyngn.com van jou rekenaar af.</string>
+  <string name="cyngn_setup_forgot_password">Wagwoord vergeet?</string>
   <string name="cyngn_setup_toslist_header">Kies om te hersien</string>
   <string name="cyngn_setup_displayname_description">Jou vertoonnaam word aan ander gebruikers gewys wanneer jy \'n resensies vir \'n tema binne die temas program los.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Die e-posadres wat jy gekies het is nie beskikbaar nie.</string>

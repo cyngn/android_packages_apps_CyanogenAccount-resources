@@ -17,5 +17,8 @@
      limitations under the License.
 -->
 <resources xmlns:tools="http://schemas.android.com/tools" xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
-  <string name="cmaccount_granting_access">%1$s üçün müraciət icazəsi verilir</string>
+  <string name="cancel">Annulearje\u00A0</string>
+  <string name="ok">OK</string>
+  <string name="cmaccount_email_label">E-mailadres</string>
+  <string name="cmaccount_cancel">ANNULEARJE</string>
 </resources>
