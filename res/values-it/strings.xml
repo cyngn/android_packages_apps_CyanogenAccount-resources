@@ -47,7 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Le password non coincidono!</string>
   <string name="cmaccount_setup_password_invalid_label">La password deve contenere almeno 8 caratteri!</string>
   <string name="cmaccount_setup_confirm_password_label">Re-inserisci la password</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Spuntando questa casella accetti le <u>condizioni d'uso Cyanogen</u>, la <u>politica sulla privacy</u> e l'<u>accordo di licenza con l'utente finale</u>.]]></string>
+  <string name="cmaccount_setup_tos_label"><![CDATA[Spuntando questa casella accetti le <u>condizioni d\'uso Cyanogen</u>, la <u>politica sulla privacy</u> e l\'<u>accordo di licenza con l\'utente finale</u>.]]></string>
   <string name="cmaccount_add_title">Aggiungi il tuo account</string>
   <string name="cmaccount_learn_more">Leggi\u2026</string>
   <string name="cmaccount_login_message">Accesso al tuo account Cyanogen in corso</string>
@@ -105,7 +105,7 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Debole</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Troppo breve</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Il tuo telefono, le tue regole</b>-Personalizza il tuo telefono con l'app Temi]]></item>
+    <item><![CDATA[<b>Il tuo telefono, le tue regole</b>-Personalizza il tuo telefono con l\'app Temi]]></item>
     <item><![CDATA[<b>Trova il tuo telefono</b> - Trova e formatta il telefono se è stato smarrito]]></item>
   </string-array>
   <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Rendi le tue app Cloud</b> - Spostale tra dispositivi Cyanogen con Nextbit Baton]]></string>

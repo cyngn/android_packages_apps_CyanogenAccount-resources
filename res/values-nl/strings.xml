@@ -105,7 +105,7 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Zwak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Te kort</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Uw telefoon, uw regels</b> - Personaliseer uw telefoon met de app Thema's]]></item>
+    <item><![CDATA[<b>Uw telefoon, uw regels</b> - Personaliseer uw telefoon met de app Thema\'s]]></item>
     <item><![CDATA[<b>Uw telefoon vinden</b> - Vind en wis uw telefoon wanneer u deze kwijt bent]]></item>
   </string-array>
   <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Apps in de cloud</b> - Wissel tussen Cyanogen-apparaten met Nextbit Baton]]></string>

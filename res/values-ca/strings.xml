@@ -47,7 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Les contrasenyes no coincideixen!</string>
   <string name="cmaccount_setup_password_invalid_label">La contrasenya ha de tenir almenys 8 caràcters!</string>
   <string name="cmaccount_setup_confirm_password_label">Torna a introduir la contrasenya</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Marcant aquesta casella acceptes <u>L'Acord de llicència d'usuari final</u>, <u>la Política de privacitat</u>, i <u>les Condicions d'ús de Cyanogen</u>.]]></string>
+  <string name="cmaccount_setup_tos_label"><![CDATA[Marcant aquesta casella acceptes <u>L\'Acord de llicència d\'usuari final</u>, <u>la Política de privacitat</u>, i <u>les Condicions d\'ús de Cyanogen</u>.]]></string>
   <string name="cmaccount_add_title">Afegeix el teu compte</string>
   <string name="cmaccount_learn_more">Aprèn més\u2026</string>
   <string name="cmaccount_login_message">S\'està entrant a Cyanogen</string>
@@ -105,11 +105,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Dèbil</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Massa curta</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>El teu telèfon, les teves normes</b> - Personalitza el teu telèfon a l'aplicació de Temes]]></item>
+    <item><![CDATA[<b>El teu telèfon, les teves normes</b> - Personalitza el teu telèfon a l\'aplicació de Temes]]></item>
     <item><![CDATA[<b>Troba el teu telèfon</b> - Troba i esborra el teu telèfon si el perds]]></item>
   </string-array>
   <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Posa al núvol les teves aplicacions</b> - Mou entre els dispositius Cyanogen amb Nextbit Baton]]></string>
   <string name="tos_linktext_cyanogen"><![CDATA[Condicions del servei de Cyanogen]]></string>
   <string name="privacy_linktext_cyanogen"><![CDATA[Política de privacitat de Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Acord de llicència d'usuari final de Cyanogen]]></string>
+  <string name="eula_linktext_cyanogen"><![CDATA[Acord de llicència d\'usuari final de Cyanogen]]></string>
 </resources>

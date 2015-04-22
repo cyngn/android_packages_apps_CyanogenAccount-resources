@@ -41,7 +41,7 @@
   <string name="cyngn_setup_email_edittext_hint">Veuillez entrer votre adresse e-mail</string>
   <string name="cyngn_setup_show_password">Afficher le mot de passe</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Fort</string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Conditions d'utilisation de Cyanogen]]></string>
+  <string name="tos_linktext_cyanogen"><![CDATA[Conditions d\'utilisation de Cyanogen]]></string>
   <string name="privacy_linktext_cyanogen"><![CDATA[Politique de confidentialité de Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Contrat de licence de l'utilisateur final Cyanogen]]></string>
+  <string name="eula_linktext_cyanogen"><![CDATA[Contrat de licence de l\'utilisateur final Cyanogen]]></string>
 </resources>

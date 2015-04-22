@@ -95,7 +95,7 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Svag</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">For kort</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Din telefon, dine regler</b> - Tilpas din telefon i Tema app'en]]></item>
+    <item><![CDATA[<b>Din telefon, dine regler</b> - Tilpas din telefon i Tema app\'en]]></item>
     <item><![CDATA[<b>Find din telefon</b> - Find og slet din telefon, hvis du mister den]]></item>
   </string-array>
   <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Få dine apps i skyen</b> - Flyt mellem Cyanogen-enheder med Nextbit Baton]]></string>
