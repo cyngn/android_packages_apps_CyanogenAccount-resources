@@ -50,7 +50,7 @@
     <string name="cmaccount_setup_password_mismatch_label">Passwords don\'t match!</string>
     <string name="cmaccount_setup_password_invalid_label">Password must be at least 8 characters!</string>
     <string name="cmaccount_setup_confirm_password_label">Re-enter password</string>
-    <string name="cmaccount_setup_tos_label"><![CDATA[By checking this box you agree to <u>Cyanogen\'s Terms of Use</u>, <u>Privacy Policy</u>, and <u>End User License Agreement</u>.]]></string>
+    <string name="cmaccount_setup_tos_label">By checking this box you agree to <u>Cyanogen\'s Terms of Use</u>, <u>Privacy Policy</u>, and <u>End User License Agreement</u>.</string>
     <string name="cmaccount_add_title">Add your account</string>
     <string name="cmaccount_learn_more">Learn more\u2026</string>
 
@@ -120,14 +120,14 @@
     <string name="cyngn_setup_password_strength_meter_label_tooshort">Too short</string>
 
     <string-array name="cyngn_account_benefits_list">
-        <item><![CDATA[<b>Your phone, your rules</b> - Customize your phone in the Themes app]]></item>
-        <item><![CDATA[<b>Find your phone</b> - Find and erase your phone if it is lost]]></item>
+        <item><b>Your phone, your rules</b> - Customize your phone in the Themes app</item>
+        <item><b>Find your phone</b> - Find and erase your phone if it is lost</item>
     </string-array>
     <!-- This is only for devices with NextBit -->
-    <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton]]></string>
+    <string name="cyngn_account_benefit_nextbit"><b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton</string>
 
     <!-- List of display names for links to various terms of service -->
-    <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen Terms of Service]]></string>
-    <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen Privacy Policy]]></string>
-    <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen End User License Agreement]]></string>
+    <string name="tos_linktext_cyanogen">Cyanogen Terms of Service</string>
+    <string name="privacy_linktext_cyanogen">Cyanogen Privacy Policy</string>
+    <string name="eula_linktext_cyanogen">Cyanogen End User License Agreement</string>
 </resources>
