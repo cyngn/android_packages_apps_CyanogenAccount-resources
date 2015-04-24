@@ -35,7 +35,6 @@
   <string name="dont_skip">不要跳过</string>
   <string name="setup_warning_skip_wifi">警告：您可能需要额外支付运营商数据费。\n\n手机设置过程可能会消耗大量网络流量。</string>
   <string name="setup_warning_accept_tos">在您继续前，您必须选中该复选框以同意本使用条款、隐私政策和最终用户许可协议。</string>
-  <string name="setup_warning_skip_anyway">“如果不创建 Cyanogen OS 帐户，您将：\n\n无法使用主题应用来使用新的图标、壁纸和其他内容来自定义您的手机\n\n无法定位或擦除遗失的手机”</string>
   <string name="cmaccount_setup_create_title">创建您的帐户</string>
   <string name="cmaccount_setup_killswitchlogin_title">解锁设备</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">锁定设备</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">密码不匹配！</string>
   <string name="cmaccount_setup_password_invalid_label">密码不能少于 8 个字符！</string>
   <string name="cmaccount_setup_confirm_password_label">再输入一次密码</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[选中此复选框代表您已经同意  <u>Cyanogen 的使用条款</u>、<u>隐私政策</u>和<u>最终用户许可协议</u>。]]></string>
   <string name="cmaccount_add_title">添加您的帐户</string>
   <string name="cmaccount_learn_more">了解更多\u2026</string>
   <string name="cmaccount_login_message">正在登录到 Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">请升级</string>
   <string name="cmaccount_cert_pin_warning_text">出于安全原因， Cyanogen 帐户很快将停止工作，请立即升级。</string>
   <string name="cmaccount_error_multiple_accounts">一台设备上仅允许有一个 Cyanogen 帐户</string>
-  <string name="cmaccount_allow_access">%1$s 想要访问 %2$s</string>
   <string name="cmaccount_granting_access">授予对 %1$s 的访问权限</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">查看您帐户的基本信息，包括您的电子邮件地址</string>
   <string name="cmaccount_password_changed_title">密码已修改</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">弱</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">太短</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>您的手机，您做主</b> - 在主题应用里自定义您的手机]]></item>
-    <item><![CDATA[<b>寻找您的手机</b> - 如果您的手机丢失，寻找手机和擦除内容]]></item>
+    <item><b>您的手机，您做主</b> - 在主题应用里自定义您的手机</item>
+    <item><b>寻找您的手机</b> - 如果您的手机丢失，寻找手机和擦除内容</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>云端化您的应用</b> - 使用 Nextbit Baton 在 Cyanogen 设备上漫游您的应用]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen 服务条款]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen 隐私政策]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen 最终用户许可协议]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>云端化您的应用</b> - 使用 Nextbit Baton 在 Cyanogen 设备上漫游您的应用</string>
+  <string name="tos_linktext_cyanogen">Cyanogen 服务条款</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen 隐私政策</string>
+  <string name="eula_linktext_cyanogen">Cyanogen 最终用户许可协议</string>
 </resources>

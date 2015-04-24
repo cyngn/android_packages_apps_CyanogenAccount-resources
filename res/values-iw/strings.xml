@@ -35,7 +35,6 @@
   <string name="dont_skip">אל תדלג</string>
   <string name="setup_warning_skip_wifi">אזהרה: אתה עלול לקבל חיובי נתונים גבוהים מחברת הסלולר.\n\nהגדרת מכשיר עלולה לצרוך פעילות רשת רבה.</string>
   <string name="setup_warning_accept_tos">עליך להסכים לתנאי השימוש, מדיניות הפרטיות והסכם רישיון משתמש קצה על-ידי סימון התיבה לפני המשך התהליך.</string>
-  <string name="setup_warning_skip_anyway">בלי חשבון מערכת Cyanogen, לא ניתן יהיה:\n\nלהתאים את מכשירך עם סמלים, רקעים ועוד ביישום ערכות העיצוב\n\nלאתר או למחוק מרחוק את מכשירך במקרה של אובדן</string>
   <string name="cmaccount_setup_create_title">צור את החשבון שלך</string>
   <string name="cmaccount_setup_killswitchlogin_title">פתח מכשיר</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">נעל מכשיר</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">הסיסמאות אינן תאומות!</string>
   <string name="cmaccount_setup_password_invalid_label">‏אורך הסיסמה חייב להיות לפחות 8 תווים!</string>
   <string name="cmaccount_setup_confirm_password_label">הכנס סיסמה מחדש</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[סימון תיבה זאת מהווה הסכמה ל<u>תנאי השימוש</u>, <u>מדיניות הפרטיות</u>, ו<u>הסכם רישיון משתמש קצה של Cyanogen</u>.]]></string>
   <string name="cmaccount_add_title">הוסף את חשבונך</string>
   <string name="cmaccount_learn_more">למד עוד\u2026</string>
   <string name="cmaccount_login_message">מתחבר ל-Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">אנא שדרג</string>
   <string name="cmaccount_cert_pin_warning_text">מסיבות בטיחותיות, חשבון Cyanogen עלול להפסיק לעבוד בקרוב. אנא שדרג באופן מיידי.</string>
   <string name="cmaccount_error_multiple_accounts">רק חשבון Cyanogen אחד אפשרי לכל מכשיר</string>
-  <string name="cmaccount_allow_access">%1$s מעוניין לקבל גישה ל-%2$s</string>
   <string name="cmaccount_granting_access">מעניק גישה ל-%1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">הצג מידע בסיסי על חשבונך, כולל כתובת הדוא\"ל שלך</string>
   <string name="cmaccount_password_changed_title">הסיסמה שונתה</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">חלש</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">קצר מדי</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>המכשיר שלך, החוקים שלך</b> - התאם אישית את מכשירך ביישום ערכות העיצוב]]></item>
-    <item><![CDATA[<b>מצא את מכשירך</b> - מצא ומחק את מכשירך במקרה של אובדן]]></item>
+    <item><b>המכשיר שלך, החוקים שלך</b> - התאם אישית את מכשירך ביישום ערכות העיצוב</item>
+    <item><b>מצא את מכשירך</b> - מצא ומחק את מכשירך במקרה של אובדן</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>העלה את יישומיך לענן</b> - עבור בין מכשירי Cyanogen בעזרת Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[תנאי השירות של Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[מדיניות הפרטיות של Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[הסכם רישיון משתמש קצה של Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>העלה את יישומיך לענן</b> - עבור בין מכשירי Cyanogen בעזרת Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">תנאי השירות של Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">מדיניות הפרטיות של Cyanogen</string>
+  <string name="eula_linktext_cyanogen">הסכם רישיון משתמש קצה של Cyanogen</string>
 </resources>

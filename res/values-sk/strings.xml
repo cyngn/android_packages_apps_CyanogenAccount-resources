@@ -35,7 +35,6 @@
   <string name="dont_skip">Nepreskakovať</string>
   <string name="setup_warning_skip_wifi">VAROVANIE: Môžu sa vyskytnúť ďalšie dátové poplatky u operátora.\n\nNastavenie zariadenia môže vyžadovať značnú aktivitu v sieti.</string>
   <string name="setup_warning_accept_tos">Pred pokračovaním musíte súhlasiť s „Podmienkami používania“, „Ochranou osobných údajov“ a „Licenčnou zmluvou koncového používateľa“ zaškrtnutím políčka.</string>
-  <string name="setup_warning_skip_anyway">Bez účtu Cyanogen OS nebudete môcť:\n\nPrispôsobiť si telefón s novými ikonami, tapetami a ďalším obsahom z aplikácie Témy\n\nNájsť alebo vzdialene vymazať váš telefón po jeho strate</string>
   <string name="cmaccount_setup_create_title">Vytvorte si účet</string>
   <string name="cmaccount_setup_killswitchlogin_title">Odomknúť zariadenie</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Zamknúť zariadenie</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Heslá sa nezhodujú!</string>
   <string name="cmaccount_setup_password_invalid_label">Heslo musí mať najmenej 8 znakov!</string>
   <string name="cmaccount_setup_confirm_password_label">Znova zadajte heslo</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Zaškrtnutím tohto políčka súhlasíte s <u>Podmienkami používania Cyanogen</u>, <u>Ochranou osobných údajov</u> a <u>Licenčnou zmluvou koncového používateľa</u>.]]></string>
   <string name="cmaccount_add_title">Pridajte si účet</string>
   <string name="cmaccount_learn_more">Zistiť viac\u2026</string>
   <string name="cmaccount_login_message">Prihlasovanie do Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Prosím, aktualizujte</string>
   <string name="cmaccount_cert_pin_warning_text">Z bezpečnostných dôvodov účet Cyanogen môže čoskoro prestať fungovať. Prosím, ihneď aktualizujte.</string>
   <string name="cmaccount_error_multiple_accounts">Na jednom zariadení je povolené mať iba jeden účet Cyanogen</string>
-  <string name="cmaccount_allow_access">%1$s chce získať prístup k %2$s</string>
   <string name="cmaccount_granting_access">Udeľovanie prístupu k %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Zobraziť základné informácie o vašom účte, vrátane vášho e-mailu</string>
   <string name="cmaccount_password_changed_title">Heslo sa zmenilo</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Slabé</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Príliš krátke</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Váš telefón, vaše pravidlá</b> - Prispôsobte si telefón v aplikácii Témy]]></item>
-    <item><![CDATA[<b>Nájdite svoj telefón</b> - Nájdite a vymažte svoj telefón po jeho strate]]></item>
+    <item><b>Váš telefón, vaše pravidlá</b> - Prispôsobte si telefón v aplikácii Témy</item>
+    <item><b>Nájdite svoj telefón</b> - Nájdite a vymažte svoj telefón po jeho strate</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Aplikácie v cloude</b> - Presúvajte dáta medzi zariadeniami Cyanogen pomocou Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Podmienky služby Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Ochrana osobných údajov Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Licenčná zmluva koncového používateľa Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Aplikácie v cloude</b> - Presúvajte dáta medzi zariadeniami Cyanogen pomocou Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Podmienky služby Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Ochrana osobných údajov Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Licenčná zmluva koncového používateľa Cyanogen</string>
 </resources>

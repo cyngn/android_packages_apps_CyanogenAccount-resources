@@ -35,7 +35,6 @@
   <string name="dont_skip">Немој прескочити</string>
   <string name="setup_warning_skip_wifi">УПОЗОРЕЊЕ: Оператер ће ти можда наплатити додатне трошкове.\n\nПодешавање урђаја може захтевати значајну употребу интернет везе.</string>
   <string name="setup_warning_accept_tos">Морате се сложити са условима коришћења, политиком приватности и уговором о лиценцама селектујући поље за потврду да би наставили.</string>
-  <string name="setup_warning_skip_anyway">Без Cyanogen OS налога, нећеш моћи да:\n\nПрилагодиш телефон са новим иконама, тапетама и осталим у апликацији тема\n\nЛоцираш или обришеш телефон на даљину ако га изгубиш</string>
   <string name="cmaccount_setup_create_title">Направи свој налог</string>
   <string name="cmaccount_setup_killswitchlogin_title">Откључај уређај</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Закључај уређај</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Лозинке се не поклапају!</string>
   <string name="cmaccount_setup_password_invalid_label">Лозинка мора имати најмање 8 знакова!</string>
   <string name="cmaccount_setup_confirm_password_label">Понови лозинку</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Овом потврдом слажете се са <u>Cyanogen-овим условима коришћења</u>, <u> политиком приватности</u> и <u>уговором о лиценцама</u>.]]></string>
   <string name="cmaccount_add_title">Додај твој налог</string>
   <string name="cmaccount_learn_more">Сазнај више\u2026</string>
   <string name="cmaccount_login_message">Логовање у Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Молим ажурирај</string>
   <string name="cmaccount_cert_pin_warning_text">Из безбедносних разлга, Cyanogen налог може укоро престати да ради. Молим ажурирај одмах.</string>
   <string name="cmaccount_error_multiple_accounts">Само један CyanogenMod налог може бити коришћен по уређају</string>
-  <string name="cmaccount_allow_access">%1$s жели приступ за %2$s</string>
   <string name="cmaccount_granting_access">Омогућавање приступа за %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Погледај основне информације о налогу, укључујући и Е-пошту</string>
   <string name="cmaccount_password_changed_title">Лозинка је промењена</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Слаба</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Прекратко</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Твој телефон, твоја правила</b> - Подеси свој телефон у апликацији тема]]></item>
-    <item><![CDATA[<b>Пронађи телефон</b> - Пронађи и обриши телефон ако је изгубљен]]></item>
+    <item><b>Твој телефон, твоја правила</b> - Подеси свој телефон у апликацији тема</item>
+    <item><b>Пронађи телефон</b> - Пронађи и обриши телефон ако је изгубљен</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Подигни своје апликације у облак</b> - Крећи се између Cyanogen уређаја са Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen услови коришћења]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen политика приватности]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen заштита лиценци]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Подигни своје апликације у облак</b> - Крећи се између Cyanogen уређаја са Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Cyanogen услови коришћења</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen политика приватности</string>
+  <string name="eula_linktext_cyanogen">Cyanogen заштита лиценци</string>
 </resources>

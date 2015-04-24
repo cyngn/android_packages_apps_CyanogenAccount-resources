@@ -35,7 +35,6 @@
   <string name="dont_skip">スキップしない</string>
   <string name="setup_warning_skip_wifi">警告: 追加のパケット通信料が発生する可能性があります。\n\n端末のセットアップはかなりのネットワークアクティビティを必要とする可能性があります。</string>
   <string name="setup_warning_accept_tos">続ける前にチェックボックスを選択して利用規約、プライバシーポリシー、使用許諾契約に同意する必要があります。</string>
-  <string name="setup_warning_skip_anyway">Cyanogen OSアカウントがないと、以下のことができません:\n\nテーマアプリで新しいアイコンや壁紙などで携帯電話をカスタマイズする\n\n紛失時に携帯電話を探したり遠隔操作でデータを消去する</string>
   <string name="cmaccount_setup_create_title">アカウントを作成</string>
   <string name="cmaccount_setup_killswitchlogin_title">端末をロック解除</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">端末をロック</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">パスワードが一致しません。</string>
   <string name="cmaccount_setup_password_invalid_label">パスワードは最低でも8文字でなければなりません。</string>
   <string name="cmaccount_setup_confirm_password_label">パスワードを再入力</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[このボックスをチェックすると<u>Cyanogenの利用規約</u>、<u>プライバシーポリシー</u>、<u>使用許諾契約</u>に同意したことになります。]]></string>
   <string name="cmaccount_add_title">アカウントを追加</string>
   <string name="cmaccount_learn_more">詳細\u2026</string>
   <string name="cmaccount_login_message">Cyanogenにログイン中</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">アップグレードしてください</string>
   <string name="cmaccount_cert_pin_warning_text">セキュリティ上の理由で、将来的にCyanogenアカウントが使えなくなる可能性があります。すぐにアップグレードしてください。</string>
   <string name="cmaccount_error_multiple_accounts">端末1台に登録できるCyanogenアカウントは1つのみです</string>
-  <string name="cmaccount_allow_access">%1$sが%2$sにアクセスしようとしています</string>
   <string name="cmaccount_granting_access">%1$sへのアクセスを許可中</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">メールアドレスを含むアカウントについての基本的な情報を表示する</string>
   <string name="cmaccount_password_changed_title">パスワードを変更しました</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">弱い</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">短すぎます</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>携帯電話を自分の思い通りに</b> - テーマアプリで携帯電話をカスタマイズする]]></item>
-    <item><![CDATA[<b>携帯電話を探す</b> - 紛失時に携帯電話を探したりデータを消去する]]></item>
+    <item><b>携帯電話を自分の思い通りに</b> - テーマアプリで携帯電話をカスタマイズする</item>
+    <item><b>携帯電話を探す</b> - 紛失時に携帯電話を探したりデータを消去する</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>アプリをクラウド化</b> - Nextbit BatonでCyanogen端末間を移動する]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen利用規約]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogenプライバシーポリシー]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen使用許諾契約]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>アプリをクラウド化</b> - Nextbit BatonでCyanogen端末間を移動する</string>
+  <string name="tos_linktext_cyanogen">Cyanogen利用規約</string>
+  <string name="privacy_linktext_cyanogen">Cyanogenプライバシーポリシー</string>
+  <string name="eula_linktext_cyanogen">Cyanogen使用許諾契約</string>
 </resources>

@@ -35,7 +35,6 @@
   <string name="dont_skip">Ne pas ignorer</string>
   <string name="setup_warning_skip_wifi">ATTENTION : Cela peut engendrer des frais de données supplémentaires.\n\nLa configuration de l\'appareil peut exiger une activité importante du réseau.</string>
   <string name="setup_warning_accept_tos">Vous devez accepter les Conditions d\'utilisation, la Politique de confidentialité et le Contrat de licence de l\'utilisateur final en cochant la case avant de poursuivre.</string>
-  <string name="setup_warning_skip_anyway">Sans un compte Cyanogen OS, vous ne serez pas en mesure de :\n\nPersonnaliser votre téléphone avec les nouvelles icônes, fonds d\'écran et plus encore dans l\'application Thèmes\n\nLocaliser ou réinitialiser votre téléphone à distance si il est perdu</string>
   <string name="cmaccount_setup_create_title">Créer votre compte</string>
   <string name="cmaccount_setup_killswitchlogin_title">Déverrouiller l\'appareil</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Verrouiller l\'appareil</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Les mots de passe ne correspondent pas!</string>
   <string name="cmaccount_setup_password_invalid_label">Le mot de passe doit comporter au moins 8 caractères!</string>
   <string name="cmaccount_setup_confirm_password_label">Entrez à nouveau le mot de passe</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[En cochant cette case, vous acceptez les <u>Conditions d'utilisation de Cyanogen</u>, la <u>Politique de confidentialité</u> et le <u>Contrat de licence de l'utilisateur final</u>.]]></string>
   <string name="cmaccount_add_title">Ajouter votre compte</string>
   <string name="cmaccount_learn_more">En savoir plus\u2026</string>
   <string name="cmaccount_login_message">Connexion à Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Veuillez mettre à jour</string>
   <string name="cmaccount_cert_pin_warning_text">Pour des raisons de sécurité, le compte Cyanogen peut s’arrêter de fonctionner. Veuillez mettre à jour immédiatement.</string>
   <string name="cmaccount_error_multiple_accounts">Un seul compte Cyanogen est autorisé par appareil</string>
-  <string name="cmaccount_allow_access">%1$s cherche à accéder à %2$s</string>
   <string name="cmaccount_granting_access">Accorder l\'accès à %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Voir les informations de base sur votre compte, y compris votre adresse e-mail</string>
   <string name="cmaccount_password_changed_title">Mot de passe modifié</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Faible</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Trop court</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Votre téléphone, vos règles</b> - Personnalisez votre téléphone dans l'application Thèmes]]></item>
-    <item><![CDATA[<b>Trouvez votre téléphone</b> - Trouvez et réinitialisez votre téléphone s'il est perdu]]></item>
+    <item><b>Votre téléphone, vos règles</b> - Personnalisez votre téléphone dans l\'application Thèmes</item>
+    <item><b>Trouvez votre téléphone</b> - Trouvez et réinitialisez votre téléphone s\'il est perdu</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Cloudify vos applications</b> - Déplacer entre des appareils Cyanogen avec Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Conditions d'utilisation de Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Politique de confidentialité de Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Contrat de licence de l'utilisateur final Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Cloudify vos applications</b> - Déplacer entre des appareils Cyanogen avec Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Conditions d\'utilisation de Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Politique de confidentialité de Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Contrat de licence de l\'utilisateur final Cyanogen</string>
 </resources>

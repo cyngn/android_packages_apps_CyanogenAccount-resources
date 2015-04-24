@@ -35,7 +35,6 @@
   <string name="dont_skip">Niet overslaan</string>
   <string name="setup_warning_skip_wifi">Let op: gegevensgebruik kan leiden tot extra kosten.\n\nBij het instellen van uw apparaat kan veel netwerkactiviteit plaatsvinden.</string>
   <string name="setup_warning_accept_tos">U dient akkoord te gaan met de Algemene voorwaarden, het Privacybeleid en de Licentieovereenkomst voor eindgebruikers door het selectievakje aan te vinken alvorens door te gaan.</string>
-  <string name="setup_warning_skip_anyway">Zonder een Cyanogen OS-account kunt u niet:\n\nUw telefoon personaliseren met nieuwe pictogrammen, achtergronden en meer in de app Thema\'s\n\nUw telefoon lokaliseren of op afstand wissen wanneer u deze kwijt raakt</string>
   <string name="cmaccount_setup_create_title">Uw account aanmaken</string>
   <string name="cmaccount_setup_killswitchlogin_title">Apparaat ontgrendelen</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Apparaat vergrendelen</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Wachtwoorden komen niet overeen</string>
   <string name="cmaccount_setup_password_invalid_label">Wachtwoord moet ten minste 8 tekens bevatten</string>
   <string name="cmaccount_setup_confirm_password_label">Wachtwoord opnieuw invoeren</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Door het selectievakje aan te vinken gaat u akkoord met <u>de Algemene voorwaarden</u>, <u>het Privacybeleid</u> en <u>de Licentieovereenkomst voor eindgebruikers</u> van Cyanogen.]]></string>
   <string name="cmaccount_add_title">Uw account toevoegen</string>
   <string name="cmaccount_learn_more">Lees meer\u2026</string>
   <string name="cmaccount_login_message">Inloggen bij Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Bijwerken</string>
   <string name="cmaccount_cert_pin_warning_text">Om veiligheidsredenen werkt uw Cyanogen-account binnenkort mogelijk niet meer. Upgrade a.u.b. zo snel mogelijk.</string>
   <string name="cmaccount_error_multiple_accounts">Slechts één Cyanogen-account toegestaan per apparaat</string>
-  <string name="cmaccount_allow_access">%1$s wil toegang tot %2$s</string>
   <string name="cmaccount_granting_access">Toegang verlenen aan %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Basisinformatie weergeven over uw account, waaronder uw e-mailadres</string>
   <string name="cmaccount_password_changed_title">Wachtwoord gewijzigd</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Zwak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Te kort</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Uw telefoon, uw regels</b> - Personaliseer uw telefoon met de app Thema's]]></item>
-    <item><![CDATA[<b>Uw telefoon vinden</b> - Vind en wis uw telefoon wanneer u deze kwijt bent]]></item>
+    <item><b>Uw telefoon, uw regels</b> - Personaliseer uw telefoon met de app Thema\'s</item>
+    <item><b>Uw telefoon vinden</b> - Vind en wis uw telefoon wanneer u deze kwijt bent</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Apps in de cloud</b> - Wissel tussen Cyanogen-apparaten met Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Algemene voorwaarden van Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Privacybeleid van Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Licentieovereenkomst voor eindgebruikers van Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Apps in de cloud</b> - Wissel tussen Cyanogen-apparaten met Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Algemene voorwaarden van Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Privacybeleid van Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Licentieovereenkomst voor eindgebruikers van Cyanogen</string>
 </resources>

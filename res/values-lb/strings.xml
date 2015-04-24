@@ -74,8 +74,8 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Schwaach</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Ze kuerz</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Your phone, your rules</b> - Customize your phone in the Themes app]]></item>
-    <item><![CDATA[<b>Lokaliséier däin Telefon</b> - Fann a läsch däin Telefon wann s du e verluer hues]]></item>
+    <item><b>Your phone, your rules</b> - Customize your phone in the Themes app</item>
+    <item><b>Lokaliséier däin Telefon</b> - Fann a läsch däin Telefon wann s du e verluer hues</item>
   </string-array>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen-Geschäftsbedéngungen]]></string>
+  <string name="tos_linktext_cyanogen">Cyanogen-Geschäftsbedéngungen</string>
 </resources>

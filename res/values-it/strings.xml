@@ -35,7 +35,6 @@
   <string name="dont_skip">Non saltare</string>
   <string name="setup_warning_skip_wifi">ATTENZIONE: Potresti incorrere in costi aggiuntivi di connessione.\n\nLa configurazione del dispositivo potrebbe richiedere un significativo utilizzo di dati.</string>
   <string name="setup_warning_accept_tos">È necessario accettare le condizioni d\'uso, la politica sulla privacy e l\'accordo di licenza con l\'utente finale selezionando la casella prima di continuare.</string>
-  <string name="setup_warning_skip_anyway">\"Senza un account Cyanogen OS, non sarai in grado di:\n\nPersonalizzare il telefono con nuove icone, sfondi ed altro ancora dall\'app Temi\n\nLocalizzare o formattare da remoto il telefono se viene smarrito\"</string>
   <string name="cmaccount_setup_create_title">Crea account</string>
   <string name="cmaccount_setup_killswitchlogin_title">Sblocca il dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Blocca dispositivo</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Le password non coincidono!</string>
   <string name="cmaccount_setup_password_invalid_label">La password deve contenere almeno 8 caratteri!</string>
   <string name="cmaccount_setup_confirm_password_label">Re-inserisci la password</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Spuntando questa casella accetti le <u>condizioni d'uso Cyanogen</u>, la <u>politica sulla privacy</u> e l'<u>accordo di licenza con l'utente finale</u>.]]></string>
   <string name="cmaccount_add_title">Aggiungi il tuo account</string>
   <string name="cmaccount_learn_more">Leggi\u2026</string>
   <string name="cmaccount_login_message">Accesso al tuo account Cyanogen in corso</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Si prega di aggiornare</string>
   <string name="cmaccount_cert_pin_warning_text">Per motivi di sicurezza, l\'account Cyanogen potrebbe smettere di funzionare a breve. Si prega di aggiornare immediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">È consentito un solo account Cyanogen per dispositivo</string>
-  <string name="cmaccount_allow_access">%1$s vorrebbe accedere a %2$s</string>
   <string name="cmaccount_granting_access">Assegnazione dell\'accesso a %1$s in corso</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Visualizza informazioni di base sul tuo account, compreso il tuo indirizzo e-mail</string>
   <string name="cmaccount_password_changed_title">Password modificata</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Debole</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Troppo breve</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Il tuo telefono, le tue regole</b>-Personalizza il tuo telefono con l'app Temi]]></item>
-    <item><![CDATA[<b>Trova il tuo telefono</b> - Trova e formatta il telefono se è stato smarrito]]></item>
+    <item><b>Il tuo telefono, le tue regole</b>-Personalizza il tuo telefono con l\'app Temi</item>
+    <item><b>Trova il tuo telefono</b> - Trova e formatta il telefono se è stato smarrito</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Rendi le tue app Cloud</b> - Spostale tra dispositivi Cyanogen con Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Termini del servizio Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Politica Privacy Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Accordo licenza con utente finale Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Rendi le tue app Cloud</b> - Spostale tra dispositivi Cyanogen con Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Termini del servizio Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Politica Privacy Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Accordo licenza con utente finale Cyanogen</string>
 </resources>

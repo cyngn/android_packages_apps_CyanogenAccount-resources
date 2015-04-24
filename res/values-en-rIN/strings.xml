@@ -32,7 +32,6 @@
   <string name="dont_skip">Don\'t skip</string>
   <string name="setup_warning_skip_wifi">WARNING: You may incur extra carrier data charges.\n\nDevice setup can require significant network activity.</string>
   <string name="setup_warning_accept_tos">You must agree to the Terms of Use, Privacy Policy, and End User License Agreement by selecting the checkbox prior to continuing.</string>
-  <string name="setup_warning_skip_anyway">Without a Cyanogen OS Account, you won\'t be able to:\n\nCustomize your phone with new icons, wallpapers and more in the Themes app\n\nLocate or remotely erase your phone if it\'s lost</string>
   <string name="cmaccount_setup_create_title">Create your account</string>
   <string name="cmaccount_setup_email_unavailable_label">This username is unavailable</string>
   <string name="cmaccount_setup_email_invalid_label">Sorry, only letters (a–z), numbers (0–9), and the characters (.+&amp;-_) are allowed.</string>
@@ -42,7 +41,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Passwords don\'t match!</string>
   <string name="cmaccount_setup_password_invalid_label">Password must be at least 8 characters!</string>
   <string name="cmaccount_setup_confirm_password_label">Re-enter password</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[By checking this box you agree to <u>Cyanogen\'s Terms of Use</u>, <u>Privacy Policy</u>, and <u>End User License Agreement</u>.]]></string>
   <string name="cmaccount_add_title">Add your account</string>
   <string name="cmaccount_learn_more">Learn more\u2026</string>
   <string name="cmaccount_login_message">Logging in to Cyanogen</string>
@@ -96,11 +94,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Weak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Too short</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Your phone, your rules</b> - Customize your phone in the Themes app]]></item>
-    <item><![CDATA[<b>Find your phone</b> - Find and erase your phone if it is lost]]></item>
+    <item><b>Your phone, your rules</b> - Customize your phone in the Themes app</item>
+    <item><b>Find your phone</b> - Find and erase your phone if it is lost</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen Terms of Service]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen Privacy Policy]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen End User License Agreement]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Cyanogen Terms of Service</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen Privacy Policy</string>
+  <string name="eula_linktext_cyanogen">Cyanogen End User License Agreement</string>
 </resources>

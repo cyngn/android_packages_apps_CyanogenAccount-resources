@@ -35,7 +35,6 @@
   <string name="dont_skip">Nepraleisti</string>
   <string name="setup_warning_skip_wifi">ĮSPĖJIMAS: Gali reikėti papildomų duomenų mokesčių.\n\nTelefono nustatymas gali reikalauti svarbios tinklo veiklos.</string>
   <string name="setup_warning_accept_tos">Turite sutikti su naudojimosi sąlygomis, privatumo politika ir galutinio vartotojo licencinė sutartimi pasirenkant langelį prieš tęsiant.</string>
-  <string name="setup_warning_skip_anyway">Be „Cyanogen“ OS paskyros, jums nebus suteikta galimybė:\n\nTemų programoje tinkinti savo telefoną su naujomis piktogramomis, ekrano fonais ir daugiau\n\nRasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis yra prarastas</string>
   <string name="cmaccount_setup_create_title">Sukurti paskyrą</string>
   <string name="cmaccount_setup_killswitchlogin_title">Atrakinti įrenginį</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Užrakinti įrenginį</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Slaptažodžiai nesutampa!</string>
   <string name="cmaccount_setup_password_invalid_label">Slaptažodis turi būti bent 8 simbolių!</string>
   <string name="cmaccount_setup_confirm_password_label">Iš naujo įveskite slaptažodį</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Pažymėdami šį langelį sutinkate su <u>„Cyanogen“ naudojimosi paslaugomis</u>, <u>privatumo politika</u> ir <u>galutinio vartotojo licencinė sutartimi</u>.]]></string>
   <string name="cmaccount_add_title">Pridėti paskyrą</string>
   <string name="cmaccount_learn_more">Sužinokite daugiau\u2026</string>
   <string name="cmaccount_login_message">Prisijungiamia prie „Cyanogen“</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Prašome atnaujinti</string>
   <string name="cmaccount_cert_pin_warning_text">Dėl saugumo priežasčių, „Cyanogen“ paskyra gali nustoti veikti artimiausiu metu. Prašome nedelsiant atnaujinti.</string>
   <string name="cmaccount_error_multiple_accounts">Prietaise leidžiama tik viena „Cyanogen“ paskyra</string>
-  <string name="cmaccount_allow_access">%1$s norėtų prieiti prie %2$s</string>
   <string name="cmaccount_granting_access">Suteikiama prieiga prie %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Peržiūrėti pagrindinę informaciją apie savo paskyrą, įskaitant jūsų el. paštą</string>
   <string name="cmaccount_password_changed_title">Slaptažodis pakeistas</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Silpnas</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Per trumpas</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Jūsų telefonas, jūsų taisyklės</b> - Tinkinti savo telefoną temų programoje]]></item>
-    <item><![CDATA[<b>Ieškoti savo telefono</b> - Rasti ir ištrinti telefoną, jei jis prarastas]]></item>
+    <item><b>Jūsų telefonas, jūsų taisyklės</b> - Tinkinti savo telefoną temų programoje</item>
+    <item><b>Ieškoti savo telefono</b> - Rasti ir ištrinti telefoną, jei jis prarastas</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Debesies programos</b> - Perkelti tarp „Cianogen“ įrenginių su „Nextbit Baton“]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[„Cyanogen“ paslaugos sąlygos]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[„Cyanogen“ privatumo politika]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[„Cyanogen“ galutinio vartotojo licencinė sutartis]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Debesies programos</b> - Perkelti tarp „Cianogen“ įrenginių su „Nextbit Baton“</string>
+  <string name="tos_linktext_cyanogen">„Cyanogen“ paslaugos sąlygos</string>
+  <string name="privacy_linktext_cyanogen">„Cyanogen“ privatumo politika</string>
+  <string name="eula_linktext_cyanogen">„Cyanogen“ galutinio vartotojo licencinė sutartis</string>
 </resources>

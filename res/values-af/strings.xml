@@ -35,7 +35,6 @@
   <string name="dont_skip">Moenie oorslaan nie</string>
   <string name="setup_warning_skip_wifi">WAARSKUWING: Jy kan ekstra netwerk data koste aangaan\n\nToestel opstelling kan aansienlike netwerk data gebruik.</string>
   <string name="setup_warning_accept_tos">Jy moet saamstem met die Voorwaardes, Privaatheidsbeleid, en die Eind Gebruiker Lisensie Ooreenkoms met die kies van die regmerkie voordat jy kan aangaan.</string>
-  <string name="setup_warning_skip_anyway">Sonder \'n Cyanogen bedryfstelsel rekening, sal jy nie in staat wees om:\n\nOm jou selfoon met nuwe ikone, agtergronde en meer in die Temas program te verpersoonlik nie\n\nJou selfoon te vind of op te spoor indien dit verlore gaan nie</string>
   <string name="cmaccount_setup_create_title">Skep jou rekening</string>
   <string name="cmaccount_setup_killswitchlogin_title">Ontsluit toestel</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Sluit toestel</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Wagwoorde stem nie ooreen nie!</string>
   <string name="cmaccount_setup_password_invalid_label">Wagwoord moet ten minste 8 karakters wees!</string>
   <string name="cmaccount_setup_confirm_password_label">Tik wagwoord weer in</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Deur hierdie remerkie te maak, stem jy ooreen met <u>Cyanogen\'s se Voorwaardes van gebruik</u>, <u>Privaatheidsbeleid</u> en <u> Eind Gebruiker Lisensie ooreenkoms</u>.]]></string>
   <string name="cmaccount_add_title">Voeg jou rekening by</string>
   <string name="cmaccount_learn_more">Leer meer\u2026</string>
   <string name="cmaccount_login_message">Teken aan by Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Opgradeer asseblief</string>
   <string name="cmaccount_cert_pin_warning_text">Vir sekuriteit redes, kan Cyanogen rekening gou ophou werk. Opgradeer asseblief onmiddellik.</string>
   <string name="cmaccount_error_multiple_accounts">Slegs een Cyanogen rekening word toegelaat per toestel</string>
-  <string name="cmaccount_allow_access">%1$s wil toegang hê na %2$s</string>
   <string name="cmaccount_granting_access">Die verlening van toegang tot %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Bekyk basiese inligting oor jou rekening, insluitend jou e-pos</string>
   <string name="cmaccount_password_changed_title">Wagwoord het verander</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Swak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Te kort</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Jou selfoon, jou reëls</b> - Verpersoonlik jou selfoon in die Temas program]]></item>
-    <item><![CDATA[<b>Vind jou foon</b> - Vind en verwyder jou data as dit verlore gaan]]></item>
+    <item><b>Jou selfoon, jou reëls</b> - Verpersoonlik jou selfoon in die Temas program</item>
+    <item><b>Vind jou foon</b> - Vind en verwyder jou data as dit verlore gaan</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Cloudify jou programme</b> - skuif tussen Cyanogen toestelle met Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen Diens voorwaardes]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen privaatheidsbeleid]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen Eind Gebruiker Lisensie Ooreenkoms]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Cloudify jou programme</b> - skuif tussen Cyanogen toestelle met Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Cyanogen Diens voorwaardes</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen privaatheidsbeleid</string>
+  <string name="eula_linktext_cyanogen">Cyanogen Eind Gebruiker Lisensie Ooreenkoms</string>
 </resources>

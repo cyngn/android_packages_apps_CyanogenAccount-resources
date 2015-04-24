@@ -24,6 +24,9 @@
   <string name="create">OPRET\u00A0\u00A0&gt;</string>
   <string name="login">LOG IND\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Nej</string>
+  <string name="try_again">Prøv igen</string>
+  <string name="yes">Ja</string>
   <string name="allow">Tillad</string>
   <string name="existing">LOG PÅ MED DIN EKSISTERENDE KONTO</string>
   <string name="new_account">ELLER OPRET EN NY KONTO</string>
@@ -32,8 +35,9 @@
   <string name="dont_skip">Ignorér ikke</string>
   <string name="setup_warning_skip_wifi">ADVARSEL: Du kan pådrage dig ekstra data-udgifter.\n\nOpsætning af enheden kan kræve en betydelig netværksaktivitet.</string>
   <string name="setup_warning_accept_tos">Du skal acceptere vilkår for anvendelse, vilkår for privatliv samt slutbruger-licensaftalen ved at vælge afkrydsningsfeltet, inden du fortsætter.</string>
-  <string name="setup_warning_skip_anyway">Uden en Cyanogen konto kan du ikke:\n\nTilpasse din telefon med nye ikoner, tapeter og meget mere i Tema app\'en\n\nFinde eller slette din telefon, hvis du mister den</string>
   <string name="cmaccount_setup_create_title">Opret din konto</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Lås enheden op</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Lås enheden</string>
   <string name="cmaccount_setup_email_unavailable_label">Dette brugernavn er ikke tilgængeligt</string>
   <string name="cmaccount_setup_email_invalid_label">Desværre, kun bogstaver (a-z), tal (0-9) og tegn (.+&amp;-_) er tilladt.</string>
   <string name="cmaccount_setup_displayname_label">Angiv dit navn som det skal vises</string>
@@ -42,13 +46,13 @@
   <string name="cmaccount_setup_password_mismatch_label">Adgangskoderne er ikke ens!</string>
   <string name="cmaccount_setup_password_invalid_label">Adgangskoden skal være på mindst 8 tegn!</string>
   <string name="cmaccount_setup_confirm_password_label">Indtast adgangskode igen</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Ved at markere feltet accepterer du <u>Cyanogen\'s vilkår for anvendelse</u>, <u>vilkår for privatliv</u>, og <u>slutbruger-licensaftalen</u>.]]></string>
   <string name="cmaccount_add_title">Tilføj din konto</string>
   <string name="cmaccount_learn_more">Lær mere\u2026</string>
   <string name="cmaccount_login_message">Logger ind på Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Opretter din Cyanogen-profil</string>
   <string name="cmaccount_login_error_title">Login mislykkedes</string>
   <string name="cmaccount_login_error_message">Ugyldig e-mail eller adgangskode.</string>
+  <string name="cmaccount_killswitch_login_error_message">Forkert e-mail eller adgangskode, prøv igen eller besøg https://account.cyngn.com for at nulstille din adgangskode.</string>
   <string name="cmaccount_server_error_title">Kommunikationsfejl</string>
   <string name="cmaccount_create_account_error_title">Fejl ved oprettelse af konto</string>
   <string name="cmaccount_create_account_error_message">Der opstod en fejl under oprettelse af din konto. %1$s</string>
@@ -66,6 +70,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Skal indtaste et visningsnavn</string>
   <string name="cmaccount_setup_must_agree_label">Skal acceptere betingelser for brug</string>
   <string name="cmaccount_setup_displayname_invalid_label">Ugyldigt visningsnavn</string>
+  <string name="account_registered_perm_string">Tillader, at appen kan modtage Cyanogen-kontonotifikationer ved registrering. Hvilken som helst app, der får denne tilladelse, vil være i stand til at opdage, når en Cyanogen-konto registreres.</string>
   <string name="account_registered_permission_label_string">Modtage Cyanogen-konto notifikationer</string>
   <string name="cmaccount_displayname_label">Hvordan ønsker du, dit navn skal vises?</string>
   <string name="cmaccount_displayname_hint">Visningsnavn</string>
@@ -84,6 +89,8 @@
   <string name="cyngn_setup_sign_in">LOG IND\u00A0IN</string>
   <string name="cyngn_setup_email_edittext_hint">Indtast din e-mail adresse</string>
   <string name="cyngn_setup_show_password">Vis adgangskode</string>
+  <string name="cyngn_setup_reset_password_dialog">For at nulstille din adgangskode skal du besøge https://account.cyngn.com fra din computer.</string>
+  <string name="cyngn_setup_forgot_password">Glemt adganskode?</string>
   <string name="cyngn_setup_toslist_header">Vælg for at gennemgå</string>
   <string name="cyngn_setup_displayname_description">Dit visningsnavn vises til andre brugere, når du skriver anmeldelser af temaer i Tema app\'en.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Den e-mail-adresse, du har valgt, er ikke tilgængelig.</string>
@@ -95,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Svag</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">For kort</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Din telefon, dine regler</b> - Tilpas din telefon i Tema app'en]]></item>
-    <item><![CDATA[<b>Find din telefon</b> - Find og slet din telefon, hvis du mister den]]></item>
+    <item><b>Din telefon, dine regler</b> - Tilpas din telefon i Tema app\'en</item>
+    <item><b>Find din telefon</b> - Find og slet din telefon, hvis du mister den</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Få dine apps i skyen</b> - Flyt mellem Cyanogen-enheder med Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen vilkår for anvendelse]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen vilkår for privatliv]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen slutbruger-licensaftale]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Få dine apps i skyen</b> - Flyt mellem Cyanogen-enheder med Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Cyanogen vilkår for anvendelse</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen vilkår for privatliv</string>
+  <string name="eula_linktext_cyanogen">Cyanogen slutbruger-licensaftale</string>
 </resources>

@@ -35,7 +35,6 @@
   <string name="dont_skip">Não pular</string>
   <string name="setup_warning_skip_wifi">AVISO: Você pode ser cobrado pela sua operadora.\n\nConfiguração do telefone pode precisar de uma quantidade significativa de atividade de rede.</string>
   <string name="setup_warning_accept_tos">Você precisa concordar com os Termos de Uso, Política de Privacidade e o Contrato de Licença de Usuário Final, marcando a caixa de seleção antes de continuar.</string>
-  <string name="setup_warning_skip_anyway">Sem uma conta Cyanogen, você não será capaz de:\n\nPersonalizar seu celular com novos ícones, papéis de parede e muito mais no app Temas\n\nLocalizar ou apagar remotamente o seu telefone se for perdido</string>
   <string name="cmaccount_setup_create_title">Crie sua conta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquear o dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquear o dispositivo</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">As senhas não coincidem!</string>
   <string name="cmaccount_setup_password_invalid_label">A senha deve ter no mínimo 8 caracteres!</string>
   <string name="cmaccount_setup_confirm_password_label">Re-digite a senha</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Marcando esta caixa, você concorda com os <u>Termos de uso do Cyanogen</u>, <u>Política de privacidade</u> e <u>Contrato de licença de usuário final</u>.]]></string>
   <string name="cmaccount_add_title">Adicionar sua conta</string>
   <string name="cmaccount_learn_more">Saiba mais\u2026</string>
   <string name="cmaccount_login_message">Efetuando login no Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Por favor, atualize</string>
   <string name="cmaccount_cert_pin_warning_text">Por razões de segurança, a sua conta Cyanogen poderá deixar de funcionar em breve. Por favor atualize imediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">Somente uma conta Cyanogen é permitida por dispositivo</string>
-  <string name="cmaccount_allow_access">%1$s gostaria de acesso para %2$s</string>
   <string name="cmaccount_granting_access">Concedendo acesso a %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Exibir informações básicas sobre a sua conta, incluindo o seu e-mail</string>
   <string name="cmaccount_password_changed_title">Senha alterada</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Fraca</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Muito curta</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>Seu telefone, suas regras</b> - Personalize o seu telefone no app Temas]]></item>
-    <item><![CDATA[<b>Localize seu telefone</b> - Encontrar e apagar seu telefone se for perdido]]></item>
+    <item><b>Seu telefone, suas regras</b> - Personalize o seu telefone no app Temas</item>
+    <item><b>Localize seu telefone</b> - Encontrar e apagar seu telefone se for perdido</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Guardar em nuvem seus apps</b> - Alternar entre dispositivos Cyanogen com Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Termos de serviço do Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Política de privacidade do Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Contrato de licença de usuário final do Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Guardar em nuvem seus apps</b> - Alternar entre dispositivos Cyanogen com Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Termos de serviço do Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Política de privacidade do Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Contrato de licença de usuário final do Cyanogen</string>
 </resources>

@@ -33,7 +33,6 @@
   <string name="go_back">Zurück</string>
   <string name="skip_anyway">Trotzdem überspringen</string>
   <string name="dont_skip">Nicht überspringen</string>
-  <string name="setup_warning_skip_anyway">Ohne ein Cyanogen OS-Konto können Sie ihr Telefon nicht:\n\nMit neuen Symbolen, Hintergründen und mehr in der Design-App anpassen\n\nLokalisieren oder löschen, falls Sie es verloren haben</string>
   <string name="cmaccount_setup_create_title">Erstellen Sie Ihr Konto</string>
   <string name="cmaccount_setup_killswitchlogin_title">Gerät entsperren</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Gerät sperren</string>
@@ -82,6 +81,7 @@
   <string name="cyngn_setup_sign_in">ANMELDEN</string>
   <string name="cyngn_setup_email_edittext_hint">Bitte geben Sie Ihre E-Mail-Adresse ein</string>
   <string name="cyngn_setup_show_password">Passwort anzeigen</string>
+  <string name="cyngn_setup_reset_password_dialog">Besuchen Sie https://account.cyngn.com mit einem PC, um Ihr Passwort zurückzusetzen.</string>
   <string name="cyngn_setup_forgot_password">Passwort vergessen?</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Die E-Mail-Adresse, die Sie angegeben haben, ist nicht verfügbar.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Die ausgewählte E-Mail-Adresse ist ungültig.</string>
@@ -91,7 +91,12 @@
   <string name="cyngn_setup_password_strength_meter_label_fair">Normal</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Schwach</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Zu kurz</string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Cyanogen-Nutzungsbedingungen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Cyanogen-Datenschutzerklärung]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Cyanogen-Endbenutzer-Lizenzvertrag]]></string>
+  <string-array name="cyngn_account_benefits_list">
+    <item><b>Ihr Telefon – Ihre Regeln</b> - Passen Sie Ihr Telefon in der Design-App an</item>
+    <item><b>Telefon finden</b> - Finden und löschen Sie Ihr Telefon, wenn es verloren wurde</item>
+  </string-array>
+  <string name="cyngn_account_benefit_nextbit"><b>Cloudifizieren Sie Ihre Apps</b> – Wechseln Sie mit Nextbit Baton zwischen Cyanogen-Geräten</string>
+  <string name="tos_linktext_cyanogen">Cyanogen-Nutzungsbedingungen</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen-Datenschutzerklärung</string>
+  <string name="eula_linktext_cyanogen">Cyanogen-Endbenutzer-Lizenzvertrag</string>
 </resources>

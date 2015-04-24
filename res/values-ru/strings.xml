@@ -38,13 +38,11 @@
   <string name="cmaccount_setup_password_strength_label">минимум 8 символов</string>
   <string name="cmaccount_setup_password_mismatch_label">Пароли не совпадают!</string>
   <string name="cmaccount_setup_password_invalid_label">Пароль должен содержать не менее 8 символов!</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Установив этот флажок, вы соглашаетесь с <u>Условиями использования Cyanogen</u>, <u>Политикой конфиденциальности</u> и <u>Лицензионным соглашением конечного пользователя</u>.]]></string>
   <string name="cmaccount_login_message">Вход в Cyanogen</string>
   <string name="cmaccount_login_error_title">Вход не выполнен</string>
   <string name="cmaccount_killswitch_login_error_message">Некорректный адрес электронной почты или пароль. Проверьте данные или зайдите на сайт https://account.cyngn.com для сброса пароля.</string>
   <string name="cmaccount_create_account_error_title">Ошибка создания аккаунта</string>
   <string name="cmaccount_error_multiple_accounts">Добавление более одного аккаунта Cyanogen на устройство невозможно</string>
-  <string name="cmaccount_allow_access">%1$s пытается получить доступ к %2$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Просмотр основной информации о вашем аккаунте, включая адрес электронной почты</string>
   <string name="cmaccount_password_changed_title">Пароль изменён</string>
   <string name="cmaccount_password_label">Пароль</string>
@@ -60,7 +58,7 @@
   <string name="cyngn_setup_password_strength_meter_label">Надёжность пароля:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Надёжный</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Слишком короткий</string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Условия предоставления услуг Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Политика конфиденциальности Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Лицензионное соглашение Cyanogen]]></string>
+  <string name="tos_linktext_cyanogen">Условия предоставления услуг Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Политика конфиденциальности Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Лицензионное соглашение Cyanogen</string>
 </resources>

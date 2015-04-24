@@ -35,7 +35,6 @@
   <string name="dont_skip">No saltis</string>
   <string name="setup_warning_skip_wifi">ALERTA: Podrien haver-hi càrrecs de dades addicionals per part de l\'operadora.\n\nLa configuració del dispositiu necessita una activitat de xarxa considerable.</string>
   <string name="setup_warning_accept_tos">Has d\'acceptar les Condicions d\'ús, la Política de privacitat i l\'Acord de llicència d\'usuari final seleccionant la casella de verificació abans de continuar.</string>
-  <string name="setup_warning_skip_anyway">Sense un compte Cyanogen OS, no podràs:\n\nPersonalitzar el teu telèfon amb noves icones, fons de pantalla i més en l\'aplicació de Temes\n\nLocalitzar o esborrar remotament el teu telèfon si el perds</string>
   <string name="cmaccount_setup_create_title">Crea el teu compte</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloqueja el dispositiu</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloqueja el dispositiu</string>
@@ -47,7 +46,6 @@
   <string name="cmaccount_setup_password_mismatch_label">Les contrasenyes no coincideixen!</string>
   <string name="cmaccount_setup_password_invalid_label">La contrasenya ha de tenir almenys 8 caràcters!</string>
   <string name="cmaccount_setup_confirm_password_label">Torna a introduir la contrasenya</string>
-  <string name="cmaccount_setup_tos_label"><![CDATA[Marcant aquesta casella acceptes <u>L'Acord de llicència d'usuari final</u>, <u>la Política de privacitat</u>, i <u>les Condicions d'ús de Cyanogen</u>.]]></string>
   <string name="cmaccount_add_title">Afegeix el teu compte</string>
   <string name="cmaccount_learn_more">Aprèn més\u2026</string>
   <string name="cmaccount_login_message">S\'està entrant a Cyanogen</string>
@@ -62,7 +60,6 @@
   <string name="cmaccount_cert_pin_warning_title">Si us plau actualitza</string>
   <string name="cmaccount_cert_pin_warning_text">Per motius de seguretat, el compte Cyanogen podria deixar de funcionar aviat. Si us plau actualitza immediatament.</string>
   <string name="cmaccount_error_multiple_accounts">Només està permés un compte Cyanogen per dispositiu</string>
-  <string name="cmaccount_allow_access">%1$s voldria accedir a %2$s</string>
   <string name="cmaccount_granting_access">S\'està concedint accés a %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Mostra la informació bàsica sobre el teu compte, incloent el teu correu electrònic</string>
   <string name="cmaccount_password_changed_title">Contrasenya canviada</string>
@@ -105,11 +102,11 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Dèbil</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Massa curta</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><![CDATA[<b>El teu telèfon, les teves normes</b> - Personalitza el teu telèfon a l'aplicació de Temes]]></item>
-    <item><![CDATA[<b>Troba el teu telèfon</b> - Troba i esborra el teu telèfon si el perds]]></item>
+    <item><b>El teu telèfon, les teves normes</b> - Personalitza el teu telèfon a l\'aplicació de Temes</item>
+    <item><b>Troba el teu telèfon</b> - Troba i esborra el teu telèfon si el perds</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><![CDATA[<b>Posa al núvol les teves aplicacions</b> - Mou entre els dispositius Cyanogen amb Nextbit Baton]]></string>
-  <string name="tos_linktext_cyanogen"><![CDATA[Condicions del servei de Cyanogen]]></string>
-  <string name="privacy_linktext_cyanogen"><![CDATA[Política de privacitat de Cyanogen]]></string>
-  <string name="eula_linktext_cyanogen"><![CDATA[Acord de llicència d'usuari final de Cyanogen]]></string>
+  <string name="cyngn_account_benefit_nextbit"><b>Posa al núvol les teves aplicacions</b> - Mou entre els dispositius Cyanogen amb Nextbit Baton</string>
+  <string name="tos_linktext_cyanogen">Condicions del servei de Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Política de privacitat de Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Acord de llicència d\'usuari final de Cyanogen</string>
 </resources>
