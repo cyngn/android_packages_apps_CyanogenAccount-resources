@@ -35,6 +35,7 @@
   <string name="dont_skip">No omitir</string>
   <string name="setup_warning_skip_wifi">AVISO: Es posible que se facturen cargos de datos adicionales.\n\nLa configuración del dispositivo puede requerir una gran cantidad de actividad de red.</string>
   <string name="setup_warning_accept_tos">Antes de continuar debes aceptar los Términos de Uso, la Política de Privacidad y el Acuerdo de Licencia de Usuario Final seleccionando la casilla de verificación.</string>
+  <string name="setup_warning_skip_anyway">Sin una cuenta de Cyanogen OS, no podrás:\n\nBuscar y descargar temas de la tienda de temas\n\nUbicar o borrar de forma remota el dispositivo si lo pierdes</string>
   <string name="cmaccount_setup_create_title">Crea tu cuenta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquear dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquear dispositivo</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">¡Las contraseñas no coinciden!</string>
   <string name="cmaccount_setup_password_invalid_label">¡La contraseña debe tener al menos 8 caracteres!</string>
   <string name="cmaccount_setup_confirm_password_label">Confirmar contraseña</string>
+  <string name="cmaccount_setup_tos_label">Al marcar esta casilla aceptas los <u>Términos de uso de Cyanogen</u>, la <u>Política de privacidad</u> y los <u>Términos de Licencia de Usuario Final</u>.</string>
   <string name="cmaccount_add_title">Agrega tu cuenta</string>
   <string name="cmaccount_learn_more">Leer más\u2026</string>
   <string name="cmaccount_login_message">Iniciar sesión en Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Por favor, actualiza</string>
   <string name="cmaccount_cert_pin_warning_text">Por razones de seguridad, la cuenta de Cyanogen puede dejar de funcionar en breve. Por favor, actualiza inmediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">Solo se permite una cuenta de Cyanogen por dispositivo</string>
+  <string name="cmaccount_allow_access">%1$s quiere acceder a:</string>
   <string name="cmaccount_granting_access">Concediendo acceso a %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Ver información básica de tu cuenta, incluyendo tu correo electrónico</string>
   <string name="cmaccount_password_changed_title">Contraseña cambiada</string>

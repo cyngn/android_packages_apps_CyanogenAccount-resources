@@ -25,6 +25,7 @@
   <string name="yes">Da</string>
   <string name="cmaccount_setup_password_strength_label">minim 8 caractere</string>
   <string name="cmaccount_server_error_title">Eroare de comunicare</string>
+  <string name="cmaccount_allow_access">%1$s ar dori acces la:</string>
   <string name="cmaccount_email_label">Email</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Prea scurtă</string>
 </resources>

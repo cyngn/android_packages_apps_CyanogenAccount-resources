@@ -35,6 +35,7 @@
   <string name="dont_skip">Non saltare</string>
   <string name="setup_warning_skip_wifi">ATTENZIONE: Potresti incorrere in costi aggiuntivi di connessione.\n\nLa configurazione del dispositivo potrebbe richiedere un significativo utilizzo di dati.</string>
   <string name="setup_warning_accept_tos">È necessario accettare le condizioni d\'uso, la politica sulla privacy e l\'accordo di licenza con l\'utente finale selezionando la casella prima di continuare.</string>
+  <string name="setup_warning_skip_anyway">Senza un Account Cyanogen OS, non sarete in grado di: \n\nCercare e scaricare temi dallo store\n\nRitrovare o cancellare da remoto il telefono se perso</string>
   <string name="cmaccount_setup_create_title">Crea account</string>
   <string name="cmaccount_setup_killswitchlogin_title">Sblocca il dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Blocca dispositivo</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Le password non coincidono!</string>
   <string name="cmaccount_setup_password_invalid_label">La password deve contenere almeno 8 caratteri!</string>
   <string name="cmaccount_setup_confirm_password_label">Re-inserisci la password</string>
+  <string name="cmaccount_setup_tos_label">Spuntando questa casella accetti le <u>condizioni d\'uso Cyanogen</u>, la <u>politica sulla privacy</u> e l\'<u>accordo di licenza con l\'utente finale</u>.</string>
   <string name="cmaccount_add_title">Aggiungi il tuo account</string>
   <string name="cmaccount_learn_more">Leggi\u2026</string>
   <string name="cmaccount_login_message">Accesso al tuo account Cyanogen in corso</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Si prega di aggiornare</string>
   <string name="cmaccount_cert_pin_warning_text">Per motivi di sicurezza, l\'account Cyanogen potrebbe smettere di funzionare a breve. Si prega di aggiornare immediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">È consentito un solo account Cyanogen per dispositivo</string>
+  <string name="cmaccount_allow_access">%1$s vorrebbe accedere a:</string>
   <string name="cmaccount_granting_access">Assegnazione dell\'accesso a %1$s in corso</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Visualizza informazioni di base sul tuo account, compreso il tuo indirizzo e-mail</string>
   <string name="cmaccount_password_changed_title">Password modificata</string>

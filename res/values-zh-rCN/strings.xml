@@ -35,6 +35,7 @@
   <string name="dont_skip">不要跳过</string>
   <string name="setup_warning_skip_wifi">警告：您可能需要额外支付运营商数据费。\n\n手机设置过程可能会消耗大量网络流量。</string>
   <string name="setup_warning_accept_tos">在您继续前，您必须选中该复选框以同意本使用条款、隐私政策和最终用户许可协议。</string>
+  <string name="setup_warning_skip_anyway">若没有 Cyanogen OS 账户，您将不能：\n\n从主题商店浏览和下载主题\n\n若您的手机丢失，可定位或远程擦除。</string>
   <string name="cmaccount_setup_create_title">创建您的帐户</string>
   <string name="cmaccount_setup_killswitchlogin_title">解锁设备</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">锁定设备</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">密码不匹配！</string>
   <string name="cmaccount_setup_password_invalid_label">密码不能少于 8 个字符！</string>
   <string name="cmaccount_setup_confirm_password_label">再输入一次密码</string>
+  <string name="cmaccount_setup_tos_label">选中此复选框代表您已经同意  <u>Cyanogen 的使用条款</u>、<u>隐私政策</u>和<u>最终用户许可协议</u>。</string>
   <string name="cmaccount_add_title">添加您的帐户</string>
   <string name="cmaccount_learn_more">了解更多\u2026</string>
   <string name="cmaccount_login_message">正在登录到 Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">请升级</string>
   <string name="cmaccount_cert_pin_warning_text">出于安全原因， Cyanogen 帐户很快将停止工作，请立即升级。</string>
   <string name="cmaccount_error_multiple_accounts">一台设备上仅允许有一个 Cyanogen 帐户</string>
+  <string name="cmaccount_allow_access">%1$s 想要访问：</string>
   <string name="cmaccount_granting_access">授予对 %1$s 的访问权限</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">查看您帐户的基本信息，包括您的电子邮件地址</string>
   <string name="cmaccount_password_changed_title">密码已修改</string>

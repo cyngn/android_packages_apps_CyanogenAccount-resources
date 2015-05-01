@@ -35,6 +35,7 @@
   <string name="dont_skip">Να μην γίνει παράβλεψη</string>
   <string name="setup_warning_skip_wifi">ΠΡΟΣΟΧΗ: Ενδέχεται να υπάρξουν επιπλέον χρεώσεις δεδομένων από τον πάροχό σας.\n\nΗ ρύθμιση της συσκευής μπορεί να απαιτήσει μεγάλη δραστηριότητα δικτύου.</string>
   <string name="setup_warning_accept_tos">Πρέπει να συμφωνήσετε με τους Όρους Χρήσης, την Πολιτική Προστασίας Απορρήτου και την Άδεια Χρήσης Τελικού Χρήστη επιλέγοντας το πλαίσιο ελέγχου πριν συνεχίσετε.</string>
+  <string name="setup_warning_skip_anyway">Χωρίς ένα λογαριασμό Cyanogen OS, δεν θα είστε σε θέση να:\n\nΔείτε και κατεβάσετε θέματα από το Κατάστημα θεμάτων\n\nΕντοπίσετε ή διαγράψετε εξ αποστάσεως το τηλέφωνό σας εάν το χάσετε</string>
   <string name="cmaccount_setup_create_title">Δημιουργήστε το λογαριασμό σας</string>
   <string name="cmaccount_setup_killswitchlogin_title">Ξεκλείδωμα συσκευής</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Κλείδωμα συσκευής</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Οι κωδικοί δεν ταιριάζουν!</string>
   <string name="cmaccount_setup_password_invalid_label">Ο κωδικός πρέπει να είναι τουλάχιστον 8 χαρακτήρες!</string>
   <string name="cmaccount_setup_confirm_password_label">Πληκτρολογήστε ξανά τον κωδικό</string>
+  <string name="cmaccount_setup_tos_label">Επιλέγοντας αυτό το πλαίσιο, συμφωνείτε με τους <u>Όρους Χρήσης της Cyanogen</u>, την <u>Πολιτική Προστασίας Απορρήτου</u> και την <u>Άδεια Χρήσης Τελικού Χρήστη</u>.</string>
   <string name="cmaccount_add_title">Προσθέστε το λογαριασμό σας</string>
   <string name="cmaccount_learn_more">Μάθετε περισσότερα\u2026</string>
   <string name="cmaccount_login_message">Σύνδεση στη Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Παρακαλώ αναβαθμίστε</string>
   <string name="cmaccount_cert_pin_warning_text">Για λόγους ασφαλείας, ο λογαριασμός Cyanogen μπορεί να σταματήσει να λειτουργεί σύντομα. Παρακαλώ αναβαθμίστε αμέσως.</string>
   <string name="cmaccount_error_multiple_accounts">Επιτρέπεται μόνο ένας λογαριασμός Cyanogen ανά συσκευή</string>
+  <string name="cmaccount_allow_access">Το %1$s θα ήθελε πρόσβαση σε:</string>
   <string name="cmaccount_granting_access">Επιτράπηκε η πρόσβαση στο %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Προβολή βασικών πληροφοριών σχετικά με το λογαριασμό σας, συμπεριλαμβανομένου του email σας</string>
   <string name="cmaccount_password_changed_title">Ο κωδικός άλλαξε</string>

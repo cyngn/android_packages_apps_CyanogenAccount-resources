@@ -35,6 +35,7 @@
   <string name="dont_skip">Nepřeskakovat</string>
   <string name="setup_warning_skip_wifi">Varování: Toto nastavení může způsobit poplatky za datové přenosy.\n\nNastavení telefonu může vyžadovat zvýšený přenos dat.</string>
   <string name="setup_warning_accept_tos">Před pokračováním musíte zaškrtnutím políčka souhlasit s „Podmínkami použití“, „Zásadami ochrany osobních údajů“ a „Licenční smlouvou s koncovým uživatelem“.</string>
+  <string name="setup_warning_skip_anyway">Bez účtu Cyanogen OS nebudete provádět:\n\nProcházet a stahovat motivy z obchodu\n\nVyhledat nebo vzdáleně vymazat telefon v případě ztráty</string>
   <string name="cmaccount_setup_create_title">Vytvořit účet</string>
   <string name="cmaccount_setup_killswitchlogin_title">Odemknout zařízení</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Zamknout zařízení</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Hesla se neshodují!</string>
   <string name="cmaccount_setup_password_invalid_label">Délka hesla musí být alespoň 8 znaků!</string>
   <string name="cmaccount_setup_confirm_password_label">Zadejte heslo znovu</string>
+  <string name="cmaccount_setup_tos_label">Zaškrtnutím tohoto políčka souhlasíte s <u>Podmínkami používání</u>, <u>Ochranou osobních údajů</u> a <u>Licenční smlouvou s koncovým uživatelem</u>.</string>
   <string name="cmaccount_add_title">Přidat účet</string>
   <string name="cmaccount_learn_more">Zjistit více\u2026</string>
   <string name="cmaccount_login_message">Přihlašování se k Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Prosím proveďte aktualizaci</string>
   <string name="cmaccount_cert_pin_warning_text">Z bezpečnostních důvodů může být účet Cyanogen brzy zablokován. Proveďte aktualizaci co nejdříve.</string>
   <string name="cmaccount_error_multiple_accounts">Je povolen pouze jeden účet Cyanogen na jednom zařízení</string>
+  <string name="cmaccount_allow_access">%1$s vyžaduje přístup k:</string>
   <string name="cmaccount_granting_access">Udělování přístupu k %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Zobrazit základní informace o vašem účtu, včetně e-mailu</string>
   <string name="cmaccount_password_changed_title">Heslo změněno</string>

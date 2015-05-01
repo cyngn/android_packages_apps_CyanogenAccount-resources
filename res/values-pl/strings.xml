@@ -36,6 +36,7 @@
   <string name="setup_warning_skip_wifi">OSTRZEŻENIE: Operator może naliczyć dodatkowe opłaty za transmisję danych.\n\nKonfiguracja urządzenia może wymagać przesłania dużej ilości danych.</string>
   <string name="setup_warning_accept_tos">Musisz zaakceptować Warunki korzystania, Politykę prywatności oraz 
 Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynuować.</string>
+  <string name="setup_warning_skip_anyway">Bez konta Cyanogen OS nie będziesz w stanie:\n\nPrzeglądać i pobierać motywów ze Sklepu motywów\n\nZlokalizować i zdalnie wyczyścić telefonu w razie jego utraty</string>
   <string name="cmaccount_setup_create_title">Utwórz konto</string>
   <string name="cmaccount_setup_killswitchlogin_title">Odblokowanie urządzenia</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Blokada urządzenia</string>
@@ -47,6 +48,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_setup_password_mismatch_label">Podane hasła są różne!</string>
   <string name="cmaccount_setup_password_invalid_label">Hasło musi mieć minimum 8 znaków!</string>
   <string name="cmaccount_setup_confirm_password_label">Wprowadź ponownie hasło</string>
+  <string name="cmaccount_setup_tos_label">Zaznaczając to pole akceptujesz <u>Warunki korzystania z Cyanogen</u>, <u>Politykę Prywatności</u> oraz <u>Umowę licencyjną użytkownika końcowego</u>.</string>
   <string name="cmaccount_add_title">Dodaj konto</string>
   <string name="cmaccount_learn_more">Zobacz więcej\u2026</string>
   <string name="cmaccount_login_message">Logowanie do Cyanogen</string>
@@ -61,6 +63,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_cert_pin_warning_title">Uaktualnij</string>
   <string name="cmaccount_cert_pin_warning_text">Ze względów bezpieczeństwa Konto Cyanogen wkrótce może przestać działać. Proszę natychmiast uaktualnić konto.</string>
   <string name="cmaccount_error_multiple_accounts">Tylko jedno konto Cyanogen jest dozwolone dla każdego urządzenia</string>
+  <string name="cmaccount_allow_access">%1$s chciałby uzyskać dostęp do:</string>
   <string name="cmaccount_granting_access">Udzielanie dostępu do %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Wyświetl podstawowe informacje o Twoim koncie, w tym Twój e-mail</string>
   <string name="cmaccount_password_changed_title">Hasło zostało zmienione</string>
@@ -83,6 +86,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_cancel">ANULUJ</string>
   <string name="cmaccount_create">Stwórz Konto Cyanogen</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Wspierane przez Cyanogen</string>
   <string name="cyngn_setup_skip">POMIŃ</string>
   <string name="cyngn_setup_next">DALEJ</string>
   <string name="cyngn_skip_setup_dialog_header">Pominąć konfigurację konta?</string>
@@ -91,6 +95,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cyngn_setup_show_password">Pokaż hasło</string>
   <string name="cyngn_setup_reset_password_dialog">Aby zresetować hasło odwiedź https://account.cyngn.com korzystając z komputera.</string>
   <string name="cyngn_setup_forgot_password">Nie pamiętasz hasła?</string>
+  <string name="cyngn_setup_toslist_header">Wybierz do recenzji</string>
   <string name="cyngn_setup_displayname_description">Twoja nazwa jest wyświetlana innym użytkownikom kiedy zostawiasz komentarz pod motywem w aplikacji Motywy.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Wybrany adres e-mail jest niedostępny.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Wybrany adres e-mail jest nieprawidłowy.</string>

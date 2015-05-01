@@ -24,6 +24,9 @@
   <string name="create">СТВОРИТИ\u00A0\u00A0&gt;</string>
   <string name="login">УВІЙТИ\u00A0\u00A0&gt;</string>
   <string name="ok">OK</string>
+  <string name="no">Ні</string>
+  <string name="try_again">Спробуйте ще раз</string>
+  <string name="yes">Так</string>
   <string name="allow">Дозволити</string>
   <string name="existing">УВІЙДІТЬ ЗА ДОПОМОГОЮ ІСНУЮЧОГО ОБЛІКОВОГО ЗАПИСУ</string>
   <string name="new_account">АБО СТВОРІТЬ НОВИЙ ОБЛІКОВИЙ ЗАПИС</string>
@@ -32,7 +35,10 @@
   <string name="dont_skip">Не пропускати</string>
   <string name="setup_warning_skip_wifi">УВАГА: Можливі додаткові витрати.\n\nПід час налаштування використовується чимало трафіку.</string>
   <string name="setup_warning_accept_tos">Ви повинні погодитись з Умовами використання, Політикою конфіденційності та Ліцензійною угодою користувача. Встановіть прапорець перед продовженням.</string>
+  <string name="setup_warning_skip_anyway">Без облікового запису Cyanogen OS Вам не будуть доступні наступні можливості:\n\nПерегляд та завантаження тем з Крамниці тем\n\nПошук свого пристрою та дистанційне знищення даних на ньому, у випадку його втрати</string>
   <string name="cmaccount_setup_create_title">Створити обліковий запис</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Розблокувати пристрій</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Заблокувати пристрій</string>
   <string name="cmaccount_setup_email_unavailable_label">Це ім\'я користувача недоступне</string>
   <string name="cmaccount_setup_email_invalid_label">Пробачте, але дозволені лише літери (a–z), цифри (0–9), та символи (.+&amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Будь ласка, введіть коротке ім\'я</string>
@@ -41,12 +47,14 @@
   <string name="cmaccount_setup_password_mismatch_label">Паролі не збігаються!</string>
   <string name="cmaccount_setup_password_invalid_label">Пароль має складатися хоча б з 8 символів!</string>
   <string name="cmaccount_setup_confirm_password_label">Введіть пароль ще раз</string>
+  <string name="cmaccount_setup_tos_label">Обранням цього поля Ви погоджуєтеся з <u>Умовами користування Cyanogen</u>, <u>Політикою конфіденційності</u>, і <u>Ліцензійною угодою користувача</u>.</string>
   <string name="cmaccount_add_title">Додати обліковий запис</string>
   <string name="cmaccount_learn_more">Дізнатись більше\u2026</string>
   <string name="cmaccount_login_message">Вхід до Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Створення профілю Cyanogen</string>
   <string name="cmaccount_login_error_title">Помилка входу</string>
   <string name="cmaccount_login_error_message">Невірний email або пароль.</string>
+  <string name="cmaccount_killswitch_login_error_message">Неправильна електронна пошта або пароль, спробуйте ще раз або відвідайте https://account.cyngn.com для скидання пароля.</string>
   <string name="cmaccount_server_error_title">Помилка зв\'язку</string>
   <string name="cmaccount_create_account_error_title">Помилка створення обл.запису</string>
   <string name="cmaccount_create_account_error_message">Під час створення облікового запису сталася помилка. %1$s</string>
@@ -54,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Будь ласка, оновіть</string>
   <string name="cmaccount_cert_pin_warning_text">З міркувань безпеки обліковий запис Cyanogen може припинити роботу. Будь ласка, негайно оновіться.</string>
   <string name="cmaccount_error_multiple_accounts">На пристрої дозволений лише один обліковий запис Cyanogen</string>
+  <string name="cmaccount_allow_access">%1$s бажає отримати доступ до:</string>
   <string name="cmaccount_granting_access">Надання доступу до %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Перегляньте основну інформацію про свій обліковий запис, включаючи вашу адресу електронної пошти</string>
   <string name="cmaccount_password_changed_title">Пароль змінено</string>
@@ -64,6 +73,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Необхідно ввести коротке ім\'я</string>
   <string name="cmaccount_setup_must_agree_label">Необхідно погодитися з УК</string>
   <string name="cmaccount_setup_displayname_invalid_label">Неприпустиме коротке ім\'я</string>
+  <string name="account_registered_perm_string">Дозволяє додатку отримувати сповіщення реєстрації облікового запису Cyanogen. Будь-яка програма, що має цей дозвіл, матиме можливість дізнатися, коли саме був зареєстрований обліковий запис Cyanogen.</string>
   <string name="account_registered_permission_label_string">Отримати сповіщення про реєстрацію облікового запису Cyanogen</string>
   <string name="cmaccount_displayname_label">Як Ви бажаєте, щоб з\'являлось Ваше ім\'я?</string>
   <string name="cmaccount_displayname_hint">Ім`я для відображення</string>
@@ -82,6 +92,8 @@
   <string name="cyngn_setup_sign_in">УВІЙТИ\u00A0IN</string>
   <string name="cyngn_setup_email_edittext_hint">Будь ласка, введіть Вашу адресу електронної пошти</string>
   <string name="cyngn_setup_show_password">Показувати пароль</string>
+  <string name="cyngn_setup_reset_password_dialog">Щоб скинути пароль, будь-ласка, відвідайте https://account.cyngn.com з вашого комп\'ютера.</string>
+  <string name="cyngn_setup_forgot_password">Забули пароль?</string>
   <string name="cyngn_setup_toslist_header">Оберіть, щоб переглянути</string>
   <string name="cyngn_setup_displayname_description">Ваше коротке ім\'я відображається іншим користувачам, коли Ви залишаєте коментарі щодо теми в програмі \"Теми\".</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Обрана адреса електронної пошти недоступна.</string>

@@ -35,6 +35,7 @@
   <string name="dont_skip">Älä ohita</string>
   <string name="setup_warning_skip_wifi">VAROITUS: Ylimääräisiä tiedonsiirtokuluja voi syntyä.\n\nLaitteen asennus voi tarvita huomattavasti verkkoyhteyttä.</string>
   <string name="setup_warning_accept_tos">Sinun on hyväksyttävä käyttöehdot, tietosuojakäytäntö ja käyttöoikeussopimus jatkaaksesi.</string>
+  <string name="setup_warning_skip_anyway">Ilman Cyanogen OS-tiliä, et voi:\n\nSelata ja ladata teemoja Teemat-sovelluksella\n\nPaikantaa tai etätyhjentää kadonnutta puhelintasi</string>
   <string name="cmaccount_setup_create_title">Luo tili</string>
   <string name="cmaccount_setup_killswitchlogin_title">Poista laitteen lukitus</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Lukitse laite</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Salasanat eivät täsmää!</string>
   <string name="cmaccount_setup_password_invalid_label">Salasanan pitää olla vähintään 8 merkkiä pitkä!</string>
   <string name="cmaccount_setup_confirm_password_label">Kirjoita salasana uudelleen</string>
+  <string name="cmaccount_setup_tos_label">Merkkaamalla tämän ruudun hyväksyt <u>Cyanogenin käyttöehdot</u>, <u>Tietosuojakäytännön</u> ja <u>Käyttöoikeussopimuksen</u>.</string>
   <string name="cmaccount_add_title">Lisää tili</string>
   <string name="cmaccount_learn_more">Lue lisää\u2026</string>
   <string name="cmaccount_login_message">Kirjaudutaan Cyanogeniin</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Päivitä</string>
   <string name="cmaccount_cert_pin_warning_text">Turvallisuussyistä, Cyanogen-tili saattaa lakata toimimasta pian. Päivitä mahdollisimman pian.</string>
   <string name="cmaccount_error_multiple_accounts">Vain yksi Cyanogen-tili per laite</string>
+  <string name="cmaccount_allow_access">Sovellus \"%1$s\" haluaa käyttää:</string>
   <string name="cmaccount_granting_access">Myönnetään käyttöoikeudet sovellukselle \"%1$s\"</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Näytä tilisi perustiedot, mukaanlukien sähköpostiosoitteesi</string>
   <string name="cmaccount_password_changed_title">Salasana vaihdettu</string>

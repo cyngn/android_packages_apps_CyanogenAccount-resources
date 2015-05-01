@@ -35,6 +35,7 @@
   <string name="dont_skip">Atlama</string>
   <string name="setup_warning_skip_wifi">UYARI: Ekstra operatör veri ücreti alınabilir.\n\nCihaz kurulumu önemli ölçüde veri trafiği gerektirir.</string>
   <string name="setup_warning_accept_tos">Devam etmeden önce Kullanma Şartlarını, Gizlilik Politikasını, ve Son Kullanıcı Lisans Sözleşmesini, onay kutusunu seçerek kabul etmelisiniz.</string>
+  <string name="setup_warning_skip_anyway">Cyanogen İS Hesabı olmadan:\n\nTema mağazasından temalara bakıp indiremeyeceksiniz\n\nEğer kaybolursa, telefonunuzu uzaktan bulamayacaksınız ya da silemeyeceksiniz</string>
   <string name="cmaccount_setup_create_title">Hesap oluştur</string>
   <string name="cmaccount_setup_killswitchlogin_title">Cihazın kilidini açın</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Cihazı kilitleyin</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Şifreler uyuşmuyor!</string>
   <string name="cmaccount_setup_password_invalid_label">Şifre en az 8 karakter olmalı!</string>
   <string name="cmaccount_setup_confirm_password_label">Şifreyi tekrar girin</string>
+  <string name="cmaccount_setup_tos_label">Bu kutuyu işaretleyerek  <u>Cyanogen\'in Kullanma Şartlarını</u>, <u>Gizlilik Politikasını</u> ve <u>Son Kullanıcı Lisans Sözleşmesini</u> kabul etmiş sayılırsınız.</string>
   <string name="cmaccount_add_title">Hesabınızı ekleyin</string>
   <string name="cmaccount_learn_more">Daha fazla bilgi\u2026</string>
   <string name="cmaccount_login_message">Cyanogen\'e giriş yapılıyor</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Lütfen yükseltin</string>
   <string name="cmaccount_cert_pin_warning_text">Güvenlik nedenleriyle, Cyanogen Hesabı yakında çalışmayabilir. Lütfen derhal yükseltin.</string>
   <string name="cmaccount_error_multiple_accounts">Cihaz başına sadece bir Cyanogen Hesabı kullanılabilir</string>
+  <string name="cmaccount_allow_access">%1$s erişim istiyor ></string>
   <string name="cmaccount_granting_access">%1$s için erişim izni veriliyor</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Hesabınızın e-postanız dahil temel bilgilerini görüntüler</string>
   <string name="cmaccount_password_changed_title">Şifre değişti</string>

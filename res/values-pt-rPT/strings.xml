@@ -35,6 +35,7 @@
   <string name="dont_skip">Não saltar</string>
   <string name="setup_warning_skip_wifi">AVISO: Poderá ter de pagar dados adicionais.\n\nA configuração do dispositivo pode precisar de atividade de rede significativa.</string>
   <string name="setup_warning_accept_tos">Deve concordar com os termos de uso, política de privacidade e o contrato de licença de utilizador final, selecionando a caixa de verificação antes de continuar.</string>
+  <string name="setup_warning_skip_anyway">Sem uma conta Cyanogen OS, não será capaz de:\n\nProcurar e transferir temas da loja de temas\n\nLocalizar ou apagar remotamente o seu telefone se for perdido</string>
   <string name="cmaccount_setup_create_title">Criar a sua conta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquear o dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquear o dispositivo</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">As palavras-passe não coincidem!</string>
   <string name="cmaccount_setup_password_invalid_label">A palavra-chave tem de ter no mínimo 8 caracteres!</string>
   <string name="cmaccount_setup_confirm_password_label">Volte a digitar a palavra-passe</string>
+  <string name="cmaccount_setup_tos_label">Ao marcar esta caixa, você concorda com os <u>Termos de uso da Cyanogen</u>, <u>Política de privacidade</u> e <u>Contrato de licença de utilizador final</u>.</string>
   <string name="cmaccount_add_title">Adicionar a sua conta</string>
   <string name="cmaccount_learn_more">Saiba mais\u2026</string>
   <string name="cmaccount_login_message">Iniciar a sessão na Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Por favor, atualize</string>
   <string name="cmaccount_cert_pin_warning_text">Por razões de segurança, a conta Cyanogen poderá deixar de funcionar em breve. Por favor atualize imediatamente.</string>
   <string name="cmaccount_error_multiple_accounts">É permitida apenas uma conta CyanogenMod por dispositivo</string>
+  <string name="cmaccount_allow_access">%1$s gostaria de aceder a:</string>
   <string name="cmaccount_granting_access">A conceder acesso a %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Exibir informações básicas sobre a sua conta, incluindo o seu e-mail</string>
   <string name="cmaccount_password_changed_title">Palavra-passe alterada</string>

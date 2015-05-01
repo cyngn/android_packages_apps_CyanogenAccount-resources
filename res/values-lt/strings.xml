@@ -35,6 +35,7 @@
   <string name="dont_skip">Nepraleisti</string>
   <string name="setup_warning_skip_wifi">ĮSPĖJIMAS: Gali reikėti papildomų duomenų mokesčių.\n\nTelefono nustatymas gali reikalauti svarbios tinklo veiklos.</string>
   <string name="setup_warning_accept_tos">Turite sutikti su naudojimosi sąlygomis, privatumo politika ir galutinio vartotojo licencinė sutartimi pasirenkant langelį prieš tęsiant.</string>
+  <string name="setup_warning_skip_anyway">Be „Cyanogen“ OS paskyros jums nebus suteikta galimybė:\n\nNaršyti ir atsisiųsti temas iš temų parduotuvės\n\nRasti arba nuotoliniu būdu ištrinti savo telefoną, jei jis prarastas</string>
   <string name="cmaccount_setup_create_title">Sukurti paskyrą</string>
   <string name="cmaccount_setup_killswitchlogin_title">Atrakinti įrenginį</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Užrakinti įrenginį</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Slaptažodžiai nesutampa!</string>
   <string name="cmaccount_setup_password_invalid_label">Slaptažodis turi būti bent 8 simbolių!</string>
   <string name="cmaccount_setup_confirm_password_label">Iš naujo įveskite slaptažodį</string>
+  <string name="cmaccount_setup_tos_label">Pažymėdami šį langelį sutinkate su <u>„Cyanogen“ naudojimosi paslaugomis</u>, <u>Privatumo politika</u> ir <u>Galutinio vartotojo licencinė sutartimi</u>.</string>
   <string name="cmaccount_add_title">Pridėti paskyrą</string>
   <string name="cmaccount_learn_more">Sužinokite daugiau\u2026</string>
   <string name="cmaccount_login_message">Prisijungiamia prie „Cyanogen“</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Prašome atnaujinti</string>
   <string name="cmaccount_cert_pin_warning_text">Dėl saugumo priežasčių, „Cyanogen“ paskyra gali nustoti veikti artimiausiu metu. Prašome nedelsiant atnaujinti.</string>
   <string name="cmaccount_error_multiple_accounts">Prietaise leidžiama tik viena „Cyanogen“ paskyra</string>
+  <string name="cmaccount_allow_access">%1$s norėtų pasiekti:</string>
   <string name="cmaccount_granting_access">Suteikiama prieiga prie %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Peržiūrėti pagrindinę informaciją apie savo paskyrą, įskaitant jūsų el. paštą</string>
   <string name="cmaccount_password_changed_title">Slaptažodis pakeistas</string>
@@ -82,7 +85,7 @@
   <string name="cmaccount_cancel">ATŠAUKTI</string>
   <string name="cmaccount_create">Sukurti savo „Cyanogen“ paskyrą</string>
   <string name="cyngn_setup_logo_alttext">Logotipas</string>
-  <string name="cyngn_setup_poweredby_logo_alttext">Sukurta „Cyanogen“</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Parenkta pagal „Cyanogen“</string>
   <string name="cyngn_setup_skip">PRALEISTI</string>
   <string name="cyngn_setup_next">KITAS</string>
   <string name="cyngn_skip_setup_dialog_header">Praleisti paskyros sąranką?</string>
