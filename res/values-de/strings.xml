@@ -33,6 +33,7 @@
   <string name="go_back">Zurück</string>
   <string name="skip_anyway">Trotzdem überspringen</string>
   <string name="dont_skip">Nicht überspringen</string>
+  <string name="setup_warning_accept_tos">Sie müssen den Nutzungsbedingungen, der Datenschutzerklärung und der Endbenutzer-Lizenzvereinbarung durch aktivieren des Kontrollkästchens zustimmen, um fortzufahren.</string>
   <string name="setup_warning_skip_anyway">Ohne ein Cyanogen OS-Konto können Sie ihr Telefon nicht:\n\nMit neuen Symbolen, Hintergründen und mehr in der Design-App anpassen\n\nLokalisieren oder löschen, falls Sie es verloren haben</string>
   <string name="cmaccount_setup_create_title">Erstellen Sie Ihr Konto</string>
   <string name="cmaccount_setup_killswitchlogin_title">Gerät entsperren</string>
@@ -90,6 +91,7 @@
   <string name="cyngn_setup_show_password">Passwort anzeigen</string>
   <string name="cyngn_setup_reset_password_dialog">Besuchen Sie https://account.cyngn.com mit einem PC, um Ihr Passwort zurückzusetzen.</string>
   <string name="cyngn_setup_forgot_password">Passwort vergessen?</string>
+  <string name="cyngn_setup_toslist_header">Zum Überprüfen auswählen</string>
   <string name="cyngn_setup_displayname_description">Ihr Anzeigename wird anderen Benutzern angezeigt, wenn Sie eine Bewertung eines Designs in der Design-App vornehmen.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Die E-Mail-Adresse, die Sie angegeben haben, ist nicht verfügbar.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Die ausgewählte E-Mail-Adresse ist ungültig.</string>

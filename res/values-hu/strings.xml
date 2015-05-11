@@ -35,6 +35,7 @@
   <string name="dont_skip">Nem hagyom ki</string>
   <string name="setup_warning_skip_wifi">FIGYELEM: Lehet, hogy jelentős összeget számítanak fel érte!\n\nAz eszköz beállítása nagyobb hálózati forgalmat igényel.</string>
   <string name="setup_warning_accept_tos">El kell fogadnia a Felhasználási feltételeket, Adatvédelmi irányelvet és a Végfelhasználói licencszerződést a folytatáshoz.</string>
+  <string name="setup_warning_skip_anyway">Cyanogen OS fiók nélkül nem fog tudni:\n\nTémákat keresni és letölteni a Téma áruházból\n\nTelefonját lokalizálni, vagy távolról törölni, ha elvesztette</string>
   <string name="cmaccount_setup_create_title">Fiók létrehozása</string>
   <string name="cmaccount_setup_killswitchlogin_title">Eszköz feloldása</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Eszköz zárolása</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">A megadott jelszavak nem egyeznek!</string>
   <string name="cmaccount_setup_password_invalid_label">A jelszónak legalább 8 karakternek kell lennie!</string>
   <string name="cmaccount_setup_confirm_password_label">Jelszó újbóli megadása</string>
+  <string name="cmaccount_setup_tos_label">A négyzet bejelölésével elfogadja a <u>Cyanogen Felhasználási feltételeit</u>, az <u>Adatvédelmi irányelvet</u>, és a <u>Végfelhasználói licencszerződést</u>.</string>
   <string name="cmaccount_add_title">Fiók hozzáadása</string>
   <string name="cmaccount_learn_more">Tudjon meg többet\u2026</string>
   <string name="cmaccount_login_message">Bejelentkezés Cyanogen fiókba</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Kérjük, frissítse</string>
   <string name="cmaccount_cert_pin_warning_text">Biztonsági okokból a Cyanogen fiók hamarosan működésképtelenné válhat. Kérjük, azonnal frissítse.</string>
   <string name="cmaccount_error_multiple_accounts">Egy eszközhöz csak egy Cyanogen fiók rendelhető</string>
+  <string name="cmaccount_allow_access">%1$s szeretne hozzáférni ehhez:</string>
   <string name="cmaccount_granting_access">Hozzáférés engedélyezése: %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Fiókja alapvető információinak megtekintése, beleértve az e-mail címét</string>
   <string name="cmaccount_password_changed_title">A jelszava megváltozott</string>
