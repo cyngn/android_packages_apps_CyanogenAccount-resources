@@ -35,6 +35,7 @@
   <string name="dont_skip">Moenie oorslaan nie</string>
   <string name="setup_warning_skip_wifi">WAARSKUWING: Jy kan ekstra netwerk data koste aangaan\n\nToestel opstelling kan aansienlike netwerk data gebruik.</string>
   <string name="setup_warning_accept_tos">Jy moet saamstem met die Voorwaardes, Privaatheidsbeleid, en die Eind Gebruiker Lisensie Ooreenkoms met die kies van die regmerkie voordat jy kan aangaan.</string>
+  <string name="setup_warning_skip_anyway">Sonder \'n Cyanogen OS Rekening, sal jy nie kan nie:\n\nBekyk en laai temas af van die Tema winkel\n\nSpoor jou foon op of verwyder al jou data wanneer jou foon verlore raak</string>
   <string name="cmaccount_setup_create_title">Skep jou rekening</string>
   <string name="cmaccount_setup_killswitchlogin_title">Ontsluit toestel</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Sluit toestel</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Wagwoorde stem nie ooreen nie!</string>
   <string name="cmaccount_setup_password_invalid_label">Wagwoord moet ten minste 8 karakters wees!</string>
   <string name="cmaccount_setup_confirm_password_label">Tik wagwoord weer in</string>
+  <string name="cmaccount_setup_tos_label">Deur hierdie regmerkie te maak, stem jy ooreen met <u>Cyanogen\'s se Voorwaardes van gebruik</u>, <u>Privaatheidsbeleid</u> en <u> Eind Gebruiker Lisensie ooreenkoms</u>.</string>
   <string name="cmaccount_add_title">Voeg jou rekening by</string>
   <string name="cmaccount_learn_more">Leer meer\u2026</string>
   <string name="cmaccount_login_message">Teken aan by Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Opgradeer asseblief</string>
   <string name="cmaccount_cert_pin_warning_text">Vir sekuriteit redes, kan Cyanogen rekening gou ophou werk. Opgradeer asseblief onmiddellik.</string>
   <string name="cmaccount_error_multiple_accounts">Slegs een Cyanogen rekening word toegelaat per toestel</string>
+  <string name="cmaccount_allow_access">%1$s wil toegang hê tot:</string>
   <string name="cmaccount_granting_access">Die verlening van toegang tot %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Bekyk basiese inligting oor jou rekening, insluitend jou e-pos</string>
   <string name="cmaccount_password_changed_title">Wagwoord het verander</string>

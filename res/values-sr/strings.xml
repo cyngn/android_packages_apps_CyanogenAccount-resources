@@ -35,6 +35,7 @@
   <string name="dont_skip">Немој прескочити</string>
   <string name="setup_warning_skip_wifi">УПОЗОРЕЊЕ: Оператер ће ти можда наплатити додатне трошкове.\n\nПодешавање урђаја може захтевати значајну употребу интернет везе.</string>
   <string name="setup_warning_accept_tos">Морате се сложити са условима коришћења, политиком приватности и уговором о лиценцама селектујући поље за потврду да би наставили.</string>
+  <string name="setup_warning_skip_anyway">Без Cyanogen OS налога нећеш моћи да:\n\nПретражујеш и скидаш теме из продавнице тема\n\nЛоцираш и обришеш на даљину телефон ако је изгубљен</string>
   <string name="cmaccount_setup_create_title">Направи свој налог</string>
   <string name="cmaccount_setup_killswitchlogin_title">Откључај уређај</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Закључај уређај</string>
@@ -46,6 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Лозинке се не поклапају!</string>
   <string name="cmaccount_setup_password_invalid_label">Лозинка мора имати најмање 8 знакова!</string>
   <string name="cmaccount_setup_confirm_password_label">Понови лозинку</string>
+  <string name="cmaccount_setup_tos_label">Овом потврдом слажете се са <u>Cyanogen-овим условима коришћења</u>, <u> политиком приватности</u> и <u>уговором о лиценцама</u>.</string>
   <string name="cmaccount_add_title">Додај твој налог</string>
   <string name="cmaccount_learn_more">Сазнај више\u2026</string>
   <string name="cmaccount_login_message">Логовање у Cyanogen</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_cert_pin_warning_title">Молим ажурирај</string>
   <string name="cmaccount_cert_pin_warning_text">Из безбедносних разлга, Cyanogen налог може укоро престати да ради. Молим ажурирај одмах.</string>
   <string name="cmaccount_error_multiple_accounts">Само један CyanogenMod налог може бити коришћен по уређају</string>
+  <string name="cmaccount_allow_access">%1$s би желео приступ за:</string>
   <string name="cmaccount_granting_access">Омогућавање приступа за %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Погледај основне информације о налогу, укључујући и Е-пошту</string>
   <string name="cmaccount_password_changed_title">Лозинка је промењена</string>

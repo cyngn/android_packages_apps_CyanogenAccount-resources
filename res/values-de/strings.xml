@@ -33,7 +33,8 @@
   <string name="go_back">Zurück</string>
   <string name="skip_anyway">Trotzdem überspringen</string>
   <string name="dont_skip">Nicht überspringen</string>
-  <string name="setup_warning_accept_tos">Sie müssen den Nutzungsbedingungen, der Datenschutzerklärung und der Endbenutzer-Lizenzvereinbarung durch aktivieren des Kontrollkästchens zustimmen, um fortzufahren.</string>
+  <string name="setup_warning_skip_wifi">WARNUNG: Die Geräteeinrichtung kann beträchtliche Netzaktivität mit sich bringen.\n\nEs können Kosten bei Ihrem Mobilnetzbetreiber entstehen.</string>
+  <string name="setup_warning_accept_tos">Sie müssen den Nutzungsbedingungen, der Datenschutzerklärung und der Endbenutzer-Lizenzvereinbarung durch Aktivieren des Kontrollkästchens zustimmen, um fortzufahren.</string>
   <string name="setup_warning_skip_anyway">Ohne ein Cyanogen OS-Konto können Sie ihr Telefon nicht:\n\nMit neuen Symbolen, Hintergründen und mehr in der Design-App anpassen\n\nLokalisieren oder löschen, falls Sie es verloren haben</string>
   <string name="cmaccount_setup_create_title">Erstellen Sie Ihr Konto</string>
   <string name="cmaccount_setup_killswitchlogin_title">Gerät entsperren</string>
@@ -46,7 +47,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Passwörter stimmen nicht überein!</string>
   <string name="cmaccount_setup_password_invalid_label">Das Passwort muss aus mindestens 8 Zeichen bestehen!</string>
   <string name="cmaccount_setup_confirm_password_label">Passwort erneut eingeben</string>
-  <string name="cmaccount_setup_tos_label">Durch aktiveren des Kontrollkästchens stimmen Sie den <u>Cyanogen-Nutzungsbedingungen</u>, der <u>Datenschutzerklärung</u> und der <u>Endbenutzer-Lizenzvereinbarung</u> zu.</string>
+  <string name="cmaccount_setup_tos_label">Durch Aktiveren des Kontrollkästchens stimmen Sie den <u>Cyanogen-Nutzungsbedingungen</u>, der <u>Datenschutzerklärung</u> und der <u>Endbenutzer-Lizenzvereinbarung</u> zu.</string>
   <string name="cmaccount_add_title">Fügen Sie Ihr Konto hinzu</string>
   <string name="cmaccount_learn_more">Weitere Informationen\u2026</string>
   <string name="cmaccount_login_message">Bei Cyanogen anmelden</string>
@@ -72,6 +73,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Sie müssen einen Anzeigenamen eingeben</string>
   <string name="cmaccount_setup_must_agree_label">Sie müssen den AGB zustimmen</string>
   <string name="cmaccount_setup_displayname_invalid_label">Ungültiger Anzeigename</string>
+  <string name="account_registered_perm_string">Ermöglicht der App, Benachrichtigungen über Cyanogen-Konto-Registrierungen zu empfangen. Jede App mit dieser Berechtigung kann Information über neue Cyanogen-Konten abfragen.</string>
   <string name="cmaccount_displayname_label">Wie soll Ihr Name angezeigt werden?</string>
   <string name="cmaccount_displayname_hint">Anzeigenamen</string>
   <string name="cmaccount_email_label">E-Mail</string>
