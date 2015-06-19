@@ -42,8 +42,10 @@
     <string name="cmaccount_setup_killswitchlogin_title">Unlock device</string>
     <string name="cmaccount_setup_killswitch_opt_in_title">Lock device</string>
     <string name="cmaccount_setup_email_label" translatable="false">username@email.com</string>
-    <string name="cmaccount_setup_email_unavailable_label">This username is unavailable</string>
+    <string name="cmaccount_setup_username_unavailable_label">This username is unavailable</string>
     <string name="cmaccount_setup_email_invalid_label">Sorry, only letters (a–z), numbers (0–9), and the characters (.+&amp;-_) are allowed.</string>
+    <string name="cmaccount_setup_phone_invalid_label">Please enter valid a phone number.</string>
+    <string name="cmaccount_setup_email_or_phone_invalid_label">Please enter a valid phone number or email address.</string>
     <string name="cmaccount_setup_displayname_label">Please enter your display name</string>
     <string name="cmaccount_setup_password_label">Password</string>
     <string name="cmaccount_setup_password_strength_label">8 characters minimum</string>
@@ -103,7 +105,10 @@
     <string name="cyngn_setup_next">NEXT</string>
     <string name="cyngn_skip_setup_dialog_header">Skip account setup?</string>
     <string name="cyngn_setup_sign_in">SIGN\u00A0IN</string>
+    <string name="cyngn_setup_existing_account_edittext_hint">Enter your email or phone number</string>
     <string name="cyngn_setup_email_edittext_hint">Please enter your email address</string>
+    <string name="cyngn_setup_phone_edittext_hint">Please enter your telephone number</string>
+    <string name="cyngn_setup_sending_sms">Sending SMS to %1$s. This may take a few seconds.</string>
     <string name="cyngn_setup_show_password">Show password</string>
     <string name="cyngn_setup_reset_password_dialog">To reset your password please visit https://account.cyngn.com from your computer.</string>
     <string name="cyngn_setup_forgot_password">Forgot password?</string>
@@ -112,12 +117,16 @@
     <string name="cyngn_setup_create_profile_email_unavailable">The email address you selected is unavailable.</string>
     <string name="cyngn_setup_create_profile_email_invalid">The email address you selected is invalid.</string>
     <string name="cyngn_setup_create_profile_displayname_invalid">The display name you selected is either invalid, too long or disallowed.</string>
-
+    <string name="cyngn_setup_create_profile_phone_unavailable">The phone number you entered is unavailable.</string>
+    <string name="cyngn_setup_create_profile_phone_invalid">The phone number you entered is invalid.</string>
     <string name="cyngn_setup_password_strength_meter_label">Password strength:</string>
     <string name="cyngn_setup_password_strength_meter_label_strong">Strong</string>
     <string name="cyngn_setup_password_strength_meter_label_fair">Medium</string>
     <string name="cyngn_setup_password_strength_meter_label_weak">Weak</string>
     <string name="cyngn_setup_password_strength_meter_label_tooshort">Too short</string>
+
+    <string name="sms_timeout_title">Unable to verify number</string>
+    <string name="sms_timeout_message">We were unable to verify your number via SMS. Would you like to verify your number again?</string>
 
     <string-array name="cyngn_account_benefits_list">
         <item><b>Your phone, your rules</b> - Customize your phone in the Themes app</item>
@@ -126,8 +135,273 @@
     <!-- This is only for devices with NextBit -->
     <string name="cyngn_account_benefit_nextbit"><b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton</string>
 
+    <string name="switch_to_phone">OR TELEPHONE NUMBER</string>
+    <string name="switch_to_email">OR EMAIL ADDRESS</string>
+    <string name="waiting_for_sms_title">Verifying phone number</string>
+    <string name="enter_sms_code_manually">Enter SMS confirmation code manually</string>
+    <string name="sms_confirmation_code_label">Please enter SMS confirmation code</string>
+    <string name="resend_sms">Retry number</string>
+    <string name="cmaccount_setup_sms_code_title">Verify with confirmation code</string>
+
+    <string name="cmaccount_setup_phone_blank_label">Must enter a phone number</string>
+    <string name="cmaccount_settings_title">Cyanogen account settings</string>
+    <string name="cmaccount_settings_confirm_phone_label">Confirm phone number</string>
+    <string name="cmaccount_settings_add_email_label">Add email address to account</string>
+    <string name="cmaccount_settings_add_phone_label">Add phone number to account</string>
+    <string name="cmaccount_settings_add_email_error_title">Error adding email</string>
+    <string name="cmaccount_settings_add_email_error_message">An error has occurred while adding an email address. %1$s</string>
+    <string name="cmaccount_settings_add_phone_error_title">Error adding phone number</string>
+    <string name="cmaccount_settings_add_phone_error_message">An error has occurred while adding a phone number. %1$s</string>
     <!-- List of display names for links to various terms of service -->
     <string name="tos_linktext_cyanogen">Cyanogen Terms of Service</string>
     <string name="privacy_linktext_cyanogen">Cyanogen Privacy Policy</string>
     <string name="eula_linktext_cyanogen">Cyanogen End User License Agreement</string>
+    <string name="sms_rate_warning">We will send an SMS to this number to verify your ownership of the telephone number. Sending an SMS will cost the normal network rate.</string>
+    <string name="country_code_map_delimiter" translatable="false">|</string>
+    <!--A list of ISO two-character country codes to a plaintext string with phone code-->
+    <string-array name="country_code_map_list">
+        <item>AD|Andorra (+376)</item>
+        <item>AE|United Arab Emirates (+971)</item>
+        <item>AF|Afghanistan (+93)</item>
+        <item>AG|Antigua and Barbuda (+1 268)</item>
+        <item>AI|Anguilla (+1 264)</item>
+        <item>AL|Albania (+355)</item>
+        <item>AM|Armenia (+374)</item>
+        <item>AO|Angola (+244)</item>
+        <item>AR|Argentina (+54)</item>
+        <item>AS|American Samoa (+1 684)</item>
+        <item>AT|Austria (+43)</item>
+        <item>AU|Australia (+61)</item>
+        <item>AW|Aruba (+297)</item>
+        <item>AX|Åland Islands (+358 18)</item>
+        <item>AZ|Azerbaijan (+994)</item>
+        <item>BA|Bosnia and Herzegovina (+387)</item>
+        <item>BB|Barbados (+1 246)</item>
+        <item>BD|Bangladesh (+880)</item>
+        <item>BE|Belgium (+32)</item>
+        <item>BF|Burkina Faso (+226)</item>
+        <item>BG|Bulgaria (+359)</item>
+        <item>BH|Bahrain (+973)</item>
+        <item>BI|Burundi (+257)</item>
+        <item>BJ|Benin (+229)</item>
+        <item>BL|Saint Barthélemy (+590)</item>
+        <item>BM|Bermuda (+1 441)</item>
+        <item>BN|Brunei Darussalam (+673)</item>
+        <item>BO|Bolivia, Plurinational State of (+591)</item>
+        <item>BQ|Bonaire, Sint Eustatius and Saba (+599 7)</item>
+        <item>BR|Brazil (+55)</item>
+        <item>BS|Bahamas (+1 242)</item>
+        <item>BT|Bhutan (+975)</item>
+        <item>BW|Botswana (+267)</item>
+        <item>BY|Belarus (+375)</item>
+        <item>BZ|Belize (+501)</item>
+        <item>CA|Canada (+1)</item>
+        <item>CC|Cocos (Keeling) Islands (+61)</item>
+        <item>CD|Congo, Democratic Republic of (+243)</item>
+        <item>CF|Central African Republic (+236)</item>
+        <item>CG|Congo (+242)</item>
+        <item>CH|Switzerland (+41)</item>
+        <item>CI|Côte d\'Ivoire (+225)</item>
+        <item>CK|Cook Islands (+682)</item>
+        <item>CL|Chile (+56)</item>
+        <item>CM|Cameroon (+237)</item>
+        <item>CN|China (+86)</item>
+        <item>CO|Colombia (+57)</item>
+        <item>CR|Costa Rica (+506)</item>
+        <item>CU|Cuba (+53)</item>
+        <item>CV|Cape Verde (+238)</item>
+        <item>CW|Curaçao (+599 9)</item>
+        <item>CX|Christmas Island (+61)</item>
+        <item>CY|Cyprus (+357)</item>
+        <item>CZ|Czech Republic (+420)</item>
+        <item>DE|Germany (+49)</item>
+        <item>DJ|Djibouti (+253)</item>
+        <item>DK|Denmark (+45)</item>
+        <item>DM|Dominica (+1 767)</item>
+        <item>DO|Dominican Republic (+1 809, +1 829, +1 849)</item>
+        <item>DZ|Algeria (+213)</item>
+        <item>EC|Ecuador (+593)</item>
+        <item>EE|Estonia (+372)</item>
+        <item>EG|Egypt (+20)</item>
+        <item>EH|Western Sahara (+212)</item>
+        <item>ER|Eritrea (+291)</item>
+        <item>ES|Spain (+34)</item>
+        <item>ET|Ethiopia (+251)</item>
+        <item>FI|Finland (+358)</item>
+        <item>FJ|Fiji (+679)</item>
+        <item>FK|Falkland Islands (+500)</item>
+        <item>FM|Micronesia, Federated States of (+691)</item>
+        <item>FO|Faroe Islands (+298)</item>
+        <item>FR|France (+33)</item>
+        <item>GA|Gabon (+241)</item>
+        <item>GB|United Kingdom (+44)</item>
+        <item>GD|Grenada (+1 473)</item>
+        <item>GE|Georgia (+995)</item>
+        <item>GF|French Guiana (+594)</item>
+        <item>GG|Guernsey (+44)</item>
+        <item>GH|Ghana (+233)</item>
+        <item>GI|Gibraltar (+350)</item>
+        <item>GL|Greenland (+299)</item>
+        <item>GM|Gambia (+220)</item>
+        <item>GN|Guinea (+224)</item>
+        <item>GP|Guadeloupe (+590)</item>
+        <item>GQ|Equatorial Guinea (+240)</item>
+        <item>GR|Greece (+30)</item>
+        <item>GT|Guatemala (+502)</item>
+        <item>GU|Guam (+1 671)</item>
+        <item>GW|Guinea-Bissau (+245)</item>
+        <item>GY|Guyana (+592)</item>
+        <item>HK|Hong Kong (+852)</item>
+        <item>HN|Honduras (+504)</item>
+        <item>HR|Croatia (+385)</item>
+        <item>HT|Haiti (+509)</item>
+        <item>HU|Hungary (+36)</item>
+        <item>ID|Indonesia (+62)</item>
+        <item>IE|Ireland (+353)</item>
+        <item>IL|Israel (+972)</item>
+        <item>IM|Isle of Man (+44)</item>
+        <item>IN|India (+91)</item>
+        <item>IO|British Indian Ocean Territory (+246)</item>
+        <item>IQ|Iraq (+964)</item>
+        <item>IR|Iran, Islamic Republic of (+98)</item>
+        <item>IS|Iceland (+354)</item>
+        <item>IT|Italy (+39)</item>
+        <item>JE|Jersey (+44)</item>
+        <item>JM|Jamaica (+1 876)</item>
+        <item>JO|Jordan (+962)</item>
+        <item>JP|Japan (+81)</item>
+        <item>KE|Kenya (+254)</item>
+        <item>KG|Kyrgyzstan (+996)</item>
+        <item>KH|Cambodia (+855)</item>
+        <item>KI|Kiribati (+686)</item>
+        <item>KM|Comoros (+269)</item>
+        <item>KN|Saint Kitts and Nevis (+1 869)</item>
+        <item>KP|Korea, North (+850)</item>
+        <item>KR|Korea, South (+82)</item>
+        <item>KW|Kuwait (+965)</item>
+        <item>KY|Cayman Islands (+1 345)</item>
+        <item>KZ|Kazakhstan (+7 6, +7 7)</item>
+        <item>LA|Laos (+856)</item>
+        <item>LB|Lebanon (+961)</item>
+        <item>LC|Saint Lucia (+1 758)</item>
+        <item>LI|Liechtenstein (+423)</item>
+        <item>LK|Sri Lanka (+94)</item>
+        <item>LR|Liberia (+231)</item>
+        <item>LS|Lesotho (+266)</item>
+        <item>LT|Lithuania (+370)</item>
+        <item>LU|Luxembourg (+352)</item>
+        <item>LV|Latvia (+371)</item>
+        <item>LY|Libya (+218)</item>
+        <item>MA|Morocco (+212)</item>
+        <item>MC|Monaco (+377)</item>
+        <item>MD|Moldova, Republic of (+373)</item>
+        <item>ME|Montenegro (+382)</item>
+        <item>MF|Saint Martin (France) (+590)</item>
+        <item>MG|Madagascar (+261)</item>
+        <item>MH|Marshall Islands (+692)</item>
+        <item>MK|Macedonia, the former Yugoslav Republic of (+389)</item>
+        <item>ML|Mali (+223)</item>
+        <item>MM|Myanmar (+95)</item>
+        <item>MN|Mongolia (+976)</item>
+        <item>MO|Macau (+853)</item>
+        <item>MP|Northern Mariana Islands (+1 670)</item>
+        <item>MQ|Martinique (+596)</item>
+        <item>MR|Mauritania (+222)</item>
+        <item>MS|Montserrat (+1 664)</item>
+        <item>MT|Malta (+356)</item>
+        <item>MU|Mauritius (+230)</item>
+        <item>MV|Maldives (+960)</item>
+        <item>MW|Malawi (+265)</item>
+        <item>MX|Mexico (+52)</item>
+        <item>MY|Malaysia (+60)</item>
+        <item>MZ|Mozambique (+258)</item>
+        <item>NA|Namibia (+264)</item>
+        <item>NC|New Caledonia (+687)</item>
+        <item>NE|Niger (+227)</item>
+        <item>NF|Norfolk Island (+672)</item>
+        <item>NG|Nigeria (+234)</item>
+        <item>NI|Nicaragua (+505)</item>
+        <item>NL|Netherlands (+31)</item>
+        <item>NO|Norway (+47)</item>
+        <item>NP|Nepal (+977)</item>
+        <item>NR|Nauru (+674)</item>
+        <item>NU|Niue (+683)</item>
+        <item>NZ|New Zealand (+64)</item>
+        <item>OM|Oman (+968)</item>
+        <item>PA|Panama (+507)</item>
+        <item>PE|Peru (+51)</item>
+        <item>PF|French Polynesia (+689)</item>
+        <item>PG|Papua New Guinea (+675)</item>
+        <item>PH|Philippines (+63)</item>
+        <item>PK|Pakistan (+92)</item>
+        <item>PL|Poland (+48)</item>
+        <item>PM|Saint Pierre and Miquelon (+508)</item>
+        <item>PR|Puerto Rico (+1 787, +1 939)</item>
+        <item>PS|Palestine, State of (+970)</item>
+        <item>PT|Portugal (+351)</item>
+        <item>PW|Palau (+680)</item>
+        <item>PY|Paraguay (+595)</item>
+        <item>QA|Qatar (+974)</item>
+        <item>RE|Réunion (+262)</item>
+        <item>RO|Romania (+40)</item>
+        <item>RS|Serbia (+381)</item>
+        <item>RU|Russian Federation (+7)</item>
+        <item>RW|Rwanda (+250)</item>
+        <item>SA|Saudi Arabia (+966)</item>
+        <item>SB|Solomon Islands (+677)</item>
+        <item>SC|Seychelles (+248)</item>
+        <item>SD|Sudan (+249)</item>
+        <item>SE|Sweden (+46)</item>
+        <item>SG|Singapore (+65)</item>
+        <item>SH|Saint Helena, Ascension and Tristan da Cunha (+290)</item>
+        <item>SI|Slovenia (+386)</item>
+        <item>SJ|Svalbard and Jan Mayen (+47 79)</item>
+        <item>SK|Slovakia (+421)</item>
+        <item>SL|Sierra Leone (+232)</item>
+        <item>SM|San Marino (+378)</item>
+        <item>SN|Senegal (+221)</item>
+        <item>SO|Somalia (+252)</item>
+        <item>SR|Suriname (+597)</item>
+        <item>SS|South Sudan (+211)</item>
+        <item>ST|São Tomé and Príncipe (+239)</item>
+        <item>SV|El Salvador (+503)</item>
+        <item>SX|Sint Maarten (Dutch part) (+599 3)</item>
+        <item>SY|Syrian Arab Republic (+963)</item>
+        <item>SZ|Swaziland (+268)</item>
+        <item>TA|Turks and Caicos Islands (+1 649)</item>
+        <item>TC|Chad (+235)</item>
+        <item>TD|French Southern Territories (+689)</item>
+        <item>TG|Togo (+228)</item>
+        <item>TH|Thailand (+66)</item>
+        <item>TJ|Tajikistan (+992)</item>
+        <item>TK|Tokelau (+690)</item>
+        <item>TL|Timor-Leste (+882 16)</item>
+        <item>TM|Turkmenistan (+993)</item>
+        <item>TN|Tunisia (+216)</item>
+        <item>TO|Tonga (+676)</item>
+        <item>TR|Turkey (+90)</item>
+        <item>TT|Trinidad and Tobago (+1 868)</item>
+        <item>TV|Tuvalu (+688)</item>
+        <item>TW|Taiwan, Province of China (+886)</item>
+        <item>TZ|Tanzania, United Republic of (+255)</item>
+        <item>UA|Ukraine (+380)</item>
+        <item>UG|Uganda (+256)</item>
+        <item>US|United States (+1)</item>
+        <item>UY|Uruguay (+598)</item>
+        <item>UZ|Uzbekistan (+998)</item>
+        <item>VA|Vatican City (+379)</item>
+        <item>VC|Saint Vincent and the Grenadines (+1 784)</item>
+        <item>VE|Venezuela (+58)</item>
+        <item>VG|British Virgin Islands (+1 284)</item>
+        <item>VI|US Virgin Islands (+1 340)</item>
+        <item>VN|Vietnam (+84)</item>
+        <item>VU|Vanuatu (+678)</item>
+        <item>WF|Wallis and Futuna (+681)</item>
+        <item>WS|Samoa (+685)</item>
+        <item>YE|Yemen (+967)</item>
+        <item>YT|Mayotte (+262)</item>
+        <item>ZA|South Africa (+27)</item>
+        <item>ZM|Zambia (+260)</item>
+        <item>ZW|Zimbabwe (+263)</item>
+    </string-array>
 </resources>
