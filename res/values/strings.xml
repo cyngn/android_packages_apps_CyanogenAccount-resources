@@ -42,8 +42,10 @@
     <string name="cmaccount_setup_killswitchlogin_title">Unlock device</string>
     <string name="cmaccount_setup_killswitch_opt_in_title">Lock device</string>
     <string name="cmaccount_setup_email_label" translatable="false">username@email.com</string>
-    <string name="cmaccount_setup_email_unavailable_label">This username is unavailable</string>
+    <string name="cmaccount_setup_username_unavailable_label">This username is unavailable</string>
     <string name="cmaccount_setup_email_invalid_label">Sorry, only letters (a–z), numbers (0–9), and the characters (.+&amp;-_) are allowed.</string>
+    <string name="cmaccount_setup_phone_invalid_label">Please enter valid a phone number.</string>
+    <string name="cmaccount_setup_email_or_phone_invalid_label">Please enter a valid phone number or email address.</string>
     <string name="cmaccount_setup_displayname_label">Please enter your display name</string>
     <string name="cmaccount_setup_password_label">Password</string>
     <string name="cmaccount_setup_password_strength_label">8 characters minimum</string>
@@ -103,7 +105,10 @@
     <string name="cyngn_setup_next">NEXT</string>
     <string name="cyngn_skip_setup_dialog_header">Skip account setup?</string>
     <string name="cyngn_setup_sign_in">SIGN\u00A0IN</string>
+    <string name="cyngn_setup_existing_account_edittext_hint">Enter your email or phone number</string>
     <string name="cyngn_setup_email_edittext_hint">Please enter your email address</string>
+    <string name="cyngn_setup_phone_edittext_hint">Please enter your telephone number</string>
+    <string name="cyngn_setup_sending_sms">Sending SMS to %1$s. This may take a few seconds.</string>
     <string name="cyngn_setup_show_password">Show password</string>
     <string name="cyngn_setup_reset_password_dialog">To reset your password please visit https://account.cyngn.com from your computer.</string>
     <string name="cyngn_setup_forgot_password">Forgot password?</string>
@@ -112,12 +117,16 @@
     <string name="cyngn_setup_create_profile_email_unavailable">The email address you selected is unavailable.</string>
     <string name="cyngn_setup_create_profile_email_invalid">The email address you selected is invalid.</string>
     <string name="cyngn_setup_create_profile_displayname_invalid">The display name you selected is either invalid, too long or disallowed.</string>
-
+    <string name="cyngn_setup_create_profile_phone_unavailable">The phone number you entered is unavailable.</string>
+    <string name="cyngn_setup_create_profile_phone_invalid">The phone number you entered is invalid.</string>
     <string name="cyngn_setup_password_strength_meter_label">Password strength:</string>
     <string name="cyngn_setup_password_strength_meter_label_strong">Strong</string>
     <string name="cyngn_setup_password_strength_meter_label_fair">Medium</string>
     <string name="cyngn_setup_password_strength_meter_label_weak">Weak</string>
     <string name="cyngn_setup_password_strength_meter_label_tooshort">Too short</string>
+
+    <string name="sms_timeout_title">Unable to verify number</string>
+    <string name="sms_timeout_message">We were unable to verify your number via SMS. Would you like to verify your number again?</string>
 
     <string-array name="cyngn_account_benefits_list">
         <item><b>Your phone, your rules</b> - Customize your phone in the Themes app</item>
@@ -126,8 +135,26 @@
     <!-- This is only for devices with NextBit -->
     <string name="cyngn_account_benefit_nextbit"><b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton</string>
 
+    <string name="switch_to_phone">OR TELEPHONE NUMBER</string>
+    <string name="switch_to_email">OR EMAIL ADDRESS</string>
+    <string name="waiting_for_sms_title">Verifying phone number</string>
+    <string name="enter_sms_code_manually">Enter SMS confirmation code manually</string>
+    <string name="sms_confirmation_code_label">Please enter SMS confirmation code</string>
+    <string name="resend_sms">Retry number</string>
+    <string name="cmaccount_setup_sms_code_title">Verify with confirmation code</string>
+
+    <string name="cmaccount_setup_phone_blank_label">Must enter a phone number</string>
+    <string name="cmaccount_settings_title">Cyanogen account settings</string>
+    <string name="cmaccount_settings_confirm_phone_label">Confirm phone number</string>
+    <string name="cmaccount_settings_add_email_label">Add email address to account</string>
+    <string name="cmaccount_settings_add_phone_label">Add phone number to account</string>
+    <string name="cmaccount_settings_add_email_error_title">Error adding email</string>
+    <string name="cmaccount_settings_add_email_error_message">An error has occurred while adding an email address. %1$s</string>
+    <string name="cmaccount_settings_add_phone_error_title">Error adding phone number</string>
+    <string name="cmaccount_settings_add_phone_error_message">An error has occurred while adding a phone number. %1$s</string>
     <!-- List of display names for links to various terms of service -->
     <string name="tos_linktext_cyanogen">Cyanogen Terms of Service</string>
     <string name="privacy_linktext_cyanogen">Cyanogen Privacy Policy</string>
     <string name="eula_linktext_cyanogen">Cyanogen End User License Agreement</string>
+    <string name="sms_rate_warning">We will send an SMS to this number to verify your ownership of the telephone number. Sending an SMS will cost the normal network rate.</string>
 </resources>
