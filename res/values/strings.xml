@@ -60,8 +60,8 @@
     <string name="cmaccount_creating_profile_message">Creating your Cyanogen profile</string>
 
     <string name="cmaccount_login_error_title">Login failed</string>
-    <string name="cmaccount_login_error_message">Invalid email or password.</string>
-    <string name="cmaccount_killswitch_login_error_message">Incorrect email or password, please try again or visit https://account.cyngn.com to reset your password.</string>
+    <string name="cmaccount_login_error_message">Invalid user name or password.</string>
+    <string name="cmaccount_killswitch_login_error_message">Incorrect user name or password, please try again or visit https://account.cyngn.com to reset your password.</string>
     <string name="cmaccount_server_error_title">Communication error</string>
     <string name="cmaccount_create_account_error_title">Error creating account</string>
     <string name="cmaccount_create_account_error_message">An error has occurred while creating your account. %1$s</string>
@@ -133,7 +133,7 @@
         <item><b>Find your phone</b> - Find and erase your phone if it is lost</item>
     </string-array>
     <!-- This is only for devices with NextBit -->
-    <string name="cyngn_account_benefit_nextbit"><b>Cloudify your apps</b> - Move between Cyanogen devices with Nextbit Baton</string>
+    <string name="cyngn_account_benefit_callerinfo">&lt;b>Live Caller ID&lt;/b> - Know who\'s calling and block spam callers with %1$s</string>
 
     <string name="switch_to_phone">OR TELEPHONE NUMBER</string>
     <string name="switch_to_email">OR EMAIL ADDRESS</string>
