@@ -44,7 +44,7 @@
     <string name="cmaccount_setup_email_label" translatable="false">username@email.com</string>
     <string name="cmaccount_setup_username_unavailable_label">This username is unavailable</string>
     <string name="cmaccount_setup_email_invalid_label">Sorry, only letters (a–z), numbers (0–9), and the characters (.+&amp;-_) are allowed.</string>
-    <string name="cmaccount_setup_phone_invalid_label">Please enter valid a phone number.</string>
+    <string name="cmaccount_setup_phone_invalid_label">Please enter a valid phone number.</string>
     <string name="cmaccount_setup_email_or_phone_invalid_label">Please enter a valid phone number or email address.</string>
     <string name="cmaccount_setup_displayname_label">Please enter your display name</string>
     <string name="cmaccount_setup_password_label">Password</string>
