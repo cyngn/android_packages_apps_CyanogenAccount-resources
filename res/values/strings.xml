@@ -132,7 +132,7 @@
         <item><b>Your phone, your rules</b> - Customize your phone in the Themes app</item>
         <item><b>Find your phone</b> - Find and erase your phone if it is lost</item>
     </string-array>
-    <!-- This is only for devices with NextBit -->
+    <!-- This is only for devices with callerinfo support. -->
     <string name="cyngn_account_benefit_callerinfo">&lt;b>Live Caller ID&lt;/b> - Know who\'s calling and block spam callers with %1$s</string>
 
     <string name="switch_to_phone">OR TELEPHONE NUMBER</string>
@@ -157,4 +157,7 @@
     <string name="privacy_linktext_cyanogen">Cyanogen Privacy Policy</string>
     <string name="eula_linktext_cyanogen">Cyanogen End User License Agreement</string>
     <string name="sms_rate_warning">We will send an SMS to this number to verify your ownership of the telephone number. Sending an SMS will cost the normal network rate.</string>
+    <!-- Countdown string for waiting for phone number verification SMS "45 secs" -->
+    <string name="sms_countdown_seconds">%1$d secs</string>
+    <string name="cyngn_setup_create">CREATE</string>
 </resources>
