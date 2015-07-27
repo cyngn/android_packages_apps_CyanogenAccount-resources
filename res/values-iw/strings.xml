@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">צור את החשבון שלך</string>
   <string name="cmaccount_setup_killswitchlogin_title">פתח מכשיר</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">נעל מכשיר</string>
-  <string name="cmaccount_setup_email_unavailable_label">שם משתמש זה אינו זמין</string>
+  <string name="cmaccount_setup_username_unavailable_label">שם משתמש זה אינו זמין</string>
   <string name="cmaccount_setup_email_invalid_label">מצטערים, אבל רק אותיות (a-z), מספרים (0-9) והתווים (.+&amp;-_) מותרים לשימוש.</string>
+  <string name="cmaccount_setup_phone_invalid_label">אנא הזן מספר טלפון חוקי.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">אנא הזן מספר טלפון או כתובת דוא\"ל חוקיים.</string>
   <string name="cmaccount_setup_displayname_label">אנא הכנס את שם התצוגה שלך</string>
   <string name="cmaccount_setup_password_label">סיסמה</string>
   <string name="cmaccount_setup_password_strength_label">8 תווים לכל הפחות</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">מתחבר ל-Cyanogen</string>
   <string name="cmaccount_creating_profile_message">יוצר את פרופיל ה-Cyanogen שלך</string>
   <string name="cmaccount_login_error_title">התחברות נכשלה</string>
-  <string name="cmaccount_login_error_message">דוא\"ל או סיסמה לא נכונים.</string>
-  <string name="cmaccount_killswitch_login_error_message">דוא\"ל או סיסמה שגויים, אנא נסה שנית או בקר באתר https://account.cyngn.com כדי לאפס את סיסמתך.</string>
+  <string name="cmaccount_login_error_message">שם המשתמש או הסיסמה אינם חוקיים.</string>
+  <string name="cmaccount_killswitch_login_error_message">שם משתמש או סיסמה שגויים, אנא נסה שנית או בקר באתר https://account.cyngn.com כדי לאפס את סיסמתך.</string>
   <string name="cmaccount_server_error_title">שגיאת תקשורת</string>
   <string name="cmaccount_create_account_error_title">שגיאה בעת יצירת חשבון</string>
   <string name="cmaccount_create_account_error_message">אירעה שגיאה בעת יצירת חשבונך. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">הבא</string>
   <string name="cyngn_skip_setup_dialog_header">לדלג על הגדרת חשבון?</string>
   <string name="cyngn_setup_sign_in">היכנס</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">הזן את מספר הטלפון או כתובת הדוא\"ל שלך</string>
   <string name="cyngn_setup_email_edittext_hint">הכנס בבקשה את כתובת הדוא\"ל שלך</string>
+  <string name="cyngn_setup_phone_edittext_hint">אנא הזן את מספר הטלפון שלך</string>
+  <string name="cyngn_setup_sending_sms">שולח SMS למספר %1$s. פעולה זו עשויה להימשך מספר שניות.</string>
   <string name="cyngn_setup_show_password">הצג סיסמה</string>
   <string name="cyngn_setup_reset_password_dialog">כדי לאפס את סיסמתך אנא בקר באתר https://account.cyngn.com מהמחשב שלך.</string>
   <string name="cyngn_setup_forgot_password">שכחת סיסמה?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">כתובת הדוא\"ל שבחרת אינה זמינה.</string>
   <string name="cyngn_setup_create_profile_email_invalid">כתובת הדוא\"ל שבחרת אינה חוקית.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">שם התצוגה שבחרת אינו תקין, ארוך מדי או לא מאושר.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">מספר הטלפון שהזנת אינו זמין.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">מספר הטלפון שהזנת אינו חוקי.</string>
   <string name="cyngn_setup_password_strength_meter_label">חוזק הסיסמה:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">חזק</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">בינוני</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">חלש</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">קצר מדי</string>
+  <string name="sms_timeout_title">אין אפשרות לאמת את המספר</string>
+  <string name="sms_timeout_message">לא הצלחנו לאמת את המספר שלך באמצעות SMS. האם ברצונך לאמת את המספר שלך שוב?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>המכשיר שלך, החוקים שלך</b> - התאם אישית את מכשירך ביישום ערכות העיצוב</item>
     <item><b>מצא את מכשירך</b> - מצא ומחק את מכשירך במקרה של אובדן</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>העלה את יישומיך לענן</b> - עבור בין מכשירי Cyanogen בעזרת Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - דע מי מתקשר וחסום שיחות זבל עם %1$s</string>
+  <string name="switch_to_phone">או מספר טלפון</string>
+  <string name="switch_to_email">או כתובת דוא\"ל</string>
+  <string name="waiting_for_sms_title">מאמת מספר טלפון</string>
+  <string name="enter_sms_code_manually">הכנס את קוד האישור מה-SMS באופן ידני</string>
+  <string name="sms_confirmation_code_label">אנא הכנס את קוד האישור מה-SMS</string>
+  <string name="resend_sms">נסה מספר שנית</string>
+  <string name="cmaccount_setup_sms_code_title">אמת באמצעות קוד אישור</string>
+  <string name="cmaccount_setup_phone_blank_label">עליך להזין מספר טלפון</string>
+  <string name="cmaccount_settings_title">הגדרות חשבון Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">אשר מספר טלפון</string>
+  <string name="cmaccount_settings_add_email_label">הוסף כתובת דוא\"ל לחשבון</string>
+  <string name="cmaccount_settings_add_phone_label">הוסף מספר טלפון לחשבון</string>
+  <string name="cmaccount_settings_add_email_error_title">שגיאה בהוספת דוא\"ל</string>
+  <string name="cmaccount_settings_add_email_error_message">אירעה שגיאה בעת הוספת כתובת דוא\"ל. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">שגיאה בהוספת מספר טלפון</string>
+  <string name="cmaccount_settings_add_phone_error_message">אירעה שגיאה בעת הוספת מספר טלפון. %1$s</string>
   <string name="tos_linktext_cyanogen">תנאי השירות של Cyanogen</string>
   <string name="privacy_linktext_cyanogen">מדיניות הפרטיות של Cyanogen</string>
   <string name="eula_linktext_cyanogen">הסכם רישיון משתמש קצה של Cyanogen</string>
+  <string name="sms_rate_warning">אנו נשלח לך הודעת SMS למספר זה כדי לאמת את בעלותך על מספר הטלפון. שליחת SMS זה תעלה כמו כל הודעה אחרת.</string>
+  <string name="cyngn_setup_create">צור</string>
 </resources>

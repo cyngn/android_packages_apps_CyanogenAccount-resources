@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Створити обліковий запис</string>
   <string name="cmaccount_setup_killswitchlogin_title">Розблокувати пристрій</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Заблокувати пристрій</string>
-  <string name="cmaccount_setup_email_unavailable_label">Це ім\'я користувача недоступне</string>
+  <string name="cmaccount_setup_username_unavailable_label">Це ім\'я користувача недоступне</string>
   <string name="cmaccount_setup_email_invalid_label">Пробачте, але дозволені лише літери (a–z), цифри (0–9), та символи (.+&amp;-_).</string>
+  <string name="cmaccount_setup_phone_invalid_label">Будь-ласка, введіть допустимий телефонний номер.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Будь ласка, введіть номер телефона чи електронну адресу.</string>
   <string name="cmaccount_setup_displayname_label">Будь ласка, введіть коротке ім\'я</string>
   <string name="cmaccount_setup_password_label">Пароль</string>
   <string name="cmaccount_setup_password_strength_label">Мінімум 8 символів</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Вхід до Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Створення профілю Cyanogen</string>
   <string name="cmaccount_login_error_title">Помилка входу</string>
-  <string name="cmaccount_login_error_message">Невірний email або пароль.</string>
-  <string name="cmaccount_killswitch_login_error_message">Неправильна електронна пошта або пароль, спробуйте ще раз або відвідайте https://account.cyngn.com для скидання пароля.</string>
+  <string name="cmaccount_login_error_message">Неправильне ім\'я користувача або пароль.</string>
+  <string name="cmaccount_killswitch_login_error_message">Неправильне ім’я користувача або пароль, спробуйте ще раз або відвідайте https://account.cyngn.com для скидання пароля.</string>
   <string name="cmaccount_server_error_title">Помилка зв\'язку</string>
   <string name="cmaccount_create_account_error_title">Помилка створення обл.запису</string>
   <string name="cmaccount_create_account_error_message">Під час створення облікового запису сталася помилка. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">НАСТУПНИЙ</string>
   <string name="cyngn_skip_setup_dialog_header">Пропустити налаштування облікового запису?</string>
   <string name="cyngn_setup_sign_in">УВІЙТИ\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Введіть свій номер телефона чи адресу електронної пошти</string>
   <string name="cyngn_setup_email_edittext_hint">Будь ласка, введіть Вашу адресу електронної пошти</string>
+  <string name="cyngn_setup_phone_edittext_hint">Будь ласка, введіть ваш номер телефона</string>
+  <string name="cyngn_setup_sending_sms">Відправлення SMS на %1$s. Це може зайняти кілька секунд.</string>
   <string name="cyngn_setup_show_password">Показувати пароль</string>
   <string name="cyngn_setup_reset_password_dialog">Щоб скинути пароль, будь-ласка, відвідайте https://account.cyngn.com з вашого комп\'ютера.</string>
   <string name="cyngn_setup_forgot_password">Забули пароль?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Обрана адреса електронної пошти недоступна.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Обрана адреса електронної пошти неприпустима.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Обране Вами коротке ім\'я неприпустиме, або задовге чи заборонене.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Введений номер телефона недоступний.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Введений номер телефона неприпустимий.</string>
   <string name="cyngn_setup_password_strength_meter_label">Надійність паролю:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Сильна</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Середня</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Слабка</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Ніяка</string>
+  <string name="sms_timeout_title">Не вдалося перевірити номер</string>
+  <string name="sms_timeout_message">Ми не змогли підтвердити ваш номер за допомогою SMS. Спробувати знову?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Ваш телефон, ваші правила</b> - Додайте особистості вашому телефону у програмі \"Теми\"</item>
     <item><b>Знайти телефон</b> - Знайдіть та видаліть дані з вашого телефону у випадку втрати</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Захмар свої програми</b> - Перемикайся між пристроями Cyanogen за допомогою Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Знайте хто дзвонить і блокуйте спамерів з %1$s</string>
+  <string name="switch_to_phone">АБО НОМЕР ТЕЛЕФОНА</string>
+  <string name="switch_to_email">АБО АДРЕСУ ЕЛЕКТРОННОЇ ПОШТИ</string>
+  <string name="waiting_for_sms_title">Перевірка номера телефона</string>
+  <string name="enter_sms_code_manually">Введіть код підтвердження SMS вручну</string>
+  <string name="sms_confirmation_code_label">Будь-ласка, введіть код підтвердження SMS</string>
+  <string name="resend_sms">Повторіть номер</string>
+  <string name="cmaccount_setup_sms_code_title">Перевірити за допомогою кода підтвердження</string>
+  <string name="cmaccount_setup_phone_blank_label">Необхідно ввести номер телефона</string>
+  <string name="cmaccount_settings_title">Налаштування облікового запису Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Підтвердити номер телефона</string>
+  <string name="cmaccount_settings_add_email_label">Додати адресу електронної пошти до облікового запису</string>
+  <string name="cmaccount_settings_add_phone_label">Додати номер телефона до облікового запису</string>
+  <string name="cmaccount_settings_add_email_error_title">Помилка додавання адреси електронної пошти</string>
+  <string name="cmaccount_settings_add_email_error_message">Помилка додавання адреси електронної пошти. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Помилка додавання номеру телефона</string>
+  <string name="cmaccount_settings_add_phone_error_message">Помилка додавання номеру телефона. %1$s</string>
   <string name="tos_linktext_cyanogen">Умови користування Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Політика конфіденційності Cyanogen</string>
   <string name="eula_linktext_cyanogen">Ліцензійна угода користувача Cyanogen</string>
+  <string name="sms_rate_warning">Ми відправимо SMS-повідомлення на цей номер для підтвердження права власності на нього. Вартість SMS згідно з тарифами вашого оператора.</string>
+  <string name="cyngn_setup_create">СТВОРИТИ</string>
 </resources>

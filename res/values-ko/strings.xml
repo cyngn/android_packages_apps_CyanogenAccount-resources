@@ -40,8 +40,10 @@
   <string name="cmaccount_setup_create_title">계정 생성</string>
   <string name="cmaccount_setup_killswitchlogin_title">장치 잠금 해제</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">장치 잠금</string>
-  <string name="cmaccount_setup_email_unavailable_label">사용자 이름이 잘 못되었습니다.</string>
+  <string name="cmaccount_setup_username_unavailable_label">이 사용자 이름은 사용할 수 없습니다</string>
   <string name="cmaccount_setup_email_invalid_label">문자(a–z), 숫자(0–9), 특수문자(.+&amp;-_)만 사용할 수 있습니다.</string>
+  <string name="cmaccount_setup_phone_invalid_label">유효한 전화번호를 입력하십시오.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">올바른 휴대전화 번호나 이메일 주소를 입력해 주십시오.</string>
   <string name="cmaccount_setup_displayname_label">별명을 입력하십시오.</string>
   <string name="cmaccount_setup_password_label">비밀번호</string>
   <string name="cmaccount_setup_password_strength_label">최소 8자</string>
@@ -54,7 +56,7 @@
   <string name="cmaccount_login_message">Cyanogen에 로그인 중</string>
   <string name="cmaccount_creating_profile_message">Cyanogen 프로필을 생성 중</string>
   <string name="cmaccount_login_error_title">로그인 실패</string>
-  <string name="cmaccount_login_error_message">이메일 또는 비밀번호가 잘못되었습니다.</string>
+  <string name="cmaccount_login_error_message">잘못된 사용자 이름 또는 비밀번호입니다.</string>
   <string name="cmaccount_killswitch_login_error_message">잘못된 이메일 또는 비밀번호를 입력하셨습니다. 다시 시도하거나 https://account.cyngn.com에 방문하여 비밀번호를 다시 설정하세요.</string>
   <string name="cmaccount_server_error_title">통신 오류</string>
   <string name="cmaccount_create_account_error_title">계정 생성 오류</string>
@@ -91,7 +93,10 @@
   <string name="cyngn_setup_next">다음</string>
   <string name="cyngn_skip_setup_dialog_header">계정 설정을 건너뛰기 합니까?</string>
   <string name="cyngn_setup_sign_in">서명\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">이메일이나 휴대전화 번호를 입력하세요</string>
   <string name="cyngn_setup_email_edittext_hint">이메일 주소 입력이 필요함</string>
+  <string name="cyngn_setup_phone_edittext_hint">휴대전화 번호를 입력해 주세요</string>
+  <string name="cyngn_setup_sending_sms">%1$s에 SMS를 보내는 중. 이 작업은 몇 초 정도 걸릴 수 있습니다.</string>
   <string name="cyngn_setup_show_password">비밀번호 표시</string>
   <string name="cyngn_setup_reset_password_dialog">비밀번호를 재설정하기 위해 컴퓨터에서 https://account.cyngn.com에 방문하세요.</string>
   <string name="cyngn_setup_forgot_password">비밀번호를 잊었습니까?</string>
@@ -100,17 +105,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">입력한 이메일 주소는 사용할 수 없습니다.</string>
   <string name="cyngn_setup_create_profile_email_invalid">입력한 이메일 주소는 유효하지 않습니다.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">입력한 별명은 유효하지 않거나 너무 길거나 허용되지 않습니다.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">입력한 휴대전화 번호는 사용할 수 없습니다.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">입력한 휴대전화 번호는 올바르지 않습니다.</string>
   <string name="cyngn_setup_password_strength_meter_label">비밀번호 보안성:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">강함</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">보통</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">약함</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">너무 짧음</string>
+  <string name="sms_timeout_title">전화 번호를 확인할 수 없음</string>
+  <string name="sms_timeout_message">SMS를 이용하여 전화 번호를 확인할 수 없습니다. 다시 시도하시겠습니까?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>기기, 규칙</b> - 테마 앱으로 기기의 개인화 설정</item>
     <item><b>기기 찾기</b> - 잃어 버렸을 경우 기기를 찾거나 개인정보를 원격 삭제</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>앱설치 상태를 클라우드에 저장</b> - Nextbit Baton으로 Cyanogen 기기들 사이에 설치된 앱 이동</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;실시간 발신자 정보 표시&lt;/b&gt; - %1$s을(를) 통해 전화하는 사람의 정보 확인과 스팸 전화 차단을 사용하세요</string>
+  <string name="switch_to_phone">또는 전화 번호</string>
+  <string name="switch_to_email">또는 이메일 주소</string>
+  <string name="waiting_for_sms_title">휴대전화 번호 확인 중</string>
+  <string name="enter_sms_code_manually">SMS 인증 코드를 직접 입력</string>
+  <string name="sms_confirmation_code_label">SMS 인증 코드를 입력해 주십시오</string>
+  <string name="resend_sms">다시 시도</string>
+  <string name="cmaccount_setup_sms_code_title">인증 번호를 사용하여 확인</string>
+  <string name="cmaccount_setup_phone_blank_label">휴대전화 번호를 입력하세요</string>
+  <string name="cmaccount_settings_title">Cyanogen 계정 설정</string>
+  <string name="cmaccount_settings_confirm_phone_label">휴대전화 번호 확인</string>
+  <string name="cmaccount_settings_add_email_label">계정에 이메일 주소 추가</string>
+  <string name="cmaccount_settings_add_phone_label">계정에 휴대전화 번호 추가</string>
+  <string name="cmaccount_settings_add_email_error_title">이메일을 추가할 수 없음</string>
+  <string name="cmaccount_settings_add_email_error_message">이메일 주소를 등록하는 동안 오류가 발생했습니다. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">휴대전화 번호를 추가할 수 없음</string>
+  <string name="cmaccount_settings_add_phone_error_message">휴대전화 번호를 추가하는 동안 오류가 발생했습니다. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen 서비스 조건</string>
   <string name="privacy_linktext_cyanogen">Cyanogen 개인정보 정책</string>
   <string name="eula_linktext_cyanogen">Cyanogen 최종 사용자 권한 계약</string>
+  <string name="sms_rate_warning">전화 번호를 인증하기 위해 이 번호로 SMS를 전송할 것입니다. 이 작업은 일반 네트워크 요금이 부과됩니다.</string>
+  <string name="cyngn_setup_create">생성</string>
 </resources>

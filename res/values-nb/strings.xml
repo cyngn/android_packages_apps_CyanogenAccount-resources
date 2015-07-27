@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Opprett kontoen</string>
   <string name="cmaccount_setup_killswitchlogin_title">Lås opp enheten</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Lås enheten</string>
-  <string name="cmaccount_setup_email_unavailable_label">Dette brukernavnet er ikke tilgjengelig</string>
+  <string name="cmaccount_setup_username_unavailable_label">Dette brukernavnet er ikke tilgjengelig</string>
   <string name="cmaccount_setup_email_invalid_label">Beklager, bare bokstaver (a-z) og tall (0-9) tegn (. + &amp;-_) er tillatt.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Angi et gyldig telefonnummer.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Angi et gyldig telefonnummer eller e-postadresse.</string>
   <string name="cmaccount_setup_displayname_label">Skriv inn visningsnavnet</string>
   <string name="cmaccount_setup_password_label">Passord</string>
   <string name="cmaccount_setup_password_strength_label">8 tegn minimum</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Logge på Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Lager din CyanogenMod-profil</string>
   <string name="cmaccount_login_error_title">Innlogging mislyktes</string>
-  <string name="cmaccount_login_error_message">Ugyldig e-post eller passord.</string>
-  <string name="cmaccount_killswitch_login_error_message">Ugyldig epostadresse eller passord, prøv igjen, eller besøk https://account.cyngn.com for å tilbakestille passordet.</string>
+  <string name="cmaccount_login_error_message">Ugyldig brukernavn eller passord.</string>
+  <string name="cmaccount_killswitch_login_error_message">Feil brukernavn eller passord. Prøv igjen eller gå til https://account.cyngn.com for å tilbakestille passordet ditt.</string>
   <string name="cmaccount_server_error_title">Kommunikasjonsfeil</string>
   <string name="cmaccount_create_account_error_title">Feil ved oppretting av konto</string>
   <string name="cmaccount_create_account_error_message">Det oppstod en feil under oppretting av kontoen. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">NESTE</string>
   <string name="cyngn_skip_setup_dialog_header">Hoppe over kontooppsett?</string>
   <string name="cyngn_setup_sign_in">LOGG INN\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Angi e-postadressen eller telefonnummeret ditt</string>
   <string name="cyngn_setup_email_edittext_hint">Skriv inn din e-postadresse</string>
+  <string name="cyngn_setup_phone_edittext_hint">Angi telefonnummeret ditt</string>
+  <string name="cyngn_setup_sending_sms">Sender SMS til %1$s. Dette kan ta noen sekunder.</string>
   <string name="cyngn_setup_show_password">Vis passord</string>
   <string name="cyngn_setup_reset_password_dialog">For å tilbakestille passordet, Vennligst besøk https://account.cyngn.com fra datamaskinen.</string>
   <string name="cyngn_setup_forgot_password">Glemt passord?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">E-postadressen du valgte er ikke tilgjengelig.</string>
   <string name="cyngn_setup_create_profile_email_invalid">E-postadressen du valgte er ugyldig.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Visningsnavnet du valgte er enten ugyldig, for lang eller ulovlig.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Det angitte telefonnummeret er ikke tilgjengelig.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Det angitte telefonnummeret er ugyldig.</string>
   <string name="cyngn_setup_password_strength_meter_label">Passordstyrke:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Sterk</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Middels</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Svak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">For kort</string>
+  <string name="sms_timeout_title">Kunne ikke bekrefte nummeret</string>
+  <string name="sms_timeout_message">Vi kunne ikke bekrefte nummeret ditt via SMS. Vil du bekrefte nummeret ditt på nytt?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Din telefon, dine regler</b> - tilpass telefonen i programmet temaer</item>
     <item><b>Finn mobilen</b> - finne og slette telefonen hvis den mistes</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Cloudify programmer</b> - flytte mellom Cyanogen enheter med Nextbit stokk</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; – Se hvem som ringer og blokker spam-anrop med %1$s</string>
+  <string name="switch_to_phone">ELLER TELEFONNUMMER</string>
+  <string name="switch_to_email">ELLER E-POSTADRESSE</string>
+  <string name="waiting_for_sms_title">Bekrefter telefonnummer</string>
+  <string name="enter_sms_code_manually">Angi SMS-bekreftelseskoden manuelt</string>
+  <string name="sms_confirmation_code_label">Angi SMS-bekreftelseskoden</string>
+  <string name="resend_sms">Prøv nummeret igjen</string>
+  <string name="cmaccount_setup_sms_code_title">Verifiser med bekreftelseskode</string>
+  <string name="cmaccount_setup_phone_blank_label">Et telefonnummer må angis</string>
+  <string name="cmaccount_settings_title">Cyanogen-kontoinnstillinger</string>
+  <string name="cmaccount_settings_confirm_phone_label">Bekreft telefonnummeret</string>
+  <string name="cmaccount_settings_add_email_label">Legg til e-postadresse på kontoen</string>
+  <string name="cmaccount_settings_add_phone_label">Legg til telefonnummer på kontoen</string>
+  <string name="cmaccount_settings_add_email_error_title">Feil under tillegging av e-post</string>
+  <string name="cmaccount_settings_add_email_error_message">Det oppsto en feil da en e-postadresse skulle legges til. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Feil under tillegging av telefonnummer</string>
+  <string name="cmaccount_settings_add_phone_error_message">Det oppsto en feil da et telefonnummer skulle legges til. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen vilkår</string>
   <string name="privacy_linktext_cyanogen">Cyanogen personvern</string>
   <string name="eula_linktext_cyanogen">Cyanogen lisensavtale</string>
+  <string name="sms_rate_warning">Vi kommer til å sende en SMS til dette nummeret for å bekrefte at du eier telefonnummeret. Sending av en SMS koster den vanlige satsen fra nettverksleverandøren.</string>
+  <string name="cyngn_setup_create">OPPRETT</string>
 </resources>

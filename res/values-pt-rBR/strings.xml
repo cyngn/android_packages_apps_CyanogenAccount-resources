@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Crie sua conta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquear o dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquear o dispositivo</string>
-  <string name="cmaccount_setup_email_unavailable_label">Este nome de usuário não está disponível</string>
+  <string name="cmaccount_setup_username_unavailable_label">Este nome de usuário não está disponível</string>
   <string name="cmaccount_setup_email_invalid_label">Desculpe, somente letras (a-z), números (0-9) e os caracteres (.+&amp;-_) são permitidos.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Por favor, insira um número de telefone válido.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Por favor digite um número de telefone ou endereço de e-mail válido.</string>
   <string name="cmaccount_setup_displayname_label">Por favor, digite seu nome de exibição</string>
   <string name="cmaccount_setup_password_label">Senha</string>
   <string name="cmaccount_setup_password_strength_label">No minimo 8 caracteres</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Efetuando login no Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Criando seu perfil Cyanogen</string>
   <string name="cmaccount_login_error_title">Falha ao entrar</string>
-  <string name="cmaccount_login_error_message">E-mail ou senha inválida.</string>
-  <string name="cmaccount_killswitch_login_error_message">E-mail ou senha incorretos, por favor tente novamente ou visite https://account.cyngn.com para redefinir a sua senha.</string>
+  <string name="cmaccount_login_error_message">Usuário ou senha inválida.</string>
+  <string name="cmaccount_killswitch_login_error_message">Usuário ou senha incorretos. Por favor, tente novamente ou visite https://account.cyngn.com para redefinir sua senha.</string>
   <string name="cmaccount_server_error_title">Erro de comunicação</string>
   <string name="cmaccount_create_account_error_title">Erro ao criar a conta</string>
   <string name="cmaccount_create_account_error_message">Ocorreu um erro ao criar sua conta. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">PRÓXIMO</string>
   <string name="cyngn_skip_setup_dialog_header">Pular configuração de conta?</string>
   <string name="cyngn_setup_sign_in">ENTRAR</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Digite seu e-mail ou número de telefone</string>
   <string name="cyngn_setup_email_edittext_hint">Por favor, digite seu endereço de e-mail</string>
+  <string name="cyngn_setup_phone_edittext_hint">Digite seu número de telefone</string>
+  <string name="cyngn_setup_sending_sms">Enviando SMS para %1$s. Isso pode demorar alguns segundos.</string>
   <string name="cyngn_setup_show_password">Mostrar a senha</string>
   <string name="cyngn_setup_reset_password_dialog">Para redefinir sua senha, por favor, visite https://account.cyngn.com em seu computador.</string>
   <string name="cyngn_setup_forgot_password">Esqueceu a senha?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">O endereço de e-mail que você selecionou não está disponível.</string>
   <string name="cyngn_setup_create_profile_email_invalid">O endereço de e-mail que você selecionou é inválido.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">O nome de exibição selecionado é inválido, muito longo ou não permitido.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">O número de telefone que você digitou não está disponível.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">O número de telefone digitado é inválido.</string>
   <string name="cyngn_setup_password_strength_meter_label">Força da senha:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Forte</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Média</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Fraca</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Muito curta</string>
+  <string name="sms_timeout_title">Não é possível verificar o número</string>
+  <string name="sms_timeout_message">Não fomos capazes de verificar o seu número via SMS. Gostaria de verificar o seu número outra vez?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Seu telefone, suas regras</b> - Personalize o seu telefone no app Temas</item>
     <item><b>Localize seu telefone</b> - Encontrar e apagar seu telefone se for perdido</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Guardar em nuvem seus apps</b> - Alternar entre dispositivos Cyanogen com Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Identificador de Chamadas&lt;/b&gt; - Saiba quem está ligando e bloqueie spam com %1$s</string>
+  <string name="switch_to_phone">OU NÚMERO DE TELEFONE</string>
+  <string name="switch_to_email">OU ENDEREÇO DE E-MAIL</string>
+  <string name="waiting_for_sms_title">Verificando número de telefone</string>
+  <string name="enter_sms_code_manually">Digite o código de confirmação SMS manualmente</string>
+  <string name="sms_confirmation_code_label">Digite o código de confirmação SMS</string>
+  <string name="resend_sms">Repetir o número</string>
+  <string name="cmaccount_setup_sms_code_title">Verifique com o código de confirmação</string>
+  <string name="cmaccount_setup_phone_blank_label">Deve-se digitar um número de telefone</string>
+  <string name="cmaccount_settings_title">Configurações de conta Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Confirme o número de telefone</string>
+  <string name="cmaccount_settings_add_email_label">Adicione o endereço de e-mail para a conta</string>
+  <string name="cmaccount_settings_add_phone_label">Adicione o número de telefone para a conta</string>
+  <string name="cmaccount_settings_add_email_error_title">Erro ao adicionar e-mail</string>
+  <string name="cmaccount_settings_add_email_error_message">Ocorreu um erro ao adicionar um endereço de e-mail. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Erro ao adicionar o número de telefone</string>
+  <string name="cmaccount_settings_add_phone_error_message">Ocorreu um erro ao adicionar um número de telefone. %1$s</string>
   <string name="tos_linktext_cyanogen">Termos de serviço do Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de privacidade do Cyanogen</string>
   <string name="eula_linktext_cyanogen">Contrato de licença de usuário final do Cyanogen</string>
+  <string name="sms_rate_warning">Vamos enviar um SMS para este número para confirmar a propriedade do número de telefone. O envio de um SMS custará a tarifa de rede normal.</string>
+  <string name="cyngn_setup_create">CRIAR</string>
 </resources>

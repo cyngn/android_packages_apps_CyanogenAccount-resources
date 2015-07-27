@@ -39,7 +39,6 @@
   <string name="cmaccount_setup_create_title">Crea la to cuenta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquiar preséu</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquiar preséu</string>
-  <string name="cmaccount_setup_email_unavailable_label">Esti nome d\'usuariu nun ta disponible</string>
   <string name="cmaccount_setup_email_invalid_label">Namái se permiten lletres (a – z), númberos (0 – 9) y los caráuteres (. + &amp;-_).</string>
   <string name="cmaccount_setup_displayname_label">Introduz el to nome d\'usuariu</string>
   <string name="cmaccount_setup_password_label">Contraseña</string>
@@ -53,8 +52,6 @@
   <string name="cmaccount_login_message">Aniciando sesión en Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Creando\'l to perfil Cyanogen</string>
   <string name="cmaccount_login_error_title">Aniciu de sesión fallíu</string>
-  <string name="cmaccount_login_error_message">Corréu o contraseña non válidos.</string>
-  <string name="cmaccount_killswitch_login_error_message">Corréu o contraseña incorreutos, por favor inténtalo de nueves o visita https://account.cyngn.com pa reafitar la to cuenta.</string>
   <string name="cmaccount_server_error_title">Fallu de conmunicación</string>
   <string name="cmaccount_create_account_error_title">Fallu creando la cuenta</string>
   <string name="cmaccount_create_account_error_message">Asocedió un fallu entrín se creaba la to cuenta. %1$s</string>
@@ -108,7 +105,6 @@
     <item><b>El to teléfonu, les tos regles</b> - Personaliza\'l teléfonu na aplicación de temes</item>
     <item><b>Atopa\'l to teléfonu</b> - Alcontrar y formatiar el teléfonu si se pierde</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Pasa a la nube les aplicaciones</b> - Muévite ente preseos Cyanogen con Nextbit Baton</string>
   <string name="tos_linktext_cyanogen">Términos de Serviciu de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de Privacidá de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Llicencia d\'Acuerdu col Usuariu Final de Cyanogen</string>

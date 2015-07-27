@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Uw account aanmaken</string>
   <string name="cmaccount_setup_killswitchlogin_title">Apparaat ontgrendelen</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Apparaat vergrendelen</string>
-  <string name="cmaccount_setup_email_unavailable_label">Deze gebruikersnaam is niet beschikbaar</string>
+  <string name="cmaccount_setup_username_unavailable_label">Deze gebruikersnaam is niet beschikbaar</string>
   <string name="cmaccount_setup_email_invalid_label">Alleen letters (a–z), getallen (0–9) en de tekens (.+&amp;-_) zijn toegestaan.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Voer een geldig telefoonnummer in.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Voer een geldig telefoonnummer of e-mailadres in.</string>
   <string name="cmaccount_setup_displayname_label">Weergavenaam invoeren</string>
   <string name="cmaccount_setup_password_label">Wachtwoord</string>
   <string name="cmaccount_setup_password_strength_label">Minimaal 8 tekens</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Inloggen bij Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Cyanogen-profiel aanmaken\u2026</string>
   <string name="cmaccount_login_error_title">Inloggen mislukt</string>
-  <string name="cmaccount_login_error_message">Ongeldig e-mailadres of wachtwoord.</string>
-  <string name="cmaccount_killswitch_login_error_message">Onjuist e-mailadres of wachtwoord, probeer het opnieuw of ga naar https://account.cyngn.com om uw wachtwoord opnieuw in te stellen.</string>
+  <string name="cmaccount_login_error_message">Ongeldige gebruikersnaam of wachtwoord.</string>
+  <string name="cmaccount_killswitch_login_error_message">Onjuiste gebruikersnaam of wachtwoord, probeer het opnieuw of ga naar https://account.cyngn.com om uw wachtwoord opnieuw in te stellen.</string>
   <string name="cmaccount_server_error_title">Communicatiefout</string>
   <string name="cmaccount_create_account_error_title">Kan account niet aanmaken</string>
   <string name="cmaccount_create_account_error_message">Er is een fout opgetreden tijdens het aanmaken van uw account. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">VOLGENDE</string>
   <string name="cyngn_skip_setup_dialog_header">Account instellen overslaan?</string>
   <string name="cyngn_setup_sign_in">INLOGGEN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Voer uw e-mailadres of telefoonnummer in</string>
   <string name="cyngn_setup_email_edittext_hint">Voer uw e-mailadres in</string>
+  <string name="cyngn_setup_phone_edittext_hint">Voer uw telefoonnummer in</string>
+  <string name="cyngn_setup_sending_sms">Bericht wordt verzonden naar %1$s. Dit kan een paar seconden duren.</string>
   <string name="cyngn_setup_show_password">Wachtwoord weergeven</string>
   <string name="cyngn_setup_reset_password_dialog">Om uw wachtwoord opnieuw in te stellen gaat u naar https://account.cyngn.com op uw computer.</string>
   <string name="cyngn_setup_forgot_password">Wachtwoord vergeten?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Het geselecteerde e-mailadres is niet beschikbaar.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Het geselecteerde e-mailadres is ongeldig.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">De geselecteerde weergavenaam is ongeldig, te lang of niet toegestaan.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Het telefoonnummer dat u heeft ingevoerd is niet beschikbaar.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Het telefoonnummer dat u heeft ingevoerd is ongeldig.</string>
   <string name="cyngn_setup_password_strength_meter_label">Sterkte wachtwoord:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Sterk</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Gemiddeld</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Zwak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Te kort</string>
+  <string name="sms_timeout_title">Kan nummer niet verifiëren</string>
+  <string name="sms_timeout_message">We waren niet in staat uw nummer te verifiëren via sms. Wilt u uw nummer opnieuw verifiëren?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Uw telefoon, uw regels</b> - Personaliseer uw telefoon met de app Thema\'s</item>
     <item><b>Uw telefoon vinden</b> - Vind en wis uw telefoon wanneer u deze kwijt bent</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Apps in de cloud</b> - Wissel tussen Cyanogen-apparaten met Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live beller-id&lt;/b&gt; - Weten wie er belt en spambellers blokkeren met %1$s</string>
+  <string name="switch_to_phone">OF TELEFOONNUMMER</string>
+  <string name="switch_to_email">OF E-MAILADRES</string>
+  <string name="waiting_for_sms_title">Telefoonnummer verifiëren</string>
+  <string name="enter_sms_code_manually">Sms-bevestigingscode handmatig invoeren</string>
+  <string name="sms_confirmation_code_label">Sms-bevestigingscode invoeren</string>
+  <string name="resend_sms">Opnieuw proberen</string>
+  <string name="cmaccount_setup_sms_code_title">Verifiëren met bevestigingscode</string>
+  <string name="cmaccount_setup_phone_blank_label">U moet een telefoonnummer invoeren</string>
+  <string name="cmaccount_settings_title">Instellingen Cyanogen-account</string>
+  <string name="cmaccount_settings_confirm_phone_label">Telefoonnummer bevestigen</string>
+  <string name="cmaccount_settings_add_email_label">E-mailadres toevoegen aan account</string>
+  <string name="cmaccount_settings_add_phone_label">Telefoonnummer toevoegen aan account</string>
+  <string name="cmaccount_settings_add_email_error_title">Fout bij e-mail toevoegen</string>
+  <string name="cmaccount_settings_add_email_error_message">Er is een fout opgetreden tijdens het toevoegen van een e-mailadres. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Fout bij telefoonnummer toevoegen</string>
+  <string name="cmaccount_settings_add_phone_error_message">Er is een fout opgetreden tijdens het toevoegen van een telefoonnummer. %1$s</string>
   <string name="tos_linktext_cyanogen">Algemene voorwaarden van Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Privacybeleid van Cyanogen</string>
   <string name="eula_linktext_cyanogen">Licentieovereenkomst voor eindgebruikers van Cyanogen</string>
+  <string name="sms_rate_warning">Wij verzenden een sms-bericht naar dit nummer om te verifiëren of u de eigenaar bent van het telefoonnummer. Een sms-bericht verzenden kost het normale tarief.</string>
+  <string name="cyngn_setup_create">AANMAKEN</string>
 </resources>

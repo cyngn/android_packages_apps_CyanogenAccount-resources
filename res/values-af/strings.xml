@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Skep jou rekening</string>
   <string name="cmaccount_setup_killswitchlogin_title">Ontsluit toestel</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Sluit toestel</string>
-  <string name="cmaccount_setup_email_unavailable_label">Hierdie gebruikernaam is nie beskikbaar nie</string>
+  <string name="cmaccount_setup_username_unavailable_label">Hierdie gebruikernaam is nie beskikbaar nie</string>
   <string name="cmaccount_setup_email_invalid_label">Jammer, slegs letters (a-z), getalle (0-9), en die karakters (.+&amp;-_) word toegelaat.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Sleutel asb. \'n geldige telefoon nommer in.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Sleutel asseblief \'n geldige foon nommer of epos adres in.</string>
   <string name="cmaccount_setup_displayname_label">Tik asseblief jou vertoon naam</string>
   <string name="cmaccount_setup_password_label">Wagwoord</string>
   <string name="cmaccount_setup_password_strength_label">minimum 8 karakters</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Teken aan by Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Besig om jou Cyanogen profiel te skep</string>
   <string name="cmaccount_login_error_title">Aanmelding het misluk</string>
-  <string name="cmaccount_login_error_message">Ongeldig e-pos of wagwoord.</string>
-  <string name="cmaccount_killswitch_login_error_message">Verkeerde e-pos of wagwoord, probeer weer of besoek https://account.cyngn.com om jou wagwoord te herstel.</string>
+  <string name="cmaccount_login_error_message">Ongeldige gebruikersnaam of wagwoord.</string>
+  <string name="cmaccount_killswitch_login_error_message">Verkeerde gebruikersnaam of wagwoord, probeer weer of besoek https://account.cyngn.com om jou wagwoord te herstel.</string>
   <string name="cmaccount_server_error_title">Kommunikasie fout</string>
   <string name="cmaccount_create_account_error_title">Fout met skepping van rekening</string>
   <string name="cmaccount_create_account_error_message">\'n Fout het plaasgevind terwyl jou rekening geskep was. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">VOLGENDE</string>
   <string name="cyngn_skip_setup_dialog_header">Slaan rekening opstelling oor?</string>
   <string name="cyngn_setup_sign_in">TEKEN\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Sleutel jou epos of foon nommer in</string>
   <string name="cyngn_setup_email_edittext_hint">Sleutel jou e-posadres in</string>
+  <string name="cyngn_setup_phone_edittext_hint">Sleutel asseblief jou telefoon nommer in</string>
+  <string name="cyngn_setup_sending_sms">Stuur SMS na %1$s. Dit mag \'n paar sekondes neem.</string>
   <string name="cyngn_setup_show_password">Wys wagwoord</string>
   <string name="cyngn_setup_reset_password_dialog">Om jou wagwoord te herstel besoek https://account.cyngn.com van jou rekenaar af.</string>
   <string name="cyngn_setup_forgot_password">Wagwoord vergeet?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Die e-posadres wat jy gekies het is nie beskikbaar nie.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Die e-posadres wat jy gekies het is ongeldig.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Die vertoonnaam wat jy gekies het is ongeldig, te lank of nie toegelaat.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Die foon nommer wat jy ingetik het is onbeskikbaar.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Die foon nommer wat jy ingetik het is ongeldig.</string>
   <string name="cyngn_setup_password_strength_meter_label">Wagwoord sterkte:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Sterk</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Gemiddeld</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Swak</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Te kort</string>
+  <string name="sms_timeout_title">Kon nie nommer verifieer nie</string>
+  <string name="sms_timeout_message">Ons was nie in staat om jou nommer te verifieer via SMS. Wil jy dit weer probeer?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Jou selfoon, jou reëls</b> - Verpersoonlik jou selfoon in die Temas program</item>
     <item><b>Vind jou foon</b> - Vind en verwyder jou data as dit verlore gaan</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Cloudify jou programme</b> - skuif tussen Cyanogen toestelle met Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Lewendige oproepe ID&lt;/b&gt; - Weet wie jou skakel en blokkeer gemors oproepers met %1$s</string>
+  <string name="switch_to_phone">OF TELEFOON NOMMER</string>
+  <string name="switch_to_email">OF EPOS ADRES</string>
+  <string name="waiting_for_sms_title">Verifieer foon nommer</string>
+  <string name="enter_sms_code_manually">Sleutel SMS verifiëring kode handmatig in</string>
+  <string name="sms_confirmation_code_label">Sleutel SMS verifiëring kode in</string>
+  <string name="resend_sms">Probeer nommer weer</string>
+  <string name="cmaccount_setup_sms_code_title">Verifieer met verifiëring kode</string>
+  <string name="cmaccount_setup_phone_blank_label">Jy moet \'n foon nommer intik</string>
+  <string name="cmaccount_settings_title">Cyanogen rekening instellings</string>
+  <string name="cmaccount_settings_confirm_phone_label">Bevestig foon nommer</string>
+  <string name="cmaccount_settings_add_email_label">Voeg epos adres by rekening</string>
+  <string name="cmaccount_settings_add_phone_label">Voeg foon nommer by rekening</string>
+  <string name="cmaccount_settings_add_email_error_title">Fout met epos byvoeging</string>
+  <string name="cmaccount_settings_add_email_error_message">\'n Fout het plaas gevind met die byvoeging van epos adres. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Fout met foon nommer byvoeging</string>
+  <string name="cmaccount_settings_add_phone_error_message">Fout het plaas gevind met die byvoeging van foon nommer. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen Diens voorwaardes</string>
   <string name="privacy_linktext_cyanogen">Cyanogen privaatheidsbeleid</string>
   <string name="eula_linktext_cyanogen">Cyanogen Eind Gebruiker Lisensie Ooreenkoms</string>
+  <string name="sms_rate_warning">Ons gaan \'n SMS stuur na hierdie nommer om eienaarskap te verifieer na die telefoon nommer. Normale SMS koste is van toepassing met die stuur van die SMS.</string>
+  <string name="cyngn_setup_create">SKEP</string>
 </resources>

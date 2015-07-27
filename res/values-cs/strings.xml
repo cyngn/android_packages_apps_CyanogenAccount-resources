@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Vytvořit účet</string>
   <string name="cmaccount_setup_killswitchlogin_title">Odemknout zařízení</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Zamknout zařízení</string>
-  <string name="cmaccount_setup_email_unavailable_label">Toto uživatelské jméno není k dispozici</string>
+  <string name="cmaccount_setup_username_unavailable_label">Toto uživatelské jméno není k dispozici</string>
   <string name="cmaccount_setup_email_invalid_label">Omlouváme se, jsou povoleny pouze písmena (a–z), čísla (0–9), a znaky (.+&amp;-_).</string>
+  <string name="cmaccount_setup_phone_invalid_label">Zadejte platné telefonní číslo.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Zadejte platné telefonní číslo nebo e-mailovou adresu.</string>
   <string name="cmaccount_setup_displayname_label">Zadejte jméno, které se bude zobrazovat</string>
   <string name="cmaccount_setup_password_label">Heslo</string>
   <string name="cmaccount_setup_password_strength_label">alespoň 8 znaků</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Přihlašování se k Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Vytváření Cyanogen profilu\u2026</string>
   <string name="cmaccount_login_error_title">Přihlášení se nezdařilo</string>
-  <string name="cmaccount_login_error_message">Neplatný email nebo heslo.</string>
-  <string name="cmaccount_killswitch_login_error_message">Nesprávný e-mail a heslo, opakujte akci nebo navštivte https://account.cyngn.com pro obnovení hesla.</string>
+  <string name="cmaccount_login_error_message">Neplatné uživatelské jméno nebo heslo.</string>
+  <string name="cmaccount_killswitch_login_error_message">Nesprávné uživatelské jméno a heslo, opakujte akci nebo navštivte https://account.cyngn.com pro obnovení hesla.</string>
   <string name="cmaccount_server_error_title">Chyba komunikace</string>
   <string name="cmaccount_create_account_error_title">Chyba vytváření účtu</string>
   <string name="cmaccount_create_account_error_message">Došlo k chybě při vytváření účtu. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">DALŠÍ</string>
   <string name="cyngn_skip_setup_dialog_header">Přeskočit nastavení účtu?</string>
   <string name="cyngn_setup_sign_in">PŘIHLÁSIT</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Zadejte svůj e-mail nebo telefonní číslo</string>
   <string name="cyngn_setup_email_edittext_hint">Zadejte prosím vaši e-mailovou adresu</string>
+  <string name="cyngn_setup_phone_edittext_hint">Zadejte prosím vaše telefonní číslo</string>
+  <string name="cyngn_setup_sending_sms">Odesílání SMS na %1$s. Chvíli to potrvá.</string>
   <string name="cyngn_setup_show_password">Zobrazit heslo</string>
   <string name="cyngn_setup_reset_password_dialog">Pro obnovení hesla prosím navštivte stránky https://account.cyngn.com</string>
   <string name="cyngn_setup_forgot_password">Zapomněli jste heslo?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">E-mailová adresa, kterou jste vybrali, není k dispozici.</string>
   <string name="cyngn_setup_create_profile_email_invalid">E-mailová adresa, kterou jste vybrali, je neplatná.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Zobrazované jméno, které jste vybrali, je neplatné, příliš dlouhé nebo zakázané.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Telefonní číslo, které jste zadali, není k dispozici.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Telefonní číslo, které jste zadali, je neplatné.</string>
   <string name="cyngn_setup_password_strength_meter_label">Bezpečnost hesla:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Silná</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Střední</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Slabá</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Příliš krátké</string>
+  <string name="sms_timeout_title">Nelze ověřit číslo</string>
+  <string name="sms_timeout_message">Není možné ověřit telefonní číslo přes SMS. Chcete znovu zkusit ověřit vaše telefonní číslo?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Váš telefon, vaše pravidla</b> - přizpůsobte si svůj telefon v aplikaci Motivy</item>
     <item><b>Najde váš telefon</b> - v případě ztráty telefonu najde a vymaže celé zařízení</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Aplikace v cloudu</b> - synchronizace mezi Cyanogen zařízení a Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - vědět, kdo volá a blokovat otravné hovory s %1$s</string>
+  <string name="switch_to_phone">NEBO TELEFONNÍ ČÍSLO</string>
+  <string name="switch_to_email">NEBO E-EMAILOVOU ADRESU</string>
+  <string name="waiting_for_sms_title">Ověřování telefonního čísla</string>
+  <string name="enter_sms_code_manually">Ručně zadejte potvrzovací kód SMS</string>
+  <string name="sms_confirmation_code_label">Zadejte prosím SMS potvrzovací kód</string>
+  <string name="resend_sms">Pokus číslo</string>
+  <string name="cmaccount_setup_sms_code_title">Ověřte s potvrzovacím kódem</string>
+  <string name="cmaccount_setup_phone_blank_label">Musíte zadat telefonní číslo</string>
+  <string name="cmaccount_settings_title">Nastavení účtu Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Potvrdit telefonní číslo</string>
+  <string name="cmaccount_settings_add_email_label">Přidat e-mailovou adresu k účtu</string>
+  <string name="cmaccount_settings_add_phone_label">Přidat telefonní číslo k účtu</string>
+  <string name="cmaccount_settings_add_email_error_title">Chyba při přidávání e-mailu</string>
+  <string name="cmaccount_settings_add_email_error_message">Došlo k chybě při přidávání e-mailové adresy. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Chyba při přidávání telefonní čísla</string>
+  <string name="cmaccount_settings_add_phone_error_message">Došlo k chybě při přidávání telefonního čísla. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen podmínky služby</string>
   <string name="privacy_linktext_cyanogen">Cyanogen ochrana osobních údajů</string>
   <string name="eula_linktext_cyanogen">Cyanogen licenční ujednání</string>
+  <string name="sms_rate_warning">Bude Vám zaslána SMS, abych ověřili, že jste vlastníkem tohoto telefonního čísla. Odeslání SMS bude zpoplatněno standardní cenou.</string>
+  <string name="cyngn_setup_create">VYTVOŘIT</string>
 </resources>

@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Направи свој налог</string>
   <string name="cmaccount_setup_killswitchlogin_title">Откључај уређај</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Закључај уређај</string>
-  <string name="cmaccount_setup_email_unavailable_label">Ово корисничко име је заузето</string>
+  <string name="cmaccount_setup_username_unavailable_label">Ово корисничко име је заузето</string>
   <string name="cmaccount_setup_email_invalid_label">Само слова (a–z), бројеви (0–9), и карактери (.+&amp;-_) су дозвољени.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Унеси исправан број телефона.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Унеси важећи број телефона или Е-адресу.</string>
   <string name="cmaccount_setup_displayname_label">Упиши своје име</string>
   <string name="cmaccount_setup_password_label">Лозинка</string>
   <string name="cmaccount_setup_password_strength_label">Минимум 8 карактера</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Логовање у Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Креирање Cyanogen профила</string>
   <string name="cmaccount_login_error_title">Пријава неуспешна</string>
-  <string name="cmaccount_login_error_message">Погрешна адреса Е-поште или лозинка.</string>
-  <string name="cmaccount_killswitch_login_error_message">Погрешна адреса Е-поште или лозинка, покушајте поново или посетите https://account.cyngn.com да рестујете лозинку.</string>
+  <string name="cmaccount_login_error_message">Неважеће корисничко име или лозинка.</string>
+  <string name="cmaccount_killswitch_login_error_message">Погрешно корисничко име или лозинка, покушај поново или посетите https://account.cyngn.com да рестујете лозинку.</string>
   <string name="cmaccount_server_error_title">Грешка комуникације</string>
   <string name="cmaccount_create_account_error_title">Грешка при креирању налога</string>
   <string name="cmaccount_create_account_error_message">Грешка се догодила при креирању налога. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">СЛЕДЕЋЕ</string>
   <string name="cyngn_skip_setup_dialog_header">Прескочи подешавање налога?</string>
   <string name="cyngn_setup_sign_in">ЛОГОВАЊЕ\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Унеси своју Е-пошту или телефонски број</string>
   <string name="cyngn_setup_email_edittext_hint">Унеси адресу своје Е-поште</string>
+  <string name="cyngn_setup_phone_edittext_hint">Унеси број телефона</string>
+  <string name="cyngn_setup_sending_sms">Шаљем SMS на %1$s. Ово може потрајати неколико секунди.</string>
   <string name="cyngn_setup_show_password">Покажи лозинку</string>
   <string name="cyngn_setup_reset_password_dialog">Да ресетујеш своју лозинку посети https://account.cyngn.com са рачунара.</string>
   <string name="cyngn_setup_forgot_password">Заборављена лозинка?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Изабрана Е-пошта није доступна.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Изабрана адреса Е-поште је погрешна.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Изабрано име је погрешно, предуго или недозвољено.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Унети телефонски број није доступан.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Унети телефонски број је неважећи.</string>
   <string name="cyngn_setup_password_strength_meter_label">Снага лозинке:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Јако</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Средња</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Слаба</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Прекратко</string>
+  <string name="sms_timeout_title">Није могуће потврдити број</string>
+  <string name="sms_timeout_message">Нисмо у могућности да потврдимо твој број слањем SMS-а. Да ли желиш поново потврдити?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Твој телефон, твоја правила</b> - Подеси свој телефон у апликацији тема</item>
     <item><b>Пронађи телефон</b> - Пронађи и обриши телефон ако је изгубљен</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Подигни своје апликације у облак</b> - Крећи се између Cyanogen уређаја са Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Сазнај ко зове и блокирај нежељене позиваоце са %1$s</string>
+  <string name="switch_to_phone">ИЛИ БРОЈ ТЕЛЕФОНА</string>
+  <string name="switch_to_email">ИЛИ АДРЕСУ Е-ПОШТЕ</string>
+  <string name="waiting_for_sms_title">Потврђивање телефонског броја</string>
+  <string name="enter_sms_code_manually">Унеси ручно SMS код потврде</string>
+  <string name="sms_confirmation_code_label">Унеси SMS код потврде</string>
+  <string name="resend_sms">Понови број</string>
+  <string name="cmaccount_setup_sms_code_title">Потврди са кодом потврде</string>
+  <string name="cmaccount_setup_phone_blank_label">Мораш унети телефонски број</string>
+  <string name="cmaccount_settings_title">Подешавање налога Cyanogen-а</string>
+  <string name="cmaccount_settings_confirm_phone_label">Потврди телефонски број</string>
+  <string name="cmaccount_settings_add_email_label">Додај адресу Е-поште на налог</string>
+  <string name="cmaccount_settings_add_phone_label">Додај телефонски број на налог</string>
+  <string name="cmaccount_settings_add_email_error_title">Грешка при додавању Е-поште</string>
+  <string name="cmaccount_settings_add_email_error_message">Дошло је до грешке приликом додавања адресе Е-поште. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Грешка при додавању телефонског броја</string>
+  <string name="cmaccount_settings_add_phone_error_message">Дошло је до грешке при додавању телефонског броја. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen услови коришћења</string>
   <string name="privacy_linktext_cyanogen">Cyanogen политика приватности</string>
   <string name="eula_linktext_cyanogen">Cyanogen заштита лиценци</string>
+  <string name="sms_rate_warning">Послаћемо SMS на овај број да потврдимо власништво телефонског броја. Слање SMS-а ће коштати по нормалној цени мреже.</string>
+  <string name="cyngn_setup_create">КРЕИРАЈ</string>
 </resources>

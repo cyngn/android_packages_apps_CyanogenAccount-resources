@@ -38,7 +38,6 @@
   <string name="cmaccount_setup_create_title">Créer votre compte</string>
   <string name="cmaccount_setup_killswitchlogin_title">Déverrouiller l\'appareil</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Verrouiller l\'appareil</string>
-  <string name="cmaccount_setup_email_unavailable_label">Ce nom d\'utilisateur n\'est pas disponible</string>
   <string name="cmaccount_setup_email_invalid_label">Désolé, seules les lettres (a-z), chiffres (0-9) et les caractères (. + &amp;-_) sont autorisés.</string>
   <string name="cmaccount_setup_displayname_label">Veuillez entrer votre nom d\'utilisateur</string>
   <string name="cmaccount_setup_password_label">Mot de passe</string>
@@ -51,8 +50,6 @@
   <string name="cmaccount_login_message">Connexion à Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Création de votre profil Cyanogen</string>
   <string name="cmaccount_login_error_title">Connexion échouée</string>
-  <string name="cmaccount_login_error_message">Adresse courriel ou mot de passe non valide.</string>
-  <string name="cmaccount_killswitch_login_error_message">E-mail ou mot de passe incorrect, veuillez réessayer ou rendez-vous sur https://account.cyngn.com pour réinitialiser votre mot de passe.</string>
   <string name="cmaccount_server_error_title">Erreur de communication</string>
   <string name="cmaccount_create_account_error_title">Erreur lors de la création du compte</string>
   <string name="cmaccount_create_account_error_message">Une erreur est survenue lors de la création de votre compte. %1$s</string>
@@ -105,7 +102,6 @@
     <item><b>Votre téléphone, vos règles</b> - Personnalisez votre téléphone dans l\'application Thèmes</item>
     <item><b>Trouvez votre téléphone</b> - Trouvez et réinitialisez votre téléphone s\'il est perdu</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Cloudify vos applications</b> - Déplacer entre des appareils Cyanogen avec Nextbit Baton</string>
   <string name="tos_linktext_cyanogen">Conditions d\'utilisation de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Politique de confidentialité de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Contrat de licence de l\'utilisateur final Cyanogen</string>

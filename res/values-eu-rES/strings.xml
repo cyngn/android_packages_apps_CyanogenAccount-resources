@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Sortu zure kontua</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desblokeatu gailua</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Blokeatu gailua</string>
-  <string name="cmaccount_setup_email_unavailable_label">Erabiltzaile izen hau ez dago eskuragarri</string>
+  <string name="cmaccount_setup_username_unavailable_label">Erabiltzaile izen hau ez dago eskuragarri</string>
   <string name="cmaccount_setup_email_invalid_label">Barkatu, letrak (a-z), zenbakiak (0-9) eta sinbolo batzuk (.+&amp;-_) besterik ez dira onartzen.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Sartu baliozko telefono zenbaki bat mesedez.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Sartu baliozko telefono zenbaki edo eposta helbide bat mesedez.</string>
   <string name="cmaccount_setup_displayname_label">Sartu zure izen publikoa</string>
   <string name="cmaccount_setup_password_label">Pasahitza</string>
   <string name="cmaccount_setup_password_strength_label">8 karaktere gutxienez</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Cyanogen saioa hasten</string>
   <string name="cmaccount_creating_profile_message">Zure Cyanogen profila sortzen</string>
   <string name="cmaccount_login_error_title">Saio hasierak huts egin du</string>
-  <string name="cmaccount_login_error_message">Posta edo pasahitz okerrak.</string>
-  <string name="cmaccount_killswitch_login_error_message">Posta helbide edo pasahitz okerra, saiatu berriro edo bisitatu https://account.cyngn.com pasahitza berrezartzeko.</string>
+  <string name="cmaccount_login_error_message">Baliogabeko erabiltzaile izen edo pasahitza.</string>
+  <string name="cmaccount_killswitch_login_error_message">Erabiltzaile iozen edo pasahitz okerra, saiatu berriro edo bisitatu https://account.cyngn.com pasahitza berrezartzeko.</string>
   <string name="cmaccount_server_error_title">Komunikazio errorea</string>
   <string name="cmaccount_create_account_error_title">Errorea kontua sortzean</string>
   <string name="cmaccount_create_account_error_message">Errore bat gertatu da zure kontua sortzerakoan. %1$s</string>
@@ -64,10 +66,10 @@
   <string name="cmaccount_error_multiple_accounts">Gailuko Cyanogen kontu bakarra izan dezakezu</string>
   <string name="cmaccount_allow_access">%1$s hona sarbidea nahi du:</string>
   <string name="cmaccount_granting_access">%1$s baimentzen</string>
-  <string name="userinfo.summary" tools:ignore="UnusedResources">Zure kontuaren oinarrizko informazioa ikusi, posta barne</string>
+  <string name="userinfo.summary" tools:ignore="UnusedResources">Zure kontuaren oinarrizko informazioa ikusi, eposta barne</string>
   <string name="cmaccount_password_changed_title">Pasahitza aldatu da</string>
   <string name="cmaccount_password_changed_message">Saioa hasi zure Cyanogen kontuarekin</string>
-  <string name="cmaccount_setup_email_blank_label">Posta helbide bat sartu behar duzu</string>
+  <string name="cmaccount_setup_email_blank_label">Eposta helbide bat sartu behar duzu</string>
   <string name="cmaccount_setup_password_blank_label">Pasahitza sartu behar duzu</string>
   <string name="cmaccount_setup_confirm_password_blank_label">Sartu zure pasahitza berriro</string>
   <string name="cmaccount_setup_displayname_blank_label">Izen publiko bat sartu behar duzu</string>
@@ -77,7 +79,7 @@
   <string name="account_registered_permission_label_string">Jaso Cyanogen kontu sorrera jakinarazpenak</string>
   <string name="cmaccount_displayname_label">Nola nahi duzu zure izena agertzea?</string>
   <string name="cmaccount_displayname_hint">Izen publikoa</string>
-  <string name="cmaccount_email_label">Posta</string>
+  <string name="cmaccount_email_label">Eposta</string>
   <string name="cmaccount_password_label">Pasahitza</string>
   <string name="cmaccount_password_hint">sartu zure pasahitza</string>
   <string name="cmaccount_confirmpass_label">Sartu pasahitza berriro</string>
@@ -90,26 +92,51 @@
   <string name="cyngn_setup_next">HURRENGOA</string>
   <string name="cyngn_skip_setup_dialog_header">Saltatu kontua ezartzea?</string>
   <string name="cyngn_setup_sign_in">SINATU\u00A0IN</string>
-  <string name="cyngn_setup_email_edittext_hint">Sartu zure posta helbidea mesedez</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Sartu zure eposta helbidea edo telefono zenbakia</string>
+  <string name="cyngn_setup_email_edittext_hint">Sartu zure eposta helbidea mesedez</string>
+  <string name="cyngn_setup_phone_edittext_hint">Sartu zure telefono zenbakia mesedez</string>
+  <string name="cyngn_setup_sending_sms">SMS mezuabidaltzen %1$sra. Honek segundo batzuk eman litzake.</string>
   <string name="cyngn_setup_show_password">Erakutsi pasahitza</string>
   <string name="cyngn_setup_reset_password_dialog">Pasahitza berrezartzeko bisitatu https://account.cyngn.com zure ordenagailutik.</string>
   <string name="cyngn_setup_forgot_password">Pasahitza ahaztu duzu?</string>
   <string name="cyngn_setup_toslist_header">Hautatu berrikusteko</string>
   <string name="cyngn_setup_displayname_description">Izen publikoa beste erabiltzaileek ikusi dezakete Gai aplikazioan gai bat berrikusten duzunean.</string>
-  <string name="cyngn_setup_create_profile_email_unavailable">Hautatu duzun posta helbidea ez dago eskuragarri.</string>
-  <string name="cyngn_setup_create_profile_email_invalid">Hautatu duzun posta helbidea baliogabea da.</string>
+  <string name="cyngn_setup_create_profile_email_unavailable">Hautatu duzun eposta helbidea ez dago eskuragarri.</string>
+  <string name="cyngn_setup_create_profile_email_invalid">Hautatu duzun eposta helbidea baliogabea da.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Hautatu duzun izen publikoa baliogabea da, luzeegia da, edo debekatuta dago.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Sartu duzun telefono zenbakia ez dago eskuragarri.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Sartu duzun telefono zenbakia baliogabea da.</string>
   <string name="cyngn_setup_password_strength_meter_label">Pasahitzaren indarra:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Indartsua</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Ertaina</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Arina</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Laburregia</string>
+  <string name="sms_timeout_title">Ezin izan da telefono zenbakia egiaztatu</string>
+  <string name="sms_timeout_message">Ezin dugu zure telefono zenbakia SMS bidez egiaztatu. Berriro egiaztatu nahi duzu zure zenbakia?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Zure telefonoa, zure arauak</b> - Pertsonalizatu zure telefonoa Gai aplikazioarekin</item>
     <item><b>Aurkitu zure telefonoa</b> - Aurkitu eta ezabatu zure telefonoa galtzekotan</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Hodeiratu zure aplikazioak</b> - Cyanogen gailutik gailura saltatu Nextbit Baton erabilita</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Deitzailearen identifikazio zuzena&lt;/b&gt; - Jakin nork deitzen dizun eta blokeatu ongi etorriak ez diren deiak honekin: %1$s</string>
+  <string name="switch_to_phone">EDO TELEFONO ZENBAKIA</string>
+  <string name="switch_to_email">EDO EPOSTA HELBIDEA</string>
+  <string name="waiting_for_sms_title">Telefono zenbakia egiaztatzen</string>
+  <string name="enter_sms_code_manually">Sartu eskuz SMS egiaztaketa kodea</string>
+  <string name="sms_confirmation_code_label">Sartu SMS egiaztaketa kodea mesedez</string>
+  <string name="resend_sms">Berriro saiatu zenbakia</string>
+  <string name="cmaccount_setup_sms_code_title">Egiaztatu egiaztaketa kodearekin</string>
+  <string name="cmaccount_setup_phone_blank_label">Telefono zenbaki bat sartu behar duzu</string>
+  <string name="cmaccount_settings_title">Cyanogen kontuaren ezarpenak</string>
+  <string name="cmaccount_settings_confirm_phone_label">Berretsi telefono zenbakia</string>
+  <string name="cmaccount_settings_add_email_label">Gehitu eposta helbidea kontuari</string>
+  <string name="cmaccount_settings_add_phone_label">Gehitu telefono zenbakia kontuari</string>
+  <string name="cmaccount_settings_add_email_error_title">Errorea eposta gehitzean</string>
+  <string name="cmaccount_settings_add_email_error_message">Errore bat gertatu da eposta helbidea gehitzean. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Errorea telefono zenbakia gehitzean</string>
+  <string name="cmaccount_settings_add_phone_error_message">Errore bat gertatu da telefono zenbakia gehitzean. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen erabilera baldintzak</string>
   <string name="privacy_linktext_cyanogen">Cyanogen pribatutasun politika</string>
   <string name="eula_linktext_cyanogen">Cyanogen erabiltzaile lizentzia akordioa</string>
+  <string name="sms_rate_warning">SMS bat bidaliko dugu zenbaki honetara telefono zenbakiaren jabea zarela egiaztatzeko. SMS mezua bidaltzeak zure sarearen ohiko kostua izango du.</string>
+  <string name="cyngn_setup_create">SORTU</string>
 </resources>

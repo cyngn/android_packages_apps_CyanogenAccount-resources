@@ -23,9 +23,18 @@
   <string name="ok">OK</string>
   <string name="no">Nu</string>
   <string name="yes">Da</string>
+  <string name="setup_warning_accept_tos">Trebuie să acceptați termenii de utilizare, politica de confidențialitate și acordul de licență pentru utilizatorul final selectând caseta de selectare înainte de a continua.</string>
+  <string name="setup_warning_skip_anyway">Fără un cont de Cyanogen OS, nu veți putea să: \n\nCăutați și descărcați teme din magazinul de teme\n\nLocalizați sau să ștergeți de la distanță telefonul dacă este pierdut</string>
+  <string name="cmaccount_setup_killswitchlogin_title">Deblocare dispozitiv</string>
+  <string name="cmaccount_setup_killswitch_opt_in_title">Blocare dispozitiv</string>
+  <string name="cmaccount_setup_password_label">Parolă</string>
   <string name="cmaccount_setup_password_strength_label">minim 8 caractere</string>
+  <string name="cmaccount_setup_password_mismatch_label">Parolele nu se potrivesc!</string>
+  <string name="cmaccount_setup_confirm_password_label">Reintroduceți parola</string>
   <string name="cmaccount_server_error_title">Eroare de comunicare</string>
   <string name="cmaccount_allow_access">%1$s ar dori acces la:</string>
   <string name="cmaccount_email_label">Email</string>
+  <string name="cmaccount_password_label">Parolă</string>
+  <string name="cyngn_setup_next">URMĂTOAREA</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Prea scurtă</string>
 </resources>

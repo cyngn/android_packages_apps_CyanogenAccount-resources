@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">创建您的帐户</string>
   <string name="cmaccount_setup_killswitchlogin_title">解锁设备</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">锁定设备</string>
-  <string name="cmaccount_setup_email_unavailable_label">此用户名不可用</string>
+  <string name="cmaccount_setup_username_unavailable_label">此用户名不可用</string>
   <string name="cmaccount_setup_email_invalid_label">抱歉，只能使用小写英文字母 (a-z)，阿拉伯数字 (0-9)，和这些符号 (.+&amp;-_)  。</string>
+  <string name="cmaccount_setup_phone_invalid_label">请输入有效的电话号码。</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">请输入一个有效的电话号码或电子邮件地址。</string>
   <string name="cmaccount_setup_displayname_label">请输入您的显示名称</string>
   <string name="cmaccount_setup_password_label">密码</string>
   <string name="cmaccount_setup_password_strength_label">最少 8 个字符</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">正在登录到 Cyanogen</string>
   <string name="cmaccount_creating_profile_message">正在创建您的 Cyanogen 资料</string>
   <string name="cmaccount_login_error_title">登录失败</string>
-  <string name="cmaccount_login_error_message">无效的电子邮件或密码。</string>
-  <string name="cmaccount_killswitch_login_error_message">错误的电子邮件地址或密码，请重试。或访问 https://account.cyngn.com 来重设您的密码。</string>
+  <string name="cmaccount_login_error_message">无效的用户名或密码。</string>
+  <string name="cmaccount_killswitch_login_error_message">错误的用户名或密码，请重试。或访问 https://account.cyngn.com 来重设您的密码。</string>
   <string name="cmaccount_server_error_title">通信错误</string>
   <string name="cmaccount_create_account_error_title">创建帐户出错</string>
   <string name="cmaccount_create_account_error_message">创建您的帐户时出错。 %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">下一个</string>
   <string name="cyngn_skip_setup_dialog_header">跳过帐号设置？</string>
   <string name="cyngn_setup_sign_in">登\u00A0录</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">输入您的电子邮件或电话号码</string>
   <string name="cyngn_setup_email_edittext_hint">请输入您的电子邮件地址</string>
+  <string name="cyngn_setup_phone_edittext_hint">请输入您的电话号码</string>
+  <string name="cyngn_setup_sending_sms">正在发送短信到 %1$s。这可能需要几秒钟。</string>
   <string name="cyngn_setup_show_password">显示密码</string>
   <string name="cyngn_setup_reset_password_dialog">要重设您的密码，请在计算机上访问 https://account.cyngn.com 。</string>
   <string name="cyngn_setup_forgot_password">忘记密码？</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">您选择的电子邮件地址不可用。</string>
   <string name="cyngn_setup_create_profile_email_invalid">您选择的电子邮件地址是无效的。</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">您所选的显示名称无效、 太长或不允许。</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">您输入的电话号码是不可用的。</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">您输入的电话号码是无效的。</string>
   <string name="cyngn_setup_password_strength_meter_label">密码强度：</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">强</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">中</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">弱</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">太短</string>
+  <string name="sms_timeout_title">无法验证号码</string>
+  <string name="sms_timeout_message">我们无法通过短信验证您的号码。您想再次验证您的号码吗？</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>您的手机，您做主</b> - 在主题应用里自定义您的手机</item>
     <item><b>寻找您的手机</b> - 如果您的手机丢失，寻找手机和擦除内容</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>云端化您的应用</b> - 使用 Nextbit Baton 在 Cyanogen 设备上漫游您的应用</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - 使用 %1$s 了解谁在呼叫和屏蔽垃圾广告呼叫人。</string>
+  <string name="switch_to_phone">或电话号码</string>
+  <string name="switch_to_email">或电子邮件地址</string>
+  <string name="waiting_for_sms_title">正在验证手机号码</string>
+  <string name="enter_sms_code_manually">手动输入短信确认码</string>
+  <string name="sms_confirmation_code_label">请输入短信确认码</string>
+  <string name="resend_sms">重试次数</string>
+  <string name="cmaccount_setup_sms_code_title">使用确认码验证</string>
+  <string name="cmaccount_setup_phone_blank_label">必须输入一个电话号码</string>
+  <string name="cmaccount_settings_title">Cyanogen 帐户设置</string>
+  <string name="cmaccount_settings_confirm_phone_label">确认电话号码</string>
+  <string name="cmaccount_settings_add_email_label">添加电子邮件地址到帐户</string>
+  <string name="cmaccount_settings_add_phone_label">添加手机号码到帐户</string>
+  <string name="cmaccount_settings_add_email_error_title">添加电子邮件时出现错误</string>
+  <string name="cmaccount_settings_add_email_error_message">添加电子邮件地址时出错。%1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">添加电话号码时出错</string>
+  <string name="cmaccount_settings_add_phone_error_message">添加一个电话号码时出错。%1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen 服务条款</string>
   <string name="privacy_linktext_cyanogen">Cyanogen 隐私政策</string>
   <string name="eula_linktext_cyanogen">Cyanogen 最终用户许可协议</string>
+  <string name="sms_rate_warning">我们将发送短信到此号码来验证您的电话号码的所有权。发送短信的费用将基于您的网络运营商资费标准。</string>
+  <string name="cyngn_setup_create">创建</string>
 </resources>

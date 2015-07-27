@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Fiók létrehozása</string>
   <string name="cmaccount_setup_killswitchlogin_title">Eszköz feloldása</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Eszköz zárolása</string>
-  <string name="cmaccount_setup_email_unavailable_label">Ez a felhasználónév nem érhető el</string>
+  <string name="cmaccount_setup_username_unavailable_label">Ez a felhasználónév nem érhető el</string>
   <string name="cmaccount_setup_email_invalid_label">Sajnáljuk, csak betűk (a-z), számok (0-9), és karakterek (.+&amp;-_) megengedettek.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Kérjük, adjon meg egy érvényes számot.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Kérjük, adjon meg egy érvényes telefonszámot vagy e-mail címet.</string>
   <string name="cmaccount_setup_displayname_label">Kérjük, adja meg a megjelenítendő nevet</string>
   <string name="cmaccount_setup_password_label">Jelszó</string>
   <string name="cmaccount_setup_password_strength_label">Legalább 8 karakter</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Bejelentkezés Cyanogen fiókba</string>
   <string name="cmaccount_creating_profile_message">Cyanogen profil létrehozása</string>
   <string name="cmaccount_login_error_title">Sikertelen bejelentkezés</string>
-  <string name="cmaccount_login_error_message">Érvénytelen e-mail cím, vagy jelszó.</string>
-  <string name="cmaccount_killswitch_login_error_message">Hibás e-mail vagy jelszó, próbálja újra, vagy látogasson el a https://account.cyngn.com oldalra a jelszava visszaállításához.</string>
+  <string name="cmaccount_login_error_message">Érvénytelen felhasználónév vagy jelszó.</string>
+  <string name="cmaccount_killswitch_login_error_message">Hibás felhasználónév vagy jelszó, próbálja újra, vagy látogasson el a https://account.cyngn.com oldalra a jelszava visszaállításához.</string>
   <string name="cmaccount_server_error_title">Kommunikációs hiba</string>
   <string name="cmaccount_create_account_error_title">Hiba a fiók létrehozásakor</string>
   <string name="cmaccount_create_account_error_message">Hiba történt a fiók létrehozása közben. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">KÖVETKEZŐ</string>
   <string name="cyngn_skip_setup_dialog_header">Átugorja a fiók beállítást?</string>
   <string name="cyngn_setup_sign_in">BEJELENTKEZÉS</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Adja meg e-mail címét vagy telefonszámát</string>
   <string name="cyngn_setup_email_edittext_hint">Kérjük, adja meg e-mail címét</string>
+  <string name="cyngn_setup_phone_edittext_hint">Kérjük, adja meg telefonszámát</string>
+  <string name="cyngn_setup_sending_sms">SMS küldése ide: %1$s. Ez eltarthat néhány másodpercig.</string>
   <string name="cyngn_setup_show_password">Jelszó megjelenítése</string>
   <string name="cyngn_setup_reset_password_dialog">Jelszavának visszaállításához kérjük, látogasson el a https://account.cyngn.com oldalra a számítógépén.</string>
   <string name="cyngn_setup_forgot_password">Elfelejtette jelszavát?</string>
@@ -99,17 +104,38 @@
   <string name="cyngn_setup_create_profile_email_unavailable">A kiválasztott e-mail cím nem érhető el.</string>
   <string name="cyngn_setup_create_profile_email_invalid">A kiválasztott e-mail cím érvénytelen.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">A kiválasztott megjelenítési név érvénytelen, túl hosszú, vagy nem engedélyezett.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">A megadott telefonszám nem érhető el.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">A megadott telefonszám érvénytelen.</string>
   <string name="cyngn_setup_password_strength_meter_label">Jelszó erőssége:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Erős</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Közepes</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Gyenge</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Túl rövid</string>
+  <string name="sms_timeout_title">Szám ellenőrzése sikertelen</string>
+  <string name="sms_timeout_message">Nem sikerült ellenőriznünk SMS-en keresztül a számát. Szeretné újra ellenőriztetni?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Az Ön telefonja, az Ön szabályai</b> - telefon testreszabása a témák alkalmazásban</item>
     <item><b>Találja meg telefonját</b> - telefon megkeresése és törlése, ha elveszett</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Alkalmazások felhősítése</b> - Cyanogen eszközök közötti váltás Nextbit Baton segítségével</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Tudja meg, ki hívja, és blokkolja a spam hívókat ezzel: %1$s</string>
+  <string name="switch_to_phone">VAGY TELEFONSZÁM</string>
+  <string name="switch_to_email">VAGY E-MAIL CÍM</string>
+  <string name="waiting_for_sms_title">Telefonszám ellenőrzése</string>
+  <string name="enter_sms_code_manually">SMS megerősítő kód kézi megadása</string>
+  <string name="sms_confirmation_code_label">Kérjük, adja meg az SMS megerősítő kódot</string>
+  <string name="resend_sms">Újrapróbálkozások száma</string>
+  <string name="cmaccount_setup_sms_code_title">Ellenőrzés megerősítő kóddal</string>
+  <string name="cmaccount_setup_phone_blank_label">Meg kell adnia egy telefonszámot</string>
+  <string name="cmaccount_settings_title">Cyanogen fiók beállítások</string>
+  <string name="cmaccount_settings_confirm_phone_label">Telefonszám megerősítése</string>
+  <string name="cmaccount_settings_add_email_label">E-mail cím hozzáadása a fiókhoz</string>
+  <string name="cmaccount_settings_add_phone_label">Telefonszám hozzáadása a fiókhoz</string>
+  <string name="cmaccount_settings_add_email_error_title">E-mail hozzáadási hiba</string>
+  <string name="cmaccount_settings_add_email_error_message">Hiba történt az e-mail cím hozzáadása közben. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Telefonszám hozzáadási hiba</string>
+  <string name="cmaccount_settings_add_phone_error_message">Hiba történt a telefonszám hozzáadása közben. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogen Szolgáltatási feltételek</string>
   <string name="privacy_linktext_cyanogen">Cyanogen Adatvédelmi irányelv</string>
   <string name="eula_linktext_cyanogen">Cyanogen Végfelhasználói licencszerződés</string>
+  <string name="sms_rate_warning">Egy SMS-t fogunk küldeni erre a számra, hogy igazolja a telefonszám Önhöz tartozik. Az SMS ára a normál hálózati díjszabás szerinti.</string>
 </resources>

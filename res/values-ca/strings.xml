@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Crea el teu compte</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloqueja el dispositiu</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloqueja el dispositiu</string>
-  <string name="cmaccount_setup_email_unavailable_label">Aquest usuari no està disponible</string>
+  <string name="cmaccount_setup_username_unavailable_label">Aquest usuari no està disponible</string>
   <string name="cmaccount_setup_email_invalid_label">Ho sento, només estan permeses les lletres (a-z), els números (0-9) i els caràcters (.+ &amp;-_).</string>
+  <string name="cmaccount_setup_phone_invalid_label">Si us plau introdueix un número de telèfon vàlid.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Si us plau introdueix un número de telèfon o un correu electrònic vàlid.</string>
   <string name="cmaccount_setup_displayname_label">Si us plau, introdueix el teu nom per mostrar</string>
   <string name="cmaccount_setup_password_label">Contrasenya</string>
   <string name="cmaccount_setup_password_strength_label">mínim 8 caràcters</string>
@@ -53,7 +55,7 @@
   <string name="cmaccount_login_message">S\'està entrant a Cyanogen</string>
   <string name="cmaccount_creating_profile_message">S\'està creant el teu perfil de Cyanogen</string>
   <string name="cmaccount_login_error_title">L\'inici de sessió ha fallat</string>
-  <string name="cmaccount_login_error_message">Correu electrònic o contrasenya invàlids.</string>
+  <string name="cmaccount_login_error_message">Nom d\'usuari o contrasenya invàlida.</string>
   <string name="cmaccount_killswitch_login_error_message">Correu electrònic o contrasenya incorrecta, si us plau intenta-ho una altra vegada o visita https://account.cyngn.com per restablir la contrasenya.</string>
   <string name="cmaccount_server_error_title">Error de comunicació</string>
   <string name="cmaccount_create_account_error_title">Error creant el compte</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">SEGÜENT</string>
   <string name="cyngn_skip_setup_dialog_header">Vols ometre la configuració del compte?</string>
   <string name="cyngn_setup_sign_in">INICIA\u00A0SESSIÓ</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Introdueix el teu número de telèfon o correu electrònic</string>
   <string name="cyngn_setup_email_edittext_hint">Si us plau, introdueix la teva adreça de correu electrònic</string>
+  <string name="cyngn_setup_phone_edittext_hint">Si us plau introdueix el teu número de telèfon</string>
+  <string name="cyngn_setup_sending_sms">S\'està enviant l\'SMS a %1$s. Això pot trigar uns segons.</string>
   <string name="cyngn_setup_show_password">Mostra la contrasenya</string>
   <string name="cyngn_setup_reset_password_dialog">Per restablir la contrasenya si us plau visita https://account.cyngn.com des del teu ordinador.</string>
   <string name="cyngn_setup_forgot_password">Has oblidat la contrasenya?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">El correu electrònic que has seleccionat no està disponible.</string>
   <string name="cyngn_setup_create_profile_email_invalid">El correu electrònic que has seleccionat és invàlid.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">El nom per mostrar que has seleccionat és invàlid, massa llarg o no permès.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">El número de telèfon que has introduït no està disponible.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">El número de telèfon que has introduït no és vàlid.</string>
   <string name="cyngn_setup_password_strength_meter_label">Solidesa de la contrasenya:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Forta</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Mitjana</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Dèbil</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Massa curta</string>
+  <string name="sms_timeout_title">No es pot verificar el número</string>
+  <string name="sms_timeout_message">No hem pogut comprovar el teu número mitjançant SMS. Vols verificar el teu número una altra vegada?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>El teu telèfon, les teves normes</b> - Personalitza el teu telèfon a l\'aplicació de Temes</item>
     <item><b>Troba el teu telèfon</b> - Troba i esborra el teu telèfon si el perds</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Posa al núvol les teves aplicacions</b> - Mou entre els dispositius Cyanogen amb Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt; Live Caller ID&lt;/b&gt; - Sàpigues qui t\'està trucant i bloqueja els números de trucades brossa amb %1$s</string>
+  <string name="switch_to_phone">O NÚMERO DE TELÈFON</string>
+  <string name="switch_to_email">O ADREÇA DE CORREU ELECTRÒNIC</string>
+  <string name="waiting_for_sms_title">S\'està verificant el número de telèfon</string>
+  <string name="enter_sms_code_manually">Introdueix el codi de confirmació SMS manualment</string>
+  <string name="sms_confirmation_code_label">Si us plau introdueix el codi de confirmació SMS</string>
+  <string name="resend_sms">Torna a provar el número</string>
+  <string name="cmaccount_setup_sms_code_title">Verifica amb codi de confirmació</string>
+  <string name="cmaccount_setup_phone_blank_label">Has d\'introduir un número de telèfon</string>
+  <string name="cmaccount_settings_title">Configuració del compte Cianogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Confirma el número de telèfon</string>
+  <string name="cmaccount_settings_add_email_label">Afegeix l\'adreça de correu electrònic al compte</string>
+  <string name="cmaccount_settings_add_phone_label">Afegeix el número de telèfon al compte</string>
+  <string name="cmaccount_settings_add_email_error_title">Error en afegir el correu electrònic</string>
+  <string name="cmaccount_settings_add_email_error_message">S\'ha produït un error en afegir una adreça electrònica. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Error en afegir el número de telèfon</string>
+  <string name="cmaccount_settings_add_phone_error_message">S\'ha produït un error en afegir el número de telèfon. %1$s</string>
   <string name="tos_linktext_cyanogen">Condicions del servei de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de privacitat de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Acord de llicència d\'usuari final de Cyanogen</string>
+  <string name="sms_rate_warning">Us enviarem un SMS a aquest número per verificar la propietat del telèfon. L\'enviament de l\'SMS costarà la taxa de la xarxa normal.</string>
+  <string name="cyngn_setup_create">CREA</string>
 </resources>

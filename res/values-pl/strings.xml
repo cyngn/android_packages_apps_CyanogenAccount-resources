@@ -40,8 +40,10 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_setup_create_title">Utwórz konto</string>
   <string name="cmaccount_setup_killswitchlogin_title">Odblokowanie urządzenia</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Blokada urządzenia</string>
-  <string name="cmaccount_setup_email_unavailable_label">Ta nazwa użytkownika jest niedostępna</string>
+  <string name="cmaccount_setup_username_unavailable_label">Ta nazwa użytkownika jest niedostępna</string>
   <string name="cmaccount_setup_email_invalid_label">Przepraszamy, dozwolone są tylko litery (a-z), cyfry (0-9) oraz znaki (.+&amp;-_).</string>
+  <string name="cmaccount_setup_phone_invalid_label">Proszę podaj poprawny numer telefonu.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Wprowadź prawidłowy numer telefonu lub adres e-mail.</string>
   <string name="cmaccount_setup_displayname_label">Wprowadź nazwę jaka ma być wyświetlana</string>
   <string name="cmaccount_setup_password_label">Hasło</string>
   <string name="cmaccount_setup_password_strength_label">Minimum 8 znaków</string>
@@ -54,8 +56,8 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_login_message">Logowanie do Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Tworzenie profilu Cyanogen</string>
   <string name="cmaccount_login_error_title">Logowanie nie powiodło się</string>
-  <string name="cmaccount_login_error_message">Niepoprawny e-mail lub hasło.</string>
-  <string name="cmaccount_killswitch_login_error_message">Nieprawidłowy e-mail lub hasło, proszę spróbować ponownie lub odwiedzić https://account.cyngn.com w celu zresetowania hasła.</string>
+  <string name="cmaccount_login_error_message">Nieprawidłowa nazwa użytkownika lub hasło.</string>
+  <string name="cmaccount_killswitch_login_error_message">Nieprawidłowa nazwa użytkownika lub hasło, proszę spróbuj ponownie albo odwiedź https://account.cyngn.com aby zresetować hasło.</string>
   <string name="cmaccount_server_error_title">Błąd komunikacji</string>
   <string name="cmaccount_create_account_error_title">Błąd podczas tworzenia konta</string>
   <string name="cmaccount_create_account_error_message">Wystąpił błąd podczas tworzenia konta. %1$s</string>
@@ -91,7 +93,10 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cyngn_setup_next">DALEJ</string>
   <string name="cyngn_skip_setup_dialog_header">Pominąć konfigurację konta?</string>
   <string name="cyngn_setup_sign_in">ZAREJESTRUJ\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Wprowadź adres e-mail lub numer telefonu</string>
   <string name="cyngn_setup_email_edittext_hint">Podaj swój adres e-mail</string>
+  <string name="cyngn_setup_phone_edittext_hint">Podaj swój numer telefonu</string>
+  <string name="cyngn_setup_sending_sms">Wysyłanie SMS do %1$s. To może potrwać kilka sekund.</string>
   <string name="cyngn_setup_show_password">Pokaż hasło</string>
   <string name="cyngn_setup_reset_password_dialog">Aby zresetować hasło odwiedź https://account.cyngn.com korzystając z komputera.</string>
   <string name="cyngn_setup_forgot_password">Nie pamiętasz hasła?</string>
@@ -100,17 +105,38 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cyngn_setup_create_profile_email_unavailable">Wybrany adres e-mail jest niedostępny.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Wybrany adres e-mail jest nieprawidłowy.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Wyświetlana nazwa, którą wybierasz jest nieprawidłowa, za długa lub niedozwolona.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Podany numer telefonu jest niedostępny.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Podany numer telefonu jest nieprawidłowy.</string>
   <string name="cyngn_setup_password_strength_meter_label">Siła hasła:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Silne</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Średnie</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Słabe</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Za krótkie</string>
+  <string name="sms_timeout_title">Nie można zweryfikować numeru</string>
+  <string name="sms_timeout_message">Nie byliśmy w stanie zweryfikować twojego numeru przez SMS. Czy chcesz ponownie zweryfikować swój numer?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Twój telefon, twoje zasady</b> - Dostosuj swój telefon w aplikacji Motywy</item>
     <item><b>Znajdź swój telefon</b> - znajdź i wymaż pamięć telefonu jeśli został zgubiony</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Przechowuj swoje aplikacje w chmurze</b> - Przenoś się między urządzeniami Cyanogen wraz z Nextbit Baton</string>
+  <string name="switch_to_phone">LUB NUMER TELEFONU</string>
+  <string name="switch_to_email">LUB ADRES E-MAIL</string>
+  <string name="waiting_for_sms_title">Weryfikowanie numeru telefonu</string>
+  <string name="enter_sms_code_manually">Wprowadź kod potwierdzenia zawarty w SMS</string>
+  <string name="sms_confirmation_code_label">Proszę wprowadzić kod potwierdzenia SMS</string>
+  <string name="resend_sms">Wybierz numer ponownie</string>
+  <string name="cmaccount_setup_sms_code_title">Weryfikacja z kodem potwierdzenia</string>
+  <string name="cmaccount_setup_phone_blank_label">Należy wprowadzić numer telefonu</string>
+  <string name="cmaccount_settings_title">Ustawienia konta Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Potwierdź numer telefonu</string>
+  <string name="cmaccount_settings_add_email_label">Dodaj adres e-mail do konta</string>
+  <string name="cmaccount_settings_add_phone_label">Dodaj numer telefonu do konta</string>
+  <string name="cmaccount_settings_add_email_error_title">Wystąpił błąd podczas dodawania adresu e-mail</string>
+  <string name="cmaccount_settings_add_email_error_message">Wystąpił błąd podczas dodawania adresu e-mail. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Błąd podczas dodawania numeru telefonu</string>
+  <string name="cmaccount_settings_add_phone_error_message">Wystąpił błąd podczas dodawania numeru telefonu. %1$s</string>
   <string name="tos_linktext_cyanogen">Warunki Użytkowania Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Polityka Prywatności Cyanogen</string>
   <string name="eula_linktext_cyanogen">Umowa licencyjna użytkownika końcowego Cyanogen</string>
+  <string name="sms_rate_warning">Wyślemy SMS na ten numer, aby zweryfikować czy podany numer telefonu jest twój. Koszt SMS jest równy normalnej cenie wiadomości SMS.</string>
+  <string name="cyngn_setup_create">UTWÓRZ</string>
 </resources>

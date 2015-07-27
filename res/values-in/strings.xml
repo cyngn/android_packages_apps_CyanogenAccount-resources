@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Buat akun anda</string>
   <string name="cmaccount_setup_killswitchlogin_title">Buka perangkat</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Kunci perangkat</string>
-  <string name="cmaccount_setup_email_unavailable_label">Nama pengguna ini tidak tersedia</string>
+  <string name="cmaccount_setup_username_unavailable_label">Nama pengguna ini tidak tersedia</string>
   <string name="cmaccount_setup_email_invalid_label">Maaf, hanya huruf (a-z), angka (0-9), dan karakter (.+&amp;-_) yang diizinkan.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Masukkan nomor telepon yang berlaku.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Masukkan nomor telepon atau alamat surel yang berlaku.</string>
   <string name="cmaccount_setup_displayname_label">Tolong masukan nama tampilan anda</string>
   <string name="cmaccount_setup_password_label">Kata Sandi</string>
   <string name="cmaccount_setup_password_strength_label">minimal 8 karakter</string>
@@ -53,8 +55,8 @@
   <string name="cmaccount_login_message">Sedang masuk ke Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Membuat profil Cyanogen anda</string>
   <string name="cmaccount_login_error_title">Gagal masuk</string>
-  <string name="cmaccount_login_error_message">Email atau kata sandi salah.</string>
-  <string name="cmaccount_killswitch_login_error_message">Surel atau kata sandi salah. Cobalah lagi atau kunjungi https://account.cyngn.com untuk mengatur ulang kata sandi.</string>
+  <string name="cmaccount_login_error_message">Nama pengguna atau kata sandi salah.</string>
+  <string name="cmaccount_killswitch_login_error_message">Nama pengguna atau kata sandi salah. Cobalah lagi atau kunjungi https://account.cyngn.com untuk mengatur ulang kata sandi.</string>
   <string name="cmaccount_server_error_title">Gangguan Komunikasi</string>
   <string name="cmaccount_create_account_error_title">Kesalahan saat membuat akun</string>
   <string name="cmaccount_create_account_error_message">Terjadi kesalahan saat membuat akun anda. %1$s</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">LANJUT</string>
   <string name="cyngn_skip_setup_dialog_header">Lewati pengaturan akun?</string>
   <string name="cyngn_setup_sign_in">MASUK\u00A0</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Masukkan surel atau nomor telepon Anda</string>
   <string name="cyngn_setup_email_edittext_hint">Silahkan masukkan alamat email anda</string>
+  <string name="cyngn_setup_phone_edittext_hint">Masukkan nomor telepon Anda</string>
+  <string name="cyngn_setup_sending_sms">Mengirim SMS ke %1$s. Ini dapat memakan waktu beberapa detik.</string>
   <string name="cyngn_setup_show_password">Tampilkan sandi</string>
   <string name="cyngn_setup_reset_password_dialog">Untuk mengatur ulang kata sandi, kunjungi https://account.cyngn.com dengan komputer.</string>
   <string name="cyngn_setup_forgot_password">Lupa kata sandi?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Alamat Email yang anda pilih tidak tersedia.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Alamat Email yang anda pilih tidak valid.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Nama tampilan yang anda pilih diantara tidak valid, terlalu panjang atau tidak diizinkan.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Nomor telepon yang Anda masukkan tidak tersedia.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Nomor telepon yang Anda masukkan salah.</string>
   <string name="cyngn_setup_password_strength_meter_label">Kekuatan Kata Sandi:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Kuat</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Sedang</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Lemah</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Terlalu pendek</string>
+  <string name="sms_timeout_title">Tidak dapat memverifikasi nomor</string>
+  <string name="sms_timeout_message">Kami tidak dapat memverifikasi nomor Anda melalui SMS. Apakah Anda ingin memverifikasi nomor Anda lagi?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Ponsel anda, pengaturan anda</b> - Sesuaikan ponsel anda dengan aplikasi Tema</item>
     <item><b>Cari ponsel anda</b> - Cari dan Hapus data jika ponsel anda hilang</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Simpan aplikasi anda</b> - Pindah dari perangkat Cyanogen lainnya dengan Nextbit Baton</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Tahu siapa yang menelepon dan blokir penelepon tak dikehendaki dengan %1$s</string>
+  <string name="switch_to_phone">ATAU NOMOR TELEPON</string>
+  <string name="switch_to_email">ATAU ALAMAT SUREL</string>
+  <string name="waiting_for_sms_title">Memverifikasi nomor telepon</string>
+  <string name="enter_sms_code_manually">Masukkan kode konfirmasi SMS secara manual</string>
+  <string name="sms_confirmation_code_label">Masukkan kode konfirmasi SMS</string>
+  <string name="resend_sms">Coba lagi nomor</string>
+  <string name="cmaccount_setup_sms_code_title">Verifikasi dengan kode konfirmasi</string>
+  <string name="cmaccount_setup_phone_blank_label">Harus memasukkan nomor telepon</string>
+  <string name="cmaccount_settings_title">Pengaturan akun Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Konfirmasikan nomor telepon</string>
+  <string name="cmaccount_settings_add_email_label">Tambahkan alamat surel untuk akun</string>
+  <string name="cmaccount_settings_add_phone_label">Tambahkan nomor telepon ke akun</string>
+  <string name="cmaccount_settings_add_email_error_title">Galat menambahkan surel</string>
+  <string name="cmaccount_settings_add_email_error_message">Terjadi galat saat menambahkan alamat surel. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Galat menambahkan nomor telepon</string>
+  <string name="cmaccount_settings_add_phone_error_message">Terjadi galat saat menambahkan nomor telepon. %1$s</string>
   <string name="tos_linktext_cyanogen">Syarat Pengunaan Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Kebijakan Privasi Cyanogen</string>
   <string name="eula_linktext_cyanogen">Persetujuan Lisensi Pengguna Akhir Cyanogen</string>
+  <string name="sms_rate_warning">Kami akan mengirimkan SMS ke nomor ini untuk memverifikasi kepemilikan nomor telepon. Pengiriman SMS akan dikenakan biaya jaringan normal.</string>
+  <string name="cyngn_setup_create">MEMBUAT</string>
 </resources>

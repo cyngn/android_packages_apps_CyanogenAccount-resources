@@ -39,7 +39,6 @@
   <string name="cmaccount_setup_create_title">Sukurti paskyrą</string>
   <string name="cmaccount_setup_killswitchlogin_title">Atrakinti įrenginį</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Užrakinti įrenginį</string>
-  <string name="cmaccount_setup_email_unavailable_label">Toks vartotojo vardas yra nepasiekiamas</string>
   <string name="cmaccount_setup_email_invalid_label">Atsiprašome, tik raidės (a–z), skaičiai (0–9) ir simboliai (.+&amp;-_) yra leidžiami.</string>
   <string name="cmaccount_setup_displayname_label">Prašome įvesti savo rodomąjį vardą</string>
   <string name="cmaccount_setup_password_label">Slaptažodis</string>
@@ -53,8 +52,6 @@
   <string name="cmaccount_login_message">Prisijungiamia prie „Cyanogen“</string>
   <string name="cmaccount_creating_profile_message">Kuriamas jūsų „Cyanogen“ profilis</string>
   <string name="cmaccount_login_error_title">Prisijungti nepavyko</string>
-  <string name="cmaccount_login_error_message">Neteisingas el. paštas arba slaptažodis.</string>
-  <string name="cmaccount_killswitch_login_error_message">Neteisingas el. paštas arba slaptažodis, prašome bandyti dar kartą arba apsilankyti https://account.cyngn.com, kad atstatyti slaptažodį.</string>
   <string name="cmaccount_server_error_title">Ryšio klaida</string>
   <string name="cmaccount_create_account_error_title">Klaida kuriant paskyrą</string>
   <string name="cmaccount_create_account_error_message">Įvyko klaida kuriant paskyrą. %1$s</string>
@@ -108,7 +105,6 @@
     <item><b>Jūsų telefonas, jūsų taisyklės</b> - Tinkinti savo telefoną temų programoje</item>
     <item><b>Ieškoti savo telefono</b> - Rasti ir ištrinti telefoną, jei jis prarastas</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Debesies programos</b> - Perkelti tarp „Cianogen“ įrenginių su „Nextbit Baton“</string>
   <string name="tos_linktext_cyanogen">„Cyanogen“ paslaugos sąlygos</string>
   <string name="privacy_linktext_cyanogen">„Cyanogen“ privatumo politika</string>
   <string name="eula_linktext_cyanogen">„Cyanogen“ galutinio vartotojo licencinė sutartis</string>

@@ -39,7 +39,6 @@
   <string name="cmaccount_setup_create_title">สร้างบัญชีของคุณ</string>
   <string name="cmaccount_setup_killswitchlogin_title">ปลดล็อคอุปกรณ์</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">ล็อคอุปกรณ์</string>
-  <string name="cmaccount_setup_email_unavailable_label">ไม่สามารถใช้ชื่อผู้ใช้นี้ได้</string>
   <string name="cmaccount_setup_email_invalid_label">อนุญาตเฉพาะตัวอักษร a-z ตัวเลขและเครื่องหมาย .+&amp;-_ เท่านั้น</string>
   <string name="cmaccount_setup_displayname_label">กรุณาเลือกชื่อที่จะแสดง</string>
   <string name="cmaccount_setup_password_label">รหัสผ่าน</string>
@@ -53,8 +52,6 @@
   <string name="cmaccount_login_message">กำลังเข้าสู่ระบบ Cyanogen</string>
   <string name="cmaccount_creating_profile_message">กำลังสร้างโปร์ไฟล์ Cyanogen ของคุณ</string>
   <string name="cmaccount_login_error_title">เข้าสู่ระบบล้มเหลว</string>
-  <string name="cmaccount_login_error_message">อีเมลหรือรหัสผ่านไม่ถูกต้อง</string>
-  <string name="cmaccount_killswitch_login_error_message">อีเมลหรือรหัสผ่านของคุณไม่ถูกต้อง โปรดลองอีกครั้งหรือเข้าไปที่ https://account.cyngn.com เพื่อรีเซ็ตรหัสผ่าน</string>
   <string name="cmaccount_server_error_title">มีข้อผิดพลาดในการสื่อสาร</string>
   <string name="cmaccount_create_account_error_title">พบข้อผิดพลาดขณะกำลังสร้างบัญชี</string>
   <string name="cmaccount_create_account_error_message">เกิดข้อผิดพลาดขณะสร้างบัญชีของคุณ %1$s</string>
@@ -108,7 +105,6 @@
     <item><b>มือถือของคุณ ใช้ซะ</b> - คุณสามารถปรับแต่งผ่านแอปชุดรูปแบบได้</item>
     <item><b>ค้นหาตำแหน่ง</b> - ค้นหาตำแหน่งของมือถือคุณพร้อมสั่งลบข้อมูลระยะไกลได้ หากมันสูญหาย</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>แอปแบบกลุ่มเมฆ</b> - ย้ายไปมาได้ระหว่างอุปกรณ์ Cyanogen และ Nextbit Baton</string>
   <string name="tos_linktext_cyanogen">เงื่อนไขการใช้บริการของ Cyanogen</string>
   <string name="privacy_linktext_cyanogen">นโยบายความเป็นส่วนตัวของ Cyanogen</string>
   <string name="eula_linktext_cyanogen">สิทธิของผู้ใช้ Cyanogen</string>

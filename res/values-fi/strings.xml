@@ -39,8 +39,10 @@
   <string name="cmaccount_setup_create_title">Luo tili</string>
   <string name="cmaccount_setup_killswitchlogin_title">Poista laitteen lukitus</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Lukitse laite</string>
-  <string name="cmaccount_setup_email_unavailable_label">Tämä käyttäjätunnus ei ole käytettävissä</string>
+  <string name="cmaccount_setup_username_unavailable_label">Tämä käyttäjätunnus ei ole käytettävissä</string>
   <string name="cmaccount_setup_email_invalid_label">Vain kirjaimet (a-z), numerot (0-9), ja merkit (.+&amp;-_) ovat sallittuja.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Anna kelvollinen puhelinnumero.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Syötä kelvollinen puhelinnumero tai sähköpostiosoite.</string>
   <string name="cmaccount_setup_displayname_label">Kirjoita näyttönimi</string>
   <string name="cmaccount_setup_password_label">Salasana</string>
   <string name="cmaccount_setup_password_strength_label">Vähintään 8 merkkiä</string>
@@ -53,7 +55,7 @@
   <string name="cmaccount_login_message">Kirjaudutaan Cyanogeniin</string>
   <string name="cmaccount_creating_profile_message">Luodaan Cyanogen-profiiliasi</string>
   <string name="cmaccount_login_error_title">Kirjautuminen epäonnistui</string>
-  <string name="cmaccount_login_error_message">Virheellinen sähköposti tai salasana.</string>
+  <string name="cmaccount_login_error_message">Virheellinen käyttäjänimi tai salasana.</string>
   <string name="cmaccount_killswitch_login_error_message">Virheellinen sähköpostiosoite tai salasana, yritä uudelleen tai käy osoitteessa https://account.cyngn.com palauttaaksesi salasanan.</string>
   <string name="cmaccount_server_error_title">Yhteysvirhe</string>
   <string name="cmaccount_create_account_error_title">Virhe luodessa tiliä</string>
@@ -90,7 +92,10 @@
   <string name="cyngn_setup_next">SEURAAVA</string>
   <string name="cyngn_skip_setup_dialog_header">Ohita tilin määritys?</string>
   <string name="cyngn_setup_sign_in">KIRJAUDU\u00A0SISÄÄN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Syötä sähköposti tai puhelinnumero</string>
   <string name="cyngn_setup_email_edittext_hint">Kirjoita sähköpostiosoitteesi</string>
+  <string name="cyngn_setup_phone_edittext_hint">Syötä puhelinnumerosi</string>
+  <string name="cyngn_setup_sending_sms">Lähetetään tekstiviesti numeroon %1$s. Tämä voi kestää muutaman sekunnin.</string>
   <string name="cyngn_setup_show_password">Näytä salasana</string>
   <string name="cyngn_setup_reset_password_dialog">Palauttaaksesi salasanan, käy osoitteessa https://account.cyngn.com tietokoneella.</string>
   <string name="cyngn_setup_forgot_password">Unohditko salasanan?</string>
@@ -99,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Sähköpostiosoite ei ole käytettävissä.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Valitsemasi sähköpostiosoite on virheellinen.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Valitsemasi näyttönimi on virheellinen, liian pitkä tai sitä ei ole sallittu.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Syöttämäsi puhelinnumero ei ole käytettävissä.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Syöttämäsi puhelinnumero on virheellinen.</string>
   <string name="cyngn_setup_password_strength_meter_label">Salasanan vahvuus:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Vahva</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Keskitaso</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Heikko</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Liian lyhyt</string>
+  <string name="sms_timeout_title">Ei voitu varmistaa numeroa</string>
+  <string name="sms_timeout_message">Emme pystyneet vahvistamaan numeroasi tekstiviestillä. Haluatko tarkistaa numeron uudelleen?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Sinun puhelimesi, sinun sääntösi</b> - Mukauta puhelintasi Teemat-sovelluksessa</item>
     <item><b>Etsi puhelimesi</b> - Paikanna tai tyhjennä kadonnut puhelimesi</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>Siirrä sovelluksesi pilveen</b> - Siirry Cyanogen-laitteidesi välillä Nextbit Batonin avulla</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Selvitä kuka soittaa ja estä spam-soittajat käyttämällä sovellusta %1$s</string>
+  <string name="switch_to_phone">TAI PUHELINNUMERO</string>
+  <string name="switch_to_email">TAI SÄHKÖPOSTIOSOITE</string>
+  <string name="waiting_for_sms_title">Tarkistetaan puhelinnumeroa</string>
+  <string name="enter_sms_code_manually">Syötä tekstiviestin vahvistuskoodi manuaalisesti</string>
+  <string name="sms_confirmation_code_label">Syötä tekstiviestin vahvistuskoodi</string>
+  <string name="resend_sms">Lähetä uudelleen</string>
+  <string name="cmaccount_setup_sms_code_title">Vahvista koodilla</string>
+  <string name="cmaccount_setup_phone_blank_label">Puhelinnumero on pakollinen</string>
+  <string name="cmaccount_settings_title">Cyanogen-tilin asetukset</string>
+  <string name="cmaccount_settings_confirm_phone_label">Vahvista puhelinnumero</string>
+  <string name="cmaccount_settings_add_email_label">Lisää sähköpostiosoite tiliin</string>
+  <string name="cmaccount_settings_add_phone_label">Lisää puhelinnumero tiliin</string>
+  <string name="cmaccount_settings_add_email_error_title">Virhe lisätessä sähköpostia</string>
+  <string name="cmaccount_settings_add_email_error_message">Tapahtui virhe lisätessä sähköpostiosoitetta. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Virhe lisätessä puhelinnumeroa</string>
+  <string name="cmaccount_settings_add_phone_error_message">Tapahtui virhe lisätessä puhelinnumeroa. %1$s</string>
   <string name="tos_linktext_cyanogen">Cyanogenin Käyttöehdot</string>
   <string name="privacy_linktext_cyanogen">Cyanogenin Tietosuojakäytäntö</string>
   <string name="eula_linktext_cyanogen">Cyanogenin Käyttöoikeussopimus</string>
+  <string name="sms_rate_warning">Lähetämme tekstiviestin tähän numeroon tarkistaaksemme että numero kuuluu sinulle. Tekstiviestin lähettäminen maksaa normaalin tekstiviestin hinnan.</string>
+  <string name="cyngn_setup_create">LUO</string>
 </resources>

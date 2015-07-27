@@ -35,24 +35,28 @@
   <string name="dont_skip">नहीं छोड़ें</string>
   <string name="setup_warning_skip_wifi">चेतावनी: आपको अतिरिक्त वाहक शुल्क देना पड़ सकता है।\n\nउपकरण सेट अप में उल्लेखनीय नेटवर्क सक्रियता होने की संभावना है।</string>
   <string name="setup_warning_accept_tos">आगे बढ़ने के लिए चेकबॉक्स में निशान लगाकर आपको उपयोग की शर्तों, गोपनीयता नीति, और अंतिम उपयोगकर्ता लाइसेंस अनुबंध से सहमत होना होगा।</string>
+  <string name="setup_warning_skip_anyway">सियानोजेन ओएस खाते के बिना, आप निम्नलिखित नहीं कर सकेंगे:\n\nथीम स्टोर में ब्राउस करके थीम डाउनलोड करना\n\nयदि आपका फ़ोन खो जाए, तो उसे दूर से ढूँढ़ना या मिटाना</string>
   <string name="cmaccount_setup_create_title">अपना खाता निर्मित करें</string>
   <string name="cmaccount_setup_killswitchlogin_title">उपकरण को अनलॉक करें</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">उपकरण को लॉक करें</string>
-  <string name="cmaccount_setup_email_unavailable_label">यह उपयोगकर्ता नाम उपलब्ध नहीं है</string>
+  <string name="cmaccount_setup_username_unavailable_label">यह उपयोगकर्ता नाम उपलब्ध नहीं है</string>
   <string name="cmaccount_setup_email_invalid_label">क्षमा करें, केवल अँग्रेज़ी के छोटे वर्णों (a–z), अंकों (0–9), और वर्णों (.+&amp;-_) की अनुमति है।</string>
+  <string name="cmaccount_setup_phone_invalid_label">कृपया मान्य फ़ोन नंबर दर्ज करें।</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">कृपया मान्य फ़ोन नंबर या ईमेल पता दर्ज करें।</string>
   <string name="cmaccount_setup_displayname_label">कृपया अपना प्रदर्शन नाम दर्ज करें</string>
   <string name="cmaccount_setup_password_label">पासवर्ड</string>
   <string name="cmaccount_setup_password_strength_label">8 वर्ण न्यूनतम</string>
   <string name="cmaccount_setup_password_mismatch_label">पासवर्ड मेल नहीं खाते।</string>
   <string name="cmaccount_setup_password_invalid_label">पासवर्ड में कम से कम 8 वर्ण होने चाहिए।</string>
   <string name="cmaccount_setup_confirm_password_label">पासवर्ड फिर से दर्ज करें</string>
+  <string name="cmaccount_setup_tos_label">इस बॉक्स में निशान लगाकर आप <u>सियानोजेन की उपयोग की शर्तों</u>, <u>गोपनीयता नीति</u>, और <u>अंतिम उपयोगकर्ता लाइसेंस अनुबंध</u> से सहमत होते हैं।</string>
   <string name="cmaccount_add_title">अपना खाता जोड़ें</string>
   <string name="cmaccount_learn_more">और जानें\u2026</string>
   <string name="cmaccount_login_message">सियानोजेन में लॉग इन कर रहे हैं</string>
   <string name="cmaccount_creating_profile_message">आपकी सियानोजेन प्रोफ़ाइल निर्मित कर रहे हैं</string>
   <string name="cmaccount_login_error_title">लॉगइन विफल हुआ</string>
-  <string name="cmaccount_login_error_message">अमान्य ईमेल या पासवर्ड</string>
-  <string name="cmaccount_killswitch_login_error_message">ग़लत ईमेल या पासवर्ड। कृपया फिर से कोशिश करें या अपने पासवर्ड को रीसेट करने के लिए https://account.cyngn.com में आएँ।</string>
+  <string name="cmaccount_login_error_message">अमान्य उपयोगकर्ता नाम या पासवर्ड।</string>
+  <string name="cmaccount_killswitch_login_error_message">ग़लत उपयोगकर्ता नाम या पासवर्ड, कृपया दुबारा कोशिश करें या अपने पासवर्ड को रीसेट करने के लिए https://account.cyngn.com में पधारें।</string>
   <string name="cmaccount_server_error_title">संप्रेषण त्रुटि</string>
   <string name="cmaccount_create_account_error_title">खाता निर्मित करने में त्रुटि</string>
   <string name="cmaccount_create_account_error_message">खाता निर्मित करते समय एक त्रुटि हो गई। %1$s</string>
@@ -60,6 +64,7 @@
   <string name="cmaccount_cert_pin_warning_title">कृपया अद्यतन करें</string>
   <string name="cmaccount_cert_pin_warning_text">सुरक्षा कारणों से सियानोजेन खाता जल्द काम करना बंद कर देगा। कृपया तुरंत अद्यतन करें।</string>
   <string name="cmaccount_error_multiple_accounts">प्रति उपकरण केवल एक सियानोजेन खाते की अनुमति है</string>
+  <string name="cmaccount_allow_access">%1$s इसमें पहुँचना चाहते हैं:</string>
   <string name="cmaccount_granting_access">%1$s के लिए पहुँच प्रदान कर रहे हैं</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">अपने खाते के बारे में मूलभूत जानकारी देखें, जिसमें आपका ईमेल भी शामिल है</string>
   <string name="cmaccount_password_changed_title">पासवर्ड बदल दिया गया</string>
@@ -87,7 +92,10 @@
   <string name="cyngn_setup_next">अगला</string>
   <string name="cyngn_skip_setup_dialog_header">खाता सेटअप को छोड़ दें?</string>
   <string name="cyngn_setup_sign_in">चिह्न\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">अपना ईमेल या फ़ोन नंबर दर्ज करें</string>
   <string name="cyngn_setup_email_edittext_hint">अपना ईमेल पता दर्ज करें</string>
+  <string name="cyngn_setup_phone_edittext_hint">कृपया अपना फ़ोन नंबर दर्ज करें</string>
+  <string name="cyngn_setup_sending_sms">%1$s को एसएमएस भेज रहे हैं। इसमें चंद सेकंड लग सकते हैं।</string>
   <string name="cyngn_setup_show_password">पासवर्ड दिखाएँ</string>
   <string name="cyngn_setup_reset_password_dialog">अपने पासवर्ड को रीसेट करने के लिए, अपने कंप्यूटर से https://account.cyngn.com में जाएँ।</string>
   <string name="cyngn_setup_forgot_password">पासवर्ड भूल गए?</string>
@@ -96,17 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">आपने जो ईमेल पता चुना है, वह अनुपलब्ध है।</string>
   <string name="cyngn_setup_create_profile_email_invalid">आपने जो ईमेल पता चुना है, वह अमान्य है।</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">आपने जो प्रदर्शन नाम चुना है, वह अमान्य है, बहुत लंबा है, या उसकी अनुमति नहीं है।</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">आपने जो फ़ोन नंबर दर्ज किया है, वह अनुपलब्ध है।</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">आपने जो फ़ोन नंबर दर्ज किया है वह अमान्य है।</string>
   <string name="cyngn_setup_password_strength_meter_label">पासवर्ड की मज़बूती:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">मज़बूत</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">मध्यम</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">कमज़ोर</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">बहुत छोटा</string>
+  <string name="sms_timeout_title">नंबर को सत्यापित नहीं कर सके</string>
+  <string name="sms_timeout_message">हम एसएमएस के ज़रिए आपके नंबर को सत्यापित नहीं कर सके। क्या आप अपने नंबर को फिर से सत्यापित करना चाहेंगे?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>आपका फ़ोन, आपके नियम</b> - थीम ऐप में अपने फ़ोन को मनपसंद बनाएँ</item>
     <item><b>अपने फ़ोन को ढूँढ़ें</b> - जब आपका फ़ोन खो जाए, तो उसे ढूँढ़ें और मिटाएँ</item>
   </string-array>
-  <string name="cyngn_account_benefit_nextbit"><b>अपने ऐपों को क्लाउडीकृत करें</b> - नेक्सबिट बेटन से अपने सियानोजेन उपकरणों में विचरण करें</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;सजीव कॉलर आईडी&lt;/b&gt; - जानें कि कौन कॉल कर रहा है और %1$s की मदद से स्पैम कॉलरों को अवरुद्ध करें</string>
+  <string name="switch_to_phone">या फ़ोन नंबर</string>
+  <string name="switch_to_email">या ईमेल पता</string>
+  <string name="waiting_for_sms_title">फ़ोन नंबर को सत्यापित कर रहे हैं</string>
+  <string name="enter_sms_code_manually">एसएमएस सत्यापन कोड को स्वयं दर्ज करें</string>
+  <string name="sms_confirmation_code_label">कृपया एसएमएस सत्यापन कोड दर्ज करें</string>
+  <string name="resend_sms">नंबर को फिर से कोशिश करें</string>
+  <string name="cmaccount_setup_sms_code_title">पुष्टीकरण कोड से सत्यापित करें</string>
+  <string name="cmaccount_setup_phone_blank_label">फ़ोन नंबर दर्ज करना ज़रूरी है</string>
+  <string name="cmaccount_settings_title">सियानोजेन खाता सेटिंग</string>
+  <string name="cmaccount_settings_confirm_phone_label">फ़ोन नंबर की पुष्टि करें</string>
+  <string name="cmaccount_settings_add_email_label">खाते में ईमेल पता जोड़ें</string>
+  <string name="cmaccount_settings_add_phone_label">खाते में फ़ोन नंबर जोड़ें</string>
+  <string name="cmaccount_settings_add_email_error_title">ईमल जोड़ते वक़्त त्रुटि</string>
+  <string name="cmaccount_settings_add_email_error_message">ईमेल पता जोड़ते वक़्त त्रुटि हुई। %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">फ़ोन नंबर जोड़ते वक़्त त्रुटि हुई</string>
+  <string name="cmaccount_settings_add_phone_error_message">फ़ोन नंबर जोड़ते वक़्त त्रुटि हुई। %1$s</string>
   <string name="tos_linktext_cyanogen">सियानोजेन सेवा की शर्तें</string>
   <string name="privacy_linktext_cyanogen">सियानोजेन गोपनीयता नीति</string>
   <string name="eula_linktext_cyanogen">सियानोजेन अंतिम उपयोगकर्ता लाइसेंस अनुबंध</string>
+  <string name="sms_rate_warning">इसे सत्यापित करने के लिए कि आप ही इस फ़ोन नंबर के स्वामी है, हम इस नंबर पर एक एसएमएस भेजेंगे। एसएमएस भेजने के लिए सामान्य नेटवर्क दर पर शुल्क लग सकता है।</string>
+  <string name="cyngn_setup_create">निर्मित करें</string>
 </resources>
