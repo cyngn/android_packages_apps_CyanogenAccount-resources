@@ -39,7 +39,10 @@
   <string name="cmaccount_setup_create_title">Crea la to cuenta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquiar preséu</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquiar preséu</string>
+  <string name="cmaccount_setup_username_unavailable_label">Esti nome d\'usuariu nun ta disponible</string>
   <string name="cmaccount_setup_email_invalid_label">Namái se permiten lletres (a – z), númberos (0 – 9) y los caráuteres (. + &amp;-_).</string>
+  <string name="cmaccount_setup_phone_invalid_label">Por favor, introduz un númberu de teléfonu válidu.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Por favor, introduz un númberu de teléfonu o direición de corréu validos.</string>
   <string name="cmaccount_setup_displayname_label">Introduz el to nome d\'usuariu</string>
   <string name="cmaccount_setup_password_label">Contraseña</string>
   <string name="cmaccount_setup_password_strength_label">Mínimo 8 caráuteres</string>
@@ -52,6 +55,8 @@
   <string name="cmaccount_login_message">Aniciando sesión en Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Creando\'l to perfil Cyanogen</string>
   <string name="cmaccount_login_error_title">Aniciu de sesión fallíu</string>
+  <string name="cmaccount_login_error_message">Nome d\'usuariu o contraseña non válidos.</string>
+  <string name="cmaccount_killswitch_login_error_message">Corréu o contraseña incorreutos, por favor inténtalo de nueves o visita https://account.cyngn.com pa reafitar la to cuenta.</string>
   <string name="cmaccount_server_error_title">Fallu de conmunicación</string>
   <string name="cmaccount_create_account_error_title">Fallu creando la cuenta</string>
   <string name="cmaccount_create_account_error_message">Asocedió un fallu entrín se creaba la to cuenta. %1$s</string>
@@ -87,7 +92,10 @@
   <string name="cyngn_setup_next">SIGUIENTE</string>
   <string name="cyngn_skip_setup_dialog_header">¿Saltar configuración de cuenta?</string>
   <string name="cyngn_setup_sign_in">ANICIAR\u00A0SESIÓN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Introduz el to corréu o númberu de teléfonu</string>
   <string name="cyngn_setup_email_edittext_hint">Introduz la direición de corréu-e</string>
+  <string name="cyngn_setup_phone_edittext_hint">Por favor, introduz el to númberu de teléfonu</string>
+  <string name="cyngn_setup_sending_sms">Unviando SMS a %1$s. Quiciabes tarde dellos segundos.</string>
   <string name="cyngn_setup_show_password">Amosar contraseña</string>
   <string name="cyngn_setup_reset_password_dialog">Pa restablecer la contraseña visita https://account.cyngn.com dende\'l PC.</string>
   <string name="cyngn_setup_forgot_password">¿Escaecisti la contraseña?</string>
@@ -96,16 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">La direición de corréu-e nun ta disponible.</string>
   <string name="cyngn_setup_create_profile_email_invalid">La direición de corréu-e seleicionada un ye válida.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">El nome seleicionáu p\'amosar nun ye válidu, ye enforma llargu o nun se permite.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Nun ta disponible\'l númberu de teléfonu qu\'introduxesti.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Nun ye válidu\'l númberu de teléfonu qu\'introduxesti.</string>
   <string name="cyngn_setup_password_strength_meter_label">Fuercia de contraseña:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Fuerte</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Media</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Feble</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Percurtia</string>
+  <string name="sms_timeout_title">Nun pue verificase\'l númberu</string>
+  <string name="sms_timeout_message">Nun pudimos verificar el to númberu pente SMS. ¿Prestaríate verificar de nueves el to númberu?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>El to teléfonu, les tos regles</b> - Personaliza\'l teléfonu na aplicación de temes</item>
     <item><b>Atopa\'l to teléfonu</b> - Alcontrar y formatiar el teléfonu si se pierde</item>
   </string-array>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;identificador de llamada&lt;/b&gt; - pa saber quién ta llamando y bloquiar llamaes de spam con %1$s</string>
+  <string name="switch_to_phone">O NÚMBERU DE TELÉFONU</string>
+  <string name="switch_to_email">O DIREICIÓN DE CORRÉU-E</string>
+  <string name="waiting_for_sms_title">Verificando\'l númberu de teléfonu</string>
+  <string name="enter_sms_code_manually">Introduz a mano\'l códigu de confirmación SMS</string>
+  <string name="sms_confirmation_code_label">Por favor introduz el códigu de confirmación SMS</string>
+  <string name="resend_sms">Reintentar númberu</string>
+  <string name="cmaccount_setup_sms_code_title">Verificar con códigu de confirmación</string>
+  <string name="cmaccount_setup_phone_blank_label">Tienes d\'introducir un númberu de teléfonu</string>
+  <string name="cmaccount_settings_title">Axustes de cuenta Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">Confirmar númberu de teléfonu</string>
+  <string name="cmaccount_settings_add_email_label">Amestar direición de corréu-e a la cuenta</string>
+  <string name="cmaccount_settings_add_phone_label">Amestar númberu de teléfonu a la cuenta</string>
+  <string name="cmaccount_settings_add_email_error_title">Fallu amestando\'l corréu</string>
+  <string name="cmaccount_settings_add_email_error_message">Asocedió un fallu entrín s\'amestaba una direición de corréu. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Fallu amestando\'l númberu de teléfonu</string>
+  <string name="cmaccount_settings_add_phone_error_message">Asocedió un fallu entrín s\'amestaba un númberu de teléfonu. %1$s</string>
   <string name="tos_linktext_cyanogen">Términos de Serviciu de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de Privacidá de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Llicencia d\'Acuerdu col Usuariu Final de Cyanogen</string>
+  <string name="sms_rate_warning">Vamos unviate un SMS a esti númberu pa verificar la propiedá del númberu de teléfonu. Unviar un SMS va costate la tasa normal de la rede.</string>
+  <string name="cyngn_setup_create">CREAR</string>
 </resources>

@@ -118,6 +118,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
     <item><b>Twój telefon, twoje zasady</b> - Dostosuj swój telefon w aplikacji Motywy</item>
     <item><b>Znajdź swój telefon</b> - znajdź i wymaż pamięć telefonu jeśli został zgubiony</item>
   </string-array>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live ID Dzwoniącego&lt;/b&gt; - Wiedz kto dzwoni i blokuj spam z %1$s</string>
   <string name="switch_to_phone">LUB NUMER TELEFONU</string>
   <string name="switch_to_email">LUB ADRES E-MAIL</string>
   <string name="waiting_for_sms_title">Weryfikowanie numeru telefonu</string>

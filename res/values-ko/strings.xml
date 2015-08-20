@@ -112,14 +112,14 @@
   <string name="cyngn_setup_password_strength_meter_label_fair">보통</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">약함</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">너무 짧음</string>
-  <string name="sms_timeout_title">전화 번호를 확인할 수 없음</string>
-  <string name="sms_timeout_message">SMS를 이용하여 전화 번호를 확인할 수 없습니다. 다시 시도하시겠습니까?</string>
+  <string name="sms_timeout_title">전화번호를 확인할 수 없음</string>
+  <string name="sms_timeout_message">SMS를 이용하여 전화번호를 확인할 수 없습니다. 다시 시도하시겠습니까?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>기기, 규칙</b> - 테마 앱으로 기기의 개인화 설정</item>
     <item><b>기기 찾기</b> - 잃어 버렸을 경우 기기를 찾거나 개인정보를 원격 삭제</item>
   </string-array>
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;실시간 발신자 정보 표시&lt;/b&gt; - %1$s을(를) 통해 전화하는 사람의 정보 확인과 스팸 전화 차단을 사용하세요</string>
-  <string name="switch_to_phone">또는 전화 번호</string>
+  <string name="switch_to_phone">또는 전화번호</string>
   <string name="switch_to_email">또는 이메일 주소</string>
   <string name="waiting_for_sms_title">휴대전화 번호 확인 중</string>
   <string name="enter_sms_code_manually">SMS 인증 코드를 직접 입력</string>
@@ -138,6 +138,6 @@
   <string name="tos_linktext_cyanogen">Cyanogen 서비스 조건</string>
   <string name="privacy_linktext_cyanogen">Cyanogen 개인정보 정책</string>
   <string name="eula_linktext_cyanogen">Cyanogen 최종 사용자 권한 계약</string>
-  <string name="sms_rate_warning">전화 번호를 인증하기 위해 이 번호로 SMS를 전송할 것입니다. 이 작업은 일반 네트워크 요금이 부과됩니다.</string>
+  <string name="sms_rate_warning">전화번호를 인증하기 위해 이 번호로 SMS를 전송할 것입니다. 이 작업은 일반 네트워크 요금이 부과됩니다.</string>
   <string name="cyngn_setup_create">생성</string>
 </resources>
