@@ -93,10 +93,10 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cyngn_setup_next">DALEJ</string>
   <string name="cyngn_skip_setup_dialog_header">Pominąć konfigurację konta?</string>
   <string name="cyngn_setup_sign_in">ZAREJESTRUJ\u00A0IN</string>
-  <string name="cyngn_setup_existing_account_edittext_hint">Wprowadź adres e-mail lub numer telefonu</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Wpisz adres email lub numer telefonu</string>
   <string name="cyngn_setup_email_edittext_hint">Podaj swój adres e-mail</string>
   <string name="cyngn_setup_phone_edittext_hint">Podaj swój numer telefonu</string>
-  <string name="cyngn_setup_sending_sms">Wysyłanie SMS do %1$s. To może potrwać kilka sekund.</string>
+  <string name="cyngn_setup_sending_sms">Wysyłanie SMS na numer %1$s. To może chwilę potrwać.</string>
   <string name="cyngn_setup_show_password">Pokaż hasło</string>
   <string name="cyngn_setup_reset_password_dialog">Aby zresetować hasło odwiedź https://account.cyngn.com korzystając z komputera.</string>
   <string name="cyngn_setup_forgot_password">Nie pamiętasz hasła?</string>
@@ -118,10 +118,10 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
     <item><b>Twój telefon, twoje zasady</b> - Dostosuj swój telefon w aplikacji Motywy</item>
     <item><b>Znajdź swój telefon</b> - znajdź i wymaż pamięć telefonu jeśli został zgubiony</item>
   </string-array>
-  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live ID Dzwoniącego&lt;/b&gt; - Wiedz kto dzwoni i blokuj spam z %1$s</string>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live ID Dzwoniącego&lt;/b&gt; - Rozpoznawaj i blokuj połączenia spam z %1$s</string>
   <string name="switch_to_phone">LUB NUMER TELEFONU</string>
   <string name="switch_to_email">LUB ADRES E-MAIL</string>
-  <string name="waiting_for_sms_title">Weryfikowanie numeru telefonu</string>
+  <string name="waiting_for_sms_title">Weryfikacja numeru telefonu</string>
   <string name="enter_sms_code_manually">Wprowadź kod potwierdzenia zawarty w SMS</string>
   <string name="sms_confirmation_code_label">Proszę wprowadzić kod potwierdzenia SMS</string>
   <string name="resend_sms">Wybierz numer ponownie</string>
