@@ -39,6 +39,7 @@
   <string name="cmaccount_setup_username_unavailable_label">Acest nume de utilizator este nedisponibil</string>
   <string name="cmaccount_setup_email_invalid_label">Ne pare rău, doar litere (a-z), cifre (0-9) și caracterele (. + &amp;-_) sunt permise.</string>
   <string name="cmaccount_setup_phone_invalid_label">Vă rugăm să introduceți un număr de telefon valabil.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Introduceți un număr de telefon sau adresă de email valabilă.</string>
   <string name="cmaccount_setup_displayname_label">Vă rugăm să introduceți numele de afișare</string>
   <string name="cmaccount_setup_password_label">Parolă</string>
   <string name="cmaccount_setup_password_strength_label">minim 8 caractere</string>
@@ -52,6 +53,7 @@
   <string name="cmaccount_killswitch_login_error_message">Nume utilizator sau parolă incorecte, vă rugăm să încercați din nou sau vizitați https://account.cyngn.com pentru a reseta parola.</string>
   <string name="cmaccount_server_error_title">Eroare de comunicare</string>
   <string name="cmaccount_create_account_error_title">Eroare la crearea contului</string>
+  <string name="cmaccount_server_error_message">Eroare la comunicarea cu serverul. Acest lucru poate fi din cauza pierderii de conectivitate. Încercați conectarea la o altă rețea Wi-Fi și/sau asigurându-vă că este introdusă corect cartela SIM.</string>
   <string name="cmaccount_error_multiple_accounts">Este permis doar un cont Cyanogen per dispozitiv</string>
   <string name="cmaccount_allow_access">%1$s ar dori acces la:</string>
   <string name="cmaccount_password_changed_title">Parola a fost modificată</string>
@@ -60,6 +62,7 @@
   <string name="cmaccount_setup_confirm_password_blank_label">Introduceți parola din nou</string>
   <string name="cmaccount_setup_displayname_blank_label">Trebuie să introduceți numele de afișare</string>
   <string name="cmaccount_setup_must_agree_label">Trebuie acord pentru TOS</string>
+  <string name="cmaccount_setup_displayname_invalid_label">Nume afișat incorect</string>
   <string name="cmaccount_displayname_label">Cum ați dori să apară numele dumneavoastră?</string>
   <string name="cmaccount_displayname_hint">Nume afișat</string>
   <string name="cmaccount_email_label">Email</string>
@@ -72,11 +75,14 @@
   <string name="cyngn_setup_next">URMĂTOAREA</string>
   <string name="cyngn_setup_existing_account_edittext_hint">Introduceți adresa e-mail sau număr de telefon</string>
   <string name="cyngn_setup_email_edittext_hint">Introduceți adresa de e-mail</string>
+  <string name="cyngn_setup_phone_edittext_hint">Vă rugăm să introduceți numărul dvs. de telefon</string>
+  <string name="cyngn_setup_sending_sms">Trimițând SMS către %1$s. Aceasta poate dura câteva secunde.</string>
   <string name="cyngn_setup_show_password">Arată parola</string>
   <string name="cyngn_setup_forgot_password">Ați uitat parola?</string>
   <string name="cyngn_setup_toslist_header">Selectați pentru a revizui</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Adresa de email pe care ați selectat-o nu este disponibilă.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Adresa de email pe care ați selectat-o este incorectă.</string>
+  <string name="cyngn_setup_create_profile_displayname_invalid">Numele afișat selectat este incorect, prea lung sau nepermis.</string>
   <string name="cyngn_setup_create_profile_phone_unavailable">Numărul de telefon pe care l-ați introdus nu este disponibil.</string>
   <string name="cyngn_setup_create_profile_phone_invalid">Numărul de telefon pe care l-ați introdus nu este valid.</string>
   <string name="cyngn_setup_password_strength_meter_label">Puterea parolei:</string>
