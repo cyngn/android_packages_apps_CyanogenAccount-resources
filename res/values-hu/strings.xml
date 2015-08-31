@@ -138,4 +138,5 @@
   <string name="privacy_linktext_cyanogen">Cyanogen Adatvédelmi irányelv</string>
   <string name="eula_linktext_cyanogen">Cyanogen Végfelhasználói licencszerződés</string>
   <string name="sms_rate_warning">Egy SMS-t fogunk küldeni erre a számra, hogy igazolja a telefonszám Önhöz tartozik. Az SMS ára a normál hálózati díjszabás szerinti.</string>
+  <string name="cyngn_setup_create">LÉTREHOZÁS</string>
 </resources>
