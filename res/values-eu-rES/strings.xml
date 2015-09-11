@@ -87,7 +87,7 @@
   <string name="cmaccount_cancel">UTZI</string>
   <string name="cmaccount_create">Sortu zure Cyanogen Kontua</string>
   <string name="cyngn_setup_logo_alttext">Logoa</string>
-  <string name="cyngn_setup_poweredby_logo_alttext">Cyanogen-ek bultzatuta</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Cyanogenek indartua</string>
   <string name="cyngn_setup_skip">SALTATU</string>
   <string name="cyngn_setup_next">HURRENGOA</string>
   <string name="cyngn_skip_setup_dialog_header">Saltatu kontua ezartzea?</string>

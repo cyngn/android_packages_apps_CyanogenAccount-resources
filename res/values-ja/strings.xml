@@ -51,7 +51,7 @@
   <string name="cmaccount_setup_confirm_password_label">パスワードを再入力</string>
   <string name="cmaccount_setup_tos_label">このボックスをチェックすると<u>Cyanogen利用規約</u>、<u>プライバシーポリシー</u>、<u>使用許諾契約</u>に同意したことになります。</string>
   <string name="cmaccount_add_title">アカウントを追加</string>
-  <string name="cmaccount_learn_more">詳細\u2026</string>
+  <string name="cmaccount_learn_more">もっと詳しく\u2026</string>
   <string name="cmaccount_login_message">Cyanogenにログイン中</string>
   <string name="cmaccount_creating_profile_message">Cyanogenプロフィールを作成中</string>
   <string name="cmaccount_login_error_title">ログインできませんでした</string>

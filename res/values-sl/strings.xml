@@ -28,7 +28,7 @@
   <string name="try_again">Poskusi znova</string>
   <string name="yes">Da</string>
   <string name="allow">Dovoli</string>
-  <string name="existing">PRIJAVITE SE Z OBSTOJEČIM RAČUNOM</string>
+  <string name="existing">VPIŠITE SE Z OBSTOJEČIM RAČUNOM</string>
   <string name="new_account">ALI USTVARITE NOVEGA</string>
   <string name="go_back">Pojdi nazaj</string>
   <string name="skip_anyway">Vseeno preskoči</string>
@@ -121,10 +121,10 @@
   <string name="switch_to_phone">ALI TELEFONSKO ŠTEVILKO</string>
   <string name="switch_to_email">ALI E-POŠTNI NASLOV</string>
   <string name="waiting_for_sms_title">Preverjanje telefonske številke</string>
-  <string name="enter_sms_code_manually">Ročno vnesite potrditveno kodo SMS</string>
-  <string name="sms_confirmation_code_label">Vnesite potrditveno kodo SMS</string>
+  <string name="enter_sms_code_manually">Ročno vnesite kodo za preverjanje SMS</string>
+  <string name="sms_confirmation_code_label">Vnesite kodo za preverjanje SMS</string>
   <string name="resend_sms">Ponovno poskusi številko</string>
-  <string name="cmaccount_setup_sms_code_title">Preveri s potrditveno kodo</string>
+  <string name="cmaccount_setup_sms_code_title">Preveri s kodo za preverjanje</string>
   <string name="cmaccount_setup_phone_blank_label">Vnesti morate telefonsko številko</string>
   <string name="cmaccount_settings_title">Nastavitve računa Cyanogen</string>
   <string name="cmaccount_settings_confirm_phone_label">Potrdi telefonsko številko</string>

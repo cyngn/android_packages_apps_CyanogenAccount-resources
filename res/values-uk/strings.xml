@@ -60,7 +60,7 @@
   <string name="cmaccount_server_error_title">Помилка зв\'язку</string>
   <string name="cmaccount_create_account_error_title">Помилка створення обл.запису</string>
   <string name="cmaccount_create_account_error_message">Під час створення облікового запису сталася помилка. %1$s</string>
-  <string name="cmaccount_server_error_message">Під час обміну даними із сервером сталася помилка. Це може бути помилка підключення. Ви можете спробувати підключитися до іншої мережі Wi-Fi та/або переконатися, що SIM-картку вставлено вірно.</string>
+  <string name="cmaccount_server_error_message">При підключенні до серверу сталася помилка. Це могло статися через розрив підключення. Спробуйте підключитися до іншої мережі Wi-Fi і / або переконайтеся в коректній роботі SIM-карти.</string>
   <string name="cmaccount_cert_pin_warning_title">Будь ласка, оновіть</string>
   <string name="cmaccount_cert_pin_warning_text">З міркувань безпеки обліковий запис Cyanogen може припинити роботу. Будь ласка, негайно оновіться.</string>
   <string name="cmaccount_error_multiple_accounts">На пристрої дозволений лише один обліковий запис Cyanogen</string>
@@ -120,10 +120,10 @@
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Знайте хто дзвонить і блокуйте спамерів з %1$s</string>
   <string name="switch_to_phone">АБО НОМЕР ТЕЛЕФОНА</string>
   <string name="switch_to_email">АБО АДРЕСУ ЕЛЕКТРОННОЇ ПОШТИ</string>
-  <string name="waiting_for_sms_title">Перевірка номера телефона</string>
+  <string name="waiting_for_sms_title">Підтвердіть номер телефону</string>
   <string name="enter_sms_code_manually">Введіть код підтвердження SMS вручну</string>
   <string name="sms_confirmation_code_label">Будь-ласка, введіть код підтвердження SMS</string>
-  <string name="resend_sms">Повторіть номер</string>
+  <string name="resend_sms">Повторно підтвердити номер</string>
   <string name="cmaccount_setup_sms_code_title">Перевірити за допомогою кода підтвердження</string>
   <string name="cmaccount_setup_phone_blank_label">Необхідно ввести номер телефона</string>
   <string name="cmaccount_settings_title">Налаштування облікового запису Cyanogen</string>
