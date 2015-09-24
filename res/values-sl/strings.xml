@@ -64,7 +64,7 @@
   <string name="cmaccount_cert_pin_warning_title">Nadgradite</string>
   <string name="cmaccount_cert_pin_warning_text">Zaradi varnostnih razlogov račun Cyanogen lahko kmalu preneha delovati. Nadgradite takoj.</string>
   <string name="cmaccount_error_multiple_accounts">Samo en račun Cyanogen je dovoljen na napravo</string>
-  <string name="cmaccount_allow_access">%1$s bi rad dostopal do:</string>
+  <string name="cmaccount_allow_access">%1$s bi rad dostop do:</string>
   <string name="cmaccount_granting_access">Odobritev dostopa do %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Pokaži osnovne podatke o mojem računu, vključno z mojo e-pošto</string>
   <string name="cmaccount_password_changed_title">Geslo spremenjeno</string>

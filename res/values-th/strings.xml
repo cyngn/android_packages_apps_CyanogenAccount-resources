@@ -39,7 +39,10 @@
   <string name="cmaccount_setup_create_title">สร้างบัญชีของคุณ</string>
   <string name="cmaccount_setup_killswitchlogin_title">ปลดล็อคอุปกรณ์</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">ล็อคอุปกรณ์</string>
+  <string name="cmaccount_setup_username_unavailable_label">ไม่สามารถใช้ชื่อผู้ใช้นี้ได้</string>
   <string name="cmaccount_setup_email_invalid_label">อนุญาตเฉพาะตัวอักษร a-z ตัวเลขและเครื่องหมาย .+&amp;-_ เท่านั้น</string>
+  <string name="cmaccount_setup_phone_invalid_label">กรุณาใส่หมายเลขโทรศัพท์ที่ถูกต้อง</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">กรุณาใส่หมายเลขโทรศัพท์หรือที่อยู่อีเมลที่ถูกต้อง</string>
   <string name="cmaccount_setup_displayname_label">กรุณาเลือกชื่อที่จะแสดง</string>
   <string name="cmaccount_setup_password_label">รหัสผ่าน</string>
   <string name="cmaccount_setup_password_strength_label">ขั้นต่ำ 8 ตัวอักษร</string>
@@ -52,6 +55,8 @@
   <string name="cmaccount_login_message">กำลังเข้าสู่ระบบ Cyanogen</string>
   <string name="cmaccount_creating_profile_message">กำลังสร้างโปร์ไฟล์ Cyanogen ของคุณ</string>
   <string name="cmaccount_login_error_title">เข้าสู่ระบบล้มเหลว</string>
+  <string name="cmaccount_login_error_message">ชื่อผู้ใช้และรหัสผ่านไม่ถูกต้อง</string>
+  <string name="cmaccount_killswitch_login_error_message">ชื่อผู้ใช้และรหัสผ่านไม่ถูกต้อง กรุณาลองอีกครั้งหรือเข้าไปที่ https://account.cyngn.com เพื่อรีเซ็ตรหัสผ่านของคุณ</string>
   <string name="cmaccount_server_error_title">มีข้อผิดพลาดในการสื่อสาร</string>
   <string name="cmaccount_create_account_error_title">พบข้อผิดพลาดขณะกำลังสร้างบัญชี</string>
   <string name="cmaccount_create_account_error_message">เกิดข้อผิดพลาดขณะสร้างบัญชีของคุณ %1$s</string>
@@ -87,7 +92,10 @@
   <string name="cyngn_setup_next">ถัดไป</string>
   <string name="cyngn_skip_setup_dialog_header">ข้ามการตั้งค่าบัญชีหรือไม่?</string>
   <string name="cyngn_setup_sign_in">เข้าสู่\u00A0ระบบ</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">กรอกอีเมลหรือหมายเลขโทรศัพท์ของคุณ</string>
   <string name="cyngn_setup_email_edittext_hint">กรุณาป้อนอีเมลของคุณ</string>
+  <string name="cyngn_setup_phone_edittext_hint">กรุณาใส่หมายเลขโทรศัพท์ของคุณ</string>
+  <string name="cyngn_setup_sending_sms">การส่ง SMS ไปที่ %1$s อาจใช้เวลาสองสามวินาที</string>
   <string name="cyngn_setup_show_password">แสดงรหัสผ่าน</string>
   <string name="cyngn_setup_reset_password_dialog">เพื่อรีเซ็ทรหัสผ่านกรุณาเข้าไปยัง https://account.cyngn.com ผ่านทางคอมพิวเตอร์ของคุณ</string>
   <string name="cyngn_setup_forgot_password">ลืมรหัสผ่าน?</string>
@@ -96,16 +104,39 @@
   <string name="cyngn_setup_create_profile_email_unavailable">ไม่สามารถใช้อีเมลที่คุณเลือกได้</string>
   <string name="cyngn_setup_create_profile_email_invalid">อีเมลที่คุณเลือกไม่ถูกต้อง</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">ชื่อที่แสดงไม่ถูกต้อง อาจยาวเกินหรือไม่ได้รับการอนุญาต</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">หมายเลขโทรศัพท์ที่ป้อนไม่สามารถใช้งานได้</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">หมายเลขโทรศัพท์ที่ป้อนไม่ถูกต้อง</string>
   <string name="cyngn_setup_password_strength_meter_label">ความแรงของรหัสผ่าน:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">แรง</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">ปานกลาง</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">อ่อน</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">สั้นเกินไป</string>
+  <string name="sms_timeout_title">ไม่สามารถตรวจสอบความถูกต้องของหมายเลข</string>
+  <string name="sms_timeout_message">เราไม่สามารถตรวจสอบความถูกต้องของหมายเลขผ่าน SMS ต้องการตรวจสอบความถูกต้องของหมายเลขอีกครั้งหรือไม่</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>มือถือของคุณ ใช้ซะ</b> - คุณสามารถปรับแต่งผ่านแอปชุดรูปแบบได้</item>
     <item><b>ค้นหาตำแหน่ง</b> - ค้นหาตำแหน่งของมือถือคุณพร้อมสั่งลบข้อมูลระยะไกลได้ หากมันสูญหาย</item>
   </string-array>
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;ID ผู้โทรสด ๆ &lt;/b&gt; - ทราบว่าใครกำลังโทรหาและบล็อคผู้โทรที่เป็นสแปมโดยใช้ %1$s</string>
+  <string name="switch_to_phone">หรือหมายเลขโทรศัพท์</string>
+  <string name="switch_to_email">หรือที่อยู่อีเมล</string>
+  <string name="waiting_for_sms_title">กำลังตรวจสอบความถูกต้องของหมายเลขโทรศัพท์</string>
+  <string name="enter_sms_code_manually">กรอกรหัสยืนยัน SMS ด้วยตนเอง</string>
+  <string name="sms_confirmation_code_label">กรุณากรอกรหัสยืนยัน SMS</string>
+  <string name="resend_sms">ลองหมายเลขอีกครั้ง</string>
+  <string name="cmaccount_setup_sms_code_title">ตรวจสอบความถูกต้องด้วยรหัสยืนยัน</string>
+  <string name="cmaccount_setup_phone_blank_label">ต้องกรอกหมายเลขโทรศัพท์</string>
+  <string name="cmaccount_settings_title">การตั้งค่าบัญชี Cyanogen</string>
+  <string name="cmaccount_settings_confirm_phone_label">ยืนยันหมายเลขโทรศัพท์</string>
+  <string name="cmaccount_settings_add_email_label">เพิ่มที่อยู่อีเมลไปที่บัญชี</string>
+  <string name="cmaccount_settings_add_phone_label">เพิ่มหมายเลขโทรศัพท์ไปยังบัญชี</string>
+  <string name="cmaccount_settings_add_email_error_title">ข้อผิดพลาดในการเพิ่มอีเมล</string>
+  <string name="cmaccount_settings_add_email_error_message">มีข้อผิดพลาดเกิดขึ้นระหว่างการเพิ่มที่อยู่อีเมล %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">ข้อผิดพลาดในการเพิ่มหมายเลขโทรศัพท์</string>
+  <string name="cmaccount_settings_add_phone_error_message">มีข้อผิดพลาดเกิดขึ้นระหว่างการเพิ่มหมายเลขโทรศัพท์ %1$s</string>
   <string name="tos_linktext_cyanogen">เงื่อนไขการใช้บริการของ Cyanogen</string>
   <string name="privacy_linktext_cyanogen">นโยบายความเป็นส่วนตัวของ Cyanogen</string>
   <string name="eula_linktext_cyanogen">สิทธิของผู้ใช้ Cyanogen</string>
+  <string name="sms_rate_warning">เราจะส่ง SMS ไปที่หมายเลขนี้เพื่อตรวจสอบความถูกต้องในการเป็นเจ้าของหมายเลขโทรศัพท์ของคุณ การส่ง SMS จะมีค่าใช้จ่ายในอัตราเครือข่ายปกติ</string>
+  <string name="cyngn_setup_create">สร้าง</string>
 </resources>
