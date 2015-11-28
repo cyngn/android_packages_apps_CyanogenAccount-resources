@@ -137,6 +137,6 @@
   <string name="tos_linktext_cyanogen">Cyanogen podmínky služby</string>
   <string name="privacy_linktext_cyanogen">Cyanogen ochrana osobních údajů</string>
   <string name="eula_linktext_cyanogen">Cyanogen licenční ujednání</string>
-  <string name="sms_rate_warning">Bude Vám zaslána SMS, abych ověřili, že jste vlastníkem tohoto telefonního čísla. Odeslání SMS bude zpoplatněno standardní cenou.</string>
+  <string name="sms_rate_warning">Bude Vám zaslána SMS, abychom ověřili, že jste vlastníkem tohoto telefonního čísla. Odeslání SMS bude zpoplatněno standardní cenou.</string>
   <string name="cyngn_setup_create">VYTVOŘIT</string>
 </resources>

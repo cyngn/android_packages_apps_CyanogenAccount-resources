@@ -60,6 +60,7 @@
   <string name="cmaccount_password_hint">gëff däi Passwuert an</string>
   <string name="cmaccount_confirmpass_label">Passwuert nees aginn</string>
   <string name="cmaccount_cancel">OFBRIECHEN</string>
+  <string name="cmaccount_create">Erstell däin Cyanogen-Kont</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Bereetgestellt vu Cyanogen</string>
   <string name="cyngn_setup_skip">IWWERSPRANGEN</string>
