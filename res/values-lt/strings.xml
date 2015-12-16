@@ -39,7 +39,10 @@
   <string name="cmaccount_setup_create_title">Sukurti paskyrą</string>
   <string name="cmaccount_setup_killswitchlogin_title">Atrakinti įrenginį</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Užrakinti įrenginį</string>
+  <string name="cmaccount_setup_username_unavailable_label">Toks vartotojo vardas yra negalimas</string>
   <string name="cmaccount_setup_email_invalid_label">Atsiprašome, tik raidės (a–z), skaičiai (0–9) ir simboliai (.+&amp;-_) yra leidžiami.</string>
+  <string name="cmaccount_setup_phone_invalid_label">Įveskite tinkamą telefono numerį.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Įveskite tinkamą telefono numerį ar el. pašto adresą.</string>
   <string name="cmaccount_setup_displayname_label">Prašome įvesti savo rodomąjį vardą</string>
   <string name="cmaccount_setup_password_label">Slaptažodis</string>
   <string name="cmaccount_setup_password_strength_label">Min. 8 simboliai</string>
@@ -52,6 +55,8 @@
   <string name="cmaccount_login_message">Prisijungiamia prie „Cyanogen“</string>
   <string name="cmaccount_creating_profile_message">Kuriamas jūsų „Cyanogen“ profilis</string>
   <string name="cmaccount_login_error_title">Prisijungti nepavyko</string>
+  <string name="cmaccount_login_error_message">Neteisingas vartotojo vardas arba slaptažodis.</string>
+  <string name="cmaccount_killswitch_login_error_message">Neteisingas el. paštas arba slaptažodis, prašome bandyti dar kartą arba apsilankyti https://account.cyngn.com, kad atstatyti slaptažodį.</string>
   <string name="cmaccount_server_error_title">Ryšio klaida</string>
   <string name="cmaccount_create_account_error_title">Klaida kuriant paskyrą</string>
   <string name="cmaccount_create_account_error_message">Įvyko klaida kuriant paskyrą. %1$s</string>
@@ -87,7 +92,10 @@
   <string name="cyngn_setup_next">KITAS</string>
   <string name="cyngn_skip_setup_dialog_header">Praleisti paskyros sąranką?</string>
   <string name="cyngn_setup_sign_in">PRISIJUNGTI\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Įveskite savo el. pašto adresą ar telefono numerį</string>
   <string name="cyngn_setup_email_edittext_hint">Įveskite savo el. pašto adresą</string>
+  <string name="cyngn_setup_phone_edittext_hint">Įveskite savo telefono numerį</string>
+  <string name="cyngn_setup_sending_sms">SMS siunčiama į %1$s. Tai gali trukti kelias sekundes.</string>
   <string name="cyngn_setup_show_password">Rodyti slaptažodį</string>
   <string name="cyngn_setup_reset_password_dialog">Kad iš naujo nustatytumėte slaptažodį apsilankykite https://account.cyngn.com iš savo kompiuterio.</string>
   <string name="cyngn_setup_forgot_password">Pamiršote slaptažodį?</string>
@@ -96,16 +104,26 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Jūsų pasirinktas el. pašto adresas yra nepasiekiamas.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Jūsų pasirinktas el. pašto adresas yra neteisingas.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Pasirinktas rodomasis vardas yra neteisingas, per ilgas arba neleidžiamas.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Jūsų įvestas telefono numeris yra negalimas.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Jūsų įvestas telefono numeris yra neteisingas.</string>
   <string name="cyngn_setup_password_strength_meter_label">Slaptažodžio stiprumas:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Stiprus</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Vidutinis</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Silpnas</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Per trumpas</string>
+  <string name="sms_timeout_title">Neįmanoma patikrinti numerio</string>
+  <string name="sms_timeout_message">Nepavyko patikrinti jūsų numerio per SMS. Ar norite patikslinti savo numerį?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Jūsų telefonas, jūsų taisyklės</b> - Tinkinti savo telefoną temų programoje</item>
     <item><b>Ieškoti savo telefono</b> - Rasti ir ištrinti telefoną, jei jis prarastas</item>
   </string-array>
+  <string name="cmaccount_setup_phone_blank_label">Turite įvesti telefono numerį</string>
+  <string name="cmaccount_settings_title">„Cyanogen“ paskyros nustatymai</string>
+  <string name="cmaccount_settings_confirm_phone_label">Patvirtinkite telefono numerį</string>
+  <string name="cmaccount_settings_add_email_error_title">Klaida pridedant el. paštą</string>
+  <string name="cmaccount_settings_add_phone_error_title">Klaida pridedant telefono numerį</string>
   <string name="tos_linktext_cyanogen">„Cyanogen“ paslaugos sąlygos</string>
   <string name="privacy_linktext_cyanogen">„Cyanogen“ privatumo politika</string>
   <string name="eula_linktext_cyanogen">„Cyanogen“ galutinio vartotojo licencinė sutartis</string>
+  <string name="cyngn_setup_create">SUKURTI</string>
 </resources>
