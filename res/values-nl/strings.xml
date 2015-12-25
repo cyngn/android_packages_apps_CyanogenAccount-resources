@@ -87,7 +87,7 @@
   <string name="cmaccount_cancel">ANNULEREN</string>
   <string name="cmaccount_create">Uw Cyanogen-account aanmaken</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
-  <string name="cyngn_setup_poweredby_logo_alttext">Mede mogelijk gemaakt door Cyanogen</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Mogelijk gemaakt door Cyanogen</string>
   <string name="cyngn_setup_skip">OVERSLAAN</string>
   <string name="cyngn_setup_next">VOLGENDE</string>
   <string name="cyngn_skip_setup_dialog_header">Account instellen overslaan?</string>

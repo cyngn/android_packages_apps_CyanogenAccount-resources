@@ -75,7 +75,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Vnesti morate prikazano ime</string>
   <string name="cmaccount_setup_must_agree_label">Strinjati se morate s Pogoji storitve</string>
   <string name="cmaccount_setup_displayname_invalid_label">Neveljavno prikazano ime</string>
-  <string name="account_registered_perm_string">Omogoča programu prejemanje obvestil registracije računa Cyanogen. Vsak program, ki mu je to dovoljeno, bo lahko zaznaval registracijo računa Cyanogen.</string>
+  <string name="account_registered_perm_string">Dovoli programu prejemanje obvestil registracije računa Cyanogen. Vsak program, ki mu je to dovoljeno, bo lahko zaznaval registracijo računa Cyanogen.</string>
   <string name="account_registered_permission_label_string">Prejemaj obvestila o registraciji računa Cyanogen</string>
   <string name="cmaccount_displayname_label">Kako naj se pojavi vaše ime?</string>
   <string name="cmaccount_displayname_hint">Prikazano ime</string>

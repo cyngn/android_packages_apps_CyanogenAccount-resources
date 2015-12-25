@@ -58,7 +58,7 @@
   <string name="cmaccount_login_error_message">ユーザー名またはパスワードが無効です。</string>
   <string name="cmaccount_killswitch_login_error_message">メールアドレスまたはパスワードが正しくありません、再試行するか、https://account.cyngn.comにアクセスしてパスワードをリセットしてください。</string>
   <string name="cmaccount_server_error_title">通信エラー</string>
-  <string name="cmaccount_create_account_error_title">アカウントを作成中にエラーが発生しました</string>
+  <string name="cmaccount_create_account_error_title">アカウントの作成でエラーが発生しました</string>
   <string name="cmaccount_create_account_error_message">アカウントの作成中にエラーが発生しました。%1$s</string>
   <string name="cmaccount_server_error_message">サーバーと通信中にエラーが発生しました。通信の切断が原因である可能性があります。他のWi-Fiネットワークに接続するか、SIMカードが正しく挿入されているかどうか確認してください。</string>
   <string name="cmaccount_cert_pin_warning_title">アップグレードしてください</string>
@@ -130,7 +130,7 @@
   <string name="cmaccount_settings_confirm_phone_label">電話番号を確認</string>
   <string name="cmaccount_settings_add_email_label">メールアドレスをアカウントに追加</string>
   <string name="cmaccount_settings_add_phone_label">電話番号をアカウントに追加</string>
-  <string name="cmaccount_settings_add_email_error_title">メールアドレスの追加でエラーが発生</string>
+  <string name="cmaccount_settings_add_email_error_title">メールアドレスの追加のエラー</string>
   <string name="cmaccount_settings_add_email_error_message">メールアドレスの追加中にエラーが発生しました。%1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">電話番号の追加でエラーが発生</string>
   <string name="cmaccount_settings_add_phone_error_message">電話番号の追加中にエラーが発生しました。%1$s</string>
