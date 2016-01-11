@@ -34,9 +34,9 @@
   <string name="skip_anyway">Yine de atla</string>
   <string name="dont_skip">Atlama</string>
   <string name="setup_warning_skip_wifi">UYARI: Ekstra operatör veri ücreti alınabilir.\n\nCihaz kurulumu önemli ölçüde veri trafiği gerektirir.</string>
-  <string name="setup_warning_accept_tos">Devam etmeden önce Kullanma Şartlarını, Gizlilik Politikasını, ve Son Kullanıcı Lisans Sözleşmesini, onay kutusunu seçerek kabul etmelisiniz.</string>
-  <string name="setup_warning_skip_anyway">Cyanogen İS Hesabı olmadan:\n\nTema mağazasından temalara bakıp indiremeyeceksiniz\n\nEğer kaybolursa, telefonunuzu uzaktan bulamayacaksınız ya da silemeyeceksiniz</string>
-  <string name="cmaccount_setup_create_title">Hesap oluştur</string>
+  <string name="setup_warning_accept_tos">Devam etmeden önce Kullanım Şartlarını, Gizlilik Politikasını ve Son Kullanıcı Lisans Sözleşmesini onay kutusunu seçerek kabul etmelisiniz.</string>
+  <string name="setup_warning_skip_anyway">Cyanogen OS Hesabı olmadan:\n\nTema mağazasından temalara bakıp indiremeyeceksiniz\n\nEğer kaybolursa, telefonunuzu uzaktan bulamayacaksınız ya da silemeyeceksiniz</string>
+  <string name="cmaccount_setup_create_title">Hesabınızı oluşturun</string>
   <string name="cmaccount_setup_killswitchlogin_title">Cihazın kilidini açın</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Cihazı kilitleyin</string>
   <string name="cmaccount_setup_username_unavailable_label">Bu kullanıcı adı kullanılamaz</string>
@@ -49,7 +49,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Şifreler uyuşmuyor!</string>
   <string name="cmaccount_setup_password_invalid_label">Şifre en az 8 karakter olmalı!</string>
   <string name="cmaccount_setup_confirm_password_label">Şifreyi tekrar girin</string>
-  <string name="cmaccount_setup_tos_label">Bu kutuyu işaretleyerek  <u>Cyanogen\'in Kullanma Şartlarını</u>, <u>Gizlilik Politikasını</u> ve <u>Son Kullanıcı Lisans Sözleşmesini</u> kabul etmiş sayılırsınız.</string>
+  <string name="cmaccount_setup_tos_label">Bu kutuyu işaretleyerek <u>Cyanogen\'in Kullanma Şartları\'nı</u>, <u>Gizlilik Politikası\'nı</u> ve <u>Son Kullanıcı Lisans Sözleşmesi\'ni</u> kabul etmiş sayılırsınız.</string>
   <string name="cmaccount_add_title">Hesabınızı ekleyin</string>
   <string name="cmaccount_learn_more">Daha fazla bilgi\u2026</string>
   <string name="cmaccount_login_message">Cyanogen\'e giriş yapılıyor</string>
@@ -60,11 +60,11 @@
   <string name="cmaccount_server_error_title">İletişim hatası</string>
   <string name="cmaccount_create_account_error_title">Hesap oluşturulurken hata</string>
   <string name="cmaccount_create_account_error_message">%1$s hesabınız oluşturulurken bir hata meydana geldi.</string>
-  <string name="cmaccount_server_error_message">Sunucu ile iletişim kurulurken hata oluştu. Bu, bağlantı hatasından kaynaklanabilir. Farklı bir Wi-Fi\'ye bağlanın ya da SIM kartınızın doğru takıldığından emin olun.</string>
+  <string name="cmaccount_server_error_message">Sunucu ile iletişim kurulurken hata oluştu. Bu, bağlantı hatasından kaynaklanabilir. Farklı bir Wi-Fi\'ye bağlanın ve/veya SIM kartınızın doğru takıldığından emin olun.</string>
   <string name="cmaccount_cert_pin_warning_title">Lütfen yükseltin</string>
   <string name="cmaccount_cert_pin_warning_text">Güvenlik nedenleriyle, Cyanogen Hesabı yakında çalışmayabilir. Lütfen derhal yükseltin.</string>
   <string name="cmaccount_error_multiple_accounts">Cihaz başına sadece bir Cyanogen Hesabı kullanılabilir</string>
-  <string name="cmaccount_allow_access">%1$s erişim istiyor ></string>
+  <string name="cmaccount_allow_access">%1$s şuna erişim istiyor:</string>
   <string name="cmaccount_granting_access">%1$s için erişim izni veriliyor</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Hesabınızın e-postanız dahil temel bilgilerini görüntüler</string>
   <string name="cmaccount_password_changed_title">Şifre değişti</string>
@@ -85,7 +85,7 @@
   <string name="cmaccount_confirmpass_label">Şifrenizi Tekrar Girin</string>
   <string name="cmaccount_confirmpass_hint">şifrenizi tekrar girin</string>
   <string name="cmaccount_cancel">İPTAL</string>
-  <string name="cmaccount_create">Cyanogen Hesabını oluşturun</string>
+  <string name="cmaccount_create">Cyanogen Hesabınızı oluşturun</string>
   <string name="cyngn_setup_logo_alttext">Logo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Cyanogen tarafından desteklenmektedir</string>
   <string name="cyngn_setup_skip">ATLA</string>
@@ -95,12 +95,12 @@
   <string name="cyngn_setup_existing_account_edittext_hint">E-posta veya telefon numaranızı girin</string>
   <string name="cyngn_setup_email_edittext_hint">Lütfen e-posta adresinizi girin</string>
   <string name="cyngn_setup_phone_edittext_hint">Lütfen telefon numaranızı girin</string>
-  <string name="cyngn_setup_sending_sms">%1$s için SMS gönderiliyor. Bir kaç saniye sürebilir.</string>
+  <string name="cyngn_setup_sending_sms">%1$s için SMS gönderiliyor. Birkaç saniye sürebilir.</string>
   <string name="cyngn_setup_show_password">Şifreyi göster</string>
   <string name="cyngn_setup_reset_password_dialog">Şifrenizi sıfırlamak için lütfen bilgisayarınızdan https://account.cyngn.com adresini ziyaret edin.</string>
   <string name="cyngn_setup_forgot_password">Şifrenizi mi unuttunuz?</string>
   <string name="cyngn_setup_toslist_header">İncelemek için seçin</string>
-  <string name="cyngn_setup_displayname_description">Ekran adınız Temalar uygulamasında bir tema için değerlendirme yaptığınızda diğer kullanıcılara gösterilecek isminizdir.</string>
+  <string name="cyngn_setup_displayname_description">Ekran adınız, Temalar uygulamasında bir tema için değerlendirme yaptığınızda diğer kullanıcılara gösterilecek olan isminizdir.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Seçtiğiniz e-posta adresi kullanılamaz.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Seçtiğiniz e-posta adresi geçersiz.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Seçtiğiniz ekran adı ya geçersiz, çok uzun ya da izin verilmiyor.</string>
@@ -112,23 +112,23 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Zayıf</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Çok kısa</string>
   <string name="sms_timeout_title">Numara doğrulanamıyor</string>
-  <string name="sms_timeout_message">Numaranızı SMS ile doğrulayamadık. Tekrar denemek ister misiniz?</string>
+  <string name="sms_timeout_message">Numaranızı SMS ile doğrulayamadık. Numaranızı doğrulamayı tekrar denemek ister misiniz?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Sizin telefonunuz, sizin kurallarınız</b> - Temalar uygulamasında telefonunuzu özelleştirin</item>
-    <item><b>Telefonunuzu bulun</b> - Kaybederseniz eğer telefonunuzu bulun ve silin</item>
+    <item><b>Telefonunuzu bulun</b> - Kaybederseniz telefonunuzu bulun ve silin</item>
   </string-array>
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - %1$s ile kimin aradığını bilin ve spamcileri engelleyin</string>
   <string name="switch_to_phone">VEYA TELEFON NUMARASI</string>
   <string name="switch_to_email">VEYA E-POSTA ADRESİ</string>
   <string name="waiting_for_sms_title">Telefon numarası doğrulanıyor</string>
-  <string name="enter_sms_code_manually">SMS onay kodunu girin</string>
+  <string name="enter_sms_code_manually">SMS onay kodunu elle girin</string>
   <string name="sms_confirmation_code_label">Lütfen SMS onay kodunu girin</string>
   <string name="resend_sms">Tekrar deneyin</string>
   <string name="cmaccount_setup_sms_code_title">Onay kodu ile doğrulayın</string>
   <string name="cmaccount_setup_phone_blank_label">Telefon numarası girilmeli</string>
   <string name="cmaccount_settings_title">Cyanogen hesap ayarları</string>
   <string name="cmaccount_settings_confirm_phone_label">Telefon numarasını onaylayın</string>
-  <string name="cmaccount_settings_add_email_label">Hesaba e-posta adresi ekleyin</string>
+  <string name="cmaccount_settings_add_email_label">Hesaba e-posta adresi ekle</string>
   <string name="cmaccount_settings_add_phone_label">Hesaba telefon numarası ekleyin</string>
   <string name="cmaccount_settings_add_email_error_title">E-posta eklemede hata</string>
   <string name="cmaccount_settings_add_email_error_message">E-posta adresi eklenirken hata oluştu. %1$s</string>

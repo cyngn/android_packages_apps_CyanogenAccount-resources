@@ -70,6 +70,16 @@
   <string name="cmaccount_password_changed_title">Cambiouse o contrasinal</string>
   <string name="cmaccount_password_changed_message">Inicie sesión na súa conta CyanogenMod</string>
   <string name="cmaccount_setup_email_blank_label">Debe introducir un correo electrónico</string>
+  <string name="cmaccount_email_label">Correo electrónico</string>
+  <string name="cmaccount_password_label">Contrasinal</string>
+  <string name="cmaccount_cancel">CANCELAR</string>
+  <string name="cyngn_setup_logo_alttext">Logotipo</string>
+  <string name="cyngn_setup_skip">OMITIR</string>
+  <string name="cyngn_setup_next">SEGUINTE</string>
+  <string name="cyngn_skip_setup_dialog_header">Omitir a configuración da conta?</string>
+  <string name="cyngn_setup_email_edittext_hint">Introduza o seu correo electrónico</string>
+  <string name="cyngn_setup_phone_edittext_hint">Introduza o seu número de teléfono</string>
+  <string name="cyngn_setup_forgot_password">Esqueceu o contrasinal?</string>
   <string name="sms_confirmation_code_label">Introduza o código de confirmación SMS</string>
   <string name="resend_sms">Tentar de novo co número</string>
   <string name="cmaccount_setup_sms_code_title">Comprobar co código de confirmación</string>
