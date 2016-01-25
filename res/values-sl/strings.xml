@@ -75,7 +75,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Vnesti morate prikazano ime</string>
   <string name="cmaccount_setup_must_agree_label">Strinjati se morate s Pogoji storitve</string>
   <string name="cmaccount_setup_displayname_invalid_label">Neveljavno prikazano ime</string>
-  <string name="account_registered_perm_string">Dovoli programu prejemanje obvestil registracije računa Cyanogen. Vsak program, ki mu je to dovoljeno, bo lahko zaznaval registracijo računa Cyanogen.</string>
+  <string name="account_registered_perm_string">Dovoli aplikaciji prejemanje obvestil registracije računa Cyanogen. Vsaka aplikacija, ki ji je to dovoljeno, bo lahko zaznavala registracijo računa Cyanogen.</string>
   <string name="account_registered_permission_label_string">Prejemaj obvestila o registraciji računa Cyanogen</string>
   <string name="cmaccount_displayname_label">Kako naj se pojavi vaše ime?</string>
   <string name="cmaccount_displayname_hint">Prikazano ime</string>
@@ -100,7 +100,7 @@
   <string name="cyngn_setup_reset_password_dialog">Za ponastavitev svojega gesla na vašem računalniku obiščite https://account.cyngn.com.</string>
   <string name="cyngn_setup_forgot_password">Ste pozabili geslo?</string>
   <string name="cyngn_setup_toslist_header">Izberite za oceno</string>
-  <string name="cyngn_setup_displayname_description">Vaše prikazano ime je prikazano drugim uporabnikom, ko objavite oceno teme v programu za teme.</string>
+  <string name="cyngn_setup_displayname_description">Vaše prikazano ime je prikazano drugim uporabnikom, ko objavite oceno teme v aplikaciji za teme.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">E-poštni naslov, ki ste ga izbrali, ni na voljo.</string>
   <string name="cyngn_setup_create_profile_email_invalid">E-poštni naslov, ki ste ga izbrali, ni veljaven.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Prikazano ime, ki ste ga izbrali, je neveljavno, predolgo ali nedovoljeno.</string>
@@ -114,7 +114,7 @@
   <string name="sms_timeout_title">Preverjanje številke ni mogoče</string>
   <string name="sms_timeout_message">Preverjanje vaše številke preko SMS-a ni mogoče. Ali želite znova preveriti svojo številko?</string>
   <string-array name="cyngn_account_benefits_list">
-    <item><b>Vaš telefon vaša pravila</b> - prilagodite svoj telefon v programu za teme</item>
+    <item><b>Vaš telefon vaša pravila</b> - prilagodite svoj telefon v aplikaciji za teme</item>
     <item><b>Poiščite svoj telefon</b> - poiščite in izbrišite svoj telefon, če je izgubljen</item>
   </string-array>
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Bodite obveščeni, kdo vas kliče, in blokirajte klicatelje s/z %1$s</string>
