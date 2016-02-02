@@ -104,6 +104,7 @@
   <string name="switch_to_phone">SAU NUMĂR DE TELEFON</string>
   <string name="switch_to_email">SAU ADRESĂ DE E-MAIL</string>
   <string name="waiting_for_sms_title">Se verifică numărul de telefon</string>
+  <string name="enter_sms_code_manually">Introduceți manual codul de confirmare din SMS</string>
   <string name="resend_sms">Reîncercați numărul</string>
   <string name="cmaccount_setup_phone_blank_label">Trebuie să introduceți un număr de telefon</string>
   <string name="cmaccount_settings_confirm_phone_label">Confirmați numărul de telefon</string>
