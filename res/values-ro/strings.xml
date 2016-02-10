@@ -60,6 +60,7 @@
   <string name="cmaccount_granting_access">Acordarea accesului la %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Vedeți informații de bază despre contul dvs., inclusiv adresa de e-mail</string>
   <string name="cmaccount_password_changed_title">Parola a fost modificată</string>
+  <string name="cmaccount_password_changed_message">Vă rog logați-vă la contul dvs CyanogenMod</string>
   <string name="cmaccount_setup_email_blank_label">Trebuie să introduceți un e-mail</string>
   <string name="cmaccount_setup_password_blank_label">Trebuie să introduceți o parolă</string>
   <string name="cmaccount_setup_confirm_password_blank_label">Introduceți parola din nou</string>
@@ -106,6 +107,7 @@
   <string name="waiting_for_sms_title">Se verifică numărul de telefon</string>
   <string name="enter_sms_code_manually">Introduceți manual codul de confirmare din SMS</string>
   <string name="resend_sms">Reîncercați numărul</string>
+  <string name="cmaccount_setup_sms_code_title">Verificați cu codul de confirmare</string>
   <string name="cmaccount_setup_phone_blank_label">Trebuie să introduceți un număr de telefon</string>
   <string name="cmaccount_settings_confirm_phone_label">Confirmați numărul de telefon</string>
   <string name="eula_linktext_cyanogen">Acord de licență Cyanogen</string>
