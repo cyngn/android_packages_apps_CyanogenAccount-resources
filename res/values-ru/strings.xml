@@ -134,7 +134,7 @@
   <string name="cmaccount_settings_add_email_error_message">При добавлении адреса электронной почты произошла ошибка. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Ошибка при добавлении номера телефона</string>
   <string name="cmaccount_settings_add_phone_error_message">При добавлении номера телефона произошла ошибка. %1$s</string>
-  <string name="tos_linktext_cyanogen">Условия предоставления услуг Cyanogen</string>
+  <string name="tos_linktext_cyanogen">Условия использования Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Политика конфиденциальности Cyanogen</string>
   <string name="eula_linktext_cyanogen">Лицензионное соглашение Cyanogen</string>
   <string name="sms_rate_warning">Для подтверждения номера на данный телефон будет отправлено SMS-сообщение. Стоимость входящего сообщения определяется согласно вашему тарифному плану.</string>

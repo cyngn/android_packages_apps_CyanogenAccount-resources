@@ -34,7 +34,7 @@
   <string name="skip_anyway">Saltar de qualquer forma</string>
   <string name="dont_skip">Não saltar</string>
   <string name="setup_warning_skip_wifi">AVISO: Poderá ter de pagar dados adicionais.\n\nA configuração do dispositivo pode precisar de atividade de rede significativa.</string>
-  <string name="setup_warning_accept_tos">Deve concordar com os termos de uso, política de privacidade e o contrato de licença de utilizador final, selecionando a caixa de verificação antes de continuar.</string>
+  <string name="setup_warning_accept_tos">Deve concordar com os Termos de uso, Política de privacidade e o Contrato de licença de utilizador final, selecionando a caixa de verificação antes de continuar.</string>
   <string name="setup_warning_skip_anyway">Sem uma conta Cyanogen OS, não será capaz de:\n\nProcurar e transferir temas da loja de temas\n\nLocalizar ou apagar remotamente o seu telefone se for perdido</string>
   <string name="cmaccount_setup_create_title">Criar a sua conta</string>
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquear o dispositivo</string>
@@ -100,7 +100,7 @@
   <string name="cyngn_setup_reset_password_dialog">Para redefinir a sua palavra-passe, por favor visite, https://account.cyngn.com  a partir do seu computador.</string>
   <string name="cyngn_setup_forgot_password">Esqueceu a palavra-passe?</string>
   <string name="cyngn_setup_toslist_header">Selecione para rever</string>
-  <string name="cyngn_setup_displayname_description">O seu nome a exibir, será exibido a outros utilizadores quando deixar comentários num tema, dentro da aplicação de temas.</string>
+  <string name="cyngn_setup_displayname_description">O seu nome será mostrado a outros utilizadores quando deixar comentários num tema, na aplicação de Temas.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">O endereço de e-mail que selecionou não está disponível.</string>
   <string name="cyngn_setup_create_profile_email_invalid">O endereço de e-mail que selecionou é inválido.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">O nome a exibir selecionado é inválido, demasiado longo ou não é permitido.</string>

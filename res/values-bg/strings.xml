@@ -60,7 +60,7 @@
   <string name="cmaccount_server_error_title">Комуникационна грешка</string>
   <string name="cmaccount_create_account_error_title">Грешка при създаването на акаунта</string>
   <string name="cmaccount_create_account_error_message">Възникна грешка при създаването на профила ви. %1$s</string>
-  <string name="cmaccount_server_error_message">Възникна грешка при комуникацията със сървъра. Това може да се дължи на загуба на интернет. Вие може да опитате да се свържете чрез друга Wi-Fi мрежа и/или проверете дали SIM картата е поставена правилно.</string>
+  <string name="cmaccount_server_error_message">Възникна грешка при комуникацията със сървъра. Това може да се дължи на загуба на интернет. Вие може да опитате да се свържете чрез друга Wi-Fi мрежа и/или проверете дали СИМ картата е поставена правилно.</string>
   <string name="cmaccount_cert_pin_warning_title">Моля, актуализирайте</string>
   <string name="cmaccount_cert_pin_warning_text">От съображения за сигурност Cyanogen профила може да престане да работи скоро. Моля, актуализирайте веднага.</string>
   <string name="cmaccount_error_multiple_accounts">Само по един CyanogenMod профил се разрешава на едно устройство</string>
@@ -115,7 +115,7 @@
   <string name="sms_timeout_message">Не успяхме да потвърдим номера Ви чрез КС. Искате ли да потвърдите номера си отново?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Вашия телефон, вашите правила</b> - персонализирате телефона си в приложението за теми</item>
-    <item><b>Намери телефона</b> - намиране и изтриване на телефона, ако е изгубен</item>
+    <item><b>Намери телефона</b> - Намерете и изтрийте всички данни от телефона, ако е изгубен</item>
   </string-array>
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Ид. на позвъняващия&lt;/b&gt; – Разберете кой Ви търси и блокирайте дразнителите с %1$s</string>
   <string name="switch_to_phone">ИЛИ ТЕЛЕФОНЕН НОМЕР</string>

@@ -60,7 +60,7 @@
   <string name="cmaccount_server_error_title">Chyba komunikace</string>
   <string name="cmaccount_create_account_error_title">Chyba vytváření účtu</string>
   <string name="cmaccount_create_account_error_message">Došlo k chybě při vytváření účtu. %1$s</string>
-  <string name="cmaccount_server_error_message">Došlo k chybě při komunikaci se serverem. To může být způsobeno ztrátou připojení. Může se pokusit připojit k jiné síti Wi-Fi a/nebo zjistit, je-li SIM karta správně vložena.</string>
+  <string name="cmaccount_server_error_message">Došlo k chybě při komunikaci se serverem. To může být způsobeno ztrátou připojení. Může se pokusit připojit k jiné síti Wi\u2011Fi a/nebo zjistit, je-li SIM karta správně vložena.</string>
   <string name="cmaccount_cert_pin_warning_title">Prosím proveďte aktualizaci</string>
   <string name="cmaccount_cert_pin_warning_text">Z bezpečnostních důvodů může být účet Cyanogen brzy zablokován. Proveďte aktualizaci co nejdříve.</string>
   <string name="cmaccount_error_multiple_accounts">Je povolen pouze jeden účet Cyanogen na jednom zařízení</string>
