@@ -27,6 +27,7 @@
   <string name="try_again">Reîncercați</string>
   <string name="yes">Da</string>
   <string name="allow">Permite</string>
+  <string name="existing">AUTENTIFICAȚI-VĂ CU CONTUL EXISTENT</string>
   <string name="new_account">SAU CREAȚI UN CONT NOU</string>
   <string name="go_back">Înapoi</string>
   <string name="skip_anyway">Omite oricum</string>
@@ -110,6 +111,7 @@
   <string name="cmaccount_setup_sms_code_title">Verificați cu codul de confirmare</string>
   <string name="cmaccount_setup_phone_blank_label">Trebuie să introduceți un număr de telefon</string>
   <string name="cmaccount_settings_confirm_phone_label">Confirmați numărul de telefon</string>
+  <string name="cmaccount_settings_add_phone_label">Adăugați număr de telefon contului</string>
   <string name="eula_linktext_cyanogen">Acord de licență Cyanogen</string>
   <string name="cyngn_setup_create">CREARE</string>
 </resources>
