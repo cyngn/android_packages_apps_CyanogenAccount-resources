@@ -35,7 +35,7 @@
   <string name="dont_skip">Ne pas ignorer</string>
   <string name="setup_warning_skip_wifi">ATTENTION : Vous pouvez encourir des frais de données supplémentaires.\n\nLa configuration de l\'appareil peut exiger une activité importante du réseau.</string>
   <string name="setup_warning_accept_tos">Vous devez accepter les Conditions d\'utilisation, la Politique de confidentialité et le Contrat de licence de l\'utilisateur final en cochant la case avant de poursuivre.</string>
-  <string name="setup_warning_skip_anyway">Sans un compte Cyanogen OS, vous ne serez pas en mesure de :\n\nParcourir ou télécharger des thèmes depuis le magazin de thèmes\n\nLocaliser ou réinitialiser votre téléphone à distance s\'il est perdu</string>
+  <string name="setup_warning_skip_anyway">Sans un compte Cyanogen OS, vous ne serez pas en mesure de :\n\nparcourir ou télécharger des thèmes depuis le magasin de thèmes\n\nlocaliser ou réinitialiser votre téléphone à distance en cas de perte</string>
   <string name="cmaccount_setup_create_title">Créer votre compte</string>
   <string name="cmaccount_setup_killswitchlogin_title">Déverrouiller l\'appareil</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Verrouiller l\'appareil</string>
@@ -48,13 +48,13 @@
   <string name="cmaccount_setup_password_strength_label">8 caractères minimum</string>
   <string name="cmaccount_setup_password_mismatch_label">Les mots de passe ne correspondent pas !</string>
   <string name="cmaccount_setup_password_invalid_label">Le mot de passe doit comporter au moins 8 caractères !</string>
-  <string name="cmaccount_setup_confirm_password_label">Entrez à nouveau le mot de passe</string>
+  <string name="cmaccount_setup_confirm_password_label">Entrer à nouveau le mot de passe</string>
   <string name="cmaccount_setup_tos_label">En cochant cette case, vous acceptez les <u>Conditions d\'utilisation de Cyanogen</u>, la <u>Politique de confidentialité</u> et le <u>Contrat de licence de l\'utilisateur final</u>.</string>
   <string name="cmaccount_add_title">Ajouter votre compte</string>
   <string name="cmaccount_learn_more">En savoir plus\u2026</string>
   <string name="cmaccount_login_message">Connexion à Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Création de votre profil Cyanogen</string>
-  <string name="cmaccount_login_error_title">Connexion échouée</string>
+  <string name="cmaccount_login_error_title">La connexion a échoué</string>
   <string name="cmaccount_login_error_message">Nom d\'utilisateur ou mot de passe non valide.</string>
   <string name="cmaccount_killswitch_login_error_message">Nom d\'utilisateur ou mot de passe incorrect, veuillez essayer à nouveau ou rendez-vous sur https://account.cyngn.com pour réinitialiser votre mot de passe.</string>
   <string name="cmaccount_server_error_title">Erreur de réseau</string>

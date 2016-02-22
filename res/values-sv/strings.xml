@@ -60,7 +60,7 @@
   <string name="cmaccount_server_error_title">Kommunikationsfel</string>
   <string name="cmaccount_create_account_error_title">Fel vid skapandet av konto</string>
   <string name="cmaccount_create_account_error_message">Ett fel uppstod då ditt konto skapades. %1$s</string>
-  <string name="cmaccount_server_error_message">Ett fel uppstod vid kommunikation med servern. Detta kan bero på anslutningen brutits. Du kan försöka ansluta till ett annat WiFi-nätverk och/eller säkerställa att ditt SIM-kort är isatt ordentligt.</string>
+  <string name="cmaccount_server_error_message">Ett fel uppstod vid kommunikation med servern. Detta kan bero på anslutningen brutits. Du kan försöka ansluta till ett annat Wi\u2011Fi-nätverk och/eller säkerställa att ditt SIM-kort är isatt ordentligt.</string>
   <string name="cmaccount_cert_pin_warning_title">Vänligen uppgradera</string>
   <string name="cmaccount_cert_pin_warning_text">Av säkerhetsskäl kan Cyanogen-kontot sluta fungera snart. Vänligen uppgradera omedelbart.</string>
   <string name="cmaccount_error_multiple_accounts">Enbart ett Cyanogen-konto tillåts per enhet</string>

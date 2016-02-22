@@ -101,8 +101,8 @@
   <string name="cyngn_setup_forgot_password">Забравена парола?</string>
   <string name="cyngn_setup_toslist_header">Изберете за да прегледате</string>
   <string name="cyngn_setup_displayname_description">Вашето потребителско име се показва на други потребители, когато оставяте коментари на тема вътре в приложението за теми.</string>
-  <string name="cyngn_setup_create_profile_email_unavailable">Адресът на е-пощата, който сте избрали, е недостъпен.</string>
-  <string name="cyngn_setup_create_profile_email_invalid">Адресът на е-пощата, който сте избрали, е грешен.</string>
+  <string name="cyngn_setup_create_profile_email_unavailable">Имейл адреса, който сте избрали е недостъпен.</string>
+  <string name="cyngn_setup_create_profile_email_invalid">Имейл адреса, който сте избрали е невалиден.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Потребителското име което сте избрали е невалидно, твърде дълго или забранен.</string>
   <string name="cyngn_setup_create_profile_phone_unavailable">Телефонният номер, който въведохте, не е достъпен.</string>
   <string name="cyngn_setup_create_profile_phone_invalid">Телефонният номер, който въведохте, е невалиден.</string>
@@ -130,7 +130,7 @@
   <string name="cmaccount_settings_confirm_phone_label">Потвърдете телефонния номер</string>
   <string name="cmaccount_settings_add_email_label">Добавяне на имейл адрес към профила</string>
   <string name="cmaccount_settings_add_phone_label">Добавяне на телефонен номер към профила</string>
-  <string name="cmaccount_settings_add_email_error_title">Грешка при добавянето на E-мейл адрес</string>
+  <string name="cmaccount_settings_add_email_error_title">Грешка при добавянето на имейл адрес</string>
   <string name="cmaccount_settings_add_email_error_message">Възникна грешка при добавяне на имейл адрес. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Грешка при добавянето на тел. номер</string>
   <string name="cmaccount_settings_add_phone_error_message">Възникна грешка при добавянето на телефонен номер. %1$s</string>
