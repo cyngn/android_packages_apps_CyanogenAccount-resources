@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">znovu zadajte vaše heslo</string>
   <string name="cmaccount_cancel">ZRUŠIŤ</string>
   <string name="cmaccount_create">Vytvorte si účet Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Používa Cyanogen</string>
   <string name="cyngn_setup_skip">PRESKOČIŤ</string>
@@ -117,6 +118,7 @@
     <item><b>Váš telefón, vaše pravidlá</b> - Prispôsobte si telefón v aplikácii Témy</item>
     <item><b>Nájdite svoj telefón</b> - Nájdite a vymažte svoj telefón po jeho strate</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - vedieť, kto volá, a blokovať otravných volajúcich s %1$s</string>
   <string name="switch_to_phone">ALEBO TELEFÓNNE ČÍSLO</string>
   <string name="switch_to_email">ALEBO E-MAILOVÁ ADRESA</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">Vyskytla sa chyba pri pridávaní e-mailovej adresy. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Chyba pri pridávaní telefónneho čísla</string>
   <string name="cmaccount_settings_add_phone_error_message">Vyskytla sa chyba pri pridávaní telefónneho čísla. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Podmienky služby Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Ochrana osobných údajov Cyanogen</string>
   <string name="eula_linktext_cyanogen">Licenčná zmluva koncového používateľa Cyanogen</string>

@@ -75,6 +75,9 @@
   <string name="cmaccount_setup_displayname_blank_label">Morate unijeti naziv</string>
   <string name="cmaccount_setup_must_agree_label">Morate se složiti sa TOS</string>
   <string name="cmaccount_setup_displayname_invalid_label">Nevažeći naziv</string>
+  <string name="account_registered_perm_string">Omogućuje aplikaciji primanje obavijesti registracije Cyanogen Računa. Bilo koja aplikacija odobrena ovim dopuštenjem moći će slušati kad je Cyanogen Račun registriran.</string>
+  <string name="account_registered_permission_label_string">Primaj obavijesti registracije Cyanogen Računa</string>
+  <string name="cmaccount_displayname_label">Kako želite da se prikaže vaše ime?</string>
   <string name="cmaccount_displayname_hint">Naziv</string>
   <string name="cmaccount_email_label">E-pošta</string>
   <string name="cmaccount_password_label">Lozinka</string>
@@ -82,13 +85,61 @@
   <string name="cmaccount_confirmpass_label">Ponovo unesite lozinku</string>
   <string name="cmaccount_confirmpass_hint">ponovo unesite lozinku</string>
   <string name="cmaccount_cancel">ODUSTANI</string>
+  <string name="cmaccount_create">Izradite svoj Cyanogen Račun</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logo</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Powered by Cyanogen</string>
   <string name="cyngn_setup_skip">PRESKOČI</string>
   <string name="cyngn_setup_next">DALJE</string>
+  <string name="cyngn_skip_setup_dialog_header">Preskočiti izradu računa?</string>
+  <string name="cyngn_setup_sign_in">PRIJAVA\u00A0IN</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Unesite vaš e-mail ili broj telefona</string>
+  <string name="cyngn_setup_email_edittext_hint">Unesite adresu e-pošte</string>
+  <string name="cyngn_setup_phone_edittext_hint">Unesite vaš broj telefona</string>
+  <string name="cyngn_setup_sending_sms">Slanje SMS-a na %1$s. To može potrajati nekoliko sekundi.</string>
+  <string name="cyngn_setup_show_password">Pokaži lozinku</string>
+  <string name="cyngn_setup_reset_password_dialog">Da biste poništili lozinku posjetite https://account.cyngn.com s računala.</string>
+  <string name="cyngn_setup_forgot_password">Zaboravili ste lozinku?</string>
+  <string name="cyngn_setup_toslist_header">Odaberite za pregled</string>
+  <string name="cyngn_setup_displayname_description">Vaše ime prikazuje se drugim korisnicima kada napustite recenzije za temu unutar aplikacije Teme.</string>
+  <string name="cyngn_setup_create_profile_email_unavailable">E-mail adresa koju ste odabrali nije dostupna.</string>
+  <string name="cyngn_setup_create_profile_email_invalid">E-mail adresa koju ste odabrali nije valjana.</string>
+  <string name="cyngn_setup_create_profile_displayname_invalid">Ime za prikaz koje ste odabrali je nevažeće, predugačko ili odbijeno.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Broj telefona koji ste unijeli nije dostupan.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Broj telefona koji ste unijeli nije valjan.</string>
   <string name="cyngn_setup_password_strength_meter_label">Jačina lozinke:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Jaka</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Srednje</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Slaba</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Prekratko</string>
+  <string name="sms_timeout_title">Nije moguće provjeriti broj</string>
+  <string name="sms_timeout_message">Nismo mogli potvrditi vaš broj putem SMS-a. Želite li ponovo potvrditi svoj broj?</string>
+  <string-array name="cyngn_account_benefits_list">
+    <item><b>Vaš telefon, vaša pravila</b> - Prilagodite svoj telefon u aplikaciji Teme</item>
+    <item><b>Pronađite svoj telefon</b> - Pronađite i izbrišite vaš telefon ako je izgubljen</item>
+  </string-array>
+  <!-- This is only for devices with callerinfo support. -->
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Saznaj tko zove i blokiraj neželjene pozivatelje s %1$s</string>
+  <string name="switch_to_phone">ILI BROJ TELEFONA</string>
+  <string name="switch_to_email">ILI ADRESA E-POŠTE</string>
+  <string name="waiting_for_sms_title">Provjera broja telefona</string>
+  <string name="enter_sms_code_manually">Unesite SMS kôd za potvrdu ručno</string>
+  <string name="sms_confirmation_code_label">Unesite SMS kod za potvrdu</string>
+  <string name="resend_sms">Ponovite broj</string>
+  <string name="cmaccount_setup_sms_code_title">Provjeri s kodom za potvrdu</string>
+  <string name="cmaccount_setup_phone_blank_label">Morate unijeti broj telefona</string>
   <string name="cmaccount_settings_title">Postavke Cyanogen računa</string>
+  <string name="cmaccount_settings_confirm_phone_label">Potvrdite broj telefona</string>
+  <string name="cmaccount_settings_add_email_label">Dodajte adresu e-pošte na račun</string>
+  <string name="cmaccount_settings_add_phone_label">Dodaj broj telefona na račun</string>
+  <string name="cmaccount_settings_add_email_error_title">Pogreška prilikom dodavanja e-pošte</string>
+  <string name="cmaccount_settings_add_email_error_message">Dogodila se pogreška prilikom dodavanja adrese e-pošte. %1$s</string>
+  <string name="cmaccount_settings_add_phone_error_title">Dogodila se pogreška prilikom dodavanja broja telefona</string>
+  <string name="cmaccount_settings_add_phone_error_message">Dogodila se pogreška prilikom dodavanja broja telefona. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
+  <string name="tos_linktext_cyanogen">Cyanogen Uvjeti pružanja usluge</string>
+  <string name="privacy_linktext_cyanogen">Cyanogen Pravila o Privatnosti</string>
+  <string name="eula_linktext_cyanogen">Cyanogen Licencni ugovor za krajnjeg korisnika</string>
+  <string name="sms_rate_warning">Poslati ćemo SMS poruku da biste potvrdili da ste vlasnik telefonskog broja. Slanje SMS-a košta ubičajenu cijenu operatera.</string>
+  <string name="cyngn_setup_create">IZRADI</string>
 </resources>

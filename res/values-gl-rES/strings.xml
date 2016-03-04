@@ -73,6 +73,7 @@
   <string name="cmaccount_email_label">Correo electrónico</string>
   <string name="cmaccount_password_label">Contrasinal</string>
   <string name="cmaccount_cancel">CANCELAR</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logotipo</string>
   <string name="cyngn_setup_skip">OMITIR</string>
   <string name="cyngn_setup_next">SEGUINTE</string>
@@ -80,6 +81,7 @@
   <string name="cyngn_setup_email_edittext_hint">Introduza o seu correo electrónico</string>
   <string name="cyngn_setup_phone_edittext_hint">Introduza o seu número de teléfono</string>
   <string name="cyngn_setup_forgot_password">Esqueceu o contrasinal?</string>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="sms_confirmation_code_label">Introduza o código de confirmación SMS</string>
   <string name="resend_sms">Tentar de novo co número</string>
   <string name="cmaccount_setup_sms_code_title">Comprobar co código de confirmación</string>
@@ -92,6 +94,7 @@
   <string name="cmaccount_settings_add_email_error_message">Produciuse un erro ao engadir un correo electrónico. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Produciuse un erro ao engadir un número de teléfono</string>
   <string name="cmaccount_settings_add_phone_error_message">Produciuse un error ao engadir un número de teléfono. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Términos e condicións do servizo de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de privacidade de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Acordo co usuario final de Cyanogen</string>

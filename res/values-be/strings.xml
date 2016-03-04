@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">яшчэ раз, каб не памыліцца</string>
   <string name="cmaccount_cancel">СКАСАВАННЕ</string>
   <string name="cmaccount_create">Стварэнне акаўнта Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Лагатып</string>
   <string name="cyngn_setup_poweredby_logo_alttext">На платформе Cyanogen</string>
   <string name="cyngn_setup_skip">ПРАПУСЦІЦЬ</string>
@@ -117,6 +118,7 @@
     <item><b>Ваш тэлефон, вашы правілы</b> — персаналізоўвайце прыладу ў дадатку «Тэмы»</item>
     <item><b>Пошук тэлефона</b> — знаходзьце ці выдаляйце ўсе дадзеныя на тэлефоне пры яго згубе</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;&gt; пазнавае, хто тэлефануе з невядомых нумароў, і блакуе рэкламныя званкі пры дапамозе %1$s</string>
   <string name="switch_to_phone">ЦІ НУМАР ТЭЛЕФОНА</string>
   <string name="switch_to_email">ЦІ АДРАС ЭЛ. ПОШТЫ</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">Пры даданні адраса электроннай пошты адбылася памылка. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Памылка пры даданні нумара телефона</string>
   <string name="cmaccount_settings_add_phone_error_message">Пры даданні нумара тэлефона адбылася памылка. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Умовы падавання паслуг Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Палітыка прыватнасці Cyanogen</string>
   <string name="eula_linktext_cyanogen">Ліцэнзійнае пагадненне Cyanogen</string>

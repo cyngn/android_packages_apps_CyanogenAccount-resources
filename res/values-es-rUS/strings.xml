@@ -40,6 +40,8 @@
   <string name="cmaccount_setup_killswitchlogin_title">Desbloquear dispositivo</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Bloquear dispositivo</string>
   <string name="cmaccount_setup_email_invalid_label">Solo se permiten letras (a – z), números (0 – 9) y los caracteres (.+&amp;-_).</string>
+  <string name="cmaccount_setup_phone_invalid_label">Introduce un número de teléfono válido.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Introduce un número de teléfono o dirección de correo electrónico válidos.</string>
   <string name="cmaccount_setup_displayname_label">Introduce un nombre para mostrar</string>
   <string name="cmaccount_setup_password_label">Contraseña</string>
   <string name="cmaccount_setup_password_strength_label">Mínimo 8 caracteres</string>
@@ -52,6 +54,8 @@
   <string name="cmaccount_login_message">Iniciar sesión en Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Creando tu perfil Cyanogen</string>
   <string name="cmaccount_login_error_title">Error al acceder</string>
+  <string name="cmaccount_login_error_message">Nombre de usuario o contraseña no válidos.</string>
+  <string name="cmaccount_killswitch_login_error_message">Contraseña o correo electrónico incorrectos. Inténtalo de nuevo o visita https://account.cyngn.com para restablecer tu contraseña.</string>
   <string name="cmaccount_server_error_title">Error de comunicación</string>
   <string name="cmaccount_create_account_error_title">Error al crear la cuenta</string>
   <string name="cmaccount_create_account_error_message">Se produjo un error al crear tu cuenta. %1$s</string>
@@ -81,6 +85,7 @@
   <string name="cmaccount_confirmpass_hint">confirma tu contraseña</string>
   <string name="cmaccount_cancel">CANCELAR</string>
   <string name="cmaccount_create">Crea tu cuenta de Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logotipo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Proporcionado por Cyanogen</string>
   <string name="cyngn_setup_skip">OMITIR</string>
@@ -105,7 +110,12 @@
     <item><b>Tu teléfono, tus reglas</b> - Personaliza tu teléfono en la aplicación de temas</item>
     <item><b>Busca tu teléfono</b> - Puedes encontrar y borrar tu teléfono en caso de pérdida</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;identificador de llamada&lt;/b&gt; - Entérate quién está llamando y bloquea llamadas de spam con %1$s</string>
+  <string name="sms_confirmation_code_label">Introduce el código de confirmación SMS</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Condiciones de servicio de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de privacidad de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Términos de licencia de usuario final de Cyanogen</string>
+  <string name="sms_rate_warning">Te enviaremos un SMS a este número para verificar la propiedad del número de teléfono. Enviar un SMS te costará la tarifa normal de la red.</string>
 </resources>

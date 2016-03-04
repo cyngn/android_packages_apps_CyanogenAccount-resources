@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">oppgi passord på nytt</string>
   <string name="cmaccount_cancel">AVBRYT</string>
   <string name="cmaccount_create">Opprette Cyanogen konto</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Drevet av Cyanogen</string>
   <string name="cyngn_setup_skip">HOPP OVER</string>
@@ -117,6 +118,7 @@
     <item><b>Din telefon, dine regler</b> - tilpass telefonen i programmet temaer</item>
     <item><b>Finn mobilen</b> - finne og slette telefonen hvis den mistes</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; – Se hvem som ringer og blokker spam-anrop med %1$s</string>
   <string name="switch_to_phone">ELLER TELEFONNUMMER</string>
   <string name="switch_to_email">ELLER E-POSTADRESSE</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">Det oppsto en feil da en e-postadresse skulle legges til. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Feil under tillegging av telefonnummer</string>
   <string name="cmaccount_settings_add_phone_error_message">Det oppsto en feil da et telefonnummer skulle legges til. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Cyanogen vilkår</string>
   <string name="privacy_linktext_cyanogen">Cyanogen personvern</string>
   <string name="eula_linktext_cyanogen">Cyanogen lisensavtale</string>

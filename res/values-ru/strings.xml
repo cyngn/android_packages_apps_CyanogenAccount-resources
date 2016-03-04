@@ -33,16 +33,16 @@
   <string name="go_back">Вернуться назад</string>
   <string name="skip_anyway">Всё равно пропустить</string>
   <string name="dont_skip">Не пропускать</string>
-  <string name="setup_warning_skip_wifi">ВНИМАНИЕ: Вы можете понести дополнительные расходы.\n\nНастройка устройства может потребовать значительной сетевой активности.</string>
+  <string name="setup_warning_skip_wifi">ВНИМАНИЕ: вы можете понести дополнительные расходы.\n\nДля настройки устройства может потребоваться значительная сетевая активность.</string>
   <string name="setup_warning_accept_tos">Вы должны принять Условия использования, Политику конфиденциальности и Лицензионное соглашение, установив флажок перед продолжением.</string>
-  <string name="setup_warning_skip_anyway">Без аккаунта Cyanogen OS вы не сможете:\n\nИскать и скачивать темы из «Магазина тем»\n\nНайти или удалённо сбросить настройки на телефоне в случае его потери</string>
+  <string name="setup_warning_skip_anyway">Без аккаунта ОС Cyanogen вы не сможете:\n\nИскать и скачивать темы из «Магазина тем»\n\nНайти или удалённо сбросить настройки на телефоне в случае его потери</string>
   <string name="cmaccount_setup_create_title">Создать аккаунт</string>
   <string name="cmaccount_setup_killswitchlogin_title">Разблокировать устройство</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">Заблокировать устройство</string>
   <string name="cmaccount_setup_username_unavailable_label">Это имя пользователя недоступно</string>
   <string name="cmaccount_setup_email_invalid_label">К сожалению, разрешены только буквы (a-z), цифры (0-9) и символы (.+&amp;-_).</string>
   <string name="cmaccount_setup_phone_invalid_label">Введите действительный номер телефона.</string>
-  <string name="cmaccount_setup_email_or_phone_invalid_label">Пожалуйста, введите правильный номер телефона или адрес эл. почты.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Введите действительный номер телефона или адрес эл. почты.</string>
   <string name="cmaccount_setup_displayname_label">Введите отображаемое имя</string>
   <string name="cmaccount_setup_password_label">Пароль</string>
   <string name="cmaccount_setup_password_strength_label">Минимум 8 символов</string>
@@ -55,14 +55,15 @@
   <string name="cmaccount_login_message">Вход в Cyanogen</string>
   <string name="cmaccount_creating_profile_message">Создание профиля Cyanogen</string>
   <string name="cmaccount_login_error_title">Ошибка входа</string>
-  <string name="cmaccount_login_error_message">Недопустимое имя пользователя или пароль.</string>
+  <string name="cmaccount_login_error_message">Неверное имя пользователя или пароль.</string>
   <string name="cmaccount_killswitch_login_error_message">Ошибка в имени пользователя или пароле. Проверьте правильность ввода данных или посетите https://account.cyngn.com для восстановления пароля.</string>
   <string name="cmaccount_server_error_title">Ошибка сети</string>
   <string name="cmaccount_create_account_error_title">Ошибка создания аккаунта</string>
   <string name="cmaccount_create_account_error_message">Ошибка при создании аккаунта. %1$s</string>
+  <string name="cmaccount_server_error_message">Во время соединения с сервером произошла ошибка. Это может быть вызвано потерей подключения к Интернету. Проверьте правильность установки SIM-карты или попробуйте подключиться к другой сети Wi-Fi.</string>
   <string name="cmaccount_cert_pin_warning_title">Требуется обновление</string>
   <string name="cmaccount_cert_pin_warning_text">По соображениям безопасности эта версия аккаунта Cyanogen скоро может перестать работать. Выполните обновление как можно скорее.</string>
-  <string name="cmaccount_error_multiple_accounts">Добавление более одного аккаунта Cyanogen на устройство невозможно</string>
+  <string name="cmaccount_error_multiple_accounts">На устройство можно добавить только один аккаунт Cyanogen</string>
   <string name="cmaccount_allow_access">%1$s пытается получить доступ к:</string>
   <string name="cmaccount_granting_access">Предоставление доступа к %1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">Просмотр основной информации о вашем аккаунте, включая адрес электронной почты</string>
@@ -76,15 +77,16 @@
   <string name="cmaccount_setup_displayname_invalid_label">Недопустимое имя</string>
   <string name="account_registered_perm_string">Приложение сможет получать уведомления о регистрации аккаунта Cyanogen. Предоставление этого разрешения любому приложению позволит ему отслеживать момент регистрации аккаунта Cyanogen.</string>
   <string name="account_registered_permission_label_string">Получать уведомления о регистрации аккаунта Cyanogen</string>
-  <string name="cmaccount_displayname_label">Как отображать ваше имя?</string>
+  <string name="cmaccount_displayname_label">Как бы вы хотели, чтобы отображалось ваше имя?</string>
   <string name="cmaccount_displayname_hint">Отображаемое имя</string>
   <string name="cmaccount_email_label">Почта</string>
   <string name="cmaccount_password_label">Пароль</string>
-  <string name="cmaccount_password_hint">введите пароль</string>
+  <string name="cmaccount_password_hint">Введите ваш пароль</string>
   <string name="cmaccount_confirmpass_label">Введите пароль ещё раз</string>
   <string name="cmaccount_confirmpass_hint">введите пароль ещё раз</string>
   <string name="cmaccount_cancel">ОТМЕНА</string>
   <string name="cmaccount_create">Создание аккаунта Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Логотип</string>
   <string name="cyngn_setup_poweredby_logo_alttext">На платформе Cyanogen</string>
   <string name="cyngn_setup_skip">ПРОПУСТИТЬ</string>
@@ -92,31 +94,32 @@
   <string name="cyngn_skip_setup_dialog_header">Пропустить настройку аккаунта?</string>
   <string name="cyngn_setup_sign_in">ВОЙТИ</string>
   <string name="cyngn_setup_existing_account_edittext_hint">Введите адрес эл. почты или номер телефона</string>
-  <string name="cyngn_setup_email_edittext_hint">Введите адрес электронной почты</string>
+  <string name="cyngn_setup_email_edittext_hint">Пожалуйста, введите адрес электронной почты</string>
   <string name="cyngn_setup_phone_edittext_hint">Введите номер телефона</string>
   <string name="cyngn_setup_sending_sms">Отправка SMS на номер %1$s. Это может занять несколько секунд.</string>
   <string name="cyngn_setup_show_password">Показать пароль</string>
   <string name="cyngn_setup_reset_password_dialog">Чтобы сбросить пароль, перейдите на сайт https://account.cyngn.com с компьютера.</string>
   <string name="cyngn_setup_forgot_password">Забыли пароль?</string>
-  <string name="cyngn_setup_toslist_header">Выберите элемент</string>
-  <string name="cyngn_setup_displayname_description">Отображаемое имя показывается другим пользователям, когда вы оставляете отзывы о темах в менеджере тем.</string>
+  <string name="cyngn_setup_toslist_header">Выберите для обзора</string>
+  <string name="cyngn_setup_displayname_description">Отображаемое имя будет отображается для других пользователей, когда вы будете оставлять отзывы о теме в менеджере тем.</string>
   <string name="cyngn_setup_create_profile_email_unavailable">Выбранный адрес электронной почты недоступен.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Недопустимый адрес электронной почты.</string>
-  <string name="cyngn_setup_create_profile_displayname_invalid">Выбранное имя является недопустимым, слишком длинным или запрещено к использованию.</string>
+  <string name="cyngn_setup_create_profile_displayname_invalid">Отображаемое имя, которое вы выбрали, либо недопустимо, слишком длинное или запрещено.</string>
   <string name="cyngn_setup_create_profile_phone_unavailable">Введённый номер телефона недоступен.</string>
   <string name="cyngn_setup_create_profile_phone_invalid">Введённый номер телефона недопустимый.</string>
   <string name="cyngn_setup_password_strength_meter_label">Надёжность пароля:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Надёжный</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Так себе</string>
-  <string name="cyngn_setup_password_strength_meter_label_weak">Слабый</string>
+  <string name="cyngn_setup_password_strength_meter_label_weak">Слабая</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Слишком короткий</string>
-  <string name="sms_timeout_title">Невозможно проверить номер</string>
+  <string name="sms_timeout_title">Не удалось подтвердить номер</string>
   <string name="sms_timeout_message">Не удалось подтвердить номер через SMS. Повторить попытку?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Ваш телефон, ваши правила</b> — персонализируйте устройство в приложении «Темы»</item>
     <item><b>Поиск телефона</b> — находите или удаляйте все данные на телефоне при его утере</item>
   </string-array>
-  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; — узнавайте, кто звонит с неизвестных номеров, и блокируйте рекламные звонки при помощи %1$s</string>
+  <!-- This is only for devices with callerinfo support. -->
+  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; — узнавайте, кто звонит с неизвестных номеров, и блокируйте нежелательные вызовы при помощи %1$s</string>
   <string name="switch_to_phone">ИЛИ НОМЕР ТЕЛЕФОНА</string>
   <string name="switch_to_email">ИЛИ АДРЕС ЭЛ. ПОЧТЫ</string>
   <string name="waiting_for_sms_title">Проверка номера телефона</string>
@@ -127,12 +130,13 @@
   <string name="cmaccount_setup_phone_blank_label">Необходимо ввести номер телефона</string>
   <string name="cmaccount_settings_title">Настройки аккаунта Cyanogen</string>
   <string name="cmaccount_settings_confirm_phone_label">Подтвердить номер телефона</string>
-  <string name="cmaccount_settings_add_email_label">Добавить адрес эл. почты к учётной записи</string>
-  <string name="cmaccount_settings_add_phone_label">Добавить номер телефона к учётной записи</string>
-  <string name="cmaccount_settings_add_email_error_title">Ошибка при добавлении эл. почты</string>
+  <string name="cmaccount_settings_add_email_label">Добавить адрес эл. почты к аккаунту</string>
+  <string name="cmaccount_settings_add_phone_label">Добавить номер телефона к аккаунту</string>
+  <string name="cmaccount_settings_add_email_error_title">Ошибка при добавлении адреса эл. почты</string>
   <string name="cmaccount_settings_add_email_error_message">При добавлении адреса электронной почты произошла ошибка. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Ошибка при добавлении номера телефона</string>
   <string name="cmaccount_settings_add_phone_error_message">При добавлении номера телефона произошла ошибка. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Условия использования Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Политика конфиденциальности Cyanogen</string>
   <string name="eula_linktext_cyanogen">Лицензионное соглашение Cyanogen</string>

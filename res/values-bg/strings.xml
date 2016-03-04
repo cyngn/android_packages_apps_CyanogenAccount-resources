@@ -23,7 +23,7 @@
   <string name="cancel">Отказ\u00A0</string>
   <string name="create">СЪЗДАЙ\u00A0\u00A0&gt;</string>
   <string name="login">Влез\u00A0\u00A0 &gt;</string>
-  <string name="ok">Да</string>
+  <string name="ok">Добре</string>
   <string name="no">Не</string>
   <string name="try_again">Опитайте отново</string>
   <string name="yes">Да</string>
@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">Въведете отново паролата си</string>
   <string name="cmaccount_cancel">ОТКАЗ</string>
   <string name="cmaccount_create">Създайте Cyanogen профил</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Лого</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Осъществено от Cyanogen</string>
   <string name="cyngn_setup_skip">ПРЕСКОЧИ</string>
@@ -106,9 +107,9 @@
   <string name="cyngn_setup_create_profile_displayname_invalid">Потребителското име което сте избрали е невалидно, твърде дълго или забранен.</string>
   <string name="cyngn_setup_create_profile_phone_unavailable">Телефонният номер, който въведохте, не е достъпен.</string>
   <string name="cyngn_setup_create_profile_phone_invalid">Телефонният номер, който въведохте, е невалиден.</string>
-  <string name="cyngn_setup_password_strength_meter_label">Сигурност на паролата:</string>
-  <string name="cyngn_setup_password_strength_meter_label_strong">Силна</string>
-  <string name="cyngn_setup_password_strength_meter_label_fair">Средно</string>
+  <string name="cyngn_setup_password_strength_meter_label">Надеждност на паролата:</string>
+  <string name="cyngn_setup_password_strength_meter_label_strong">Висока</string>
+  <string name="cyngn_setup_password_strength_meter_label_fair">Средна</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Слаба</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Твърде кратка</string>
   <string name="sms_timeout_title">Номерът не може да бъде потвърден</string>
@@ -117,6 +118,7 @@
     <item><b>Вашия телефон, вашите правила</b> - персонализирате телефона си в приложението за теми</item>
     <item><b>Намери телефона</b> - Намерете и изтрийте всички данни от телефона, ако е изгубен</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Ид. на позвъняващия&lt;/b&gt; – Разберете кой Ви търси и блокирайте дразнителите с %1$s</string>
   <string name="switch_to_phone">ИЛИ ТЕЛЕФОНЕН НОМЕР</string>
   <string name="switch_to_email">ИЛИ ИМЕЙЛ АДРЕС</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">Възникна грешка при добавяне на имейл адрес. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Грешка при добавянето на тел. номер</string>
   <string name="cmaccount_settings_add_phone_error_message">Възникна грешка при добавянето на телефонен номер. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Cyanogen Условия за ползване</string>
   <string name="privacy_linktext_cyanogen">Cyanogen Декларация за поверителност</string>
   <string name="eula_linktext_cyanogen">Cyanogen Потребителско лицензионно споразумение</string>

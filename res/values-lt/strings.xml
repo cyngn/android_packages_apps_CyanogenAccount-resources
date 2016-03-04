@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">iš naujo įveskite savo slaptažodį</string>
   <string name="cmaccount_cancel">ATŠAUKTI</string>
   <string name="cmaccount_create">Sukurti savo „Cyanogen“ paskyrą</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logotipas</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Parenkta pagal „Cyanogen“</string>
   <string name="cyngn_setup_skip">PRALEISTI</string>
@@ -117,11 +118,13 @@
     <item><b>Jūsų telefonas, jūsų taisyklės</b> - Tinkinti savo telefoną temų programoje</item>
     <item><b>Ieškoti savo telefono</b> - Rasti ir ištrinti telefoną, jei jis prarastas</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cmaccount_setup_phone_blank_label">Turite įvesti telefono numerį</string>
   <string name="cmaccount_settings_title">„Cyanogen“ paskyros nustatymai</string>
   <string name="cmaccount_settings_confirm_phone_label">Patvirtinkite telefono numerį</string>
   <string name="cmaccount_settings_add_email_error_title">Klaida pridedant el. paštą</string>
   <string name="cmaccount_settings_add_phone_error_title">Klaida pridedant telefono numerį</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">„Cyanogen“ paslaugos sąlygos</string>
   <string name="privacy_linktext_cyanogen">„Cyanogen“ privatumo politika</string>
   <string name="eula_linktext_cyanogen">„Cyanogen“ galutinio vartotojo licencinė sutartis</string>

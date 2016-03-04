@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">vuelve a introducir tu contraseña</string>
   <string name="cmaccount_cancel">CANCELAR</string>
   <string name="cmaccount_create">Crea tu cuenta de Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logotipo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Proporcionado por Cyanogen</string>
   <string name="cyngn_setup_skip">OMITIR</string>
@@ -117,6 +118,7 @@
     <item><b>Tu teléfono, tus reglas</b> - Personaliza tu teléfono en la aplicación de temas</item>
     <item><b>Encuentra tu teléfono</b> - Encuentra y borra tu teléfono si se pierde</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;identificador de llamada&lt;/b&gt; - para saber quién está llamando y bloquear llamadas de spam con %1$s</string>
   <string name="switch_to_phone">O NÚMERO DE TELÉFONO</string>
   <string name="switch_to_email">O DIRECCIÓN DE CORREO ELECTRÓNICO</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">Error al añadir una dirección de correo electrónico. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Error al añadir número de teléfono</string>
   <string name="cmaccount_settings_add_phone_error_message">Error al añadir un número de teléfono. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Términos de Servicio de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de Privacidad de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Licencia de Acuerdo con el Usuario Final de Cyanogen</string>
