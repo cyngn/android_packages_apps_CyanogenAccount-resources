@@ -77,7 +77,7 @@
   <string name="cmaccount_setup_displayname_invalid_label">Невалидно потребителско име</string>
   <string name="account_registered_perm_string">Позволява на приложението да получава уведомления за регистрация на Cyanogen профил. Всяко приложение с това разрешение ще бъде в състояние да следи за Cyanogen  регистрации.</string>
   <string name="account_registered_permission_label_string">Получавайте уведомления за регистран Cyanogen профил</string>
-  <string name="cmaccount_displayname_label">Как искате името ви да се появи?</string>
+  <string name="cmaccount_displayname_label">Как искате вашето име да се появи?</string>
   <string name="cmaccount_displayname_hint">Потребителско име</string>
   <string name="cmaccount_email_label">Имейл</string>
   <string name="cmaccount_password_label">Парола</string>
@@ -96,7 +96,7 @@
   <string name="cyngn_setup_existing_account_edittext_hint">Въведете вашия имейл или телефонен номер</string>
   <string name="cyngn_setup_email_edittext_hint">Моля, въведете имейл адреса си</string>
   <string name="cyngn_setup_phone_edittext_hint">Моля, въведете вашия телефонен номер</string>
-  <string name="cyngn_setup_sending_sms">Изпращане на КС до %1$s. Това може да отнеме няколко секунди.</string>
+  <string name="cyngn_setup_sending_sms">Изпращане на SMS до %1$s. Това може да отнеме няколко секунди.</string>
   <string name="cyngn_setup_show_password">Покажи паролата</string>
   <string name="cyngn_setup_reset_password_dialog">За да възстановите паролата си, моля посетете https://account.cyngn.com от компютъра си.</string>
   <string name="cyngn_setup_forgot_password">Забравена парола?</string>
@@ -113,7 +113,7 @@
   <string name="cyngn_setup_password_strength_meter_label_weak">Слаба</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Твърде кратка</string>
   <string name="sms_timeout_title">Номерът не може да бъде потвърден</string>
-  <string name="sms_timeout_message">Не успяхме да потвърдим номера Ви чрез КС. Искате ли да потвърдите номера си отново?</string>
+  <string name="sms_timeout_message">Не успяхме да потвърдим вашият номер чрез SMS. Искате ли да потвърдите номера си отново?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Вашия телефон, вашите правила</b> - персонализирате телефона си в приложението за теми</item>
     <item><b>Намери телефона</b> - Намерете и изтрийте всички данни от телефона, ако е изгубен</item>
@@ -123,7 +123,7 @@
   <string name="switch_to_phone">ИЛИ ТЕЛЕФОНЕН НОМЕР</string>
   <string name="switch_to_email">ИЛИ ИМЕЙЛ АДРЕС</string>
   <string name="waiting_for_sms_title">Потвърждаване на телефонния номер</string>
-  <string name="enter_sms_code_manually">Ръчно въвеждане на SMS кода за потвърждение</string>
+  <string name="enter_sms_code_manually">Въведете ръчно SMS кода за потвърждение</string>
   <string name="sms_confirmation_code_label">Моля, въведете SMS кода за потвърждение</string>
   <string name="resend_sms">Повторен опит на този номер</string>
   <string name="cmaccount_setup_sms_code_title">Проверка чрез код за потвърждение</string>
@@ -140,6 +140,6 @@
   <string name="tos_linktext_cyanogen">Cyanogen Условия за ползване</string>
   <string name="privacy_linktext_cyanogen">Cyanogen Декларация за поверителност</string>
   <string name="eula_linktext_cyanogen">Cyanogen Потребителско лицензионно споразумение</string>
-  <string name="sms_rate_warning">Ще изпратим SMS на този номер, за да потвърдим, че този телефонен номер наистина е Ваш. Съобщението ще бъде таксувано според нормалната тарифа на плана Ви.</string>
+  <string name="sms_rate_warning">Ще изпратим SMS съобщение на този номер, за да потвърдим, че този телефонен номер наистина е Ваш. Съобщението ще бъде таксувано според нормалната тарифа на плана Ви.</string>
   <string name="cyngn_setup_create">СЪЗДАВАНЕ</string>
 </resources>

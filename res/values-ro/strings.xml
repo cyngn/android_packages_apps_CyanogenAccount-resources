@@ -114,6 +114,7 @@
   <string name="resend_sms">Reîncercați numărul</string>
   <string name="cmaccount_setup_sms_code_title">Verificați cu codul de confirmare</string>
   <string name="cmaccount_setup_phone_blank_label">Trebuie să introduceți un număr de telefon</string>
+  <string name="cmaccount_settings_title">Setările de cont Cyanogen</string>
   <string name="cmaccount_settings_confirm_phone_label">Confirmați numărul de telefon</string>
   <string name="cmaccount_settings_add_phone_label">Adăugați număr de telefon contului</string>
   <!-- List of display names for links to various terms of service -->
