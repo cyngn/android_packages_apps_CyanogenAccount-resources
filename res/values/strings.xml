@@ -158,4 +158,13 @@
     <string name="eula_linktext_cyanogen">Cyanogen End User License Agreement</string>
     <string name="sms_rate_warning">We will send an SMS to this number to verify your ownership of the telephone number. Sending an SMS will cost the normal network rate.</string>
     <string name="cyngn_setup_create">CREATE</string>
+
+    <string name="control_hotword_service_permission_label">Control hotword applications</string>
+    <string name="control_hotword_service_permission_desc">Allows an application to control the activity of an always-on hotword detection application. Such applications can constantly monitor the microphone to listen for specific spoken key phrases.</string>
+
+    <string name="access_device_id_permission_label">Access unique device id information</string>
+    <string name="access_device_id_permission_desc">Allows a system application to access the unique device id.</string>
+
+    <string name="device_info_permission_label">Access device information</string>
+    <string name="device_info_permission_desc">Allows a system application to access basic information about the device and it\'s state.</string>
 </resources>
