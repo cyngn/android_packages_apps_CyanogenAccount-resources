@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Acord de llicència d\'usuari final de Cyanogen</string>
   <string name="sms_rate_warning">Us enviarem un SMS a aquest número per verificar la propietat del telèfon. L\'enviament de l\'SMS costarà la taxa de la xarxa normal.</string>
   <string name="cyngn_setup_create">CREA</string>
+  <string name="control_hotword_service_permission_label">control de les aplicacions de detecció de paraules clau</string>
+  <string name="control_hotword_service_permission_desc">Permet a una aplicació controlar l\'activitat d\'una aplicació de detecció de paraules clau sempre activa. Aquest tipus d\'aplicacions poden monitoritzar el micròfon constantment per escoltar determinades frases clau parlades.</string>
+  <string name="access_device_id_permission_label">accés a la informació d\'ID. del dispositiu</string>
+  <string name="access_device_id_permission_desc">Permet a una aplicació del sistema accedir a la informació d\'ID. única del dispositiu.</string>
+  <string name="device_info_permission_label">accés a la informació del dispositiu</string>
+  <string name="device_info_permission_desc">Permet a una aplicació del sistema accedir a la informació bàsica sobre el dispositiu i el seu estat.</string>
 </resources>

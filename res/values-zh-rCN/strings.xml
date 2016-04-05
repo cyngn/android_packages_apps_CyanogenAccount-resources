@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen 最终用户许可协议</string>
   <string name="sms_rate_warning">我们将发送短信到此号码来验证您的电话号码的所有权。发送短信的费用将基于您的网络运营商资费标准。</string>
   <string name="cyngn_setup_create">创建</string>
+  <string name="control_hotword_service_permission_label">控制热词应用</string>
+  <string name="control_hotword_service_permission_desc">允许应用控制总是启用的热词检测应用。此类应用能够不断地监控麦克风以侦听特定的口语关键词短语。</string>
+  <string name="access_device_id_permission_label">访问唯一的设备 ID 信息</string>
+  <string name="access_device_id_permission_desc">允许系统应用访问唯一的设备 ID。</string>
+  <string name="device_info_permission_label">访问设备信息</string>
+  <string name="device_info_permission_desc">允许系统应用访问设备及其状态的基本信息。</string>
 </resources>

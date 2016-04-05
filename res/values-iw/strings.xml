@@ -40,14 +40,14 @@
   <string name="cmaccount_setup_killswitchlogin_title">פתח מכשיר</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">נעל מכשיר</string>
   <string name="cmaccount_setup_username_unavailable_label">שם משתמש זה אינו זמין</string>
-  <string name="cmaccount_setup_email_invalid_label">מצטערים, רק אותיות (a-z), מספרים (0-9) והתווים (.+&amp;-_) מותרים לשימוש.</string>
+  <string name="cmaccount_setup_email_invalid_label">מצטערים, רק אותיות (a-z), מספרים (0-9) והתווים (.+&amp;-_) מאושרים לשימוש.</string>
   <string name="cmaccount_setup_phone_invalid_label">הזן מספר טלפון חוקי.</string>
   <string name="cmaccount_setup_email_or_phone_invalid_label">הזן מספר טלפון או כתובת דוא\"ל חוקי.</string>
   <string name="cmaccount_setup_displayname_label">הזן את שם התצוגה שלך</string>
   <string name="cmaccount_setup_password_label">סיסמה</string>
   <string name="cmaccount_setup_password_strength_label">8 תווים לכל הפחות</string>
-  <string name="cmaccount_setup_password_mismatch_label">הססמאות אינן תואמות!</string>
-  <string name="cmaccount_setup_password_invalid_label">הססמה חייבת להכיל 8 תווים לפחות!</string>
+  <string name="cmaccount_setup_password_mismatch_label">הסיסמאות אינן תואמות!</string>
+  <string name="cmaccount_setup_password_invalid_label">הסיסמה חייבת להכיל 8 תווים לפחות!</string>
   <string name="cmaccount_setup_confirm_password_label">הזן סיסמה מחדש</string>
   <string name="cmaccount_setup_tos_label">סימון תיבה זו מהווה הסכמה ל<u>תנאי השימוש</u>, <u>מדיניות הפרטיות</u>, ו<u>הסכם רישיון משתמש קצה של Cyanogen</u>.</string>
   <string name="cmaccount_add_title">הוסף את חשבונך</string>
@@ -56,7 +56,7 @@
   <string name="cmaccount_creating_profile_message">יוצר את פרופיל ה-Cyanogen שלך</string>
   <string name="cmaccount_login_error_title">התחברות נכשלה</string>
   <string name="cmaccount_login_error_message">שם המשתמש או הסיסמה אינם חוקיים.</string>
-  <string name="cmaccount_killswitch_login_error_message">שם משתמש או סיסמה שגויים, נסה שנית או בקר באתר https://account.cyngn.com כדי לאפס את ססמתך.</string>
+  <string name="cmaccount_killswitch_login_error_message">שם משתמש או סיסמה שגויים, נסה שנית או בקר באתר https://account.cyngn.com כדי לאפס את סיסמתך.</string>
   <string name="cmaccount_server_error_title">שגיאת תקשורת</string>
   <string name="cmaccount_create_account_error_title">שגיאה בעת יצירת חשבון</string>
   <string name="cmaccount_create_account_error_message">אירעה שגיאה בעת יצירת חשבונך. %1$s</string>
@@ -68,10 +68,10 @@
   <string name="cmaccount_granting_access">מעניק גישה ל-%1$s</string>
   <string name="userinfo.summary" tools:ignore="UnusedResources">הצג מידע בסיסי על חשבונך, כולל את כתובת הדוא\"ל שלך</string>
   <string name="cmaccount_password_changed_title">הסיסמה שונתה</string>
-  <string name="cmaccount_password_changed_message">אנא התחבר לחשבון ה-Cyanogen שלך</string>
+  <string name="cmaccount_password_changed_message">התחבר לחשבון ה-Cyanogen שלך</string>
   <string name="cmaccount_setup_email_blank_label">חובה להזין כתובת דוא\"ל</string>
   <string name="cmaccount_setup_password_blank_label">חובה להזין סיסמה</string>
-  <string name="cmaccount_setup_confirm_password_blank_label">הזן את ססמתך שנית</string>
+  <string name="cmaccount_setup_confirm_password_blank_label">הזן את סיסמתך שנית</string>
   <string name="cmaccount_setup_displayname_blank_label">חובה להזין שם תצוגה</string>
   <string name="cmaccount_setup_must_agree_label">עליך להסכים לתנאי השירות</string>
   <string name="cmaccount_setup_displayname_invalid_label">שם תצוגה לא חוקי</string>
@@ -83,7 +83,7 @@
   <string name="cmaccount_password_label">סיסמה</string>
   <string name="cmaccount_password_hint">הזן את הסיסמה שלך</string>
   <string name="cmaccount_confirmpass_label">הזן סיסמה שנית</string>
-  <string name="cmaccount_confirmpass_hint">הזן את ססמתך שנית</string>
+  <string name="cmaccount_confirmpass_hint">הזן את סיסמתך שנית</string>
   <string name="cmaccount_cancel">ביטול</string>
   <string name="cmaccount_create">צור את חשבון ה-Cyanogen שלך</string>
   <!-- New Cyanogen account-related strings -->
@@ -98,7 +98,7 @@
   <string name="cyngn_setup_phone_edittext_hint">הזן את מספר הטלפון שלך</string>
   <string name="cyngn_setup_sending_sms">שולח SMS למספר %1$s. פעולה זו עשויה להימשך מספר שניות.</string>
   <string name="cyngn_setup_show_password">הצג סיסמה</string>
-  <string name="cyngn_setup_reset_password_dialog">כדי לאפס את סיסמתך אנא בקר באתר https://account.cyngn.com מהמחשב שלך.</string>
+  <string name="cyngn_setup_reset_password_dialog">כדי לאפס את סיסמתך, עליך לבקר באתר https://account.cyngn.com מהמחשב שלך.</string>
   <string name="cyngn_setup_forgot_password">שכחת סיסמה?</string>
   <string name="cyngn_setup_toslist_header">בחר כדי להציג</string>
   <string name="cyngn_setup_displayname_description">שם התצוגה שלך מוצג למשתמשים אחרים בעת השארת ביקורות על ערכות עיצוב ביישום ערכות העיצוב.</string>
@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">הסכם רישיון משתמש קצה של Cyanogen</string>
   <string name="sms_rate_warning">אנו נשלח לך הודעת SMS למספר זה כדי לאמת את בעלותך על מספר הטלפון. שליחת SMS זה תעלה כמו כל הודעה אחרת.</string>
   <string name="cyngn_setup_create">צור</string>
+  <string name="control_hotword_service_permission_label">שלוט ביישומי מילת מפתח</string>
+  <string name="control_hotword_service_permission_desc">מאפשר ליישום לשלוט בפעולות של יישום לזיהוי מילות מפתח, הנמצא בפעילות תמידית. יישומים שכאלה יכולים לפקח באופן קבוע על המיקרופון כדי להקשיב ולזהות מילות מפתח וצירופי מפתח.</string>
+  <string name="access_device_id_permission_label">גישה למידע על מזהה ייחודי של המכשיר</string>
+  <string name="access_device_id_permission_desc">מאפשר ליישום מערכת לקרוא את המזהה הייחודי של המכשיר.</string>
+  <string name="device_info_permission_label">גישה למידע על המכשיר</string>
+  <string name="device_info_permission_desc">מאפשר ליישום מערכת לגשת למידע בסיסי על המכשיר ועל מצבו.</string>
 </resources>

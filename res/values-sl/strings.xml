@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Licenčna pogodba za končnega uporabnika Cyanogen</string>
   <string name="sms_rate_warning">Na to številko bomo poslali SMS, da preverimo njeno lastništvo. Pošiljanje SMS-a se bo obračunalo po običajni omrežni ceni.</string>
   <string name="cyngn_setup_create">USTVARI</string>
+  <string name="control_hotword_service_permission_label">nadzor aplikacij za ključne besede</string>
+  <string name="control_hotword_service_permission_desc">Dovoli aplikaciji nadzor nad dejavnostjo vedno vklopljene aplikacije za zaznavanje ključnih besed. Takšne aplikacije lahko neprekinjeno spremljajo mikrofon in poslušajo za določenimi izrečenimi ključnimi besedami.</string>
+  <string name="access_device_id_permission_label">dostop do podatkov o edinstvenem ID-ju naprave</string>
+  <string name="access_device_id_permission_desc">Dovoli sistemski aplikaciji dostop do podatkov o edinstvenem ID-ju naprave.</string>
+  <string name="device_info_permission_label">dostop do podatkov naprave</string>
+  <string name="device_info_permission_desc">Dovoli sistemski aplikaciji dostop do osnovnih podatkov o napravi in njenem stanju.</string>
 </resources>

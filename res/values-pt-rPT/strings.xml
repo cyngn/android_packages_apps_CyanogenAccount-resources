@@ -75,7 +75,7 @@
   <string name="cmaccount_setup_displayname_blank_label">Deve digitar um nome a exibir</string>
   <string name="cmaccount_setup_must_agree_label">Deve concordar com os termos de serviço</string>
   <string name="cmaccount_setup_displayname_invalid_label">Nome a exibir inválido</string>
-  <string name="account_registered_perm_string">Permite que uma aplicação receba notificações de registo da conta Cyanogen. A qualquer aplicação que seja concedida esta permissão será capaz de dar conta quando uma conta Cyanogen é registada.</string>
+  <string name="account_registered_perm_string">Permite que uma aplicação receba notificações de registo de Conta Cyanogen. A qualquer aplicação que seja concedida esta permissão será capaz de saber quando uma Conta Cyanogen é registada.</string>
   <string name="account_registered_permission_label_string">Receber notificações de registo da conta Cyanogen</string>
   <string name="cmaccount_displayname_label">Como gostaria que o seu nome apareça?</string>
   <string name="cmaccount_displayname_hint">Nome a exibir</string>
@@ -142,4 +142,8 @@
   <string name="eula_linktext_cyanogen">Contrato de licença de utilizador final Cyanogen</string>
   <string name="sms_rate_warning">Enviaremos uma SMS para este número a fim de verificar que é o proprietário(a) do número de telefone. A SMS custará a taxa normal de rede.</string>
   <string name="cyngn_setup_create">CRIAR</string>
+  <string name="access_device_id_permission_label">aceder à informação do identificador único do dispositivo</string>
+  <string name="access_device_id_permission_desc">Permite que uma aplicação de sistema aceda ao identificador único do dispositivo.</string>
+  <string name="device_info_permission_label">aceder a informação sobre o dispositivo</string>
+  <string name="device_info_permission_desc">Permite que uma aplicação de sistema aceda a informação básica sobre o dispositivo e o seu estado.</string>
 </resources>

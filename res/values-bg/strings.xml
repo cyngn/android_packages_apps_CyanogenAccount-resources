@@ -92,7 +92,7 @@
   <string name="cyngn_setup_skip">ПРЕСКОЧИ</string>
   <string name="cyngn_setup_next">СЛЕДВАЩА</string>
   <string name="cyngn_skip_setup_dialog_header">Пропуснете настройката на профила?</string>
-  <string name="cyngn_setup_sign_in">ВЛЕЗ\u00AИЗЛЕЗ</string>
+  <string name="cyngn_setup_sign_in">ВЛЕЗ\u00A0ИЗЛЕЗ</string>
   <string name="cyngn_setup_existing_account_edittext_hint">Въведете вашия имейл или телефонен номер</string>
   <string name="cyngn_setup_email_edittext_hint">Моля, въведете имейл адреса си</string>
   <string name="cyngn_setup_phone_edittext_hint">Моля, въведете вашия телефонен номер</string>
@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen Потребителско лицензионно споразумение</string>
   <string name="sms_rate_warning">Ще изпратим SMS съобщение на този номер, за да потвърдим, че този телефонен номер наистина е Ваш. Съобщението ще бъде таксувано според нормалната тарифа на плана Ви.</string>
   <string name="cyngn_setup_create">СЪЗДАВАНЕ</string>
+  <string name="control_hotword_service_permission_label">Проверка на популярни думи</string>
+  <string name="control_hotword_service_permission_desc">Позволява на приложението да се проверява ефективността на приложения за откриване на глас. Такива приложения могат постоянно да следят микрофона за да специфични гласови команди.</string>
+  <string name="access_device_id_permission_label">Достъп до информация за устройството</string>
+  <string name="access_device_id_permission_desc">Позволява системното приложение достъп до информация за устройството.</string>
+  <string name="device_info_permission_label">Достъп до информация за устройството</string>
+  <string name="device_info_permission_desc">Позволява на системно приложение достъп до основна информация за устройството и неговото състояние.</string>
 </resources>

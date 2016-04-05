@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Accordo licenza con utente finale Cyanogen</string>
   <string name="sms_rate_warning">Vi invieremo un SMS a questo numero per verificare la proprietà del tuo numero di telefono. Il costo dell\'invio dell\'SMS è quello stabilito dal tuo piano tariffario.</string>
   <string name="cyngn_setup_create">Crea</string>
+  <string name="control_hotword_service_permission_label">controllo app hotword</string>
+  <string name="control_hotword_service_permission_desc">Consenti ad un\'app di controllare le attività delle app hotword. Queste app possono costantemente monitorare il microfono in attesa del riconoscimento di parole chiave specifiche.</string>
+  <string name="access_device_id_permission_label">accesso all\'ID unico del dispositivo</string>
+  <string name="access_device_id_permission_desc">Consenti ad un\'app di sistema di accedere all\'ID unico del dispositivo.</string>
+  <string name="device_info_permission_label">accesso alle informazioni sul dispositivo</string>
+  <string name="device_info_permission_desc">Consenti ad un\'app di sistema di accedere alle informazioni basilari sul dispositivo e sul suo stato.</string>
 </resources>

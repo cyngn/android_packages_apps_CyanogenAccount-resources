@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen licenční ujednání</string>
   <string name="sms_rate_warning">Bude Vám zaslána SMS, abychom ověřili, že jste vlastníkem tohoto telefonního čísla. Odeslání SMS bude zpoplatněno standardní cenou.</string>
   <string name="cyngn_setup_create">VYTVOŘIT</string>
+  <string name="control_hotword_service_permission_label">řízení aplikací ovládaných slovem</string>
+  <string name="control_hotword_service_permission_desc">Umožní řídit aktivitu aplikace, která umožňuje ovládání klíčovým slovem. Tyto aplikace mohou neustále monitorovat mikrofon a naslouchat na určité klíčové slovo.</string>
+  <string name="access_device_id_permission_label">přístup k informacím o unikátním identifikátoru zařízení</string>
+  <string name="access_device_id_permission_desc">Umožní systémové aplikaci přistupovat k unikátnímu identifikátoru zařízení.</string>
+  <string name="device_info_permission_label">přístup k informaci o zařízení</string>
+  <string name="device_info_permission_desc">Umožní přistupovat k základním informacím o zařízení a jeho stavu.</string>
 </resources>
