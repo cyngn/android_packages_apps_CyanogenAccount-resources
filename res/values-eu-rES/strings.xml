@@ -28,7 +28,7 @@
   <string name="try_again">Saiatu berriro</string>
   <string name="yes">Bai</string>
   <string name="allow">Baimendu</string>
-  <string name="existing">SAIOA HASI ZURE ORAINGO KONTUAREKIN</string>
+  <string name="existing">HASI SAIOA ZURE ORAINGO KONTUAREKIN</string>
   <string name="new_account">EDO SORTU KONTU BERRI BAT</string>
   <string name="go_back">Itzuli</string>
   <string name="skip_anyway">Saltatu hala ere</string>
@@ -92,7 +92,7 @@
   <string name="cyngn_setup_skip">SALTATU</string>
   <string name="cyngn_setup_next">HURRENGOA</string>
   <string name="cyngn_skip_setup_dialog_header">Saltatu kontua ezartzea?</string>
-  <string name="cyngn_setup_sign_in">SINATU\u00A0IN</string>
+  <string name="cyngn_setup_sign_in">HASI\u00A0SAIOA</string>
   <string name="cyngn_setup_existing_account_edittext_hint">Sartu zure eposta helbidea edo telefono zenbakia</string>
   <string name="cyngn_setup_email_edittext_hint">Sartu zure eposta helbidea mesedez</string>
   <string name="cyngn_setup_phone_edittext_hint">Sartu zure telefono zenbakia mesedez</string>
@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen erabiltzaile lizentzia akordioa</string>
   <string name="sms_rate_warning">SMS bat bidaliko dugu zenbaki honetara telefono zenbakiaren jabea zarela egiaztatzeko. SMS mezua bidaltzeak zure sarearen ohiko kostua izango du.</string>
   <string name="cyngn_setup_create">SORTU</string>
+  <string name="control_hotword_service_permission_label">hitzbero aplikazioak kontrolatu</string>
+  <string name="control_hotword_service_permission_desc">Beti lanean dagoen hitzbero atzemate aplikazio baten jarduera kontrolatzea ahalbidetzen dio aplikazioari. Halako aplikazioek mikrofonoan etengabe entzun dezakete esandako esaldi gakoen zain.</string>
+  <string name="access_device_id_permission_label">gailuaren identifikazio esklusiboaren informazioa atzitzea</string>
+  <string name="access_device_id_permission_desc">Gailuaren identifikazio esklusiboaren informazioa atzitzea ahalbidetzen dio sistemako aplikazio bati.</string>
+  <string name="device_info_permission_label">atzitu gailuaren informazioa</string>
+  <string name="device_info_permission_desc">Gailuari eta bere egoerari buruzko oinarrizko informazioa atzitzea ahalbidetzen dio aplikazioari.</string>
 </resources>

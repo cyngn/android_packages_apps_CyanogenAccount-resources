@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen ئابونىت ئىجازەتنامىسى</string>
   <string name="sms_rate_warning">بىز بۇ نومۇرغا قىسقا ئۇچۇر ئەۋەتىش ئارقىلىق تېلېفون نومۇرىڭىزنىڭ ئىگلىك ھوقۇقىنى دەلىللەيمىز. ئۇچۇر يوللىغان چىقىم سىزنىڭ تور تەمىنلىگۈچىنىڭ ھەق ئۆلچىمىگە ئاساسلىنىدۇ.</string>
   <string name="cyngn_setup_create">قۇرۇش</string>
+  <string name="control_hotword_service_permission_label">ئالقىشلانغان ئەپنى كونتىرول قىلىش</string>
+  <string name="control_hotword_service_permission_desc">بىر ئەپنىڭ ئالقىشلانغان ئەپ پائالىيىتىنى كونتىرول قىلىشىغا رۇخسەت قىلىش. بۇ تۈردىكى ئەپ ئۈزلۈكسىز ھالدا مىكروفوننى كۆزىتىپ ئالاھىدە بېكىتىلگەن سۆز ئىبارىلەرنى ئاڭلايدۇ.</string>
+  <string name="access_device_id_permission_label">ئۈسكىنىنىڭ بىردىن بىر ID ئۇچۇرىنى زىيارەت قىلىش</string>
+  <string name="access_device_id_permission_desc">سىستېمىنىڭ ئۈسكىنىنىڭ بىردىن بىر ID ئۇچۇرىنى زىيارەت قىلىشىغا يول قويۇش.</string>
+  <string name="device_info_permission_label">ئۈسكىنە ئۇچۇرىنى زىيارەت قىلىش</string>
+  <string name="device_info_permission_desc">سىستېما ئەپلىرىنىڭ ئۈسكىنە ئۇچۇرى ۋە ھالىتىنىڭ ئاساسىي ئۇچۇرىنى زىيارەت قىلىشىغا يول قويۇش.</string>
 </resources>
