@@ -81,6 +81,7 @@
   <string name="cmaccount_confirmpass_hint">請重新輸入您的密碼</string>
   <string name="cmaccount_cancel">取消</string>
   <string name="cmaccount_create">建立您的 Cyanogen 帳戶</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">標誌</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Cyanogen 技術提供</string>
   <string name="cyngn_setup_skip">跳過</string>
@@ -112,6 +113,7 @@
     <item><b>您的手機，您做主</b>——在主題應用程式裡自訂您的手機</item>
     <item><b>尋找您的手機</b>——如果您的手機遺失了，可以尋找手機并清除內部資料</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt;——了解是誰打電話給您並用 %1$s 攔截垃圾來電</string>
   <string name="switch_to_phone">或電話號碼</string>
   <string name="switch_to_email">或電子郵件地址</string>
@@ -129,6 +131,7 @@
   <string name="cmaccount_settings_add_email_error_message">新增電郵地址時發生錯誤。 %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">新增電話號碼時發生錯誤</string>
   <string name="cmaccount_settings_add_phone_error_message">新增電話號碼時發生錯誤。 %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Cyanogen 服務條款</string>
   <string name="eula_linktext_cyanogen">Cyanogen 終端用戶許可協議</string>
   <string name="sms_rate_warning">我們將傳送短訊至此號碼來驗證您擁有這個電話號碼。傳送短訊將收取一般網絡費用。</string>

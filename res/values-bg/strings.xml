@@ -77,7 +77,7 @@
   <string name="cmaccount_setup_displayname_invalid_label">Невалидно потребителско име</string>
   <string name="account_registered_perm_string">Позволява на приложението да получава уведомления за регистрация на Cyanogen профил. Всяко приложение с това разрешение ще бъде в състояние да следи за Cyanogen  регистрации.</string>
   <string name="account_registered_permission_label_string">Получавайте уведомления за регистран Cyanogen профил</string>
-  <string name="cmaccount_displayname_label">Как искате името ви да се появи?</string>
+  <string name="cmaccount_displayname_label">Как искате вашето име да се появи?</string>
   <string name="cmaccount_displayname_hint">Потребителско име</string>
   <string name="cmaccount_email_label">Имейл</string>
   <string name="cmaccount_password_label">Парола</string>
@@ -86,42 +86,44 @@
   <string name="cmaccount_confirmpass_hint">Въведете отново паролата си</string>
   <string name="cmaccount_cancel">ОТКАЗ</string>
   <string name="cmaccount_create">Създайте Cyanogen профил</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Лого</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Осъществено от Cyanogen</string>
   <string name="cyngn_setup_skip">ПРЕСКОЧИ</string>
   <string name="cyngn_setup_next">СЛЕДВАЩА</string>
   <string name="cyngn_skip_setup_dialog_header">Пропуснете настройката на профила?</string>
-  <string name="cyngn_setup_sign_in">ВЛЕЗ\u00AИЗЛЕЗ</string>
+  <string name="cyngn_setup_sign_in">ВЛЕЗ\u00A0ИЗЛЕЗ</string>
   <string name="cyngn_setup_existing_account_edittext_hint">Въведете вашия имейл или телефонен номер</string>
   <string name="cyngn_setup_email_edittext_hint">Моля, въведете имейл адреса си</string>
   <string name="cyngn_setup_phone_edittext_hint">Моля, въведете вашия телефонен номер</string>
-  <string name="cyngn_setup_sending_sms">Изпращане на КС до %1$s. Това може да отнеме няколко секунди.</string>
+  <string name="cyngn_setup_sending_sms">Изпращане на SMS до %1$s. Това може да отнеме няколко секунди.</string>
   <string name="cyngn_setup_show_password">Покажи паролата</string>
   <string name="cyngn_setup_reset_password_dialog">За да възстановите паролата си, моля посетете https://account.cyngn.com от компютъра си.</string>
   <string name="cyngn_setup_forgot_password">Забравена парола?</string>
   <string name="cyngn_setup_toslist_header">Изберете за да прегледате</string>
   <string name="cyngn_setup_displayname_description">Вашето потребителско име се показва на други потребители, когато оставяте коментари на тема вътре в приложението за теми.</string>
-  <string name="cyngn_setup_create_profile_email_unavailable">Адресът на е-пощата, който сте избрали, е недостъпен.</string>
-  <string name="cyngn_setup_create_profile_email_invalid">Адресът на е-пощата, който сте избрали, е грешен.</string>
+  <string name="cyngn_setup_create_profile_email_unavailable">Имейл адреса, който сте избрали е недостъпен.</string>
+  <string name="cyngn_setup_create_profile_email_invalid">Имейл адреса, който сте избрали е невалиден.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Потребителското име което сте избрали е невалидно, твърде дълго или забранен.</string>
   <string name="cyngn_setup_create_profile_phone_unavailable">Телефонният номер, който въведохте, не е достъпен.</string>
   <string name="cyngn_setup_create_profile_phone_invalid">Телефонният номер, който въведохте, е невалиден.</string>
-  <string name="cyngn_setup_password_strength_meter_label">Сигурност на паролата:</string>
-  <string name="cyngn_setup_password_strength_meter_label_strong">Силна</string>
-  <string name="cyngn_setup_password_strength_meter_label_fair">Средно</string>
+  <string name="cyngn_setup_password_strength_meter_label">Надеждност на паролата:</string>
+  <string name="cyngn_setup_password_strength_meter_label_strong">Висока</string>
+  <string name="cyngn_setup_password_strength_meter_label_fair">Средна</string>
   <string name="cyngn_setup_password_strength_meter_label_weak">Слаба</string>
   <string name="cyngn_setup_password_strength_meter_label_tooshort">Твърде кратка</string>
   <string name="sms_timeout_title">Номерът не може да бъде потвърден</string>
-  <string name="sms_timeout_message">Не успяхме да потвърдим номера Ви чрез КС. Искате ли да потвърдите номера си отново?</string>
+  <string name="sms_timeout_message">Не успяхме да потвърдим вашият номер чрез SMS. Искате ли да потвърдите номера си отново?</string>
   <string-array name="cyngn_account_benefits_list">
     <item><b>Вашия телефон, вашите правила</b> - персонализирате телефона си в приложението за теми</item>
     <item><b>Намери телефона</b> - Намерете и изтрийте всички данни от телефона, ако е изгубен</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Ид. на позвъняващия&lt;/b&gt; – Разберете кой Ви търси и блокирайте дразнителите с %1$s</string>
   <string name="switch_to_phone">ИЛИ ТЕЛЕФОНЕН НОМЕР</string>
   <string name="switch_to_email">ИЛИ ИМЕЙЛ АДРЕС</string>
   <string name="waiting_for_sms_title">Потвърждаване на телефонния номер</string>
-  <string name="enter_sms_code_manually">Ръчно въвеждане на SMS кода за потвърждение</string>
+  <string name="enter_sms_code_manually">Въведете ръчно SMS кода за потвърждение</string>
   <string name="sms_confirmation_code_label">Моля, въведете SMS кода за потвърждение</string>
   <string name="resend_sms">Повторен опит на този номер</string>
   <string name="cmaccount_setup_sms_code_title">Проверка чрез код за потвърждение</string>
@@ -130,13 +132,14 @@
   <string name="cmaccount_settings_confirm_phone_label">Потвърдете телефонния номер</string>
   <string name="cmaccount_settings_add_email_label">Добавяне на имейл адрес към профила</string>
   <string name="cmaccount_settings_add_phone_label">Добавяне на телефонен номер към профила</string>
-  <string name="cmaccount_settings_add_email_error_title">Грешка при добавянето на E-мейл адрес</string>
+  <string name="cmaccount_settings_add_email_error_title">Грешка при добавянето на имейл адрес</string>
   <string name="cmaccount_settings_add_email_error_message">Възникна грешка при добавяне на имейл адрес. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Грешка при добавянето на тел. номер</string>
   <string name="cmaccount_settings_add_phone_error_message">Възникна грешка при добавянето на телефонен номер. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Cyanogen Условия за ползване</string>
   <string name="privacy_linktext_cyanogen">Cyanogen Декларация за поверителност</string>
   <string name="eula_linktext_cyanogen">Cyanogen Потребителско лицензионно споразумение</string>
-  <string name="sms_rate_warning">Ще изпратим SMS на този номер, за да потвърдим, че този телефонен номер наистина е Ваш. Съобщението ще бъде таксувано според нормалната тарифа на плана Ви.</string>
+  <string name="sms_rate_warning">Ще изпратим SMS съобщение на този номер, за да потвърдим, че този телефонен номер наистина е Ваш. Съобщението ще бъде таксувано според нормалната тарифа на плана Ви.</string>
   <string name="cyngn_setup_create">СЪЗДАВАНЕ</string>
 </resources>

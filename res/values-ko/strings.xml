@@ -87,6 +87,7 @@
   <string name="cmaccount_confirmpass_hint">비밀번호  다시 입력</string>
   <string name="cmaccount_cancel">취소</string>
   <string name="cmaccount_create">Cyanogen 계정 생성</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">로고</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Powered by Cyanogen</string>
   <string name="cyngn_setup_skip">건너뛰기</string>
@@ -118,6 +119,7 @@
     <item><b>기기, 규칙</b> - 테마 앱으로 기기의 개인화 설정</item>
     <item><b>기기 찾기</b> - 잃어 버렸을 경우 기기를 찾거나 개인정보를 원격 삭제</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;실시간 발신자 정보 표시&lt;/b&gt; - %1$s을(를) 통해 전화하는 사람의 정보 확인과 스팸 전화 차단을 사용하세요</string>
   <string name="switch_to_phone">또는 전화번호</string>
   <string name="switch_to_email">또는 이메일 주소</string>
@@ -135,6 +137,7 @@
   <string name="cmaccount_settings_add_email_error_message">이메일 주소를 등록하는 동안 오류가 발생했습니다. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">휴대전화 번호를 추가할 수 없음</string>
   <string name="cmaccount_settings_add_phone_error_message">휴대전화 번호를 추가하는 동안 오류가 발생했습니다. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Cyanogen 서비스 조건</string>
   <string name="privacy_linktext_cyanogen">Cyanogen 개인정보 정책</string>
   <string name="eula_linktext_cyanogen">Cyanogen 최종 사용자 권한 계약</string>

@@ -26,4 +26,7 @@
   <string name="allow">Allow</string>
   <string name="existing">SIGN IN WITH YOUR EXISTING ACCOUNT</string>
   <string name="new_account">OR CREATE A NEW ACCOUNT</string>
+  <!-- New Cyanogen account-related strings -->
+  <!-- This is only for devices with callerinfo support. -->
+  <!-- List of display names for links to various terms of service -->
 </resources>

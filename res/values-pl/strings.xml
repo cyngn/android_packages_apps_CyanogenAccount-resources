@@ -87,6 +87,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_confirmpass_hint">wprowadź ponownie hasło</string>
   <string name="cmaccount_cancel">ANULUJ</string>
   <string name="cmaccount_create">Stwórz Konto Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Wspierane przez Cyanogen</string>
   <string name="cyngn_setup_skip">POMIŃ</string>
@@ -118,6 +119,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
     <item><b>Twój telefon, twoje zasady</b> - Dostosuj swój telefon w aplikacji Motywy</item>
     <item><b>Znajdź swój telefon</b> - znajdź i wymaż pamięć telefonu jeśli został zgubiony</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live ID Dzwoniącego&lt;/b&gt; - Rozpoznawaj i blokuj połączenia spam z %1$s</string>
   <string name="switch_to_phone">LUB NUMER TELEFONU</string>
   <string name="switch_to_email">LUB ADRES E-MAIL</string>
@@ -135,6 +137,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="cmaccount_settings_add_email_error_message">Wystąpił błąd podczas dodawania adresu e-mail. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Błąd podczas dodawania numeru telefonu</string>
   <string name="cmaccount_settings_add_phone_error_message">Wystąpił błąd podczas dodawania numeru telefonu. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Warunki Użytkowania Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Polityka Prywatności Cyanogen</string>
   <string name="eula_linktext_cyanogen">Umowa licencyjna użytkownika końcowego Cyanogen</string>

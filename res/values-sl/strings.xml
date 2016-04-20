@@ -34,7 +34,7 @@
   <string name="skip_anyway">Vseeno preskoči</string>
   <string name="dont_skip">Ne preskoči</string>
   <string name="setup_warning_skip_wifi">OPOZORILO: Vaš ponudnik lahko zaračuna dodatne stroške.\n\nNastavitev naprave lahko zahteva znatno omrežno dejavnost.</string>
-  <string name="setup_warning_accept_tos">Strinjati se morate z Pogoji uporabe, Politiko zasebnosti in Licenčno pogodbo za končnega uporabnika tako, da pred nadaljevanjem izberete označno polje.</string>
+  <string name="setup_warning_accept_tos">Strinjati se morate z Pogoji uporabe, Pravilnikom o zasebnosti in Licenčno pogodbo s končnim uporabnikom tako, da pred nadaljevanjem izberete označno polje.</string>
   <string name="setup_warning_skip_anyway">Brez računa OS-a Cianogen ne boste mogli:\n\nBrskati in prenašati tem iz Trgovine tem\n\nNajti ali oddaljeno izbrisati vašega telefona, če se je izgubil</string>
   <string name="cmaccount_setup_create_title">Ustvarite račun</string>
   <string name="cmaccount_setup_killswitchlogin_title">Odkleni napravo</string>
@@ -49,7 +49,7 @@
   <string name="cmaccount_setup_password_mismatch_label">Gesli se ne ujemata!</string>
   <string name="cmaccount_setup_password_invalid_label">Geslo mora biti dolgo vsaj 8 znakov!</string>
   <string name="cmaccount_setup_confirm_password_label">Ponovno vnesite geslo</string>
-  <string name="cmaccount_setup_tos_label">Z označitvijo tega polja se strinjate s <u>Pogoji uporabe Cyanogen</u>, <u>Politiko zasebnosti</u> in <u>Licenčno pogodbo za končnega uporabnika</u>.</string>
+  <string name="cmaccount_setup_tos_label">Z označitvijo tega polja se strinjate s <u>Pogoji uporabe Cyanogen</u>, <u>Pravilnikom o zasebnosti</u> in <u>Licenčno pogodbo s končnim uporabnikom</u>.</string>
   <string name="cmaccount_add_title">Dodajte svoj račun</string>
   <string name="cmaccount_learn_more">Več o tem \u2026</string>
   <string name="cmaccount_login_message">Prijavljanje v Cyanogen</string>
@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">Ponovno vnesite svoje geslo</string>
   <string name="cmaccount_cancel">PREKLIČI</string>
   <string name="cmaccount_create">Ustvari račun Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logotip</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Omogoča Cyanogen</string>
   <string name="cyngn_setup_skip">PRESKOČI</string>
@@ -117,6 +118,7 @@
     <item><b>Vaš telefon vaša pravila</b> - prilagodite svoj telefon v aplikaciji za teme</item>
     <item><b>Poiščite svoj telefon</b> - poiščite in izbrišite svoj telefon, če je izgubljen</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Bodite obveščeni, kdo vas kliče, in blokirajte klicatelje s/z %1$s</string>
   <string name="switch_to_phone">ALI TELEFONSKO ŠTEVILKO</string>
   <string name="switch_to_email">ALI E-POŠTNI NASLOV</string>
@@ -134,9 +136,10 @@
   <string name="cmaccount_settings_add_email_error_message">Pri dodajanju e-poštnega naslova se je pojavila napaka. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Napaka pri dodajanju telefonske številke</string>
   <string name="cmaccount_settings_add_phone_error_message">Pri dodajanju telefonske številke se je pojavila napaka. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Pogoji storitve Cyanogen</string>
-  <string name="privacy_linktext_cyanogen">Politika zasebnosti Cyanogen</string>
-  <string name="eula_linktext_cyanogen">Licenčna pogodba za končnega uporabnika Cyanogen</string>
+  <string name="privacy_linktext_cyanogen">Pravilnik o zasebnosti Cyanogen</string>
+  <string name="eula_linktext_cyanogen">Licenčna pogodba s končnim uporabnikom za končnega uporabnika Cyanogen</string>
   <string name="sms_rate_warning">Na to številko bomo poslali SMS, da preverimo njeno lastništvo. Pošiljanje SMS-a se bo obračunalo po običajni omrežni ceni.</string>
   <string name="cyngn_setup_create">USTVARI</string>
 </resources>

@@ -78,6 +78,7 @@
   <string name="cmaccount_confirmpass_hint">entrez à nouveau votre mot de passe</string>
   <string name="cmaccount_cancel">ANNULER</string>
   <string name="cmaccount_create">Créer votre compte Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logo</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Propulsé par Cyanogen</string>
   <string name="cyngn_setup_skip">IGNORER</string>
@@ -102,6 +103,8 @@
     <item><b>Votre téléphone, vos règles</b> - Personnalisez votre téléphone dans l\'application Thèmes</item>
     <item><b>Trouvez votre téléphone</b> - Trouvez et réinitialisez votre téléphone s\'il est perdu</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Conditions d\'utilisation de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Politique de confidentialité de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Contrat de licence de l\'utilisateur final Cyanogen</string>

@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">torna a introduir la teva contrasenya</string>
   <string name="cmaccount_cancel">CANCEL·LA</string>
   <string name="cmaccount_create">Crea el teu compte de Cyanogen</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logotip</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Funciona amb Cyanogen</string>
   <string name="cyngn_setup_skip">OMET</string>
@@ -117,6 +118,7 @@
     <item><b>El teu telèfon, les teves normes</b> - Personalitza el teu telèfon a l\'aplicació de Temes</item>
     <item><b>Troba el teu telèfon</b> - Troba i esborra el teu telèfon si el perds</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt; Live Caller ID&lt;/b&gt; - Sàpigues qui t\'està trucant i bloqueja els números de trucades brossa amb %1$s</string>
   <string name="switch_to_phone">O NÚMERO DE TELÈFON</string>
   <string name="switch_to_email">O ADREÇA DE CORREU ELECTRÒNIC</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">S\'ha produït un error en afegir una adreça electrònica. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Error en afegir el número de telèfon</string>
   <string name="cmaccount_settings_add_phone_error_message">S\'ha produït un error en afegir el número de telèfon. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Condicions del servei de Cyanogen</string>
   <string name="privacy_linktext_cyanogen">Política de privacitat de Cyanogen</string>
   <string name="eula_linktext_cyanogen">Acord de llicència d\'usuari final de Cyanogen</string>

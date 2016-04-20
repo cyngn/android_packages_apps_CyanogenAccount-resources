@@ -86,6 +86,7 @@
   <string name="cmaccount_confirmpass_hint">a jelszó újbóli megadása</string>
   <string name="cmaccount_cancel">MÉGSE</string>
   <string name="cmaccount_create">Cyanogen fiók létrehozása</string>
+  <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Logó</string>
   <string name="cyngn_setup_poweredby_logo_alttext">Powered by Cyanogen</string>
   <string name="cyngn_setup_skip">KIHAGY</string>
@@ -117,6 +118,7 @@
     <item><b>Az Ön telefonja, az Ön szabályai</b> - telefon testreszabása a témák alkalmazásban</item>
     <item><b>Találja meg telefonját</b> - telefon megkeresése és törlése, ha elveszett</item>
   </string-array>
+  <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - Tudja meg, ki hívja, és blokkolja a spam hívókat ezzel: %1$s</string>
   <string name="switch_to_phone">VAGY TELEFONSZÁM</string>
   <string name="switch_to_email">VAGY E-MAIL CÍM</string>
@@ -134,6 +136,7 @@
   <string name="cmaccount_settings_add_email_error_message">Hiba történt az e-mail cím hozzáadása közben. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Telefonszám hozzáadási hiba</string>
   <string name="cmaccount_settings_add_phone_error_message">Hiba történt a telefonszám hozzáadása közben. %1$s</string>
+  <!-- List of display names for links to various terms of service -->
   <string name="tos_linktext_cyanogen">Cyanogen Szolgáltatási feltételek</string>
   <string name="privacy_linktext_cyanogen">Cyanogen Adatvédelmi irányelv</string>
   <string name="eula_linktext_cyanogen">Cyanogen Végfelhasználói licencszerződés</string>
