@@ -143,4 +143,10 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="eula_linktext_cyanogen">Umowa licencyjna użytkownika końcowego Cyanogen</string>
   <string name="sms_rate_warning">Wyślemy SMS na ten numer, aby zweryfikować czy podany numer telefonu jest twój. Koszt SMS jest równy normalnej cenie wiadomości SMS.</string>
   <string name="cyngn_setup_create">UTWÓRZ</string>
+  <string name="control_hotword_service_permission_label">kontrola aplikacji słów kluczy</string>
+  <string name="control_hotword_service_permission_desc">Zezwól aplikacji na kontrolowanie zawsze aktywnej detekcji słów kluczy. Taka aplikacja będzie cały czas słuchać przez mikrofon w oczekiwaniu na wypowiedzenie słów kluczy.</string>
+  <string name="access_device_id_permission_label">dostęp do informacji o unikalnym ID urządzenia</string>
+  <string name="access_device_id_permission_desc">Zezwala aplikacji systemowej na dostęp do informacji o unikalnym ID urządzenia.</string>
+  <string name="device_info_permission_label">dostęp do informacji o urządzeniu</string>
+  <string name="device_info_permission_desc">Zezwala aplikacji systemowej na dostęp do podstawowych informacji o urządzeniu i jego stanie.</string>
 </resources>

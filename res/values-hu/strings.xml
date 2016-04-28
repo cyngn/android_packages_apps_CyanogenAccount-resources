@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen Végfelhasználói licencszerződés</string>
   <string name="sms_rate_warning">Egy SMS-t fogunk küldeni erre a számra, hogy igazolja a telefonszám Önhöz tartozik. Az SMS ára a normál hálózati díjszabás szerinti.</string>
   <string name="cyngn_setup_create">LÉTREHOZÁS</string>
+  <string name="control_hotword_service_permission_label">hotword alkalmazások vezérlése</string>
+  <string name="control_hotword_service_permission_desc">Lehetővé teszi az alkalmazás számára, hogy vezérelje a hotword-észlelési alkalmazás aktivitását. Az ilyen alkalmazások folyamatosan figyelhetik a mikrofont, hogy észleljék a kimondott kulcsszavakat.</string>
+  <string name="access_device_id_permission_label">hozzáférés egyedi eszközazonosító információhoz</string>
+  <string name="access_device_id_permission_desc">Lehetővé teszi a rendszeralkalmazás számára, hogy hozzáférjen az egyedi eszközazonosítóhoz.</string>
+  <string name="device_info_permission_label">hozzáférés eszközinformációkhoz</string>
+  <string name="device_info_permission_desc">Lehetővé teszi a rendszeralkalmazás számára, hogy hozzáférjen alapvető információkhoz a készülékről és annak állapotáról.</string>
 </resources>
