@@ -35,7 +35,7 @@
   <string name="dont_skip">لا تتخط</string>
   <string name="setup_warning_skip_wifi">تحذير: قد تتحمل تكلفة إضافية نظير البيانات من شركة الجوال.\n\nقد يتطلب إعداد الجهاز نشاطاً كبيراً على الشبكة.</string>
   <string name="setup_warning_accept_tos">يجب الموافقة على شروط الاستخدام وسياسة الخصوصية واتفاقية ترخيص المستخدم النهائي عن طريق وضع علامة في خانة الاختيار قبل الاستمرار.</string>
-  <string name="setup_warning_skip_anyway">بدون حساب Cyanogen OS لن تستطيع:\n\nتصفح وتحميل السمات في تطبيق السمات\n\nتحديد مكان هاتفك أو مسح ذاكرته عن بعد إذا فُقد</string>
+  <string name="setup_warning_skip_anyway">بدون حساب Cyanogen OS لن تستطيع: n\n\تصفح وتحميل السمات في تطبيق السماتn\n\تحديد مكان هاتفك أو مسح ذاكرته عن بعد إذا فُقد</string>
   <string name="cmaccount_setup_create_title">إنشاء حسابك</string>
   <string name="cmaccount_setup_killswitchlogin_title">إلغاء قفل الجهاز</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">قفل الجهاز</string>
@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">اتفاقية ترخيص Cyanogen للمستخدم النهائي </string>
   <string name="sms_rate_warning">سوف نرسل رسالة قصيرة إلى هذا الرقم للتحقق من ملكيتك لرقم الهاتف. إرسال رسالة قصيرة يكون بالسعر العادي للشبكة.</string>
   <string name="cyngn_setup_create">إنشاء</string>
+  <string name="control_hotword_service_permission_label">التحكم في تطبيقات الكلمات الأساسية</string>
+  <string name="control_hotword_service_permission_desc">يسمح لتطبيق معين بالتحكم في نشاط تطبيق اكتشاف كلمة أساسية بصفة دائمة. يمكن لتلك التطبيقات مراقبة الميكروفون بصفة مستمرة للاستماع إلى مقاطع صوتية أساسية معينة.</string>
+  <string name="access_device_id_permission_label">الوصول إلى معلومات هوية الجهاز الفريدة</string>
+  <string name="access_device_id_permission_desc">يسمح لتطبيق نظام بالوصول إلى هوية الجهاز الفريدة.</string>
+  <string name="device_info_permission_label">الوصول إلى معلومات الجهاز</string>
+  <string name="device_info_permission_desc">يسمح لتطبيق نظام بالوصول إلى المعلومات الأساسية حول الجهاز وحالته.</string>
 </resources>

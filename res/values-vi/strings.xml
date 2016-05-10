@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Thỏa thuận giấy phép người dùng cuối Cyanogen</string>
   <string name="sms_rate_warning">Chúng tôi sẽ gửi SMS đến số này để xác minh quyền sở hữu số điện thoại của bạn. Gửi SMS sẽ làm mất phí mạng thông thường.</string>
   <string name="cyngn_setup_create">TẠO</string>
+  <string name="control_hotword_service_permission_label">kiểm soát các ứng dụng hotword</string>
+  <string name="control_hotword_service_permission_desc">Cho phép ứng dụng kiểm soát hoạt động của ứng dụng phát hiện hotword luôn luôn bật. Các ứng dụng đó có thể liên tục theo dõi micro để lắng nghe các cụm từ khóa cụ thể đã nói.</string>
+  <string name="access_device_id_permission_label">truy cập thông tin ID thiết bị duy nhất</string>
+  <string name="access_device_id_permission_desc">Cho phép ứng dụng hệ thống truy cập ID thiết bị duy nhất.</string>
+  <string name="device_info_permission_label">truy cập thông tin thiết bị</string>
+  <string name="device_info_permission_desc">Cho phép ứng dụng hệ thống truy cập thông tin cơ bản về thiết bị và tình trạng của thiết bị.</string>
 </resources>

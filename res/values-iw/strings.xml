@@ -20,9 +20,9 @@
   <string name="app_name">חשבון Cyanogen</string>
   <string name="done">בוצע</string>
   <string name="back">חזור</string>
-  <string name="cancel">ביטול\u00A0</string>
-  <string name="create">צור\u00A0\u00A0&gt;</string>
-  <string name="login">התחבר\u00A0\u00A0&gt;</string>
+  <string name="cancel">ביטולu00A0\</string>
+  <string name="create">צור;u00A0\u00A0&amp;gt\</string>
+  <string name="login">התחבר;u00A0\u00A0&amp;gt\</string>
   <string name="ok">אישור</string>
   <string name="no">לא</string>
   <string name="try_again">נסה שנית</string>
@@ -51,7 +51,7 @@
   <string name="cmaccount_setup_confirm_password_label">הזן סיסמה מחדש</string>
   <string name="cmaccount_setup_tos_label">סימון תיבה זו מהווה הסכמה ל<u>תנאי השימוש</u>, <u>מדיניות הפרטיות</u>, ו<u>הסכם רישיון משתמש קצה של Cyanogen</u>.</string>
   <string name="cmaccount_add_title">הוסף את חשבונך</string>
-  <string name="cmaccount_learn_more">למד עוד\u2026</string>
+  <string name="cmaccount_learn_more">למד עודu2026\</string>
   <string name="cmaccount_login_message">מתחבר ל-Cyanogen</string>
   <string name="cmaccount_creating_profile_message">יוצר את פרופיל ה-Cyanogen שלך</string>
   <string name="cmaccount_login_error_title">התחברות נכשלה</string>
@@ -92,7 +92,7 @@
   <string name="cyngn_setup_skip">דלג</string>
   <string name="cyngn_setup_next">הבא</string>
   <string name="cyngn_skip_setup_dialog_header">לדלג על הגדרת חשבון?</string>
-  <string name="cyngn_setup_sign_in">כניסה\u00A0IN</string>
+  <string name="cyngn_setup_sign_in">התחבר</string>
   <string name="cyngn_setup_existing_account_edittext_hint">הזן את מספר הטלפון או כתובת הדוא\"ל שלך</string>
   <string name="cyngn_setup_email_edittext_hint">הזן את כתובת הדוא\"ל שלך</string>
   <string name="cyngn_setup_phone_edittext_hint">הזן את מספר הטלפון שלך</string>
@@ -119,7 +119,7 @@
     <item><b>מצא את הטלפון שלך</b> - מצא ומחק את הטלפון שלך במקרה של אובדן</item>
   </string-array>
   <!-- This is only for devices with callerinfo support. -->
-  <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Live Caller ID&lt;/b&gt; - דע מי מתקשר וחסום שיחות זבל עם %1$s</string>
+  <string name="cyngn_account_benefit_callerinfo">;lt;b&gt;Live Caller ID&lt;/b&amp;gt&amp; - דע מי מתקשר וחסום שיחות זבל עם %1$s</string>
   <string name="switch_to_phone">או מספר טלפון</string>
   <string name="switch_to_email">או כתובת דוא\"ל</string>
   <string name="waiting_for_sms_title">מאמת מספר טלפון</string>
@@ -144,7 +144,7 @@
   <string name="cyngn_setup_create">צור</string>
   <string name="control_hotword_service_permission_label">שלוט ביישומי מילת מפתח</string>
   <string name="control_hotword_service_permission_desc">מאפשר ליישום לשלוט בפעולות של יישום לזיהוי מילות מפתח, הנמצא בפעילות תמידית. יישומים שכאלה יכולים לפקח באופן קבוע על המיקרופון כדי להקשיב ולזהות מילות מפתח וצירופי מפתח.</string>
-  <string name="access_device_id_permission_label">גישה למידע על מזהה ייחודי של המכשיר</string>
+  <string name="access_device_id_permission_label">גש למידע על מזהה ייחודי של המכשיר</string>
   <string name="access_device_id_permission_desc">מאפשר ליישום מערכת לקרוא את המזהה הייחודי של המכשיר.</string>
   <string name="device_info_permission_label">גישה למידע על המכשיר</string>
   <string name="device_info_permission_desc">מאפשר ליישום מערכת לגשת למידע בסיסי על המכשיר ועל מצבו.</string>

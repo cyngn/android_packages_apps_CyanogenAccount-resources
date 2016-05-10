@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Contrat de licence de l\'utilisateur final Cyanogen</string>
   <string name="sms_rate_warning">Nous allons envoyer un SMS à ce numéro pour vérifier que ce numéro de téléphone vous appartient bien. L\'envoi du SMS coûtera le prix normal sur votre réseau.</string>
   <string name="cyngn_setup_create">CRÉER</string>
+  <string name="control_hotword_service_permission_label">contrôler les appli de détection vocale de mot-clé</string>
+  <string name="control_hotword_service_permission_desc">Permet à une appli de contrôler l\'activité d\'une appli de détection vocale de mot-clé. Ces applications peuvent surveiller constamment le microphone pour détecter des mots-clé spécifiques.</string>
+  <string name="access_device_id_permission_label">accès à l\'identifiant unique de l\'appareil</string>
+  <string name="access_device_id_permission_desc">Permet à une application système d\'accéder à l\'identifiant unique de l\'appareil.</string>
+  <string name="device_info_permission_label">accès aux informations de l\'appareil</string>
+  <string name="device_info_permission_desc">Permet à une application système d\'accéder à des informations basiques sur l\'appareil et son état.</string>
 </resources>

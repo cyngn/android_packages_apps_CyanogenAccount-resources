@@ -142,4 +142,10 @@
   <string name="eula_linktext_cyanogen">Cyanogen Son Kullanıcı Lisans Sözleşmesi</string>
   <string name="sms_rate_warning">Telefon numarasının size ait olduğunu doğrulamak için bu numaraya bir SMS göndereceğiz. SMS göndermek normal ücrete tabi olacak.</string>
   <string name="cyngn_setup_create">OLUŞTUR</string>
+  <string name="control_hotword_service_permission_label">sesli komut bekleyen uygulamaları kontrol edin</string>
+  <string name="control_hotword_service_permission_desc">Bir uygulamanın başka bir sürekli-dinleyen sesli komut tespit uygulamasının etkinliğini kontrol etmesine izin verir. Böyle uygulamalar belirli ses komutlarını dinlemek için sürekli mikrofonu izleyebilirler.</string>
+  <string name="access_device_id_permission_label">benzersiz cihaz kimliği bilgisine erişim</string>
+  <string name="access_device_id_permission_desc">Bir sistem uygulamasının benzersiz cihaz kimlik bilgilerine erişimine izin verir.</string>
+  <string name="device_info_permission_label">cihaz bilgilerine erişim</string>
+  <string name="device_info_permission_desc">Bir sistem uygulamasının cihazın durumu ve temel bilgilerine erişmesine izin verir.</string>
 </resources>
