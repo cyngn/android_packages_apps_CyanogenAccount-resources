@@ -35,7 +35,7 @@
   <string name="dont_skip">אל תדלג</string>
   <string name="setup_warning_skip_wifi">אזהרה: אתה עלול לקבל חיובי נתונים גבוהים מספק התקשורתר.\n\nהגדרת מכשיר עלולה לצרוך פעילות רשת רבה.</string>
   <string name="setup_warning_accept_tos">עליך להסכים לתנאי השימוש, מדיניות הפרטיות והסכם רישיון משתמש קצה על-ידי סימון התיבה לפני המשך התהליך.</string>
-  <string name="setup_warning_skip_anyway">ללא חשבון מערכת Cyanogen, לא ניתן יהיה:n\n\להציג ולהוריד ערכות עיצוב מהחנותn\n\לאתר או למחוק מרחוק את הטלפון שלך במקרה של אובדן</string>
+  <string name="setup_warning_skip_anyway">ללא חשבון מערכת Cyanogen, לא ניתן יהיה:\n\nלהציג ולהוריד ערכות עיצוב מהחנות\n\nלאתר או למחוק מרחוק את הטלפון שלך במקרה של אובדן</string>
   <string name="cmaccount_setup_create_title">צור את החשבון שלך</string>
   <string name="cmaccount_setup_killswitchlogin_title">פתח מכשיר</string>
   <string name="cmaccount_setup_killswitch_opt_in_title">נעל מכשיר</string>
