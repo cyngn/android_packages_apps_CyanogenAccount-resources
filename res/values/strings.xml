@@ -159,32 +159,32 @@
     <string name="sms_rate_warning">We will send an SMS to this number to verify your ownership of the telephone number. Sending an SMS will cost the normal network rate.</string>
     <string name="cyngn_setup_create">CREATE</string>
 
-    <string name="control_hotword_service_permission_label">Control hotword applications</string>
-    <string name="control_hotword_service_permission_desc">Allows an application to control the activity of an always-on hotword detection application. Such applications can constantly monitor the microphone to listen for specific spoken key phrases.</string>
+    <string name="control_hotword_service_permission_label">control hotword applications</string>
+    <string name="control_hotword_service_permission_desc">Allows an app to control the activity of an always-on hotword detection app. Such apps can constantly monitor the microphone to listen for specific spoken key phrases.</string>
 
-    <string name="access_device_id_permission_label">Access unique device ID information</string>
-    <string name="access_device_id_permission_desc">Allows a system application to access the unique device id.</string>
+    <string name="access_device_id_permission_label">access unique device ID information</string>
+    <string name="access_device_id_permission_desc">Allows a system app to access the unique device ID.</string>
 
-    <string name="device_info_permission_label">Access device information</string>
-    <string name="device_info_permission_desc">Allows a system application to access basic information about the device and it\'s state.</string>
+    <string name="device_info_permission_label">access device information</string>
+    <string name="device_info_permission_desc">Allows a system app to access basic information about the device and it\'s state.</string>
 
-    <string name="publish_nudge_permission_label">Publish nudges</string>
+    <string name="publish_nudge_permission_label">publish nudges</string>
     <string name="publish_nudge_permission_desc">Allows an application to display notifications and dialogs through the discovery framework.</string>
     <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
     <string name="discovery_dialog_nudge_subhead_test">Truecaller will have access to your contacts, me profile, and Cyanogen OS account, which may include your email address. <a href="http://www.cyngn.com">Learn More</a></string>
     <string name="discovery_dialog_nudge_body_test">Welcome! You can now enable Truecaller to identify unknown callers and block unwanted calls. Do you want to use it?</string>
 
-    <string name="incall_service_cleanup_permission_label">Request clean up of InCall Service Plugins</string>
+    <string name="incall_service_cleanup_permission_label">request clean up of InCall Service Plugins</string>
     <string name="incall_service_cleanup_permission_desc">Allows an application to request to clean up any data pertaining to a specific InCall Service Plugin to be cleared.</string>
-    <string name="bind_incall_service_permission_label">Bind to InCallService</string>
+    <string name="bind_incall_service_permission_label">bto InCallService</string>
     <string name="bind_incall_service_permission_desc">Allows an application to bind to the InCallService to discover and use InCall plugins.</string>
 
-    <string name="camera_permission_label">Camera plugin consumer</string>
+    <string name="camera_permission_label">camera plugin consumer</string>
     <string name="camera_permission_desc">Allows an application to connect to camera plugins</string>
-    <string name="camera_plugin_permission_label">Camera plugin</string>
+    <string name="camera_plugin_permission_label">camera plugin</string>
     <string name="camera_plugin_permission_desc">Allows an application to be a plugin for the Camera</string>
 
-    <string name="deeplink_service_cleanup_permission_label">Request clean up of DeepLink Service Plugins</string>
+    <string name="deeplink_service_cleanup_permission_label">request clean up of DeepLink Service Plugins</string>
     <string name="deeplink_service_cleanup_permission_desc">Allows an application to request clearing a DeepLink plugin's data.</string>
     <string name="bind_deep_link_service_permission_desc">Allows an application to bind to the DeepLink service for discovering DeepLink mods.</string>
     <string name="read_deeplink_database_permission_desc">Allows applications to perform READ operations against DeepLink databases defined by DeepLink enabled Mods.</string>
