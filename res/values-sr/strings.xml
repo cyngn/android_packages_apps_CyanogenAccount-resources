@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Cyanogen заштита лиценци</string>
   <string name="sms_rate_warning">Послаћемо SMS на овај број да потврдимо власништво телефонског броја. Слање SMS-а ће коштати по нормалној цени мреже.</string>
   <string name="cyngn_setup_create">КРЕИРАЈ</string>
-  <string name="control_hotword_service_permission_label">Контрола апликација актуелних речи</string>
-  <string name="control_hotword_service_permission_desc">Дозволи апликацији увек укључену контролу активности детекције актуелних речи. Таква апликација константно прати микрофон и слуша изговорене специфичне фразе.</string>
-  <string name="access_device_id_permission_label">приступ јединственој идентификацији уређаја</string>
-  <string name="access_device_id_permission_desc">Дозволи системској апликацији да приступи јединственој идентификацији уређаја.</string>
-  <string name="device_info_permission_label">приступ информацијама уређаја</string>
-  <string name="device_info_permission_desc">Дозвољава системској апликацији приступ основним информацијама о уређају и његовом стању.</string>
 </resources>

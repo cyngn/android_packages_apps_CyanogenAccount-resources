@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Llicencia d\'Acuerdu col Usuariu Final de Cyanogen</string>
   <string name="sms_rate_warning">Vamos unviate un SMS a esti númberu pa verificar la propiedá del númberu de teléfonu. Unviar un SMS va costate la tasa normal de la rede.</string>
   <string name="cyngn_setup_create">CREAR</string>
-  <string name="control_hotword_service_permission_label">controlar aplicaciones de deteición de pallabres clave</string>
-  <string name="control_hotword_service_permission_desc">Permite qu\'una app remane l\'actividá d\'una app de deteición de pallabres clave que ta siempre activa (hotword). Estes apps puen monitorear el micrófonu constantemente pa escuchar frases falaes determinaes.</string>
-  <string name="access_device_id_permission_label">acceder a información del ID únicu de preséu</string>
-  <string name="access_device_id_permission_desc">Permite qu\'una aplicación de sistema acceda al ID de preséu únicu.</string>
-  <string name="device_info_permission_label">acceder a información del preséu</string>
-  <string name="device_info_permission_desc">Permite qu\'una aplicación de sistema acceda a información básica sobre\'l preséu y el so estáu.</string>
 </resources>

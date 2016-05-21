@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Contrato de licença de usuário final do Cyanogen</string>
   <string name="sms_rate_warning">Vamos enviar um SMS para este número para confirmar a propriedade do número de telefone. O envio de um SMS custará a tarifa de rede normal.</string>
   <string name="cyngn_setup_create">CRIAR</string>
-  <string name="control_hotword_service_permission_label">controlar apps que detectam palavras chaves</string>
-  <string name="control_hotword_service_permission_desc">Permite que um app controle a atividade de um app que detecta palavras chaves em tempo real. Estes apps podem monitorar constantemente o microfone de forma a detectarem palavras chaves específicas pronunciadas.</string>
-  <string name="access_device_id_permission_label">acesso à informação da ID única do dispositivo</string>
-  <string name="access_device_id_permission_desc">Permite que um app de sistema acesse a ID única do dispositivo.</string>
-  <string name="device_info_permission_label">acesso às informações do dispositivo</string>
-  <string name="device_info_permission_desc">Permite que um app de sistema acesse as informações básicas sobre o dispositivo e o seu estado.</string>
 </resources>

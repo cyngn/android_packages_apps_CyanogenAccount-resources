@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Cyanogenin Käyttöoikeussopimus</string>
   <string name="sms_rate_warning">Lähetämme tekstiviestin tähän numeroon tarkistaaksemme että numero kuuluu sinulle. Tekstiviestin lähettäminen maksaa normaalin tekstiviestin hinnan.</string>
   <string name="cyngn_setup_create">LUO</string>
-  <string name="control_hotword_service_permission_label">ohjaa käynnistyssanasovelluksia</string>
-  <string name="control_hotword_service_permission_desc">Sallii sovelluksen ohjata aina päällä olevia käynnistyssanasovelluksia. Nämä sovellukset voivat jatkuvasti valvoa mikrofonia kuunnellakseen määrättyä käynnistyssanaa.</string>
-  <string name="access_device_id_permission_label">pääsy laitekohtaiseen tunnukseen</string>
-  <string name="access_device_id_permission_desc">Sallii järjestelmäsovelluksen käyttää laitekohtaista tunnusta.</string>
-  <string name="device_info_permission_label">pääsy laitteen tietoihin</string>
-  <string name="device_info_permission_desc">Sallii järjestelmäsovelluksen käyttää perustietoja laitteesta ja sen tilasta.</string>
 </resources>

@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Cyanogen slutbruger-licensaftale</string>
   <string name="sms_rate_warning">Vi vil sende en SMS til dette nummer for at bekræfte dit ejerskab af telefonnummeret. At sende SMS\'en vil koste den normale sats fra din udbyder.</string>
   <string name="cyngn_setup_create">OPRET</string>
-  <string name="control_hotword_service_permission_label">kontrollér hotword-applikationer</string>
-  <string name="control_hotword_service_permission_desc">Tillader en app at styre aktiviteten af en anden app hvor hotword-detektering altid er slået til. Sådanne apps kan hele tiden overvåge mikrofonen for at lytte til specifikke talte nøgle sætninger.</string>
-  <string name="access_device_id_permission_label">adgang til enhedsspecifik id-information</string>
-  <string name="access_device_id_permission_desc">Tillader en system app at få adgang til enhedsspecifik id-information.</string>
-  <string name="device_info_permission_label">adgang til enhedsinformation</string>
-  <string name="device_info_permission_desc">Tillader en system app at få adgang til enhedens basale information samt tilstand.</string>
 </resources>

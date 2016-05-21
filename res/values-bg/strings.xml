@@ -142,10 +142,14 @@
   <string name="eula_linktext_cyanogen">Cyanogen Потребителско лицензионно споразумение</string>
   <string name="sms_rate_warning">Ще изпратим SMS съобщение на този номер, за да потвърдим, че този телефонен номер наистина е Ваш. Съобщението ще бъде таксувано според нормалната тарифа на плана Ви.</string>
   <string name="cyngn_setup_create">СЪЗДАВАНЕ</string>
-  <string name="control_hotword_service_permission_label">Проверка на популярни думи</string>
-  <string name="control_hotword_service_permission_desc">Позволява на приложението да се проверява ефективността на приложения за откриване на глас. Такива приложения могат постоянно да следят микрофона за да специфични гласови команди.</string>
-  <string name="access_device_id_permission_label">Достъп до информация за устройството</string>
-  <string name="access_device_id_permission_desc">Позволява системното приложение достъп до информация за устройството.</string>
-  <string name="device_info_permission_label">Достъп до информация за устройството</string>
-  <string name="device_info_permission_desc">Позволява на системно приложение достъп до основна информация за устройството и неговото състояние.</string>
+  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller ще имат достъп до вашите контакти, профила и профила Ви Cyanogen OS, които могат да включват вашия имейл адрес. <a href="http://www.cyngn.com"> Научете повече</a></string>
+  <string name="discovery_dialog_nudge_body_test">Добре дошли! Сега можете да разрешите Truecaller да идентифицира неизвестни повиквания и да блокирате нежелани разговори. Искате ли да го използвате?</string>
+  <string name="default_mod_always_ask">Винаги питай</string>
+  <string name="global_toggle_on">Включване</string>
+  <string name="global_toggle_off">Изключване</string>
+  <string name="notes_settings_title">Настройки за бележки</string>
+  <string name="task_settings_title">Настройки на задачи</string>
+  <string name="unknown_mod">Неизвестен модул</string>
+  <string name="notes_default_mod_list_preference_title">Бележки</string>
 </resources>

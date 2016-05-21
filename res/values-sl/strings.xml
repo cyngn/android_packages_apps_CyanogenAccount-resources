@@ -142,10 +142,14 @@
   <string name="eula_linktext_cyanogen">Licenčna pogodba s končnim uporabnikom za končnega uporabnika Cyanogen</string>
   <string name="sms_rate_warning">Na to številko bomo poslali SMS, da preverimo njeno lastništvo. Pošiljanje SMS-a se bo obračunalo po običajni omrežni ceni.</string>
   <string name="cyngn_setup_create">USTVARI</string>
-  <string name="control_hotword_service_permission_label">nadzor aplikacij za ključne besede</string>
-  <string name="control_hotword_service_permission_desc">Dovoli aplikaciji nadzor nad dejavnostjo vedno vklopljene aplikacije za zaznavanje ključnih besed. Takšne aplikacije lahko neprekinjeno spremljajo mikrofon in poslušajo za določenimi izrečenimi ključnimi besedami.</string>
-  <string name="access_device_id_permission_label">dostop do podatkov o edinstvenem ID-ju naprave</string>
-  <string name="access_device_id_permission_desc">Dovoli sistemski aplikaciji dostop do podatkov o edinstvenem ID-ju naprave.</string>
-  <string name="device_info_permission_label">dostop do podatkov naprave</string>
-  <string name="device_info_permission_desc">Dovoli sistemski aplikaciji dostop do osnovnih podatkov o napravi in njenem stanju.</string>
+  <string name="discovery_dialog_nudge_activity_label">OS Cyanogen</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller bo imel dostop do vaših stikov, profila jaz in računa OS-a Cyanogen, kar lahko vključuje vaš e-poštni naslov. <a href="http://www.cyngn.com">Več o tem</a></string>
+  <string name="discovery_dialog_nudge_body_test">Dobrodošli! Truecaller lahko sedaj omogočite za prepoznavanje neznanih klicateljev in blokiranje neželenih klicev. Ali ga želite uporabljati?</string>
+  <string name="default_mod_always_ask">Vedno vprašaj</string>
+  <string name="global_toggle_on">Vkl.</string>
+  <string name="global_toggle_off">Izk.</string>
+  <string name="notes_settings_title">Nastavitve za opombe</string>
+  <string name="task_settings_title">Nastavitve za opravila</string>
+  <string name="unknown_mod">Neznana modifikacija</string>
+  <string name="notes_default_mod_list_preference_title">Opombe</string>
 </resources>

@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Persetujuan Lisensi Pengguna Akhir Cyanogen</string>
   <string name="sms_rate_warning">Kami akan mengirimkan SMS ke nomor ini untuk memverifikasi kepemilikan nomor telepon. Pengiriman SMS akan dikenakan biaya jaringan normal.</string>
   <string name="cyngn_setup_create">MEMBUAT</string>
-  <string name="control_hotword_service_permission_label">kontrol aplikasi kata perintah suara</string>
-  <string name="control_hotword_service_permission_desc">Izinkan aplikasi untuk mengendalikan aktivitas aplikasi deteksi kata perintah suara yang selalu aktif. Aplikasi tersebut dapat terus-menerus memantau mikrofon untuk mendengarkan frasa kunci tertentu yang diucapkan.</string>
-  <string name="access_device_id_permission_label">akses informasi ID unik perangkat</string>
-  <string name="access_device_id_permission_desc">Izinkan aplikasi sistem untuk mengakses ID unik perangkat.</string>
-  <string name="device_info_permission_label">akses informasi perangkat</string>
-  <string name="device_info_permission_desc">Izinkan aplikasi sistem untuk mengakses informasi dasar tentang perangkat dan statusnya.</string>
 </resources>

@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">Лицензионное соглашение Cyanogen</string>
   <string name="sms_rate_warning">Для подтверждения номера на данный телефон будет отправлено SMS-сообщение. Стоимость входящего сообщения определяется согласно вашему тарифному плану.</string>
   <string name="cyngn_setup_create">СОЗДАТЬ</string>
-  <string name="control_hotword_service_permission_label">управление приложениями по ключевому слову</string>
-  <string name="control_hotword_service_permission_desc">Разрешает голосовое управление приложениями с включенным обнаружением ключевых слов. Такие приложения могут получить доступ к микрофону для отслеживания ключевых фраз.</string>
-  <string name="access_device_id_permission_label">доступ к информации об уникальном идентификаторе устройства</string>
-  <string name="access_device_id_permission_desc">Разрешает системному приложению доступ к уникальному идентификатору устройства.</string>
-  <string name="device_info_permission_label">доступ к информации о устройстве</string>
-  <string name="device_info_permission_desc">Разрешает системному приложению доступ к базовой информации об устройстве и его состоянии.</string>
 </resources>

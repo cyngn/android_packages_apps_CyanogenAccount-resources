@@ -142,10 +142,4 @@
   <string name="eula_linktext_cyanogen">ข้อตกลงสิทธิของผู้ใช้ Cyanogen</string>
   <string name="sms_rate_warning">เราจะส่ง SMS ไปที่หมายเลขนี้เพื่อตรวจสอบความถูกต้องในการเป็นเจ้าของหมายเลขโทรศัพท์ของคุณ การส่ง SMS จะมีค่าใช้จ่ายในอัตราเครือข่ายปกติ</string>
   <string name="cyngn_setup_create">สร้าง</string>
-  <string name="control_hotword_service_permission_label">ควบคุมแอปตรวจสอบคำเรียก</string>
-  <string name="control_hotword_service_permission_desc">อนุญาตให้กิจกรรมตรวจสอบคำเรียกตลอดเวลา เช่น แอปจำพวกที่ตรวจหาคำพูดเฉพาะเพื่อเปิดหน้าจอเมื่อเรียก</string>
-  <string name="access_device_id_permission_label">เข้าถึงข้อมูลบอกความจำเพาะของเครื่อง</string>
-  <string name="access_device_id_permission_desc">อนุญาตให้แอประบบเข้าถึงข้อมูลบอกความจำเพาะของเครื่อง</string>
-  <string name="device_info_permission_label">เข้าถึงข้อมูลอุปกรณ์</string>
-  <string name="device_info_permission_desc">อนุญาตให้แอประบบเข้าถึงข้อมูลพื้นฐานของอุปกรณ์และสถานะ</string>
 </resources>

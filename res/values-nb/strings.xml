@@ -142,10 +142,14 @@
   <string name="eula_linktext_cyanogen">Cyanogen lisensavtale</string>
   <string name="sms_rate_warning">Vi kommer til å sende en SMS til dette nummeret for å bekrefte at du eier telefonnummeret. Sending av en SMS koster den vanlige satsen fra nettverksleverandøren.</string>
   <string name="cyngn_setup_create">OPPRETT</string>
-  <string name="control_hotword_service_permission_label">kontroller nøkkelordapplikasjoner</string>
-  <string name="control_hotword_service_permission_desc">Gir et program tilgang til å kontrollere aktiviteten til en alltid-på nøkkelord gjenkjennings app. Slike programmer kan kontinuerlig overvåke mikrofonen for å lytte etter bestemte talte nøkkel setninger.</string>
-  <string name="access_device_id_permission_label">få tilgang til den unike enhetsinformasjonen</string>
-  <string name="access_device_id_permission_desc">Gir en systemapp tilgang til den unike enhets-IDen.</string>
-  <string name="device_info_permission_label">få tilgang til enhetsinformasjon</string>
-  <string name="device_info_permission_desc">Gir en system app tilgang til grunnleggende informasjon om enheten og dens tilstand.</string>
+  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller vil ha tilgang til kontaktene dine, meg profil, og Cyanogen OS konto, som kan inkludere epost adressen din. <a href="http://www.cyngn.com">Finn ut mer</a></string>
+  <string name="discovery_dialog_nudge_body_test">Velkommen! Du kan nå aktivere Truecaller for å identifisere ukjente ringere og blokkere uønskede samtaler. Vil du bruke det?</string>
+  <string name="default_mod_always_ask">Spør alltid</string>
+  <string name="global_toggle_on">På</string>
+  <string name="global_toggle_off">Av</string>
+  <string name="notes_settings_title">Notatinnstillinger</string>
+  <string name="task_settings_title">Oppgaveinnstillinger</string>
+  <string name="unknown_mod">Ukjent mod</string>
+  <string name="notes_default_mod_list_preference_title">Notater</string>
 </resources>
