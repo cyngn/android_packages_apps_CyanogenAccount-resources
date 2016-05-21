@@ -170,7 +170,7 @@
 
     <string name="publish_nudge_permission_label">publish nudges</string>
     <string name="publish_nudge_permission_desc">Allows an app to display notifications and dialogs through the discovery framework.</string>
-    <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+    <string name="discovery_dialog_nudge_activity_label" translatable="false">Cyanogen OS</string>
     <string name="discovery_dialog_nudge_subhead_test">Truecaller will have access to your contacts, me profile, and Cyanogen OS account, which may include your email address. <a href="http://www.cyngn.com">Learn More</a></string>
     <string name="discovery_dialog_nudge_body_test">Welcome! You can now enable Truecaller to identify unknown callers and block unwanted calls. Do you want to use it?</string>
 
