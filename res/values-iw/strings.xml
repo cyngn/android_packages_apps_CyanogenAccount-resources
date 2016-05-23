@@ -92,7 +92,7 @@
   <string name="cyngn_setup_skip">דלג</string>
   <string name="cyngn_setup_next">הבא</string>
   <string name="cyngn_skip_setup_dialog_header">לדלג על הגדרת חשבון?</string>
-  <string name="cyngn_setup_sign_in">כניסה\u00A0IN</string>
+  <string name="cyngn_setup_sign_in">התחבר</string>
   <string name="cyngn_setup_existing_account_edittext_hint">הזן את מספר הטלפון או כתובת הדוא\"ל שלך</string>
   <string name="cyngn_setup_email_edittext_hint">הזן את כתובת הדוא\"ל שלך</string>
   <string name="cyngn_setup_phone_edittext_hint">הזן את מספר הטלפון שלך</string>
