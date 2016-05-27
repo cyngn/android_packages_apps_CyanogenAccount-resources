@@ -142,4 +142,36 @@
   <string name="eula_linktext_cyanogen">Cyanogenin Käyttöoikeussopimus</string>
   <string name="sms_rate_warning">Lähetämme tekstiviestin tähän numeroon tarkistaaksemme että numero kuuluu sinulle. Tekstiviestin lähettäminen maksaa normaalin tekstiviestin hinnan.</string>
   <string name="cyngn_setup_create">LUO</string>
+  <string name="control_hotword_service_permission_label">ohjaa käynnistyssanasovelluksia</string>
+  <string name="control_hotword_service_permission_desc">Sallii sovelluksen ohjata aina päällä olevia käynnistyssanasovelluksia. Nämä sovellukset voivat jatkuvasti valvoa mikrofonia kuunnellakseen määrättyä käynnistyssanaa.</string>
+  <string name="access_device_id_permission_label">pääsy laitekohtaiseen tunnukseen</string>
+  <string name="access_device_id_permission_desc">Sallii järjestelmäsovelluksen käyttää laitekohtaista tunnusta.</string>
+  <string name="device_info_permission_label">pääsy laitteen tietoihin</string>
+  <string name="device_info_permission_desc">Sallii järjestelmäsovelluksen käyttää perustietoja laitteesta ja sen tilasta.</string>
+  <string name="publish_nudge_permission_label">luo ilmoituksia</string>
+  <string name="publish_nudge_permission_desc">Sallii sovelluksen näyttää ilmoituksia ja valintaikkunoita discovery-kehyksessä.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecallerilla on käyttöoikeudet yhteystietoiihin, minä-profiiliin ja Cyanogen OS-tiliin, joka voi sisältää sähköpostiosoitteesi. <a href="http://www.cyngn.com">Lue lisää</a></string>
+  <string name="discovery_dialog_nudge_body_test">Tervetuloa! Voit ottaa Truecallerin käyttöön tunnistaaksesi tuntemattomat soittajat ja estääksesi ei-toivotut puhelut. Haluatko ottaa käyttöön?</string>
+  <string name="incall_service_cleanup_permission_label">pyydä InCall-palvelun lisäosien puhdistusta</string>
+  <string name="incall_service_cleanup_permission_desc">Sallii sovelluksen pyytää minkä tahansa InCall-palvelun lisäosan tietojen tyhjentämistä.</string>
+  <string name="bind_incall_service_permission_label">sido InCall-palveluun</string>
+  <string name="bind_incall_service_permission_desc">Sallii sovelluksen sitoa itsensä InCall-palveluun ja käyttää InCall-lisäosia.</string>
+  <string name="camera_permission_label">kameralisäosan käyttö</string>
+  <string name="camera_permission_desc">Sallii sovelluksen yhdistää kameralisäosiin</string>
+  <string name="camera_plugin_permission_label">kameralisäosa</string>
+  <string name="camera_plugin_permission_desc">Sallii sovelluksen olla lisäosa kameralle</string>
+  <string name="deeplink_service_cleanup_permission_label">pyydä DeepLink-palvelun lisäosien puhdistusta</string>
+  <string name="deeplink_service_cleanup_permission_desc">Sallii sovelluksen pyytää DeepLink-lisäosan puhdistusta.</string>
+  <string name="bind_deep_link_service_permission_desc">Sallii sovelluksen sitoa itsensä DeepLink-palveluun löytääkseen DeepLink-modeja.</string>
+  <string name="read_deeplink_database_permission_desc">Sallii sovelluksen lukea DeepLink-tietokantoja jotka on määritetty DeepLinkin käyttöönottamissa modeissa.</string>
+  <string name="default_mod_title">Valitse oletusmodi</string>
+  <string name="default_mod_always_ask">Kysy aina</string>
+  <string name="installed_mods">Asennetut modit</string>
+  <string name="global_toggle_on">Käytössä</string>
+  <string name="global_toggle_off">Pois</string>
+  <string name="notes_settings_title">Muistiinpanojen asetukset</string>
+  <string name="task_settings_title">Tehtävien asetukset</string>
+  <string name="deep_link_unknown_app_type">Sovelluksen tyyppiä ei voitu määrittää</string>
+  <string name="unknown_mod">Tuntematon modi</string>
+  <string name="notes_default_mod_list_preference_title">Muistiinpanot</string>
 </resources>

@@ -142,14 +142,36 @@
   <string name="eula_linktext_cyanogen">Acord de llicència d\'usuari final de Cyanogen</string>
   <string name="sms_rate_warning">Us enviarem un SMS a aquest número per verificar la propietat del telèfon. L\'enviament de l\'SMS costarà la taxa de la xarxa normal.</string>
   <string name="cyngn_setup_create">CREA</string>
-  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+  <string name="control_hotword_service_permission_label">control de les aplicacions de detecció de paraules clau</string>
+  <string name="control_hotword_service_permission_desc">Permet a una aplicació controlar l\'activitat d\'una aplicació de detecció de paraules clau sempre activa. Aquest tipus d\'aplicacions poden monitoritzar el micròfon constantment per escoltar determinades frases clau parlades.</string>
+  <string name="access_device_id_permission_label">accés a la informació d\'ID del dispositiu</string>
+  <string name="access_device_id_permission_desc">Permet a una aplicació del sistema accedir a la informació d\'ID única del dispositiu.</string>
+  <string name="device_info_permission_label">accés a la informació del dispositiu</string>
+  <string name="device_info_permission_desc">Permet a una aplicació del sistema accedir a la informació bàsica sobre el dispositiu i el seu estat.</string>
+  <string name="publish_nudge_permission_label">publica copets</string>
+  <string name="publish_nudge_permission_desc">Permet a una aplicació mostrar les notificacions i els diàlegs a través del marc de descobriment.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller tindrà accés als teus contactes, perfil, i al compte de Cyanogen OS, que pot incloure la teva adreça de correu electrònic. <a href="http://www.cyngn.com">Aprèn-ne més</a></string>
   <string name="discovery_dialog_nudge_body_test">Benvingut! Ara pots habilitar Truecaller per identificar trucades desconegudes i bloquejar trucades no desitjades. Vols utilitzar-lo?</string>
+  <string name="incall_service_cleanup_permission_label">demana la neteja de Connectors del Servei InCall</string>
+  <string name="incall_service_cleanup_permission_desc">Permet a una aplicació sol·licitar la neteja de qualsevol dada relativa d\'un Connector específic del servei InCall que vulguis esborrar.</string>
+  <string name="bind_incall_service_permission_label">vincular-se al servei InCall</string>
+  <string name="bind_incall_service_permission_desc">Permet a una aplicació vincular-se al servei InCall per descobrir i utilitzar connectors de InCall.</string>
+  <string name="camera_permission_label">consumidor del connector de càmera</string>
+  <string name="camera_permission_desc">Permet a una aplicació connectar-se als connectors de càmera</string>
+  <string name="camera_plugin_permission_label">connector de càmera</string>
+  <string name="camera_plugin_permission_desc">Permet a una aplicació ser un connector per a la Càmera</string>
+  <string name="deeplink_service_cleanup_permission_label">demana la neteja de connectors del Servei DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Permet a una aplicació demanar esborrar les dades d\'un connector de DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Permet a una aplicació vincular-se al servei de DeepLink per poder descobrir mods de DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Permet a una aplicació llegir les bases de dades definides per mods habilitats per DeepLink.</string>
+  <string name="default_mod_title">Tria el Mod predefinit</string>
   <string name="default_mod_always_ask">Pregunta sempre</string>
+  <string name="installed_mods">Mods instal·lats</string>
   <string name="global_toggle_on">Activat</string>
   <string name="global_toggle_off">Desactivat</string>
   <string name="notes_settings_title">Configuració de les notes</string>
   <string name="task_settings_title">Configuració de tasques</string>
+  <string name="deep_link_unknown_app_type">No es pot determinar el tipus d\'aplicació</string>
   <string name="unknown_mod">Mod desconegut</string>
   <string name="notes_default_mod_list_preference_title">Notes</string>
 </resources>

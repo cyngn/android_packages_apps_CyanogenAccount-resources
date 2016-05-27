@@ -142,7 +142,6 @@
   <string name="eula_linktext_cyanogen">Cyanogen erabiltzaile lizentzia akordioa</string>
   <string name="sms_rate_warning">SMS bat bidaliko dugu zenbaki honetara telefono zenbakiaren jabea zarela egiaztatzeko. SMS mezua bidaltzeak zure sarearen ohiko kostua izango du.</string>
   <string name="cyngn_setup_create">SORTU</string>
-  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
   <string name="default_mod_always_ask">Galdetu beti</string>
   <string name="global_toggle_on">Bai</string>
   <string name="global_toggle_off">Ez</string>

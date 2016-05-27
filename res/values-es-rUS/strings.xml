@@ -142,4 +142,36 @@
   <string name="eula_linktext_cyanogen">Términos de licencia de usuario final de Cyanogen</string>
   <string name="sms_rate_warning">Te enviaremos un SMS a este número para verificar la propiedad del número de teléfono. Enviar un SMS te costará la tarifa normal de la red.</string>
   <string name="cyngn_setup_create">CREAR</string>
+  <string name="control_hotword_service_permission_label">controlar aplicaciones de detección de palabras clave</string>
+  <string name="control_hotword_service_permission_desc">Permite que una aplicación controle la actividad de una aplicación de detección de palabras clave que está siempre activa (hotword). Estas aplicaciones pueden supervisar el micrófono constantemente para escuchar determinadas frases habladas.</string>
+  <string name="access_device_id_permission_label">acceder a información del identificador de dispositivo único</string>
+  <string name="access_device_id_permission_desc">Permite que una aplicación de sistema acceda al identificador de dispositivo único.</string>
+  <string name="device_info_permission_label">acceder a información del dispositivo</string>
+  <string name="device_info_permission_desc">Permite que una aplicación de sistema acceda a información básica sobre el dispositivo y su estado.</string>
+  <string name="publish_nudge_permission_label">publica zumbidos</string>
+  <string name="publish_nudge_permission_desc">Permitir a una aplicación mostrar las notificaciones y los diálogos a través del marco de descubrimiento.</string>
+  <string name="discovery_dialog_nudge_subhead_test">TrueCaller tendrá acceso a tus contactos, mi perfil y a la cuenta de Cyanogen OS, que puede incluir su dirección de correo electrónico. <a href="http://www.cyngn.com"> aprender más</a></string>
+  <string name="discovery_dialog_nudge_body_test">¡ Bienvenido! Ahora puede habilitar Truecaller para identificar llamadas desconocidas y bloquear llamadas no deseadas. ¿Quieres utilizarlo?</string>
+  <string name="incall_service_cleanup_permission_label">solicitar la limpieza de los Plugins del Servicio InCall</string>
+  <string name="incall_service_cleanup_permission_desc">Permitir a una aplicación solicitar la limpieza de cualquier dato relativo de un Plugin específico del servicio InCall que quieras borrar.</string>
+  <string name="bind_incall_service_permission_label">vincularse al servicio InCall</string>
+  <string name="bind_incall_service_permission_desc">Permitir a una aplicación vincularse al servicio incall para descubrir y utilizar plugins InCall.</string>
+  <string name="camera_permission_label">consumidor de plugin de cámara</string>
+  <string name="camera_permission_desc">Permitir a una aplicación conectarse a los plugins de la cámara</string>
+  <string name="camera_plugin_permission_label">plugin de cámara</string>
+  <string name="camera_plugin_permission_desc">Permitir a una aplicación ser un plugin para la Cámara</string>
+  <string name="deeplink_service_cleanup_permission_label">solicitar la limpieza de plugins del Servicio DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Permitir a una aplicación solicitar la eliminación de los datos de un plugin de DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Permitir a una aplicación vincularse al servicio DeepLink para poder descubrir mods de DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Permitir a una aplicación leer las bases de datos definidas por mods habilitados por DeepLink.</string>
+  <string name="default_mod_title">Escoge el Mod predeterminado</string>
+  <string name="default_mod_always_ask">Preguntar siempre</string>
+  <string name="installed_mods">Mods instalados</string>
+  <string name="global_toggle_on">Activado</string>
+  <string name="global_toggle_off">Desactivado</string>
+  <string name="notes_settings_title">Configuración de la notas</string>
+  <string name="task_settings_title">Configuración de la tarea</string>
+  <string name="deep_link_unknown_app_type">No se pudo determinar el tipo de aplicación</string>
+  <string name="unknown_mod">Mod desconocido</string>
+  <string name="notes_default_mod_list_preference_title">Notas</string>
 </resources>

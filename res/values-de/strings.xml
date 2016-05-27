@@ -142,7 +142,17 @@
   <string name="eula_linktext_cyanogen">Cyanogen-Endbenutzer-Lizenzvertrag</string>
   <string name="sms_rate_warning">Wir werden eine SMS an diese Nummer senden, um zu überprüfen, ob die Telefonnummer Ihnen gehört. Das Senden der SMS wird die für Ihren Tarif üblichen Kosten verursachen.</string>
   <string name="cyngn_setup_create">ERSTELLEN</string>
+  <string name="control_hotword_service_permission_label">Schlüsselwort-Apps steuern</string>
+  <string name="access_device_id_permission_label">Zugriff auf eindeutige Gerät-ID</string>
+  <string name="access_device_id_permission_desc">Ermöglicht einer System-App, auf die eindeutige Geräte-ID zuzugreifen.</string>
+  <string name="device_info_permission_label">Zugriff auf Geräteinformationen</string>
   <string name="default_mod_always_ask">Immer nachfragen</string>
+  <string name="installed_mods">Installierte Mods</string>
   <string name="global_toggle_on">An</string>
   <string name="global_toggle_off">Aus</string>
+  <string name="notes_settings_title">Einstellungen für Notizen</string>
+  <string name="task_settings_title">Einstellungen für Aufgaben</string>
+  <string name="deep_link_unknown_app_type">App-Typ konnte nicht bestimmt werden</string>
+  <string name="unknown_mod">Unbekannter Mod</string>
+  <string name="notes_default_mod_list_preference_title">Notizen</string>
 </resources>

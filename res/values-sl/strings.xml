@@ -142,14 +142,36 @@
   <string name="eula_linktext_cyanogen">Licenčna pogodba s končnim uporabnikom za končnega uporabnika Cyanogen</string>
   <string name="sms_rate_warning">Na to številko bomo poslali SMS, da preverimo njeno lastništvo. Pošiljanje SMS-a se bo obračunalo po običajni omrežni ceni.</string>
   <string name="cyngn_setup_create">USTVARI</string>
-  <string name="discovery_dialog_nudge_activity_label">OS Cyanogen</string>
+  <string name="control_hotword_service_permission_label">nadzor aplikacij za ključne besede</string>
+  <string name="control_hotword_service_permission_desc">Dovoli aplikaciji nadzor nad dejavnostjo vedno vklopljene aplikacije za zaznavanje ključnih besed. Takšne aplikacije lahko neprekinjeno spremljajo mikrofon in poslušajo za določenimi izrečenimi ključnimi besedami.</string>
+  <string name="access_device_id_permission_label">dostop do podatkov o edinstvenem ID-ju naprave</string>
+  <string name="access_device_id_permission_desc">Dovoli sistemski aplikaciji dostop do podatkov o edinstvenem ID-ju naprave.</string>
+  <string name="device_info_permission_label">dostop do podatkov naprave</string>
+  <string name="device_info_permission_desc">Dovoli sistemski aplikaciji dostop do osnovnih podatkov o napravi in njenem stanju.</string>
+  <string name="publish_nudge_permission_label">objavljanje namigov</string>
+  <string name="publish_nudge_permission_desc">Dovoli aplikaciji prikaz obvestil in pogovornih oken preko ogrodja za odkrivanje.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller bo imel dostop do vaših stikov, profila jaz in računa OS-a Cyanogen, kar lahko vključuje vaš e-poštni naslov. <a href="http://www.cyngn.com">Več o tem</a></string>
   <string name="discovery_dialog_nudge_body_test">Dobrodošli! Truecaller lahko sedaj omogočite za prepoznavanje neznanih klicateljev in blokiranje neželenih klicev. Ali ga želite uporabljati?</string>
+  <string name="incall_service_cleanup_permission_label">zahtevanje čiščenja vstavkov za storitve dohodnih klicev</string>
+  <string name="incall_service_cleanup_permission_desc">Dovoli aplikaciji, da zahteva čiščenje vseh podatkov, ki se tičejo določenega vstavka za storitve dohodnih klicev.</string>
+  <string name="bind_incall_service_permission_label">vezava s storitvijo dohodnih klicev</string>
+  <string name="bind_incall_service_permission_desc">Dovoli aplikaciji vezavo s storitvijo dohodnih klicev za odkrivanje in uporabljanje vstavkov za dohodne klice.</string>
+  <string name="camera_permission_label">uporabnik vstavkov za fotoaparat</string>
+  <string name="camera_permission_desc">Dovoli aplikaciji, da se poveže z vstavki za fotoaparat</string>
+  <string name="camera_plugin_permission_label">vstavek za fotoaparat</string>
+  <string name="camera_plugin_permission_desc">Dovoli aplikaciji, da deluje kot vstavek za fotoaparat</string>
+  <string name="deeplink_service_cleanup_permission_label">zahtevanje čiščenja vstavkov za storitve DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Dovoli aplikaciji, da zahteva čiščenje podatkov vstavkov DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Dovoli aplikaciji vezavo s storitvijo DeepLink za odkrivanje modifikacij DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Dovoli aplikaciji branje podatkovnih zbirk DeepLink, ki so določene z DeepLinkom omogočenimi modifikacijami.</string>
+  <string name="default_mod_title">Izberite privzeto modifikacijo</string>
   <string name="default_mod_always_ask">Vedno vprašaj</string>
+  <string name="installed_mods">Nameščene modifikacije</string>
   <string name="global_toggle_on">Vkl.</string>
   <string name="global_toggle_off">Izk.</string>
   <string name="notes_settings_title">Nastavitve za opombe</string>
   <string name="task_settings_title">Nastavitve za opravila</string>
+  <string name="deep_link_unknown_app_type">Vrste aplikacije ni mogoče določiti</string>
   <string name="unknown_mod">Neznana modifikacija</string>
   <string name="notes_default_mod_list_preference_title">Opombe</string>
 </resources>

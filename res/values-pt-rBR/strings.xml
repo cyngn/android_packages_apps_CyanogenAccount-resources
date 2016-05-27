@@ -142,4 +142,36 @@
   <string name="eula_linktext_cyanogen">Contrato de licença de usuário final do Cyanogen</string>
   <string name="sms_rate_warning">Vamos enviar um SMS para este número para confirmar a propriedade do número de telefone. O envio de um SMS custará a tarifa de rede normal.</string>
   <string name="cyngn_setup_create">CRIAR</string>
+  <string name="control_hotword_service_permission_label">controlar apps que detectam palavras chaves</string>
+  <string name="control_hotword_service_permission_desc">Permite que um app controle a atividade de um app que detecta palavras chaves em tempo real. Estes apps podem monitorar constantemente o microfone de forma a detectarem palavras chaves específicas pronunciadas.</string>
+  <string name="access_device_id_permission_label">acesso à informação do ID único do dispositivo</string>
+  <string name="access_device_id_permission_desc">Permite que um app de sistema acesse o ID único do dispositivo.</string>
+  <string name="device_info_permission_label">acesso às informações do dispositivo</string>
+  <string name="device_info_permission_desc">Permite que um app de sistema acesse as informações básicas sobre o dispositivo e o seu estado.</string>
+  <string name="publish_nudge_permission_label">publicar notificações</string>
+  <string name="publish_nudge_permission_desc">Permite que um app exiba notificações e caixas de diálogo através do framework de descoberta.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller terá acesso aos seus contatos, perfil e conta Cyanogen OS, que pode incluir seu endereço de e-mail. <a href="http://www.cyngn.com"> Saiba Mais</a></string>
+  <string name="discovery_dialog_nudge_body_test">Bem-vindo! Agora, você pode habilitar Truecaller para identificar chamadas desconhecidas e bloquear chamadas indesejadas. Você quer usá-lo?</string>
+  <string name="incall_service_cleanup_permission_label">solicitar limpeza dos Plugins do Serviço InCall</string>
+  <string name="incall_service_cleanup_permission_desc">Permite que um app solicite a limpeza de todos os dados referentes a um Plugin específico do Serviço InCall.</string>
+  <string name="bind_incall_service_permission_label">vincular ao Serviço InCall</string>
+  <string name="bind_incall_service_permission_desc">Permite que um app vincule ao Serviço InCall para descobrir e usar plugins InCall.</string>
+  <string name="camera_permission_label">consumidor do plugin da câmara</string>
+  <string name="camera_permission_desc">Permite que um app conecte aos plugins da câmera</string>
+  <string name="camera_plugin_permission_label">plugin da câmera</string>
+  <string name="camera_plugin_permission_desc">Permite que um app seja um plugin para a Câmara</string>
+  <string name="deeplink_service_cleanup_permission_label">solicitar a limpeza dos Plugins do Serviço DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Permite que um app solicite a limpeza de dados de plugins DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Permite que um app seja vinculado com o serviço DeepLink para descobrir mods DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Permite que um app leia bases de dados DeepLink definidas pelos mods DeepLink habilitados.</string>
+  <string name="default_mod_title">Escolher o mod padrão</string>
+  <string name="default_mod_always_ask">Sempre perguntar</string>
+  <string name="installed_mods">Mods instalados</string>
+  <string name="global_toggle_on">Ativado</string>
+  <string name="global_toggle_off">Desativado</string>
+  <string name="notes_settings_title">Configurações de notas</string>
+  <string name="task_settings_title">Configurações da tarefa</string>
+  <string name="deep_link_unknown_app_type">Não é possível determinar o tipo de app</string>
+  <string name="unknown_mod">Mod desconhecido</string>
+  <string name="notes_default_mod_list_preference_title">Notas</string>
 </resources>

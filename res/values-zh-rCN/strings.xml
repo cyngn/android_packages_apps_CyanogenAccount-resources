@@ -142,14 +142,36 @@
   <string name="eula_linktext_cyanogen">Cyanogen 最终用户许可协议</string>
   <string name="sms_rate_warning">我们将发送短信到此号码来验证您的电话号码的所有权。发送短信的费用将基于您的网络运营商资费标准。</string>
   <string name="cyngn_setup_create">创建</string>
-  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+  <string name="control_hotword_service_permission_label">控制热词应用</string>
+  <string name="control_hotword_service_permission_desc">允许应用控制总是启用的热词检测应用。此类应用能够不断地监控麦克风以侦听特定的口语关键词短语。</string>
+  <string name="access_device_id_permission_label">访问唯一的设备 ID 信息</string>
+  <string name="access_device_id_permission_desc">允许系统应用访问唯一的设备 ID。</string>
+  <string name="device_info_permission_label">访问设备信息</string>
+  <string name="device_info_permission_desc">允许系统应用访问设备及其状态的基本信息。</string>
+  <string name="publish_nudge_permission_label">发布闪屏振动</string>
+  <string name="publish_nudge_permission_desc">允许应用通过发现框架显示通知和对话框。</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller 将会访问您的联系人、我的配置文件和 Cyanogen OS 账户，其中可能会包括您的电子邮件地址。<a href="http://www.cyngn.com">了解更多</a></string>
   <string name="discovery_dialog_nudge_body_test">欢迎！现在，您可以启用 Truecaller 识别未知的呼叫和阻止不必要的电话。您想要使用它吗？</string>
+  <string name="incall_service_cleanup_permission_label">请求清理 InCall 服务插件</string>
+  <string name="incall_service_cleanup_permission_desc">允许应用请求清理特定 InCall 服务插件有关的任何数据。</string>
+  <string name="bind_incall_service_permission_label">绑定至 InCallService</string>
+  <string name="bind_incall_service_permission_desc">允许应用绑定至 InCallService 以发现和使用 InCall 插件。</string>
+  <string name="camera_permission_label">相机插件使用者</string>
+  <string name="camera_permission_desc">允许应用连接到相机插件</string>
+  <string name="camera_plugin_permission_label">相机插件</string>
+  <string name="camera_plugin_permission_desc">允许应用成为相机插件</string>
+  <string name="deeplink_service_cleanup_permission_label">请求清理 DeepLink 服务插件</string>
+  <string name="deeplink_service_cleanup_permission_desc">允许应用请求清除 DeepLink 插件数据。</string>
+  <string name="bind_deep_link_service_permission_desc">允许应用为了发现 DeepLink 插件而绑定至 DeepLink 服务。</string>
+  <string name="read_deeplink_database_permission_desc">允许应用读取 DeepLink 数据库来定义 DeepLink 已启用的模块。</string>
+  <string name="default_mod_title">选择默认模块</string>
   <string name="default_mod_always_ask">总是询问</string>
+  <string name="installed_mods">已安装的模块</string>
   <string name="global_toggle_on">开</string>
   <string name="global_toggle_off">关</string>
   <string name="notes_settings_title">备注设置</string>
   <string name="task_settings_title">任务设置</string>
+  <string name="deep_link_unknown_app_type">无法确定应用类型</string>
   <string name="unknown_mod">未知的模块</string>
   <string name="notes_default_mod_list_preference_title">备注</string>
 </resources>

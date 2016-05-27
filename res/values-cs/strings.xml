@@ -142,14 +142,36 @@
   <string name="eula_linktext_cyanogen">Cyanogen licenční ujednání</string>
   <string name="sms_rate_warning">Bude Vám zaslána SMS, abychom ověřili, že jste vlastníkem tohoto telefonního čísla. Odeslání SMS bude zpoplatněno standardní cenou.</string>
   <string name="cyngn_setup_create">VYTVOŘIT</string>
-  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+  <string name="control_hotword_service_permission_label">řízení aplikací ovládaných slovem</string>
+  <string name="control_hotword_service_permission_desc">Umožní řídit aktivitu aplikace, která umožňuje ovládání klíčovým slovem. Tyto aplikace mohou neustále monitorovat mikrofon a naslouchat na určité klíčové slovo.</string>
+  <string name="access_device_id_permission_label">přístup k informacím o unikátním identifikátoru zařízení</string>
+  <string name="access_device_id_permission_desc">Umožní systémové aplikaci přistupovat k unikátnímu identifikátoru zařízení.</string>
+  <string name="device_info_permission_label">přístup k informaci o zařízení</string>
+  <string name="device_info_permission_desc">Umožní přistupovat k základním informacím o zařízení a jeho stavu.</string>
+  <string name="publish_nudge_permission_label">zveřejnit dloubnutí</string>
+  <string name="publish_nudge_permission_desc">Umožňuje zobrazit upozornění a dialogy pomocí aplikačního rámce zjišťování.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller bude mít přístup ke kontaktům, profilu, a účtu Cyanogen OS, který může obsahovat Vaši e-mailovou adresu. <a href="http://www.cyngn.com">Dozvědět se více</a></string>
   <string name="discovery_dialog_nudge_body_test">Vítejte! Můžete povolit Truecaller k identifikaci neznámých volajících a blokovat nežádoucí volání. Chcete jej použít?</string>
+  <string name="incall_service_cleanup_permission_label">požadavek vyčištění pluginů InCall služeb</string>
+  <string name="incall_service_cleanup_permission_desc">Umožní vyžádat vyčištění všech dat týkajících se pluginu služby InCall.</string>
+  <string name="bind_incall_service_permission_label">připojení ke službě InCall</string>
+  <string name="bind_incall_service_permission_desc">Umožňuje aplikaci vázat se na Incall služby, objevit a využít Incall pluginy.</string>
+  <string name="camera_permission_label">plugin používání fotoaparátu</string>
+  <string name="camera_permission_desc">Umožňuje aplikaci připojit se k pluginům fotoaparátu</string>
+  <string name="camera_plugin_permission_label">plugin fotoaparátu</string>
+  <string name="camera_plugin_permission_desc">Umožní použít plugin pro fotoaparát</string>
+  <string name="deeplink_service_cleanup_permission_label">požadavek vyčištění pluginů DeepLink služeb</string>
+  <string name="deeplink_service_cleanup_permission_desc">Umožňuje aplikaci požadovat čištění pluginů DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Umožní vytvořit vazbu ke službě DeepLink pro zjišťování modulů DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Umožní číst databáze DeepLink vytvořenými DeepLink mody.</string>
+  <string name="default_mod_title">Zvolte výchozí mod</string>
   <string name="default_mod_always_ask">Vždy se ptát</string>
+  <string name="installed_mods">Instalované mody</string>
   <string name="global_toggle_on">Zapnout</string>
   <string name="global_toggle_off">Vypnout</string>
   <string name="notes_settings_title">Nastavení poznámek</string>
   <string name="task_settings_title">Nastavení úkolu</string>
+  <string name="deep_link_unknown_app_type">Nelze určit typ aplikace</string>
   <string name="unknown_mod">Neznámý modul</string>
   <string name="notes_default_mod_list_preference_title">Poznámky</string>
 </resources>

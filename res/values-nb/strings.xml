@@ -142,14 +142,36 @@
   <string name="eula_linktext_cyanogen">Cyanogen lisensavtale</string>
   <string name="sms_rate_warning">Vi kommer til å sende en SMS til dette nummeret for å bekrefte at du eier telefonnummeret. Sending av en SMS koster den vanlige satsen fra nettverksleverandøren.</string>
   <string name="cyngn_setup_create">OPPRETT</string>
-  <string name="discovery_dialog_nudge_activity_label">Cyanogen OS</string>
+  <string name="control_hotword_service_permission_label">kontroller nøkkelordapplikasjoner</string>
+  <string name="control_hotword_service_permission_desc">Gir en app tilgang til å kontrollere aktiviteten til en alltid-på nøkkelord gjenkjennings app. Slike programmer kan kontinuerlig overvåke mikrofonen for å lytte etter bestemte talte nøkkel setninger.</string>
+  <string name="access_device_id_permission_label">få tilgang til den unike enhetsinformasjonen</string>
+  <string name="access_device_id_permission_desc">Gir en system app tilgang til den unike enhets-IDen.</string>
+  <string name="device_info_permission_label">få tilgang til enhetsinformasjon</string>
+  <string name="device_info_permission_desc">Gir en system app tilgang til grunnleggende informasjon om enheten og dens tilstand.</string>
+  <string name="publish_nudge_permission_label">publish bevegelser</string>
+  <string name="publish_nudge_permission_desc">Gir en app tilgang til å vise varsler og dialoger gjennom oppdagelses rammeverket.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller vil ha tilgang til kontaktene dine, meg profil, og Cyanogen OS konto, som kan inkludere epost adressen din. <a href="http://www.cyngn.com">Finn ut mer</a></string>
   <string name="discovery_dialog_nudge_body_test">Velkommen! Du kan nå aktivere Truecaller for å identifisere ukjente ringere og blokkere uønskede samtaler. Vil du bruke det?</string>
+  <string name="incall_service_cleanup_permission_label">forespørre opprydding av InCall Service Plugins</string>
+  <string name="incall_service_cleanup_permission_desc">Gir en app tilgang til å be om å rydde opp data vedrørende en bestemt InCall Service Plugin tømmes.</string>
+  <string name="bind_incall_service_permission_label">binde til InCall Service</string>
+  <string name="bind_incall_service_permission_desc">Gir en app tilgang til å binde seg til InCall Servicen for å oppdage og bruke InCall plugins.</string>
+  <string name="camera_permission_label">kamera plugin forbruker</string>
+  <string name="camera_permission_desc">Gir en app tilgang til å koble seg til kamera plugins</string>
+  <string name="camera_plugin_permission_label">kamera plugin</string>
+  <string name="camera_plugin_permission_desc">Gir en app tilgang til å være en plugin for Kameraet</string>
+  <string name="deeplink_service_cleanup_permission_label">forespørre opprydding av DeepLink Service Plugins</string>
+  <string name="deeplink_service_cleanup_permission_desc">Gir en app tilgang til å forespørre om opprydding av en DeepLink plugin\'s data.</string>
+  <string name="bind_deep_link_service_permission_desc">Gir en app tilgang til å binde seg til DeepLink servicen for å oppdage DeepLink mods.</string>
+  <string name="read_deeplink_database_permission_desc">Gir en app tilgang til å lese av DeepLink databasen definert av DeepLink aktiverte mods.</string>
+  <string name="default_mod_title">Velg standard mod</string>
   <string name="default_mod_always_ask">Spør alltid</string>
+  <string name="installed_mods">Installerte mods</string>
   <string name="global_toggle_on">På</string>
   <string name="global_toggle_off">Av</string>
   <string name="notes_settings_title">Notatinnstillinger</string>
   <string name="task_settings_title">Oppgaveinnstillinger</string>
+  <string name="deep_link_unknown_app_type">Kan ikke finne ut programtypen</string>
   <string name="unknown_mod">Ukjent mod</string>
   <string name="notes_default_mod_list_preference_title">Notater</string>
 </resources>
