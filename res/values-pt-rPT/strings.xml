@@ -150,6 +150,7 @@
   <string name="device_info_permission_desc">Permite que uma aplicação de sistema aceda a informação básica sobre o dispositivo e o seu estado.</string>
   <string name="publish_nudge_permission_label">publicar notificações</string>
   <string name="publish_nudge_permission_desc">Permite que uma aplicação mostre notificações e caixas de diálogo através da framework de descoberta.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller terá acesso aos seus contactos, perfil e conta Cyanogen OS, que pode incluir o seu endereço de e-mail. <a href="http://www.cyngn.com">Saber mais</a></string>
   <string name="discovery_dialog_nudge_body_test">Bem-vindo! Pode agora ativar o Truecaller de forma a identificar os contactos desconhecidos e bloquear chamadas indesejadas. Pretende usá-lo?</string>
   <string name="incall_service_cleanup_permission_label">solicitar limpeza dos Plugins do Serviço InCall</string>
   <string name="incall_service_cleanup_permission_desc">Permite que uma aplicação solicite a limpeza de dados referentes a um plugin específico do serviço InCall.</string>

@@ -142,11 +142,36 @@
   <string name="eula_linktext_cyanogen">Cyanogen erabiltzaile lizentzia akordioa</string>
   <string name="sms_rate_warning">SMS bat bidaliko dugu zenbaki honetara telefono zenbakiaren jabea zarela egiaztatzeko. SMS mezua bidaltzeak zure sarearen ohiko kostua izango du.</string>
   <string name="cyngn_setup_create">SORTU</string>
+  <string name="control_hotword_service_permission_label">hitzbero aplikazioak kontrolatu</string>
+  <string name="control_hotword_service_permission_desc">Beti lanean dagoen hitzbero atzemate aplikazio baten jarduera kontrolatzea ahalbidetzen dio aplikazioari. Halako aplikazioek mikrofonoan etengabe entzun dezakete esandako esaldi gakoen zain.</string>
+  <string name="access_device_id_permission_label">gailuaren identifikazio esklusiboaren informazioa atzitzea</string>
+  <string name="access_device_id_permission_desc">Gailuaren identifikazio esklusiboaren informazioa atzitzea ahalbidetzen dio sistemako aplikazio bati.</string>
+  <string name="device_info_permission_label">atzitu gailuaren informazioa</string>
+  <string name="device_info_permission_desc">Gailuari eta bere egoerari buruzko oinarrizko informazioa atzitzea ahalbidetzen dio aplikazioari.</string>
+  <string name="publish_nudge_permission_label">argitaratu ukondokadatxoak</string>
+  <string name="publish_nudge_permission_desc">Aurkikuntza markoaren bitartez jakinarazpenak eta elkarrizketa koadroak bistaratzea ahalbidetzen dio apikazioari.</string>
+  <string name="discovery_dialog_nudge_subhead_test">TrueCaller apliakzioak zure kontaktuak, me profila eta Cyanogen OS kontura sarbidea izango du, honek e-posta helbideak barne hartzen ditu. <a href="http://www.cyngn.com">Ikasi gehiago</a></string>
+  <string name="discovery_dialog_nudge_body_test">Ongi etorri! Orain TrueCaller gaitu dezakezu deitzaile ezezagunak identifikatzeko eta nahi ez dituzun deiak blokeatzeko. Erabili nahi duzu?</string>
+  <string name="incall_service_cleanup_permission_label">InCall zerbitzuaren gehigarrien garbiketa eskatu</string>
+  <string name="incall_service_cleanup_permission_desc">InCall zerbitzuaren gehigarri baten datuak garbitzea eskatzea ahalbidetzen dio aplikazioari.</string>
+  <string name="bind_incall_service_permission_label">InCall zerbitzura lotu</string>
+  <string name="bind_incall_service_permission_desc">InCall zerbitzura lotu eta InCall gehigarriak aurkitu eta erabiltzea ahalbidetzen dio aplikazioari.</string>
+  <string name="camera_permission_label">kamera pluginaren kontsumitzailea</string>
+  <string name="camera_permission_desc">Kameraren gehigarrietara konektatzea ahalbidetzen dio aplikazioari</string>
+  <string name="camera_plugin_permission_label">kamera plugina</string>
+  <string name="camera_plugin_permission_desc">Kameraren gehigarria izatea ahalbidetzen dio aplikazioari</string>
+  <string name="deeplink_service_cleanup_permission_label">DeepLink zerbitzu gehigarrien garbiketa eskatu</string>
+  <string name="deeplink_service_cleanup_permission_desc">DeepLink gehigarri baten datuak garbitzea ahalbidetzen dio aplikazioari.</string>
+  <string name="bind_deep_link_service_permission_desc">DeepLink Mod-ak aurkitzeko DeepLink zerbitzura lotzea ahalbidetzen dio aplikazioari.</string>
+  <string name="read_deeplink_database_permission_desc">DeepLink gaituta duten Modak zehaztutako DeepLink datu-baseak irakurtzea ahalbidetzen dio aplikazioari.</string>
+  <string name="default_mod_title">Hautatu lehenetsitako Mod-a</string>
   <string name="default_mod_always_ask">Galdetu beti</string>
+  <string name="installed_mods">Instalatutako Mod-ak</string>
   <string name="global_toggle_on">Bai</string>
   <string name="global_toggle_off">Ez</string>
   <string name="notes_settings_title">Oharren ezarpenak</string>
   <string name="task_settings_title">Egitekoen ezarpenak</string>
+  <string name="deep_link_unknown_app_type">Ezin izan da aplikazio mota zehaztu</string>
   <string name="unknown_mod">Mod ezezaguna</string>
   <string name="notes_default_mod_list_preference_title">Oharrak</string>
 </resources>

@@ -142,4 +142,25 @@
   <string name="eula_linktext_cyanogen">Cyanogen slutbruger-licensaftale</string>
   <string name="sms_rate_warning">Vi vil sende en SMS til dette nummer for at bekræfte dit ejerskab af telefonnummeret. At sende SMS\'en vil koste den normale sats fra din udbyder.</string>
   <string name="cyngn_setup_create">OPRET</string>
+  <string name="control_hotword_service_permission_label">kontrollér hotword-applikationer</string>
+  <string name="control_hotword_service_permission_desc">Tillader en app at styre aktiviteten af en anden app hvor hotword-detektering altid er slået til. Sådanne apps kan hele tiden overvåge mikrofonen for at lytte til specifikke talte nøgle sætninger.</string>
+  <string name="access_device_id_permission_label">adgang til enhedsspecifik id-information</string>
+  <string name="access_device_id_permission_desc">Tillader en system app at få adgang til enhedsspecifik id-information.</string>
+  <string name="device_info_permission_label">adgang til enhedsinformation</string>
+  <string name="device_info_permission_desc">Tillader en system app at få adgang til enhedens basale information samt tilstand.</string>
+  <string name="publish_nudge_permission_desc">Tillader en app at vise meddelelser og dialoger gennem discovery-frameworket.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller vil have adgang til dine kontakter, min profil og Cyanogen OS kontoen, som kan indeholde din email-adresse. <a href="http://www.cyngn.com"> Få mere at vide</a></string>
+  <string name="discovery_dialog_nudge_body_test">Velkommen! Du kan nu aktivere Truecaller for at identificere ukendte opkald og blokere uønskede opkald. Vil du bruge det?</string>
+  <string name="camera_plugin_permission_label">kamera plugin</string>
+  <string name="camera_plugin_permission_desc">Tillader en app at være et plugin for kameraet</string>
+  <string name="default_mod_title">Vælg standard tilpasning</string>
+  <string name="default_mod_always_ask">Spørg altid</string>
+  <string name="installed_mods">Installeret tilpasninger</string>
+  <string name="global_toggle_on">Til</string>
+  <string name="global_toggle_off">Fra</string>
+  <string name="notes_settings_title">Noteindstillinger</string>
+  <string name="task_settings_title">Opgaveindstillinger</string>
+  <string name="deep_link_unknown_app_type">Kunne ikke afgøre app-typen</string>
+  <string name="unknown_mod">Ukendt tilpasning</string>
+  <string name="notes_default_mod_list_preference_title">Noter</string>
 </resources>

@@ -152,11 +152,21 @@
   <string name="publish_nudge_permission_desc">Omogućuje aplikaciji prikaz obavijesti i dijaloga kroz otkrivanje okvira.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller će imati pristup vašim kontaktima, profilu i Cyanogen OS računu, koji može sadržavati vašu adresu e-pošte. <a href="http://www.cyngn.com">Saznajte više</a></string>
   <string name="discovery_dialog_nudge_body_test">Dobro došli! Sada možete omogućiti Truecaller za prepoznavanje nepoznatih pozivatelja i blokiranje neželjenih poziva. Želite li ga koristiti?</string>
+  <string name="incall_service_cleanup_permission_label">traženje zahtjeva za čišćenje dodataka InCall usluge</string>
+  <string name="incall_service_cleanup_permission_desc">Omogućuje aplikaciji traženje zahtjeva za čišćenje bilo kojih podataka koji se odnose na specifične dodatke InCall usluge koje treba osloboditi.</string>
+  <string name="bind_incall_service_permission_label">poveži sa InCall Service</string>
+  <string name="bind_incall_service_permission_desc">Omogućuje aplikaciji povezivanje InCall usluge za otkrivanje i korištenje InCall dodataka.</string>
+  <string name="camera_permission_desc">Omogućava aplikaciji povezivanje s dodacima kamere</string>
+  <string name="camera_plugin_permission_label">dodatak Kamere</string>
+  <string name="camera_plugin_permission_desc">Omogućuje aplikaciji da bude dodatak Kameri</string>
+  <string name="default_mod_title">Odaberite zadani Mod</string>
   <string name="default_mod_always_ask">Uvijek pitaj</string>
+  <string name="installed_mods">Instalirani Modovi</string>
   <string name="global_toggle_on">Uključen</string>
   <string name="global_toggle_off">Isključen</string>
   <string name="notes_settings_title">Postavke bilješki</string>
   <string name="task_settings_title">Postavke zadatka</string>
+  <string name="deep_link_unknown_app_type">Nije moguće odrediti tip aplikacije</string>
   <string name="unknown_mod">Nepoznati mod</string>
   <string name="notes_default_mod_list_preference_title">Bilješke</string>
 </resources>

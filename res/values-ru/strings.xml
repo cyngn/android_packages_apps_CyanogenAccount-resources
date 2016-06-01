@@ -142,4 +142,21 @@
   <string name="eula_linktext_cyanogen">Лицензионное соглашение Cyanogen</string>
   <string name="sms_rate_warning">Для подтверждения номера на данный телефон будет отправлено SMS-сообщение. Стоимость входящего сообщения определяется согласно вашему тарифному плану.</string>
   <string name="cyngn_setup_create">СОЗДАТЬ</string>
+  <string name="control_hotword_service_permission_label">управление приложениями по ключевому слову</string>
+  <string name="control_hotword_service_permission_desc">Разрешает голосовое управление приложениями с включенным обнаружением ключевых слов. Такие приложения могут получить доступ к микрофону для отслеживания ключевых фраз.</string>
+  <string name="access_device_id_permission_label">доступ к информации об уникальном идентификаторе устройства</string>
+  <string name="access_device_id_permission_desc">Разрешает системному приложению доступ к уникальному идентификатору устройства.</string>
+  <string name="device_info_permission_label">доступ к информации о устройстве</string>
+  <string name="device_info_permission_desc">Разрешает системному приложению доступ к базовой информации об устройстве и его состоянии.</string>
+  <string name="discovery_dialog_nudge_body_test">Добро пожаловать! Теперь вы можете включить Truecaller для идентификации звонящих и блокировки нежелательных вызовов. Хотели бы вы воспользоваться этим?</string>
+  <string name="camera_plugin_permission_label">модуль камеры</string>
+  <string name="default_mod_title">Выбрать мод по умолчанию</string>
+  <string name="default_mod_always_ask">Всегда спрашивать</string>
+  <string name="installed_mods">Установленные моды</string>
+  <string name="global_toggle_on">Вкл</string>
+  <string name="global_toggle_off">Выкл</string>
+  <string name="task_settings_title">Параметры задачи</string>
+  <string name="deep_link_unknown_app_type">Невозможно определить тип приложения</string>
+  <string name="unknown_mod">Неизвестный мод</string>
+  <string name="notes_default_mod_list_preference_title">Примечания</string>
 </resources>
