@@ -148,10 +148,16 @@
   <string name="access_device_id_permission_desc">Ermöglicht einer System-App, auf die eindeutige Geräte-ID zuzugreifen.</string>
   <string name="device_info_permission_label">Zugriff auf Geräteinformationen</string>
   <string name="device_info_permission_desc">Ermöglicht einer System-App den Zugriff auf grundlegende Geräteinformationen und den Gerätestatus.</string>
+  <string name="publish_nudge_permission_desc">Ermöglicht der App, Benachrichtigungen und Dialoge über das Discovery Framework anzuzeigen.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller wird Zugriff auf Ihre Kontakte, Ich-Profil und Cyanogen OS Konto erhalten, welches Ihre Mail-Adresse beinhalten kann. <a href="http://www.cyngn.com">Mehr erfahren</a></string>
   <string name="discovery_dialog_nudge_body_test">Willkommen! Sie können jetzt Truecaller aktivieren, um unbekannte Anrufer zu identifizieren und ungewollte Anrufe zu blockieren. Möchtest Sie es verwenden?</string>
+  <string name="bind_incall_service_permission_desc">Ermöglicht der App, sich an den InCall-Service zu binden und InCall-Plugins zu entdecken und zu verwenden.</string>
   <string name="camera_permission_desc">Ermöglicht der App, eine Verbindung zu Kamera-Plugins</string>
   <string name="camera_plugin_permission_label">Kamera-Plugin</string>
+  <string name="camera_plugin_permission_desc">Ermöglicht der App, als Plugin für die Kamera zu dienen</string>
+  <string name="deeplink_service_cleanup_permission_desc">Erlaubt der App, eine Anfrage zum Bereinigen von Daten eines DeepLink-Plugins zu stellen.</string>
+  <string name="bind_deep_link_service_permission_desc">Ermöglicht der App, sich an den DeepLink-Service zu binden, um DeepLink-Mods zu entdecken.</string>
+  <string name="read_deeplink_database_permission_desc">Ermöglicht der App, DeepLink-Datenbanken zu lesen, die von DeepLink aktivierten Mods erstellt wurden.</string>
   <string name="default_mod_always_ask">Immer nachfragen</string>
   <string name="installed_mods">Installierte Mods</string>
   <string name="global_toggle_on">An</string>
