@@ -142,4 +142,7 @@
   <string name="eula_linktext_cyanogen">Ліцэнзійнае пагадненне Cyanogen</string>
   <string name="sms_rate_warning">Для пацверджання нумара на дадзены тэлефон будзе адпраўлена SMS-паведамленне. Кошт уваходнага паведамлення вызначаецца паводле вашага тарыфнага плана.</string>
   <string name="cyngn_setup_create">СТВАРЫЦЬ</string>
+  <string name="default_mod_always_ask">Заўсёды запытваць</string>
+  <string name="notes_settings_title">Налады нататніку</string>
+  <string name="notes_default_mod_list_preference_title">Нататка</string>
 </resources>
