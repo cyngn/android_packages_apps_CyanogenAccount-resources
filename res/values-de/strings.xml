@@ -158,6 +158,7 @@
   <string name="deeplink_service_cleanup_permission_desc">Erlaubt der App, eine Anfrage zum Bereinigen von Daten eines DeepLink-Plugins zu stellen.</string>
   <string name="bind_deep_link_service_permission_desc">Ermöglicht der App, sich an den DeepLink-Service zu binden, um DeepLink-Mods zu entdecken.</string>
   <string name="read_deeplink_database_permission_desc">Ermöglicht der App, DeepLink-Datenbanken zu lesen, die von DeepLink aktivierten Mods erstellt wurden.</string>
+  <string name="default_mod_title">Standard-Mod auswählen</string>
   <string name="default_mod_always_ask">Immer nachfragen</string>
   <string name="installed_mods">Installierte Mods</string>
   <string name="global_toggle_on">An</string>

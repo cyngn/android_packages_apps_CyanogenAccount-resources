@@ -142,4 +142,32 @@
   <string name="eula_linktext_cyanogen">הסכם רישיון משתמש קצה של Cyanogen</string>
   <string name="sms_rate_warning">אנו נשלח לך הודעת SMS למספר זה כדי לאמת את בעלותך על מספר הטלפון. שליחת SMS זה תעלה כמו כל הודעה אחרת.</string>
   <string name="cyngn_setup_create">צור</string>
+  <string name="control_hotword_service_permission_label">שלוט ביישומי מילת מפתח</string>
+  <string name="control_hotword_service_permission_desc">מאפשר ליישום לשלוט בפעולות של יישום לזיהוי מילות מפתח, הנמצא בפעילות תמידית. יישומים שכאלה יכולים לפקח באופן קבוע על המיקרופון כדי להקשיב ולזהות מילות מפתח וצירופי מפתח.</string>
+  <string name="access_device_id_permission_label">גש למידע על המזהה הייחודי של המכשיר</string>
+  <string name="access_device_id_permission_desc">מאפשר ליישום מערכת לקרוא את המזהה הייחודי של המכשיר.</string>
+  <string name="device_info_permission_label">גישה למידע על המכשיר</string>
+  <string name="device_info_permission_desc">מאפשר ליישום מערכת לגשת למידע בסיסי על המכשיר ועל מצבו.</string>
+  <string name="publish_nudge_permission_label">פרסום נדנודים</string>
+  <string name="publish_nudge_permission_desc">מאפשר ליישום להציג התראות וחלונות דרך מסגרת הגילוי.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller תיגש לאנשי הקשר שלך, לפרופיל שלך, ולחשבון מערכת Cyanogen שלך, שעלולים לכלול את כתובת הדוא\"ל שלך. <a href="http://www.cyngn.com">למד עוד</a></string>
+  <string name="discovery_dialog_nudge_body_test">ברוך הבא! כעת אתה יכול לפעיל את Truecaller כדי לזהות מתקשרים לא ידועים ולחסום שיחות לא רצויות. האם ברצונך להשתמש באפשרות זו?</string>
+  <string name="incall_service_cleanup_permission_desc">מאפשר ליישום לבקש לנקות את כל הנתונים הנוגעים לתוסף מסוים של שירות InCall.</string>
+  <string name="bind_incall_service_permission_desc">מאפשר ליישום להיקשר לשירות InCall כדי לגלות ולהשתמש בתוספי InCall.</string>
+  <string name="camera_permission_label">צרכן של תוסף מצלמה</string>
+  <string name="camera_permission_desc">מאפשר ליישום להתחבר לתוספי מצלמה</string>
+  <string name="camera_plugin_permission_label">תוסף מצלמה</string>
+  <string name="camera_plugin_permission_desc">מאפשר ליישום להיות תוסף למצלמה</string>
+  <string name="bind_deep_link_service_permission_desc">מאפשר ליישום להיקשר אל שירות DeepLink לגילוי תוספי DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">מאפשר ליישום לקרוא מסדי נתונים של DeepLink המוגדרים על-ידי תוספי DeepLink פעילים.</string>
+  <string name="default_mod_title">בחר תוסף ברירת מחדל</string>
+  <string name="default_mod_always_ask">שאל תמיד</string>
+  <string name="installed_mods">תוספים מותקנים</string>
+  <string name="global_toggle_on">מופעל</string>
+  <string name="global_toggle_off">כבוי</string>
+  <string name="notes_settings_title">הגדרות הערות</string>
+  <string name="task_settings_title">הגדרות מטלות</string>
+  <string name="deep_link_unknown_app_type">אין אפשרות לקבוע את סוג היישום</string>
+  <string name="unknown_mod">תוסף לא ידוע</string>
+  <string name="notes_default_mod_list_preference_title">הערות</string>
 </resources>
