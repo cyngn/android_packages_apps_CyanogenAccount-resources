@@ -152,12 +152,15 @@
   <string name="publish_nudge_permission_desc">מאפשר ליישום להציג התראות וחלונות דרך מסגרת הגילוי.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller תיגש לאנשי הקשר שלך, לפרופיל שלך, ולחשבון מערכת Cyanogen שלך, שעלולים לכלול את כתובת הדוא\"ל שלך. <a href="http://www.cyngn.com">למד עוד</a></string>
   <string name="discovery_dialog_nudge_body_test">ברוך הבא! כעת אתה יכול לפעיל את Truecaller כדי לזהות מתקשרים לא ידועים ולחסום שיחות לא רצויות. האם ברצונך להשתמש באפשרות זו?</string>
+  <string name="incall_service_cleanup_permission_label">בקשה לניקוי תוספי שירות InCall</string>
   <string name="incall_service_cleanup_permission_desc">מאפשר ליישום לבקש לנקות את כל הנתונים הנוגעים לתוסף מסוים של שירות InCall.</string>
   <string name="bind_incall_service_permission_desc">מאפשר ליישום להיקשר לשירות InCall כדי לגלות ולהשתמש בתוספי InCall.</string>
   <string name="camera_permission_label">צרכן של תוסף מצלמה</string>
   <string name="camera_permission_desc">מאפשר ליישום להתחבר לתוספי מצלמה</string>
   <string name="camera_plugin_permission_label">תוסף מצלמה</string>
   <string name="camera_plugin_permission_desc">מאפשר ליישום להיות תוסף למצלמה</string>
+  <string name="deeplink_service_cleanup_permission_label">בקשה לניקוי תוספי שירות DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">מאפשר ליישום לבקש את ניקוי הנתונים של תוסף DeepLink.</string>
   <string name="bind_deep_link_service_permission_desc">מאפשר ליישום להיקשר אל שירות DeepLink לגילוי תוספי DeepLink.</string>
   <string name="read_deeplink_database_permission_desc">מאפשר ליישום לקרוא מסדי נתונים של DeepLink המוגדרים על-ידי תוספי DeepLink פעילים.</string>
   <string name="default_mod_title">בחר תוסף ברירת מחדל</string>

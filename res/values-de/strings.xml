@@ -151,7 +151,9 @@
   <string name="publish_nudge_permission_desc">Ermöglicht der App, Benachrichtigungen und Dialoge über das Discovery Framework anzuzeigen.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller wird Zugriff auf Ihre Kontakte, Ich-Profil und Cyanogen OS Konto erhalten, welches Ihre Mail-Adresse beinhalten kann. <a href="http://www.cyngn.com">Mehr erfahren</a></string>
   <string name="discovery_dialog_nudge_body_test">Willkommen! Sie können jetzt Truecaller aktivieren, um unbekannte Anrufer zu identifizieren und ungewollte Anrufe zu blockieren. Möchtest Sie es verwenden?</string>
+  <string name="bind_incall_service_permission_label">sich an den InCall-Service zu binden</string>
   <string name="bind_incall_service_permission_desc">Ermöglicht der App, sich an den InCall-Service zu binden und InCall-Plugins zu entdecken und zu verwenden.</string>
+  <string name="camera_permission_label">Kamera-Plugin-Nutzer</string>
   <string name="camera_permission_desc">Ermöglicht der App, eine Verbindung zu Kamera-Plugins</string>
   <string name="camera_plugin_permission_label">Kamera-Plugin</string>
   <string name="camera_plugin_permission_desc">Ermöglicht der App, als Plugin für die Kamera zu dienen</string>

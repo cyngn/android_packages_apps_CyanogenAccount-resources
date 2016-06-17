@@ -142,4 +142,36 @@
   <string name="eula_linktext_cyanogen">Llicencia d\'Acuerdu col Usuariu Final de Cyanogen</string>
   <string name="sms_rate_warning">Vamos unviate un SMS a esti númberu pa verificar la propiedá del númberu de teléfonu. Unviar un SMS va costate la tasa normal de la rede.</string>
   <string name="cyngn_setup_create">CREAR</string>
+  <string name="control_hotword_service_permission_label">control de les aplicaciones de deteición de pallabres clave</string>
+  <string name="control_hotword_service_permission_desc">Permite qu\'una aplicación controle l\'actividá d\'una aplicación de deteición de pallabres clave siempres activa. Estes aplicaciones monitoricen de mou constante\'l micrófonu pa escuchar les frases clave diches.</string>
+  <string name="access_device_id_permission_label">accesu a la información del ID del preséu</string>
+  <string name="access_device_id_permission_desc">Permite qu\'una aplicación del sistema acceda a la ID única del preséu.</string>
+  <string name="device_info_permission_label">accesu a la información del preséu</string>
+  <string name="device_info_permission_desc">Permite qu\'una aplicación del sistema acceda a información básica tocante al preséu y el so estáu.</string>
+  <string name="publish_nudge_permission_label">espubliza coldazos</string>
+  <string name="publish_nudge_permission_desc">Permite qu\'una aplicación amuese avisos y diálogos pente\'l framework de descubrición.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller va tener accesu a los contautos, perfil y a la cuenta de Cyanogen OS, que pue incluyir la direición de corréu-e. <a href="http://www.cyngn.com">Deprender más</a></string>
+  <string name="discovery_dialog_nudge_body_test">¡Bienllegáu! Agora podrás habilitar Truecaller pa identificar llamaes desconocíes y bloquiar les non queríes. ¿Quies usalu?</string>
+  <string name="incall_service_cleanup_permission_label">solicitar la llimpieza de los Plugins del Servicio InCall</string>
+  <string name="incall_service_cleanup_permission_desc">Permitir a una aplicación solicitar la llimpieza de cualquier datu relativu d\'un Plugin específicu del serviciu InCall que quieras desaniciar</string>
+  <string name="bind_incall_service_permission_label">vinculase al serviciu InCall</string>
+  <string name="bind_incall_service_permission_desc">Permitir a una aplicación vinculase al serviciu incall pa descubrir y usar plugins InCall.</string>
+  <string name="camera_permission_label">consumidor del plugin cámara</string>
+  <string name="camera_permission_desc">Permite qu\'una aplicación acceda a los complementos de cámara</string>
+  <string name="camera_plugin_permission_label">plugin de cámara</string>
+  <string name="camera_plugin_permission_desc">Permite qu\'una aplicación día un complementu pa la cámara</string>
+  <string name="deeplink_service_cleanup_permission_label">solicitar la llimpieza de plugins del Serviciu DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Permitir a una aplicación solicitar el desaniciu de los datos de un plugin de DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Permitir a una aplicación vinculase al serviciu DeepLink pa poder descubrir mods de DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Permitir a una aplicación lleer les bases de datos definíes por mods habilitaos por DeepLink.</string>
+  <string name="default_mod_title">Escoyer el Mod predetermináu</string>
+  <string name="default_mod_always_ask">Entrugar siempres</string>
+  <string name="installed_mods">Mods instalaos</string>
+  <string name="global_toggle_on">Activáu</string>
+  <string name="global_toggle_off">Desactiváu</string>
+  <string name="notes_settings_title">Axustes de notes</string>
+  <string name="task_settings_title">Axustes de xeres</string>
+  <string name="deep_link_unknown_app_type">Nun pue determinase la triba d\'aplicación</string>
+  <string name="unknown_mod">Mod desconocíu</string>
+  <string name="notes_default_mod_list_preference_title">Notes</string>
 </resources>

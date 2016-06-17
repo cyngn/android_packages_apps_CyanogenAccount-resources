@@ -142,4 +142,23 @@
   <string name="eula_linktext_cyanogen">Cyanogen заштита лиценци</string>
   <string name="sms_rate_warning">Послаћемо SMS на овај број да потврдимо власништво телефонског броја. Слање SMS-а ће коштати по нормалној цени мреже.</string>
   <string name="cyngn_setup_create">КРЕИРАЈ</string>
+  <string name="control_hotword_service_permission_label">контрола апликација актуелних речи</string>
+  <string name="control_hotword_service_permission_desc">Дозволи апликацији увек укључену контролу активности детекције актуелних речи. Таква апликација константно прати микрофон и слуша изговорене специфичне фразе.</string>
+  <string name="access_device_id_permission_label">приступ јединственој идентификацији уређаја</string>
+  <string name="access_device_id_permission_desc">Дозволи системској апликацији да приступи јединственој идентификацији уређаја.</string>
+  <string name="device_info_permission_label">приступ информацијама уређаја</string>
+  <string name="device_info_permission_desc">Дозвољава системској апликацији приступ основним информацијама о уређају и његовом стању.</string>
+  <string name="camera_permission_desc">Дозволи апликацији да се конектује на додатке камере</string>
+  <string name="camera_plugin_permission_label">додатак камере</string>
+  <string name="camera_plugin_permission_desc">Дозволи апликацији да буде додатак камере</string>
+  <string name="default_mod_title">Одабери подразумевани режим</string>
+  <string name="default_mod_always_ask">Увек питај</string>
+  <string name="installed_mods">Инсталирани режими</string>
+  <string name="global_toggle_on">Укљ</string>
+  <string name="global_toggle_off">Иск</string>
+  <string name="notes_settings_title">Поставке белешки</string>
+  <string name="task_settings_title">Поставке задатака</string>
+  <string name="deep_link_unknown_app_type">Није могуће одредити тип апликације</string>
+  <string name="unknown_mod">Непознати режим</string>
+  <string name="notes_default_mod_list_preference_title">Белешке</string>
 </resources>
