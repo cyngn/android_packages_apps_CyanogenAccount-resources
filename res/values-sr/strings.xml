@@ -148,9 +148,22 @@
   <string name="access_device_id_permission_desc">Дозволи системској апликацији да приступи јединственој идентификацији уређаја.</string>
   <string name="device_info_permission_label">приступ информацијама уређаја</string>
   <string name="device_info_permission_desc">Дозвољава системској апликацији приступ основним информацијама о уређају и његовом стању.</string>
+  <string name="publish_nudge_permission_label">објава избацивања</string>
+  <string name="publish_nudge_permission_desc">Дозвола апликацији да прикаже обавештења и дијалоге кроз откривање оквира.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller ће имати приступ твојим контактима, профилима, и Cyanogen OS налогу који може садржати и твоју е-пошту.<a href="http://www.cyngn.com">Сазнај више</a></string>
+  <string name="discovery_dialog_nudge_body_test">Добро дошли! Сада можете омогућити Truecaller да идентификује непознате позиваоце и блокира нежељене позиве. Да ли желиш коритити то?</string>
+  <string name="incall_service_cleanup_permission_label">зехтева чишћење додатака InCall услуга</string>
+  <string name="incall_service_cleanup_permission_desc">Дозвола апликацији да затражи чишћење било каквих података који се односе на одређене додатке InCall услуга.</string>
+  <string name="bind_incall_service_permission_label">повежи са InCall услугом</string>
+  <string name="bind_incall_service_permission_desc">Омогућава апликацији да се повеже са InCall услугом да открије и користи InCall додатке.</string>
+  <string name="camera_permission_label">корисник додатка камере</string>
   <string name="camera_permission_desc">Дозволи апликацији да се конектује на додатке камере</string>
   <string name="camera_plugin_permission_label">додатак камере</string>
   <string name="camera_plugin_permission_desc">Дозволи апликацији да буде додатак камере</string>
+  <string name="deeplink_service_cleanup_permission_label">захтев чишћења додатака DeepLink услуге</string>
+  <string name="deeplink_service_cleanup_permission_desc">Дозвола апликацији да захтева чишћење података DeepLink додатака.</string>
+  <string name="bind_deep_link_service_permission_desc">Дозвола апликацији да повеже DeepLink услугу због откривања DeepLink режима.</string>
+  <string name="read_deeplink_database_permission_desc">Дозвола апликацији да чита DeepLink базе података дефинисане омогућеним DeepLink режимима.</string>
   <string name="default_mod_title">Одабери подразумевани режим</string>
   <string name="default_mod_always_ask">Увек питај</string>
   <string name="installed_mods">Инсталирани режими</string>

@@ -148,10 +148,22 @@
   <string name="access_device_id_permission_desc">Επιτρέπει σε μια εφαρμογή να έχει πρόσβαση στο μοναδικό ID της συσκευής.</string>
   <string name="device_info_permission_label">πρόσβαση στις πληροφορίες συσκευής</string>
   <string name="device_info_permission_desc">Επιτρέπει σε μια εφαρμογή συστήματος να έχει πρόσβαση στις βασικές πληροφορίες και στην κατάσταση της συσκευής.</string>
+  <string name="publish_nudge_permission_label">δημοσίευση σκουντηγμάτων</string>
+  <string name="publish_nudge_permission_desc">Επιτρέπει σε μια εφαρμογή να εμφανίσει ειδοποιήσεις και παράθυρα διαλόγου μέσω του πλαισίου ανακάλυψης.</string>
   <string name="discovery_dialog_nudge_subhead_test">Το Truecaller θα έχει πρόσβαση στις επαφές, στο προφίλ και στον Cyanogen OS λογαριασμό σας, τα οποία μπορεί να περιλαμβάνουν τη διεύθυνση ηλ. ταχυδρομείου σας. <a href="http://www.cyngn.com"> Μάθετε περισσότερα</a></string>
   <string name="discovery_dialog_nudge_body_test">Καλώς ορίσατε! Τώρα, μπορείτε να ενεργοποιήσετε το Truecaller για την αναγνώριση άγνωστων καλούντων και για φραγή ανεπιθύμητων κλήσεων. Θέλετε να το χρησιμοποιήσετε;</string>
+  <string name="incall_service_cleanup_permission_label">αίτημα εκκαθάρισης για τις προσθήκες της υπηρεσίας Κλήσης</string>
+  <string name="incall_service_cleanup_permission_desc">Επιτρέπει σε μια εφαρμογή να ζητήσει την εκκαθάριση οποιονδήποτε δεδομένων που αφορούν μία συγκεκριμένη προσθήκη της υπηρεσίας Κλήσης που πρέπει να εκκαθαριστούν.</string>
+  <string name="bind_incall_service_permission_label">σύνδεση στην υπηρεσία Κλήσης</string>
+  <string name="bind_incall_service_permission_desc">Επιτρέπει σε μια εφαρμογή να συνδεθεί με την υπηρεσία Κλήσης για να ανακαλύψει και να χρησιμοποιήσει προσθήκες Κλήσης.</string>
+  <string name="camera_permission_label">καταναλωτής προσθήκης κάμερας</string>
+  <string name="camera_permission_desc">Επιτρέπει σε μια εφαρμογή να συνδεθεί στις προσθήκες της κάμερας</string>
   <string name="camera_plugin_permission_label">προσθήκη κάμερας</string>
   <string name="camera_plugin_permission_desc">Επιτρέπει σε μια εφαρμογή να είναι προσθήκη για την κάμερα</string>
+  <string name="deeplink_service_cleanup_permission_label">αίτημα εκκαθάρισης για τις προσθήκες της υπηρεσίας DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Επιτρέπει σε μια εφαρμογή να ζητήσει την εκκαθάριση των δεδομένων μίας προσθήκης DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Επιτρέπει σε μια εφαρμογή να συνδεθεί με την υπηρεσία DeepLink για να ανακαλύψει DeepLink mod.</string>
+  <string name="read_deeplink_database_permission_desc">Επιτρέπει σε μια εφαρμογή την ανάγνωση βάσεων δεδομένων DeepLink των ενεργοποιημένων DeepLink mod.</string>
   <string name="default_mod_title">Επιλογή προεπιλεγμένου mod</string>
   <string name="default_mod_always_ask">Ερώτηση πάντα</string>
   <string name="installed_mods">Εγκατεστημένα mod</string>

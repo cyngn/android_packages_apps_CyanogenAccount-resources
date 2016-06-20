@@ -142,4 +142,5 @@
   <string name="eula_linktext_cyanogen">Cyanogen Eind Gebruiker Lisensie Ooreenkoms</string>
   <string name="sms_rate_warning">Ons gaan \'n SMS stuur na hierdie nommer om eienaarskap te verifieer na die telefoon nommer. Normale SMS koste is van toepassing met die stuur van die SMS.</string>
   <string name="cyngn_setup_create">SKEP</string>
+  <string name="control_hotword_service_permission_desc">Laat \'n toep die aktiwiteit van \'n altyd-aan sleutelwoord toep te beheer. Sulke toep\'s kan voortdurend die mikrofoon monitor om te luister vir \'n spesifieke gesproke sleutel frases.</string>
 </resources>
