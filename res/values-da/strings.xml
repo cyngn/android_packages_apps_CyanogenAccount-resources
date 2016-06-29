@@ -148,6 +148,7 @@
   <string name="access_device_id_permission_desc">Tillader en system app at få adgang til enhedsspecifik id-information.</string>
   <string name="device_info_permission_label">adgang til enhedsinformation</string>
   <string name="device_info_permission_desc">Tillader en system app at få adgang til enhedens basale information samt tilstand.</string>
+  <string name="publish_nudge_permission_label">udgiv puf</string>
   <string name="publish_nudge_permission_desc">Tillader en app at vise meddelelser og dialoger gennem discovery-frameworket.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller vil have adgang til dine kontakter, min profil og Cyanogen OS kontoen, som kan indeholde din email-adresse. <a href="http://www.cyngn.com"> Få mere at vide</a></string>
   <string name="discovery_dialog_nudge_body_test">Velkommen! Du kan nu aktivere Truecaller for at identificere ukendte opkald og blokere uønskede opkald. Vil du bruge det?</string>
