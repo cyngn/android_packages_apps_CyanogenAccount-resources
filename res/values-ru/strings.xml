@@ -88,7 +88,7 @@
   <string name="cmaccount_create">Создание аккаунта Cyanogen</string>
   <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">Логотип</string>
-  <string name="cyngn_setup_poweredby_logo_alttext">На платформе Cyanogen</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Технологии Cyanogen</string>
   <string name="cyngn_setup_skip">ПРОПУСТИТЬ</string>
   <string name="cyngn_setup_next">ДАЛЕЕ</string>
   <string name="cyngn_skip_setup_dialog_header">Пропустить настройку аккаунта?</string>
@@ -148,13 +148,20 @@
   <string name="access_device_id_permission_desc">Разрешает системному приложению доступ к уникальному идентификатору устройства.</string>
   <string name="device_info_permission_label">доступ к информации о устройстве</string>
   <string name="device_info_permission_desc">Разрешает системному приложению доступ к базовой информации об устройстве и его состоянии.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller будет иметь доступ к вашим контактам, профилю и аккаунту Cyanogen OS, который может содержать ваш адрес электронной почты. <a href="http://www.cyngn.com">Подробнее</a></string>
   <string name="discovery_dialog_nudge_body_test">Добро пожаловать! Теперь вы можете включить Truecaller для идентификации звонящих и блокировки нежелательных вызовов. Хотели бы вы воспользоваться этим?</string>
+  <string name="incall_service_cleanup_permission_desc">Приложение сможет запрашивать очистку любых данных, относящихся к конкретному плагину InCall.</string>
+  <string name="bind_incall_service_permission_desc">Приложение сможет использовать службу InCall, чтобы обнаруживать и использовать плагины InCall.</string>
+  <string name="camera_permission_desc">Приложение сможет подключаться к плагинам камеры</string>
   <string name="camera_plugin_permission_label">модуль камеры</string>
+  <string name="deeplink_service_cleanup_permission_desc">Приложение сможет запросить удаление данных плагина DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Приложение сможет использовать службу DeepLink для обнаружения модов DeepLink.</string>
   <string name="default_mod_title">Выбрать мод по умолчанию</string>
   <string name="default_mod_always_ask">Всегда спрашивать</string>
   <string name="installed_mods">Установленные моды</string>
   <string name="global_toggle_on">Вкл</string>
   <string name="global_toggle_off">Выкл</string>
+  <string name="notes_settings_title">Настройки заметок</string>
   <string name="task_settings_title">Параметры задачи</string>
   <string name="deep_link_unknown_app_type">Невозможно определить тип приложения</string>
   <string name="unknown_mod">Неизвестный мод</string>
