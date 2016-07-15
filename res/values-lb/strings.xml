@@ -92,4 +92,8 @@
   <string name="tos_linktext_cyanogen">Cyanogen-Geschäftsbedéngungen</string>
   <string name="privacy_linktext_cyanogen">Cyanogen-Dateschutzerklärung</string>
   <string name="cyngn_setup_create">ERSTELLEN</string>
+  <string name="camera_permission_label">Kamera-Plugin-Notzer</string>
+  <string name="camera_permission_desc">Erméiglécht der App, eng Connectioun zu Kamera-Plugins opzebauen</string>
+  <string name="camera_plugin_permission_label">Kamera-Plugin</string>
+  <string name="camera_plugin_permission_desc">Erméiglecht der App, als Plugin fir d\'Kamera benotzt ze ginn</string>
 </resources>
