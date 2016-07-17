@@ -71,7 +71,7 @@
   <string name="cmaccount_password_changed_message">Моля, влезте в CyanogenMod профила си</string>
   <string name="cmaccount_setup_email_blank_label">Трябва да въведете имейл</string>
   <string name="cmaccount_setup_password_blank_label">Трябва да въведете парола</string>
-  <string name="cmaccount_setup_confirm_password_blank_label">Въведете паролата си отново</string>
+  <string name="cmaccount_setup_confirm_password_blank_label">Въведете вашата парола отново</string>
   <string name="cmaccount_setup_displayname_blank_label">Трябва да въведете потребителско име</string>
   <string name="cmaccount_setup_must_agree_label">Трябва да приемете Условията за ползване</string>
   <string name="cmaccount_setup_displayname_invalid_label">Невалидно потребителско име</string>
@@ -81,9 +81,9 @@
   <string name="cmaccount_displayname_hint">Потребителско име</string>
   <string name="cmaccount_email_label">Имейл</string>
   <string name="cmaccount_password_label">Парола</string>
-  <string name="cmaccount_password_hint">Въведете паролата си</string>
+  <string name="cmaccount_password_hint">Въведете вашата парола</string>
   <string name="cmaccount_confirmpass_label">Въведете отново паролата</string>
-  <string name="cmaccount_confirmpass_hint">Въведете отново паролата си</string>
+  <string name="cmaccount_confirmpass_hint">Въведете отново вашата парола</string>
   <string name="cmaccount_cancel">ОТКАЗ</string>
   <string name="cmaccount_create">Създайте Cyanogen профил</string>
   <!-- New Cyanogen account-related strings -->
