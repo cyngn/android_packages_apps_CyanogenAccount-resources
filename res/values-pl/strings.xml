@@ -143,7 +143,31 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="eula_linktext_cyanogen">Umowa licencyjna użytkownika końcowego Cyanogen</string>
   <string name="sms_rate_warning">Wyślemy SMS na ten numer, aby zweryfikować czy podany numer telefonu jest twój. Koszt SMS jest równy normalnej cenie wiadomości SMS.</string>
   <string name="cyngn_setup_create">UTWÓRZ</string>
+  <string name="control_hotword_service_permission_desc">Zezwala aplikacji na kontrolowanie zawsze aktywnej detekcji słów kluczy. Taka aplikacja będzie cały czas słuchać przez mikrofon w oczekiwaniu na wypowiedzenie słów kluczy.</string>
   <string name="access_device_id_permission_label">dostęp do informacji o unikalnym ID urządzenia</string>
   <string name="access_device_id_permission_desc">Zezwala aplikacji systemowej na dostęp do informacji o unikalnym ID urządzenia.</string>
   <string name="device_info_permission_label">dostęp do informacji o urządzeniu</string>
+  <string name="device_info_permission_desc">Zezwala aplikacji systemowej na dostęp do podstawowych informacji o urządzeniu i jego stanie.</string>
+  <string name="publish_nudge_permission_desc">Zezwala aplikacji na wyświetlanie powiadomień i okienek dialogowych przez wykryte mechanizmy.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller będzie miał dostęp do Twoich kontaktów, profilu i konta Cyanogen, dane te mogą zawierać Twój adres email. <a href="http://www.cyngn.com">Czytaj więcej</a></string>
+  <string name="discovery_dialog_nudge_body_test">Zapraszamy! Możesz teraz włączyć Truecaller do identyfikacji nieznanych rozmówców i blokowanie niechcianych połączeń. Czy chcesz zacząć go używać?</string>
+  <string name="incall_service_cleanup_permission_label">żąda wyczyszczenia wtyczek dostępnych podczas połączenia</string>
+  <string name="incall_service_cleanup_permission_desc">Zezwala aplikacji na żądanie wyczyszczenia danych odnoszących się to wtyczek dostępnych podczas połączenia.</string>
+  <string name="bind_incall_service_permission_label">powiąż usługę dostępną podczas połączenia</string>
+  <string name="bind_incall_service_permission_desc">Zezwala aplikacji na powiązanie usługi dostępnej podczas połączenia, aby wykrywać i używać wtyczek podczas połączenia.</string>
+  <string name="camera_permission_label">wtyczka użytkownika do aparatu</string>
+  <string name="camera_permission_desc">Zezwala aplikacji na połączenie do wtyczki aparatu</string>
+  <string name="camera_plugin_permission_label">wtyczka aparatu</string>
+  <string name="camera_plugin_permission_desc">Zezwala aplikacji na bycie wtyczką Aparatu</string>
+  <string name="deeplink_service_cleanup_permission_label">żądaj wyczyszczenia wtyczek usługi DeepLink</string>
+  <string name="deeplink_service_cleanup_permission_desc">Zezwala aplikacji na żądanie wyczyszczenia danych wtyczek DeepLink.</string>
+  <string name="bind_deep_link_service_permission_desc">Umożliwia aplikacji powiązanie z usługą DeepLink w celu odkrywania modów DeepLink.</string>
+  <string name="read_deeplink_database_permission_desc">Umożliwia aplikacji do odczytu baz danych DeepLink, zdefiniowanych przez włączone mody DeepLink.</string>
+  <string name="default_mod_always_ask">Zawsze pytaj</string>
+  <string name="global_toggle_on">Wł.</string>
+  <string name="global_toggle_off">Wył.</string>
+  <string name="notes_settings_title">Ustawienia notatek</string>
+  <string name="task_settings_title">Ustawienia zadania</string>
+  <string name="deep_link_unknown_app_type">Nie można określić typu aplikacji</string>
+  <string name="notes_default_mod_list_preference_title">Notatki</string>
 </resources>
