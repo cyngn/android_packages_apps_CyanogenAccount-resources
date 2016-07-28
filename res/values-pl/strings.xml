@@ -163,11 +163,14 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="deeplink_service_cleanup_permission_desc">Zezwala aplikacji na żądanie wyczyszczenia danych wtyczek DeepLink.</string>
   <string name="bind_deep_link_service_permission_desc">Umożliwia aplikacji powiązanie z usługą DeepLink w celu odkrywania modów DeepLink.</string>
   <string name="read_deeplink_database_permission_desc">Umożliwia aplikacji do odczytu baz danych DeepLink, zdefiniowanych przez włączone mody DeepLink.</string>
+  <string name="default_mod_title">Wybierz domyślny mod</string>
   <string name="default_mod_always_ask">Zawsze pytaj</string>
+  <string name="installed_mods">Zainstalowane mody</string>
   <string name="global_toggle_on">Wł.</string>
   <string name="global_toggle_off">Wył.</string>
   <string name="notes_settings_title">Ustawienia notatek</string>
   <string name="task_settings_title">Ustawienia zadania</string>
   <string name="deep_link_unknown_app_type">Nie można określić typu aplikacji</string>
+  <string name="unknown_mod">Nieznany mod</string>
   <string name="notes_default_mod_list_preference_title">Notatki</string>
 </resources>
