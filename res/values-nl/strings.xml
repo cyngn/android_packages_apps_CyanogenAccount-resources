@@ -142,4 +142,5 @@
   <string name="eula_linktext_cyanogen">Licentieovereenkomst voor eindgebruikers van Cyanogen</string>
   <string name="sms_rate_warning">Wij verzenden een sms-bericht naar dit nummer om te verifiëren of u de eigenaar bent van het telefoonnummer. Een sms-bericht verzenden kost het normale tarief.</string>
   <string name="cyngn_setup_create">AANMAKEN</string>
+  <string name="deep_link_unknown_app_type">Kan app-type niet bepalen</string>
 </resources>
