@@ -198,4 +198,28 @@
     <string name="deep_link_unknown_app_type">Unable to determine app type</string>
     <string name="unknown_mod">Unknown mod</string>
     <string name="notes_default_mod_list_preference_title">Notes</string>
+
+    <string name="device_admin_description">Enable Cyanogen MOD Support</string>
+    <string name="device_admin_name">MOD Device Manager</string>
+
+    <string name="label_sdk_id" translatable="false">From SDK:</string>
+    <string name="label_hardware_id" translatable="false">From hardware:</string>
+    <string name="label_persistent_store" translatable="false">From persistent store:</string>
+
+
+    <string name="cyanogen_dashboard_tile_name" translatable="false">Cyanogen</string>
+
+    <string name="debug_preference_title" translatable="false">Debug</string>
+    <string name="debug_activity_name" translatable="false">Debug</string>
+
+    <string name="device_category_title" translatable="false">Device</string>
+    <string name="udid_category_title" translatable="false">UDID</string>
+    <string name="install_category_title" translatable="false">Install</string>
+
+    <string name="persistent_store_preference_title" translatable="false">Persistent Store</string>
+    <string name="shared_prefs_preference_title" translatable="false">Shared Prefs</string>
+    <string name="hardware_preference_title" translatable="false">Hardware</string>
+    <string name="device_id_preference_title" translatable="false">DeviceId</string>
+
+
 </resources>
