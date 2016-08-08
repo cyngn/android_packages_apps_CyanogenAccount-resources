@@ -174,4 +174,6 @@
   <string name="deep_link_unknown_app_type">Не може да се определи типа на приложението</string>
   <string name="unknown_mod">Неизвестен модул</string>
   <string name="notes_default_mod_list_preference_title">Бележки</string>
+  <string name="device_admin_description">Разреши Cyanogen MOD Support</string>
+  <string name="device_admin_name">MOD Device Manager</string>
 </resources>

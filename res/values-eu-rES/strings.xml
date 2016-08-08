@@ -174,4 +174,6 @@
   <string name="deep_link_unknown_app_type">Ezin izan da aplikazio mota zehaztu</string>
   <string name="unknown_mod">Mod ezezaguna</string>
   <string name="notes_default_mod_list_preference_title">Oharrak</string>
+  <string name="device_admin_description">Gaitu Cyanogen MOD euskarria</string>
+  <string name="device_admin_name">MOD gailu kudeatzailea</string>
 </resources>
