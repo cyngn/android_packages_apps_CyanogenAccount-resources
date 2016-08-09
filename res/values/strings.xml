@@ -198,6 +198,7 @@
     <string name="deep_link_unknown_app_type">Unable to determine app type</string>
     <string name="unknown_mod">Unknown mod</string>
     <string name="notes_default_mod_list_preference_title">Notes</string>
+    <string name="deep_link_settings_no_settings_activity_configured_msg">Please use %s to view app settings</string>
 
     <string name="device_admin_description">Enable Cyanogen MOD Support</string>
     <string name="device_admin_name">MOD Device Manager</string>
@@ -220,6 +221,5 @@
     <string name="shared_prefs_preference_title" translatable="false">Shared Prefs</string>
     <string name="hardware_preference_title" translatable="false">Hardware</string>
     <string name="device_id_preference_title" translatable="false">DeviceId</string>
-
 
 </resources>
