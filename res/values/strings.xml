@@ -185,7 +185,7 @@
     <string name="camera_plugin_permission_desc">Allows an app to be a plugin for the Camera</string>
 
     <string name="deeplink_service_cleanup_permission_label">request clean up of DeepLink Service Plugins</string>
-    <string name="deeplink_service_cleanup_permission_desc">Allows an app to request clearing a DeepLink plugin's data.</string>
+    <string name="deeplink_service_cleanup_permission_desc">Allows an app to request clearing a DeepLink plugin\'s data.</string>
     <string name="bind_deep_link_service_permission_desc">Allows an app to bind to the DeepLink service for discovering DeepLink mods.</string>
     <string name="read_deeplink_database_permission_desc">Allows an app to read DeepLink databases defined by DeepLink enabled mods.</string>
     <string name="default_mod_title">Choose default mod</string>
