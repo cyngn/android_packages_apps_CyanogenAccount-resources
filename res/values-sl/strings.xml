@@ -174,6 +174,7 @@
   <string name="deep_link_unknown_app_type">Vrste aplikacije ni mogoče določiti</string>
   <string name="unknown_mod">Neznana modifikacija</string>
   <string name="notes_default_mod_list_preference_title">Opombe</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Uporabite %s za ogled nastavitev aplikacije</string>
   <string name="device_admin_description">Omogoči podporo Cyanogen MOD</string>
   <string name="device_admin_name">Upravljalnik naprav MOD</string>
 </resources>

@@ -173,4 +173,5 @@
   <string name="deep_link_unknown_app_type">App-Typ konnte nicht bestimmt werden</string>
   <string name="unknown_mod">Unbekannter Mod</string>
   <string name="notes_default_mod_list_preference_title">Notizen</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Bitte verwenden Sie %s, um die App-Einstellungen anzuzeigen</string>
 </resources>

@@ -174,4 +174,7 @@
   <string name="deep_link_unknown_app_type">Kan ikke finne ut programtypen</string>
   <string name="unknown_mod">Ukjent mod</string>
   <string name="notes_default_mod_list_preference_title">Notater</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Vennligst bruk %s for å vise appinnstillinger</string>
+  <string name="device_admin_description">Aktiver støtte for Cyanogen MOD</string>
+  <string name="device_admin_name">MOD Enhetsbehandling</string>
 </resources>

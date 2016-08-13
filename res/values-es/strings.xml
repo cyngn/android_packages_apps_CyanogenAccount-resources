@@ -174,4 +174,6 @@
   <string name="deep_link_unknown_app_type">No se pudo determinar el tipo de aplicación</string>
   <string name="unknown_mod">Mod desconocido</string>
   <string name="notes_default_mod_list_preference_title">Notas</string>
+  <string name="device_admin_description">Habilitar el soporte de Cyanogen MOD</string>
+  <string name="device_admin_name">Administrador de dispositivos de MOD</string>
 </resources>

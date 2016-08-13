@@ -174,4 +174,7 @@
   <string name="deep_link_unknown_app_type">Nije moguće odrediti tip aplikacije</string>
   <string name="unknown_mod">Nepoznati mod</string>
   <string name="notes_default_mod_list_preference_title">Bilješke</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Molimo koristite %s da biste vidjeli postavke aplikacije</string>
+  <string name="device_admin_description">Omogući Cyanogen MOD Podršku</string>
+  <string name="device_admin_name">MOD Upravitelj uređaja</string>
 </resources>
