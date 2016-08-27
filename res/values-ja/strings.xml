@@ -88,7 +88,7 @@
   <string name="cmaccount_create">Cyanogenアカウントを作成</string>
   <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">ロゴ</string>
-  <string name="cyngn_setup_poweredby_logo_alttext">Powered by Cyanogen</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Cyanogen提供</string>
   <string name="cyngn_setup_skip">スキップ</string>
   <string name="cyngn_setup_next">次へ</string>
   <string name="cyngn_skip_setup_dialog_header">アカウントのセットアップをスキップしますか？</string>

@@ -174,6 +174,7 @@
   <string name="deep_link_unknown_app_type">无法确定应用类型</string>
   <string name="unknown_mod">未知的模块</string>
   <string name="notes_default_mod_list_preference_title">备注</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">请使用 %s 来查看应用设置</string>
   <string name="device_admin_description">启用 Cyanogen 模块支持</string>
   <string name="device_admin_name">模块设备管理器</string>
 </resources>

@@ -174,4 +174,6 @@
   <string name="unknown_mod">Unbekannter Mod</string>
   <string name="notes_default_mod_list_preference_title">Notizen</string>
   <string name="deep_link_settings_no_settings_activity_configured_msg">Bitte verwenden Sie %s, um die App-Einstellungen anzuzeigen</string>
+  <string name="device_admin_description">Cyanogen MOD-Unterstützung aktivieren</string>
+  <string name="device_admin_name">MOD-Gerätemanager</string>
 </resources>

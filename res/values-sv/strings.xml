@@ -142,4 +142,7 @@
   <string name="eula_linktext_cyanogen">Cyanogen licensavtal för slutanvändare</string>
   <string name="sms_rate_warning">Vi kommer skicka ett SMS till detta nummer för att verifiera att du äger telefonnumret. Att skicka SMS kommer kosta den normala operatörstaxan.</string>
   <string name="cyngn_setup_create">SKAPA</string>
+  <string name="global_toggle_on">På</string>
+  <string name="global_toggle_off">Av</string>
+  <string name="notes_default_mod_list_preference_title">Anteckningar</string>
 </resources>
