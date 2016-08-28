@@ -174,4 +174,7 @@
   <string name="deep_link_unknown_app_type">Αδυναμία προσδιορισμού του τύπου της εφαρμογής</string>
   <string name="unknown_mod">Άγνωστο mod</string>
   <string name="notes_default_mod_list_preference_title">Σημειώσεις</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Παρακαλούμε χρησιμοποιήστε το %s για να προβάλετε τις ρυθμίσεις της εφαρμογής</string>
+  <string name="device_admin_description">Ενεργοποιήστε την υποστήριξη Cyanogen MOD</string>
+  <string name="device_admin_name">Διαχείριση συσκευών MOD</string>
 </resources>

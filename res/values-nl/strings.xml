@@ -105,8 +105,8 @@
   <string name="cyngn_setup_create_profile_email_unavailable">Het geselecteerde e-mailadres is niet beschikbaar.</string>
   <string name="cyngn_setup_create_profile_email_invalid">Het geselecteerde e-mailadres is ongeldig.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">De geselecteerde weergavenaam is ongeldig, te lang of niet toegestaan.</string>
-  <string name="cyngn_setup_create_profile_phone_unavailable">Het telefoonnummer dat u heeft ingevoerd is niet beschikbaar.</string>
-  <string name="cyngn_setup_create_profile_phone_invalid">Het telefoonnummer dat u heeft ingevoerd is ongeldig.</string>
+  <string name="cyngn_setup_create_profile_phone_unavailable">Het telefoonnummer dat u hebt ingevoerd is niet beschikbaar.</string>
+  <string name="cyngn_setup_create_profile_phone_invalid">Het telefoonnummer dat u hebt ingevoerd is ongeldig.</string>
   <string name="cyngn_setup_password_strength_meter_label">Sterkte wachtwoord:</string>
   <string name="cyngn_setup_password_strength_meter_label_strong">Sterk</string>
   <string name="cyngn_setup_password_strength_meter_label_fair">Gemiddeld</string>
