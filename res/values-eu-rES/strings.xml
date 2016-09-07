@@ -48,7 +48,7 @@
   <string name="cmaccount_setup_password_strength_label">8 karaktere gutxienez</string>
   <string name="cmaccount_setup_password_mismatch_label">Pasahitzak ez datoz bat!</string>
   <string name="cmaccount_setup_password_invalid_label">Pasahitzak gutxienez 8 karaktere izan behar ditu!</string>
-  <string name="cmaccount_setup_confirm_password_label">Berriro sartu pasahitza</string>
+  <string name="cmaccount_setup_confirm_password_label">Sartu berriro pasahitza</string>
   <string name="cmaccount_setup_tos_label">Kontrol-lauki hau markatuz <u>Cyanogen erabilera baldintzak</u>, <u>Pribatutasun politika</u>, eta <u>Erabiltzaile lizentzia akordioa</u> onartzen dituzu.</string>
   <string name="cmaccount_add_title">Gehitu zure kontua</string>
   <string name="cmaccount_learn_more">Ikasi gehiago\u2026</string>
@@ -82,8 +82,8 @@
   <string name="cmaccount_email_label">Eposta</string>
   <string name="cmaccount_password_label">Pasahitza</string>
   <string name="cmaccount_password_hint">sartu zure pasahitza</string>
-  <string name="cmaccount_confirmpass_label">Sartu pasahitza berriro</string>
-  <string name="cmaccount_confirmpass_hint">sartu zure pasahitza berriro</string>
+  <string name="cmaccount_confirmpass_label">Sartu berriro pasahitza</string>
+  <string name="cmaccount_confirmpass_hint">sartu berriro zure pasahitza</string>
   <string name="cmaccount_cancel">UTZI</string>
   <string name="cmaccount_create">Sortu zure Cyanogen Kontua</string>
   <!-- New Cyanogen account-related strings -->

@@ -154,6 +154,7 @@
   <string name="discovery_dialog_nudge_body_test">Velkommen! Du kan nu aktivere Truecaller for at identificere ukendte opkald og blokere uønskede opkald. Vil du bruge det?</string>
   <string name="camera_plugin_permission_label">kamera plugin</string>
   <string name="camera_plugin_permission_desc">Tillader en app at være et plugin for kameraet</string>
+  <string name="read_deeplink_database_permission_desc">Tillad at en app kan læse DeepLink databaser defineret af DeepLink aktiverede mods.</string>
   <string name="default_mod_title">Vælg standard tilpasning</string>
   <string name="default_mod_always_ask">Spørg altid</string>
   <string name="installed_mods">Installeret tilpasninger</string>

@@ -142,5 +142,20 @@
   <string name="eula_linktext_cyanogen">Licentieovereenkomst voor eindgebruikers van Cyanogen</string>
   <string name="sms_rate_warning">Wij verzenden een sms-bericht naar dit nummer om te verifiëren of u de eigenaar bent van het telefoonnummer. Een sms-bericht verzenden kost het normale tarief.</string>
   <string name="cyngn_setup_create">AANMAKEN</string>
+  <string name="control_hotword_service_permission_desc">Hiermee kan de app de activiteit van een altijd-actieve hotword-app beheren. Zulke apps luisteren continu naar de microfoon om bepaalde gesproken zinnen te detecteren.</string>
+  <string name="access_device_id_permission_desc">Hiermee kan de systeemapp het unieke apparaat-ID lezen.</string>
+  <string name="device_info_permission_desc">Hiermee kan de systeemapp toegang krijgen tot basisinformatie over het apparaat en de staat waarin deze zich bevindt.</string>
+  <string name="publish_nudge_permission_desc">Hiermee kan de app notificaties en dialoogvensters weergeven vanuit het discovery framework.</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecaller zal toegang hebben tot uw contactpersonen, profiel en Cyanogen OS-account, waaronder eventueel uw e-mailadres. <a href="http://www.cyngn.com">Meer informatie</a></string>
+  <string name="incall_service_cleanup_permission_desc">Hiermee kan de app vragen om gegevens met betrekking tot een specifieke InCall Service Plugin op te ruimen.</string>
+  <string name="bind_incall_service_permission_desc">Hiermee kan de app verbinden met de InCall Service om InCall plug-ins te ontdekken en gebruiken.</string>
+  <string name="camera_permission_desc">Hiermee kan de app verbinden met camera-plug-ins</string>
+  <string name="camera_plugin_permission_desc">Hiermee kan de app fungeren als een plug-in voor de camera</string>
+  <string name="deeplink_service_cleanup_permission_desc">Hiermee kan de app vragen om de gegevens van een DeepLink-plug-in te wissen.</string>
+  <string name="bind_deep_link_service_permission_desc">Hiermee kan de app verbinden met de Deeplink-service om DeepLink-mods te ontdekken.</string>
+  <string name="default_mod_always_ask">Altijd vragen</string>
+  <string name="global_toggle_on">Aan</string>
+  <string name="global_toggle_off">Uit</string>
   <string name="deep_link_unknown_app_type">Kan app-type niet bepalen</string>
+  <string name="notes_default_mod_list_preference_title">Notities</string>
 </resources>
