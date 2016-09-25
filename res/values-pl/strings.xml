@@ -174,4 +174,7 @@ Umowę licencyjną użytkownika końcowego zaznaczając pola wyboru, aby kontynu
   <string name="deep_link_unknown_app_type">Nie można określić typu aplikacji</string>
   <string name="unknown_mod">Nieznany mod</string>
   <string name="notes_default_mod_list_preference_title">Notatki</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Proszę użyć %s, aby wyświetlić ustawienia aplikacji</string>
+  <string name="device_admin_description">Włącz wsparcie MODów Cyanogen</string>
+  <string name="device_admin_name">Menedżer urządzeń MOD</string>
 </resources>

@@ -152,8 +152,17 @@
   <string name="publish_nudge_permission_desc">Tillader en app at vise meddelelser og dialoger gennem discovery-frameworket.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller vil have adgang til dine kontakter, min profil og Cyanogen OS kontoen, som kan indeholde din email-adresse. <a href="http://www.cyngn.com"> Få mere at vide</a></string>
   <string name="discovery_dialog_nudge_body_test">Velkommen! Du kan nu aktivere Truecaller for at identificere ukendte opkald og blokere uønskede opkald. Vil du bruge det?</string>
+  <string name="incall_service_cleanup_permission_label">anmod om oprydning i InCall-tjenestens plugins</string>
+  <string name="incall_service_cleanup_permission_desc">Tillader en app at anmode om oprydning i data vedr. en bestemt InCall-tjenesteplugin.</string>
+  <string name="bind_incall_service_permission_label">knyt til InCall-tjeneste</string>
+  <string name="bind_incall_service_permission_desc">Tillader en app at knytte sig til InCall-tjenesten for at opdage og bruge InCall-plugins.</string>
+  <string name="camera_permission_label">forbruger af kameraplugins</string>
+  <string name="camera_permission_desc">Tillader en app at forbinde til kameraplugins</string>
   <string name="camera_plugin_permission_label">kamera plugin</string>
   <string name="camera_plugin_permission_desc">Tillader en app at være et plugin for kameraet</string>
+  <string name="deeplink_service_cleanup_permission_label">anmod om oprydning i Deeplink-tjenestens plugins</string>
+  <string name="deeplink_service_cleanup_permission_desc">Tillader en app at anmode om oprydning i Deeplink-pluginets data.</string>
+  <string name="bind_deep_link_service_permission_desc">Tillader en app at knytte sig til Deeplink-tjenesten for at kunne opdage Deeplink-mods.</string>
   <string name="read_deeplink_database_permission_desc">Tillad at en app kan læse DeepLink databaser defineret af DeepLink aktiverede mods.</string>
   <string name="default_mod_title">Vælg standard tilpasning</string>
   <string name="default_mod_always_ask">Spørg altid</string>
@@ -165,4 +174,7 @@
   <string name="deep_link_unknown_app_type">Kunne ikke afgøre app-typen</string>
   <string name="unknown_mod">Ukendt tilpasning</string>
   <string name="notes_default_mod_list_preference_title">Noter</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Brug %s til at vise appindstillinger</string>
+  <string name="device_admin_description">Aktivér understøttelse af Cyanogen MOD</string>
+  <string name="device_admin_name">MOD Enhedsstyring</string>
 </resources>
