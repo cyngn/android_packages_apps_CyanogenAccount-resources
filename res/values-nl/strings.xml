@@ -142,21 +142,28 @@
   <string name="eula_linktext_cyanogen">Licentieovereenkomst voor eindgebruikers van Cyanogen</string>
   <string name="sms_rate_warning">Wij verzenden een sms-bericht naar dit nummer om te verifiëren of u de eigenaar bent van het telefoonnummer. Een sms-bericht verzenden kost het normale tarief.</string>
   <string name="cyngn_setup_create">AANMAKEN</string>
+  <string name="control_hotword_service_permission_label">hotword-apps beheren</string>
   <string name="control_hotword_service_permission_desc">Hiermee kan de app de activiteit van een altijd-actieve hotword-app beheren. Zulke apps luisteren continu naar de microfoon om bepaalde gesproken zinnen te detecteren.</string>
   <string name="access_device_id_permission_label">toegang tot informatie over het unieke apparaat-ID</string>
   <string name="access_device_id_permission_desc">Hiermee kan de systeemapp het unieke apparaat-ID lezen.</string>
   <string name="device_info_permission_label">toegang tot apparaatgegevens</string>
   <string name="device_info_permission_desc">Hiermee kan de systeemapp toegang krijgen tot basisinformatie over het apparaat en de staat waarin deze zich bevindt.</string>
+  <string name="publish_nudge_permission_label">meldingen weergeven</string>
   <string name="publish_nudge_permission_desc">Hiermee kan de app notificaties en dialoogvensters weergeven vanuit het discovery framework.</string>
   <string name="discovery_dialog_nudge_subhead_test">Truecaller zal toegang hebben tot uw contactpersonen, profiel en Cyanogen OS-account, waaronder eventueel uw e-mailadres. <a href="http://www.cyngn.com">Meer informatie</a></string>
+  <string name="discovery_dialog_nudge_body_test">Welkom! U kunt nu Truecaller inschakelen om onbekende bellers te identificeren en ongewenste oproepen te blokkeren. Wilt u dit gebruiken?</string>
+  <string name="incall_service_cleanup_permission_label">verzoek om InCall Service plug-ins op te ruimen</string>
   <string name="incall_service_cleanup_permission_desc">Hiermee kan de app vragen om gegevens met betrekking tot een specifieke InCall Service Plugin op te ruimen.</string>
+  <string name="bind_incall_service_permission_label">koppelen aan InCall Service</string>
   <string name="bind_incall_service_permission_desc">Hiermee kan de app verbinden met de InCall Service om InCall plug-ins te ontdekken en gebruiken.</string>
   <string name="camera_permission_label">gebruiker camera-plug-in</string>
   <string name="camera_permission_desc">Hiermee kan de app verbinden met camera-plug-ins</string>
   <string name="camera_plugin_permission_label">camera-plug-in</string>
   <string name="camera_plugin_permission_desc">Hiermee kan de app fungeren als een plug-in voor de camera</string>
+  <string name="deeplink_service_cleanup_permission_label">verzoek om DeepLink Service plug-ins op te ruimen</string>
   <string name="deeplink_service_cleanup_permission_desc">Hiermee kan de app vragen om de gegevens van een DeepLink-plug-in te wissen.</string>
   <string name="bind_deep_link_service_permission_desc">Hiermee kan de app verbinden met de Deeplink-service om DeepLink-mods te ontdekken.</string>
+  <string name="read_deeplink_database_permission_desc">Hiermee kan de app Deeplink-databases lezen die zijn aangemaakt door Deeplink-mods.</string>
   <string name="default_mod_title">Standaard Mod selecteren</string>
   <string name="default_mod_always_ask">Altijd vragen</string>
   <string name="installed_mods">Geïnstalleerde Mods</string>
@@ -167,4 +174,7 @@
   <string name="deep_link_unknown_app_type">Kan app-type niet bepalen</string>
   <string name="unknown_mod">Onbekende Mod</string>
   <string name="notes_default_mod_list_preference_title">Notities</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">Gebruik %s om de app-instellingen te bekijken</string>
+  <string name="device_admin_description">Ondersteuning voor Cyanogen MOD inschakelen</string>
+  <string name="device_admin_name">MOD Apparaatbeheer</string>
 </resources>

@@ -88,7 +88,7 @@
   <string name="cmaccount_create">Cyanogenアカウントを作成</string>
   <!-- New Cyanogen account-related strings -->
   <string name="cyngn_setup_logo_alttext">ロゴ</string>
-  <string name="cyngn_setup_poweredby_logo_alttext">Cyanogen提供</string>
+  <string name="cyngn_setup_poweredby_logo_alttext">Powered by Cyanogen</string>
   <string name="cyngn_setup_skip">スキップ</string>
   <string name="cyngn_setup_next">次へ</string>
   <string name="cyngn_skip_setup_dialog_header">アカウントのセットアップをスキップしますか？</string>
@@ -142,4 +142,39 @@
   <string name="eula_linktext_cyanogen">Cyanogen使用許諾契約</string>
   <string name="sms_rate_warning">この電話番号の持ち主であることを確認するために、この電話番号にSMSを送信します。SMSの送信には通常の利用料金が掛かります。</string>
   <string name="cyngn_setup_create">作成</string>
+  <string name="control_hotword_service_permission_label">ホットワードアプリケーションのコントロール</string>
+  <string name="control_hotword_service_permission_desc">ホットワード常時検出アプリのアクティビティをコントロールすることをアプリに許可します。このようなアプリは特定の音声のキーフレーズを聞き取るためにマイクを常に監視することができます。</string>
+  <string name="access_device_id_permission_label">端末固有ID情報へのアクセス</string>
+  <string name="access_device_id_permission_desc">端末固有IDへのアクセスをシステムアプリに許可します。</string>
+  <string name="device_info_permission_label">端末情報へのアクセス</string>
+  <string name="device_info_permission_desc">端末とその状態についての基本情報へのアクセスをシステムアプリに許可します。</string>
+  <string name="publish_nudge_permission_label">ナッジの作成</string>
+  <string name="publish_nudge_permission_desc">ディスカバリーフレームワークを通して通知やダイアログを表示することをアプリに許可します。</string>
+  <string name="discovery_dialog_nudge_subhead_test">Truecallerは連絡先、Meプロフィール、Cyanogen OSアカウントにアクセスします。あなたのメールアドレスを含んでいる可能性があります。<a href="http://www.cyngn.com">詳細情報</a></string>
+  <string name="discovery_dialog_nudge_body_test">ようこそ！不明な発信者を特定したり、不要な電話を着信拒否するためにTruecallerを有効にできます。使用しますか？</string>
+  <string name="incall_service_cleanup_permission_label">InCall Service Pluginのクリーンアップのリクエスト</string>
+  <string name="incall_service_cleanup_permission_desc">特定のInCall Service Pluginに関係するすべてのデータの消去をリクエストすることをアプリに許可します。</string>
+  <string name="bind_incall_service_permission_label">InCall Serviceへのバインド</string>
+  <string name="bind_incall_service_permission_desc">InCall Pluginを発見または使用するためにInCall Serviceへのバインドをアプリに許可します。</string>
+  <string name="camera_permission_label">カメラプラグインコンシューマー</string>
+  <string name="camera_permission_desc">カメラプラグインへ接続することをアプリに許可します。</string>
+  <string name="camera_plugin_permission_label">カメラプラグイン</string>
+  <string name="camera_plugin_permission_desc">カメラのプラグインとして機能することをアプリに許可します。</string>
+  <string name="deeplink_service_cleanup_permission_label">DeepLink Service Pluginのクリーンアップのリクエスト</string>
+  <string name="deeplink_service_cleanup_permission_desc">DeepLink Pluginのデータの消去をリクエストすることをアプリに許可します。</string>
+  <string name="bind_deep_link_service_permission_desc">DeepLinkのModを発見するためにDeepLinkサービスへのバインドをアプリに許可します。</string>
+  <string name="read_deeplink_database_permission_desc">DeepLinkを有効にしたModによって定義されたDeepLinkのデータベースの読み取りをアプリに許可します。</string>
+  <string name="default_mod_title">デフォルトのModを選択</string>
+  <string name="default_mod_always_ask">常に確認する</string>
+  <string name="installed_mods">インストールしたMod</string>
+  <string name="global_toggle_on">ON</string>
+  <string name="global_toggle_off">OFF</string>
+  <string name="notes_settings_title">メモの設定</string>
+  <string name="task_settings_title">タスクの設定</string>
+  <string name="deep_link_unknown_app_type">アプリの種類を判別できません</string>
+  <string name="unknown_mod">不明なMod</string>
+  <string name="notes_default_mod_list_preference_title">メモ</string>
+  <string name="deep_link_settings_no_settings_activity_configured_msg">アプリの設定を表示するには%sを使用してください</string>
+  <string name="device_admin_description">CyanogenのMODのサポートを有効にする</string>
+  <string name="device_admin_name">MODデバイスマネージャー</string>
 </resources>

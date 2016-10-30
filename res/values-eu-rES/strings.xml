@@ -42,7 +42,7 @@
   <string name="cmaccount_setup_username_unavailable_label">Erabiltzaile izen hau ez dago eskuragarri</string>
   <string name="cmaccount_setup_email_invalid_label">Barkatu, letrak (a-z), zenbakiak (0-9) eta karaktere batzuk (.+&amp;-_) besterik ez dira onartzen.</string>
   <string name="cmaccount_setup_phone_invalid_label">Sartu baliozko telefono zenbaki bat mesedez.</string>
-  <string name="cmaccount_setup_email_or_phone_invalid_label">Sartu baliozko telefono zenbaki edo eposta helbide bat mesedez.</string>
+  <string name="cmaccount_setup_email_or_phone_invalid_label">Sartu baliozko telefono zenbaki edo e-posta helbide bat mesedez.</string>
   <string name="cmaccount_setup_displayname_label">Sartu zure izen publikoa</string>
   <string name="cmaccount_setup_password_label">Pasahitza</string>
   <string name="cmaccount_setup_password_strength_label">8 karaktere gutxienez</string>
@@ -66,10 +66,10 @@
   <string name="cmaccount_error_multiple_accounts">Gailu bakoitzeko CyanogenMod kontu bakarra onartzen da</string>
   <string name="cmaccount_allow_access">%1$s-(e)k hona sarbidea nahi du:</string>
   <string name="cmaccount_granting_access">%1$s baimentzen</string>
-  <string name="userinfo.summary" tools:ignore="UnusedResources">Zure kontuaren oinarrizko informazioa ikusi, eposta barne</string>
+  <string name="userinfo.summary" tools:ignore="UnusedResources">Zure kontuaren oinarrizko informazioa ikusi, e-posta barne</string>
   <string name="cmaccount_password_changed_title">Pasahitza aldatu da</string>
   <string name="cmaccount_password_changed_message">Saioa hasi zure Cyanogen kontuarekin, mesedez</string>
-  <string name="cmaccount_setup_email_blank_label">Eposta helbide bat sartu behar duzu</string>
+  <string name="cmaccount_setup_email_blank_label">E-posta helbide bat sartu behar duzu</string>
   <string name="cmaccount_setup_password_blank_label">Pasahitza sartu behar duzu</string>
   <string name="cmaccount_setup_confirm_password_blank_label">Sartu zure pasahitza berriro</string>
   <string name="cmaccount_setup_displayname_blank_label">Izen publiko bat sartu behar duzu</string>
@@ -79,7 +79,7 @@
   <string name="account_registered_permission_label_string">Jaso Cyanogen kontu sorrera jakinarazpenak</string>
   <string name="cmaccount_displayname_label">Zure izena nola agertzea nahi duzu?</string>
   <string name="cmaccount_displayname_hint">Izen publikoa</string>
-  <string name="cmaccount_email_label">Eposta</string>
+  <string name="cmaccount_email_label">E-posta</string>
   <string name="cmaccount_password_label">Pasahitza</string>
   <string name="cmaccount_password_hint">sartu zure pasahitza</string>
   <string name="cmaccount_confirmpass_label">Sartu berriro pasahitza</string>
@@ -93,8 +93,8 @@
   <string name="cyngn_setup_next">HURRENGOA</string>
   <string name="cyngn_skip_setup_dialog_header">Saltatu kontua ezartzea?</string>
   <string name="cyngn_setup_sign_in">HASI\u00A0SAIOA</string>
-  <string name="cyngn_setup_existing_account_edittext_hint">Sartu zure eposta helbidea edo telefono zenbakia</string>
-  <string name="cyngn_setup_email_edittext_hint">Sartu zure eposta helbidea mesedez</string>
+  <string name="cyngn_setup_existing_account_edittext_hint">Sartu zure e-posta helbidea edo telefono zenbakia</string>
+  <string name="cyngn_setup_email_edittext_hint">Sartu zure e-posta helbidea mesedez</string>
   <string name="cyngn_setup_phone_edittext_hint">Sartu zure telefono zenbakia mesedez</string>
   <string name="cyngn_setup_sending_sms">SMS mezuabidaltzen %1$sra. Honek segundo batzuk eman litzake.</string>
   <string name="cyngn_setup_show_password">Erakutsi pasahitza</string>
@@ -102,8 +102,8 @@
   <string name="cyngn_setup_forgot_password">Pasahitza ahaztu duzu?</string>
   <string name="cyngn_setup_toslist_header">Hautatu berrikusteko</string>
   <string name="cyngn_setup_displayname_description">Izen publikoa beste erabiltzaileek ikusi dezakete Gai aplikazioan gai bat berrikusten duzunean.</string>
-  <string name="cyngn_setup_create_profile_email_unavailable">Hautatu duzun eposta helbidea ez dago eskuragarri.</string>
-  <string name="cyngn_setup_create_profile_email_invalid">Hautatu duzun eposta helbidea baliogabea da.</string>
+  <string name="cyngn_setup_create_profile_email_unavailable">Hautatu duzun e-posta helbidea ez dago eskuragarri.</string>
+  <string name="cyngn_setup_create_profile_email_invalid">Hautatu duzun e-posta helbidea baliogabea da.</string>
   <string name="cyngn_setup_create_profile_displayname_invalid">Hautatu duzun izen publikoa baliogabea da, luzeegia da, edo debekatuta dago.</string>
   <string name="cyngn_setup_create_profile_phone_unavailable">Sartu duzun telefono zenbakia ez dago eskuragarri.</string>
   <string name="cyngn_setup_create_profile_phone_invalid">Sartu duzun telefono zenbakia baliogabea da.</string>
@@ -121,7 +121,7 @@
   <!-- This is only for devices with callerinfo support. -->
   <string name="cyngn_account_benefit_callerinfo">&lt;b&gt;Deitzailearen identifikazio zuzena&lt;/b&gt; - Nork deitzen dizun jakin ezazu eta ongi etorriak ez diren deiak blokeatu itzazu honekin: %1$s</string>
   <string name="switch_to_phone">EDO TELEFONO ZENBAKIA</string>
-  <string name="switch_to_email">EDO EPOSTA HELBIDEA</string>
+  <string name="switch_to_email">EDO E-POSTA HELBIDEA</string>
   <string name="waiting_for_sms_title">Telefono zenbakia egiaztatzen</string>
   <string name="enter_sms_code_manually">Sartu eskuz SMS egiaztaketa kodea</string>
   <string name="sms_confirmation_code_label">Sartu SMS egiaztaketa kodea mesedez</string>
@@ -132,8 +132,8 @@
   <string name="cmaccount_settings_confirm_phone_label">Berretsi telefono zenbakia</string>
   <string name="cmaccount_settings_add_email_label">Gehitu eposta helbidea kontuari</string>
   <string name="cmaccount_settings_add_phone_label">Gehitu telefono zenbakia kontuari</string>
-  <string name="cmaccount_settings_add_email_error_title">Errorea eposta gehitzean</string>
-  <string name="cmaccount_settings_add_email_error_message">Errore bat gertatu da eposta helbidea gehitzean. %1$s</string>
+  <string name="cmaccount_settings_add_email_error_title">Errorea e-posta gehitzean</string>
+  <string name="cmaccount_settings_add_email_error_message">Errore bat gertatu da e-posta helbidea gehitzean. %1$s</string>
   <string name="cmaccount_settings_add_phone_error_title">Errorea telefono zenbakia gehitzean</string>
   <string name="cmaccount_settings_add_phone_error_message">Errore bat gertatu da telefono zenbakia gehitzean. %1$s</string>
   <!-- List of display names for links to various terms of service -->
